@@ -30,6 +30,7 @@ def add_common_cmdline_args(argparser):
     argparser.add_argument('--relu-dropout', type=float, default=0.0)
     argparser.add_argument('--n-heads', type=int, default=2)
     argparser.add_argument('--learn-positional-embeddings', type='bool', default=False)
+    argparser.add_argument('--n-positions', type=int, default=1024)
     argparser.add_argument('--embeddings-scale', type='bool', default=True)
 
 
