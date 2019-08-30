@@ -1,7 +1,7 @@
 {% extends "core.html" %}
 
 {% block left_pane %}
-  <div id="left-pane" class="col-xs-3" style="height: {{frame_height}}px; background-color: #dff0d8;">
+ <!-- <div id="left-pane" class="col-xs-3" style="height: {{frame_height}}px; background-color: #dff0d8;">
     <h1>Chat with Knowledge!</h1>
     <div id="left-top-pane" style="height: 40%; overflow:auto;">
       <hr style="border-top: 1px solid #555" />
@@ -15,28 +15,31 @@
       </div>
       <button class="btn btn-primary" type="button" style='font-size: 16px; disabled: true; display: none' id="submit-chosen-topic-button">Pick Topic</button>
     </div>
-  </div>
-  <div id="passages-pane" class="col-xs-4" style="height: {{frame_height}}px; background-color: #dff0d8;">
-    <h1>Relevant Information</h1>
-    <b><span style="color: blue; font-size: 14px;">Click on a topic below to expand it. Then, click the checkbox next to the sentence that you use to craft your response, or check 'No Sentence Used.'</span></b>
-    <div class=\'form-check\'>
-        <input class="form-check-input" type="checkbox" value="" id="no_passages_used">
-        <b>No Sentence Used</b>
+  </div> -->
+  <div id="passages-pane" class="col-xs-7" style="height: {{frame_height}}px; background-color: #dff0d8;">
+    <h2>Instructions</h2>
+    <b><span style="color: blue; font-size: 14px;" id="taskIntro">You will be shown a conversation on the right belonging to a randomly assigned topic. Carefully study the conversation.<br/> 
+      In the next step, you will be given some system generated knowledge related to the conversation. You may choose to take help from the knowledge while crafting your response. <br/>
+    Press "Continue" to view the conversation.<br /> <br /></span></b> 
+    <b><span id="showPassages" style="color: blue; font-size: 14px; display: none;">
+      In the next step, you will be shown some sentences related to the conversation. If you feel one or more sentences are relevant to the conversation and can be used to craft the response, click on them. Clicking a sentence copies it to the textbox on the right. Feel free to make any edits in the copied text to craft your response. <br />
+      Press "Show Passages" to view the sentences below. After crafting the response, press the Send button followed by the Done button to complete the task. <br />
+    </span></b>
+    <div style="display: flex; justify-content: center;">
+    <button class="btn btn-success" style="" id="showChat">Continue</button>
     </div>
-    <div id="passages-main-pane" style="height: 80%;">
+
+    <div id="passages-main-pane" style="height: 70%; display: none;">
       <hr style="border-top: 1px solid #555" />
-        <h4>Information about your partner's message</h4>
-        <div id="partner-retrieved-passages" style="font-size: 16px; height: 40%; overflow:auto;">
-        </div>
-        <h4>Information about your message</h4>
-        <div id="self-retrieved-passages" style="font-size: 16px; height: 40%; overflow:auto;">
+        <h4><b>Information about your partner's message</b></h4>
+        <div id="self-retrieved-passages" style="font-size: 16px; height: 80%; overflow:auto;">
         </div>
     </div>
   </div>
 {% endblock %}
 {% block right_pane %}
-<div id="right-pane" style="min-height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
-    <div id="right-top-pane" style="width: 100%; height: 570px; padding-top: 60px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; overflow:scroll; ">
+<div id="right-pane" style="height: {{frame_height}}px; min-height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+    <div id="right-top-pane" style="width: 100%; height: 570px; padding-top: 60px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; overflow:scroll; display: none;">
         <div id="message_thread" style="width: 100%">
         </div>
         <div id="waiting-for-message" class="row" style="margin-left: 0; margin-right: 0; display: none">
@@ -49,14 +52,17 @@
         </div>
     </div>
 
-    <div id="right-bottom-pane" style="width: 100%; background-color: #eee">
+    <div id="right-bottom-pane" style="width: 100%; background-color: #eee;">
         <div id="response-type-idle" class="response-type-module" style="display:none">
         </div>
         <div id="response-type-text-input" class="response-type-module" style="padding-left: 35px; padding-top: 30px; padding-bottom: 30px; padding-right: 35px; float: left; display:none">
-            <div style="height: 50px; width: 100%; display: block; float: left; ">
-                <input id="id_text_input" type="text" style="width: 60%; height: 100%; float: left; font-size: 16px" class="form-control" value="" placeholder="Please enter here...">
-                <button class="btn btn-success" style="width: 88px; height: 100%; font-size: 16px; float: left; margin-left: 15px; padding: 0px; disabled: true; display:none" id="id_done_button">Done</button>
-                <button class="btn btn-primary" style="width: 88px; height: 100%; font-size: 16px; float: right; margin-left: 15px; padding: 0px; disabled: false;" id="id_send_msg_button">Send</button>
+            <div id="sendTextArea" style="display: none;">
+            <textarea rows="5" cols="60" id="id_text_input" placeholder="Please enter here..." 
+            style="resize: vertical;"></textarea>
+            </div>
+            <div id="sendDoneBtn" style="display: none;">
+              <button class="btn btn-success" style="width: 88px; height: 100%; font-size: 16px; float: left; margin-left: 15px; padding: 0px; disabled: true; display:none" id="id_done_button">Done</button>
+                <button class="btn btn-primary" style="width: 88px; height: 100%; font-size: 16px; float: right; margin-left: 15px; disabled: false;" id="id_send_msg_button">Send</button>
             </div>
         </div>
         <div id="response-type-done" class="response-type-module" style="padding-left: 35px; padding-top: 30px; padding-bottom: 30px; padding-right: 35px; float: left; display:none">
@@ -70,6 +76,37 @@
 {% endblock %}
 {% block additional_scripts %}
 <script type="text/javascript">
+
+  var loggedKeys = [];
+  var selectedSentences = [];
+  var activeMessage = {};
+  var lastKeyPressed= "";
+
+  function handleSelectedSentences(sent){
+    selectedSentences.push(sent);
+  }
+
+  function handleLoggingData(lastKey){
+    activeMessage["last_key_pressed"] = lastKey;
+    activeMessage["curr_message"] = $("textarea#id_text_input").val();
+    loggedKeys.push(activeMessage);
+      //console.log(activeMessage);
+      activeMessage = {};
+      lastKeyPressed = "";
+    }
+    document.onkeydown = function (e) {
+      lastKeyPressed = e.key;      
+    };
+    $(document).on('copy', function(e){ 
+      lastKeyPressed = "<<copy>>"
+      handleLoggingData(lastKeyPressed);
+    });
+    $(document).on('paste', function(e){
+      lastKeyPressed = "<<paste>>"
+    });
+    $("textarea#id_text_input").on('input', function() {
+      handleLoggingData(lastKeyPressed);
+    });
 
     var exceed_min_turns = false;
     var evaluated_message = true;
@@ -208,7 +245,7 @@
        });
        return res.split(' ');
     }
-
+    var initMessage = "";
     function handle_new_message(new_message_id, message) {
       if(message.text === undefined) {
         return;
@@ -223,16 +260,34 @@
       log('New message, ' + new_message_id + ' from agent ' + agent_id, 1);
       displayed_messages.push(new_message_id);
       if ("relevant_topics" in message) {
+       
         $("button#submit-chosen-topic-button").show();
         relevant_topics = message.relevant_topics;
         handle_relevant_topics(message.relevant_topics);
-        $("button#id_send_msg_button").addClass("disabled");
-        $("button#id_send_msg_button").prop("disabled", true);
+        //$("button#id_send_msg_button").addClass("disabled");
+        //$("button#id_send_msg_button").prop("disabled", true);
+
+        var contextArrayLength = message.context.length;
+
+        initMessage = message.context[contextArrayLength - 1];
+        $("textarea#id_text_input").val(initMessage);
+        $("button#id_send_msg_button").trigger("click");
+
+        var i = 0;
+        while(i < contextArrayLength){
+          add_message_to_conversation('You', message.context[i++], true);
+          add_message_to_conversation('Customer', message.context[i++], false);
+        }
+        $("button#id_send_msg_button").trigger("click");
+        //$("button#id_send_msg_button").removeClass("disabled");
+        //$("button#id_send_msg_button").prop("disabled", false);
       }
       else{
         $("button#submit-chosen-topic-button").prop("disabled", true);
       }
-      if (message_text !== '') {
+      if (message_text !== '' && agent_id !== 'SYSTEM' && message_text !== initMessage) {
+
+        
         if (agent_id !== cur_agent_id) {
           var display_id = agent_id == 'SYSTEM' ? agent_id : "Partner";
           add_message_to_conversation(display_id, message_text, false);
@@ -273,7 +328,7 @@
         exceed_min_turns = true
         $("button#id_done_button").css("disabled", false);
         $("button#id_done_button").css("display", "");
-        $("input#id_text_input").css("width", "40%");
+        $("textarea#id_text_input").css("width", "40%");
         $(window).resize(window_resize);
       }
       var any_checked = false;
@@ -281,7 +336,7 @@
         any_checked = any_checked || $(this).is(':checked');
       });
       var no_passages = $('input#no_passages_used').is(':checked');
-      $("button#id_send_msg_button").prop("disabled", !(any_checked && evaluated_message || no_passages));
+      //$("button#id_send_msg_button").prop("disabled", !(any_checked && evaluated_message || no_passages));
     }
 
     /*
@@ -290,7 +345,7 @@
     function handle_retrieved_passages(message, passages, person) {
       var title_id_to_passage_id = {};
       var sent_id_to_sentence = {};
-      var list = $(`<ul id='${person}-retrieved-passages-list'></ul>`);
+      var list = $(`<div id='${person}-retrieved-passages-list'></div>`);
       for (var idx in passages) {
         title_and_content = passages[idx];
         var title = title_and_content[0];
@@ -302,22 +357,21 @@
         var passage = "";
 
         //setup for checking Sentences
-        for (var sent_idx = 0; sent_idx < sentences.length; sent_idx++) {
+        var sentencesLen = Math.min(sentences.length, 2);
+        for (var sent_idx = 0; sent_idx < sentencesLen; sent_idx++) {
           var sentence = sentences[sent_idx];
           var sentence_id = `${person}_${idx}_${sent_idx}`;
-          passage += `<div class=\'form-check\'>
-                        <input class="form-check-input sentence-checkbox" type="checkbox" value="" id="${sentence_id}">
-                        <span id="${sentence_id}_label">${sentence}</span>
-                      </div>`;
+          passage += `<div class=\'generated\' id="${sentence_id}_label" style="cursor: pointer;border-radius: 20px;border: 2px solid;padding: 10px;background-color: #d9edf7;border-color: #bce8f1;margin-right: 10px;">${sentence}</div><br />`;
           sent_id_to_sentence[sentence_id] = sentence;
         }
+        
 
         var link = `<div class=\'form-check\'>
-                      <input class="form-check-input" type="checkbox" value="" id="${title_id}_checkbox">
-                      <a href='#' id=\'${title_id}\'>${title}</a>
+                      <span id=\'${title_id}\' style="font-weight: bold;">${title}</span>
+                     
                     </div>`;
-        var div = `<div class="passage-sentences" id=\'${passage_id}\' style=\'display:none; font-size:14px\'>${passage}</div>`;
-        var li = $(`<li id=\'${title_id}_li\'>${link}${div}</li>`);
+        var div = `<div class="passage-sentences" id=\'${passage_id}\' style=\'font-size:16px\'>${passage}</div>`;
+        var li = $(`<div id=\'${title_id}_li\'>${div}</div>`);
         list.append(li);
       }
       // If it's the chosen topic, we put it in a different place
@@ -327,7 +381,16 @@
         $(`h4#chosen-topic-header`).show();
         $(`div#relevant-topics`).html(list);
       }
+     
       $(`div#${person}-retrieved-passages`).html(list);
+      $(`div.generated`).on("click", function(){
+
+        var oldInput = $("textarea#id_text_input").val();
+        var newInput = oldInput + " " + $(this)[0].innerText;
+        $("textarea#id_text_input").val(newInput);
+        handleLoggingData("<<selected>>");
+        handleSelectedSentences($(this)[0].innerText);
+      });
 
       // Set up Passage Toggling
       for (var t_id in title_id_to_passage_id) {
@@ -336,7 +399,7 @@
         // Clicking a link shows the passage under it, hides others, and checks its box
         // Also, unchecks any other sentences
         $(`a#${t_id}`).on('click', function(pass_id, p, clicked, title_id, checked, sents) {
-          $("button#id_send_msg_button").prop("disabled", true); //because we switched topics
+          //$("button#id_send_msg_button").prop("disabled", true); //because we switched topics
           var topic = $(`a#${title_id}`).text();
           clicked[p][title_id] = topic;
           // Delete everything from checked_passages and checked_sentences
@@ -374,7 +437,7 @@
         //Checking a box shows the passage under it, hides others, adds topic to clicked, adds topic to selected
         // Also, unchecks other sentences
         $(`input#${t_id}_checkbox`).change(function(pass_id, p, clicked, title_id, checked, sents) {
-          $("button#id_send_msg_button").prop("disabled", true); //because we switched topics
+          //$("button#id_send_msg_button").prop("disabled", true); //because we switched topics
             var topic = $(`a#${title_id}`).text();
             clicked[p][title_id] = topic;
             // Delete everything from checked_passages and checked_sentences
@@ -413,7 +476,7 @@
             }
           }
           if(this.is(':checked')) {
-            $("button#id_send_msg_button").prop("disabled", false); //because we checked a sentence
+            //$("button#id_send_msg_button").prop("disabled", false); //because we checked a sentence
             checked_sents[p][s_id] = $(`span#${s_id}_label`).text();
 
             // Removing check from "No Passages Used"
@@ -437,7 +500,7 @@
           any_checked = any_checked || $(this).is(':checked');
         });
         var no_passages = $('input#no_passages_used').is(':checked');
-        $("button#id_send_msg_button").prop("disabled", !(any_checked && evaluated_message || no_passages));
+        //$("button#id_send_msg_button").prop("disabled", !(any_checked && evaluated_message || no_passages));
       });
     }
 
@@ -498,13 +561,33 @@
             delete checked_sents[pp][c];
           }
         }
-        $("button#id_send_msg_button").prop("disabled", false); //because we checked no passages used
+        //$("button#id_send_msg_button").prop("disabled", false); //because we checked no passages used
       }
     }.bind($('input#no_passages_used'), checked_sentences, checked_passages));
 
     /*
       Button Click Functions
     */
+
+    $("button#showChat").on('click', function () {
+
+      if(! $("div#right-top-pane").is(":visible")){
+        $("div#right-top-pane").show();
+        $("span#showPassages").show();
+        $("button#showChat").html("Show Passages");
+        
+        //change button name
+      } else{
+        $("div#passages-main-pane").show();
+        $("div#sendTextArea").show();
+        $("div#sendDoneBtn").show();
+        $("button#showChat").hide();
+        $("span#taskIntro").hide();
+        
+      }
+
+    });
+
     $("button#id_done_button").on('click', function () {
         var text = "I am done with the chat and clicked the 'Done' button, thank you!";
         if (!(text == '')) {
@@ -521,7 +604,7 @@
                 true,
                 function(msg) {
                     $("button#id_done_button").css("disabled", false);
-                    $("input#id_text_input").val("");
+                    $("textarea#id_text_input").val("");
                     $("div#response-type-text-input").css("display", "none");
                     handle_new_message(new_message_id, msg.data);
                 }
@@ -544,21 +627,24 @@
             $("button#submit-chosen-topic-button").hide();
             var topic_span = `<h4>Chosen Topic</h4><span style="color:blue; font-size: 20px">${chosen_topic}</span>`;
             $(`div#relevant-topics`).html(`${topic_span}`);
-            $("button#id_send_msg_button").removeClass("disabled");
-            $("button#id_send_msg_button").prop("disabled", false);
+            //$("button#id_send_msg_button").removeClass("disabled");
+            $//("button#id_send_msg_button").prop("disabled", false);
             after_send_packet();
           }
         );
     });
+
+ 
 
     $("button#id_send_msg_button").off('click');
 
 
     // Handle submitting a message
     $("button#id_send_msg_button").on('click', function () {
-      var text = $("input#id_text_input").val();
+      debugger;
+      var text = $("textarea#id_text_input").val();
       //Check for copy paste
-      for (var person in retrieved_passages) {
+      /*for (var person in retrieved_passages) {
         var passages = retrieved_passages[person];
         for (var idx in passages) {
           var content = passages[idx][1];
@@ -603,7 +689,7 @@
         handle_new_message(new_message_id, msg);
         $("div#waiting-for-message").css("display", "none");
         return;
-      }
+      }*/
       if (!(text == '')) {
         //Get Clicked Passages
         var passages = {};
@@ -646,16 +732,17 @@
           var checked_sent_words = split_tokenize(checked_sentence).filter(word => STOPWORDS.indexOf(word) === -1).map(word => word.slice(0, 4));
           var text_words = split_tokenize(text).filter(word => STOPWORDS.indexOf(word) === -1).map(word => word.slice(0, 4));
           num_overlap = text_words.filter(word => checked_sent_words.indexOf(word) !== -1).length;
+          /*
           if (num_overlap < 2) {
             new_message_id =  uuidv4();
             var msg = {id: "SYSTEM", text: "WARNING: Are you sure you are using the right checked sentence? We have detected a lack of similarity between the checked sentence and your message (please press send again if you intended to send this message)."};
             handle_new_message(new_message_id, msg);
             $("div#waiting-for-message").css("display", "none");
             return;
-          }
+          }*/
         }
         // Disable the send button
-        $("button#id_send_msg_button").prop("disabled", true);
+        //$("button#id_send_msg_button").prop("disabled", true);
         new_message_id = uuidv4();
         //reset checkboxes
         $("input[type='checkbox']").each(function(index) {
@@ -663,6 +750,7 @@
         });
 
         // Send a packet
+        
         send_packet(
           TYPE_MESSAGE,
           {
@@ -672,14 +760,16 @@
             checked_passages: topics,
             id: cur_agent_id,
             message_id: new_message_id,
-            episode_done: false
+            episode_done: false,
+            loggedKeys: loggedKeys,
+            selectedSentences: selectedSentences
           },
           true,
           true,
           function(msg) {
             // On callback disable the button and clear the text field
-            $("button#id_send_msg_button").prop("disabled", true);
-            $("input#id_text_input").val("");
+            //$("button#id_send_msg_button").prop("disabled", true);
+            $("textarea#id_text_input").val("");
             $("div#response-type-text-input").css("display", "none");
             // push the message into the conversation
             handle_new_message(new_message_id, msg.data);
@@ -687,6 +777,8 @@
           }
         );
       }
+      loggedKeys = [];
+      selectedSentences = [];
     });
 
 
@@ -696,16 +788,16 @@
       log("The window was resized", 4);
       // Set the text input width to match the bottom width minus space
       // for the done button
-      $("input#id_text_input").width($("div#right-bottom-pane").width() - 210);
+      $("textarea#id_text_input").width($("div#right-bottom-pane").width() - 210);
       if(exceed_min_turns == true) {
-        $("input#id_text_input").width($("input#id_text_input").width() - 100);
+        $("textarea#id_text_input").width($("textarea#id_text_input").width() - 100);
       }
 
       // Set the chat window height to be the remainder after removing the
       // height of the text pane
-      var left_height = $("div#left-pane").height();
-      var text_height = $("div#right-bottom-pane").outerHeight();
-      $("div#right-top-pane").height((left_height - text_height) - 20);
+      var left_height = $("div#passages-pane").height();
+     // var text_height = $("div#right-bottom-pane").outerHeight();
+      $("div#right-top-pane").height(left_height);
     }
 </script>
 {% endblock %}
