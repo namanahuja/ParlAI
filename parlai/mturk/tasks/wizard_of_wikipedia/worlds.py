@@ -26,8 +26,10 @@ from urllib.parse import unquote
 
 def split_tokenize(text):
     """
+
     Splits tokens based on whitespace after adding whitespace around punctuation.
     """
+
     return (text.replace('.', ' . ').replace('. . .', '...')
             .replace(',', ' , ').replace(';', ' ; ').replace(':', ' : ')
             .replace('!', ' ! ').replace('?', ' ? ').replace('(', ' ( ')
@@ -110,6 +112,7 @@ class PersonasGenerator(object):
 
 class RoleOnboardWorld(MTurkOnboardWorld):
 
+
     def __init__(self, opt, mturk_agent, role):
         self.task_type = 'sandbox' if opt['is_sandbox'] else 'live'
         self.max_onboard_time = opt['max_onboard_time']
@@ -143,10 +146,12 @@ class RoleOnboardWorld(MTurkOnboardWorld):
 
 class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
     """
+<<<<<<< HEAD
     World where two agents have a dialogue; one chats freely, perhaps based on a
     persona, while the other is the 'wizard', who bases his/her responses on documents
     (i.e. sentences) retrieved based on what the other agent says.
     """
+
     def __init__(self, opt, agents=None, shared=None, world_tag='NONE',
                  ir_agent=None, task='', wiki_title_to_passage=None):
         self.turn_idx = 0
@@ -232,12 +237,14 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         if self.turn_idx == 1:
             for idx, agent in enumerate(self.agents):
 
+
                 """
                 If we are giving the persona, do that :)
                 """
                 control_msg['text'] = self.get_instruction(
                     tag='start', agent_id=agent.id
                 )
+
 
                 if agent.id == WIZARD:
                     control_msg['description'] = config['wizard_onboarding']
@@ -522,6 +529,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
 
     def check_wizard_quality(self):
 
+
         """
         Determines whether to soft-block this turker or not Only called if the
         conversation finishes Returns True if the Wizard is good.
@@ -534,6 +542,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                 )
             )
         )
+
 
         wizard_worker = [w for w in self.agents if w.id == WIZARD][0].worker_id
         data_path = self.opt['current_working_dir']
