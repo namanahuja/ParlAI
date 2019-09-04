@@ -109,6 +109,7 @@ class InteractiveRetrievalAgent(Agent):
             'legacy': True,
             'no_cuda': True,
             'encode_candidate_vecs': True,
+            'interactive_mode': True,
         }
         for k, v in override_opts.items():
             responder_opts[k] = v
