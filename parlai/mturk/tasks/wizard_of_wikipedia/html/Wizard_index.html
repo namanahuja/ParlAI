@@ -247,6 +247,7 @@
     }
     var initMessage = "";
     function handle_new_message(new_message_id, message) {
+      debugger;
       if(message.text === undefined) {
         return;
       }
@@ -328,7 +329,8 @@
         exceed_min_turns = true
         $("button#id_done_button").css("disabled", false);
         $("button#id_done_button").css("display", "");
-        $("textarea#id_text_input").css("width", "40%");
+        $("textarea#id_text_input").css("display", "none");
+        $("button#id_send_msg_button").css("display", "none");
         $(window).resize(window_resize);
       }
       var any_checked = false;
@@ -589,6 +591,7 @@
     });
 
     $("button#id_done_button").on('click', function () {
+      debugger;
         var text = "I am done with the chat and clicked the 'Done' button, thank you!";
         if (!(text == '')) {
             $("button#id_done_button").css("disabled", true);
