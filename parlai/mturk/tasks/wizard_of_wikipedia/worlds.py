@@ -153,7 +153,6 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         self.min_turns = opt['min_turns']
         self.max_turns = opt['max_turns']
         self.num_turns = np.random.randint(self.min_turns, self.max_turns) + 1
-        print(self.num_turns)
         self.dialog = []
         self.wizard_eval = 0
         self.task_type = 'sandbox' if opt['is_sandbox'] else 'live'
