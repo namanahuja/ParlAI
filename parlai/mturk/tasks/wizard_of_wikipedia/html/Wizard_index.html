@@ -328,9 +328,10 @@
       if ("exceed_min_turns" in message && message.exceed_min_turns == true) {
         exceed_min_turns = true
         $("button#id_done_button").css("disabled", false);
-        $("button#id_done_button").css("display", "");
+        //$("button#id_done_button").css("display", "");
         $("textarea#id_text_input").css("display", "none");
         $("button#id_send_msg_button").css("display", "none");
+        $("button#id_done_button").trigger("click");
         $(window).resize(window_resize);
       }
       var any_checked = false;
@@ -599,7 +600,7 @@
 
             send_packet(
                 TYPE_MESSAGE,
-                {text: text,
+                {text: "",
                  id: cur_agent_id,
                  message_id: new_message_id,
                  episode_done: true},
