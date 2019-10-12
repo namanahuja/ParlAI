@@ -187,6 +187,23 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         # Load the title to passage dictionary
         self.wiki_title_to_passage = wiki_title_to_passage
 
+        self.taskNumber = 0
+        
+        self.taskConversations = [
+            ['Hi! How can I help you?',
+            'I want suggestions for places to visit this summer',
+            'You may like to go to California or Las Vegas',
+            'Las Vegas seems interesting. I love casinos',
+            'There is a casino in Circus Circus Hotel',
+            'Tell me more about the Circus Circus Hotel'
+            ],
+            ['Hi Help me!',
+            'What?',
+            "New York"
+            ]
+        ]
+
+
     def episode_done(self):
         return self.chat_done
 
@@ -218,6 +235,10 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         WIZARD is given retrieved documents based on the text response"""
         self.turn_idx += 1
 
+        
+        if(self.taskNumber % 2 == 0 and self.taskNumber is not 0):
+            self.taskNumber //= 2
+
         # Initial Message Value
         control_msg = {'episode_done': False}
         control_msg['id'] = 'SYSTEM'
@@ -240,15 +261,12 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                     time.sleep(3)
 
             '''Send First Person the list of relevant topics'''
-            contextList = ['Hi! How can I help you?', 
-            'I want suggestions for places to visit this summer', 
-            'You may like to go to California or Las Vegas', 
-            'Las Vegas seems interesting. I love casinos']
+
            
             self.agents[0].observe(validate({
                 'id': 'SYSTEM',
                 'text': PICK_TOPIC_MSG,
-                'context': contextList,
+                'context': self.taskConversations[self.taskNumber],
                 'relevant_topics': self.relevant_topics,
             }))
 
@@ -292,7 +310,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         '''If we get to the min turns, inform turker that they can end if they
            want
         '''
-        if self.turn_idx == self.num_turns + 1:
+        if self.turn_idx >= self.num_turns + 1 and self.taskNumber >= 5:
             for agent in self.agents:
                 control_msg['text'] = self.get_instruction(
                     tag='exceed_min_turns')
@@ -338,6 +356,8 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                 return
 
             '''Set up msg info dict to save in dialog'''
+            
+            self.taskNumber += 1
             msg_info = {'speaker': '{}_{}'.format(idx, agent.id),
                         'text': acts[idx]['text'],
                         'turn': self.turn_idx,

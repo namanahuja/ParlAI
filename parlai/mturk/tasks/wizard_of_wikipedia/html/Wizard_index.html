@@ -592,7 +592,6 @@
     });
 
     $("button#id_done_button").on('click', function () {
-      debugger;
         var text = "I am done with the chat and clicked the 'Done' button, thank you!";
         if (!(text == '')) {
             $("button#id_done_button").css("disabled", true);
@@ -645,7 +644,7 @@
 
     // Handle submitting a message
     $("button#id_send_msg_button").on('click', function () {
-      debugger;
+      //debugger;
       var text = $("textarea#id_text_input").val();
       //Check for copy paste
       /*for (var person in retrieved_passages) {
