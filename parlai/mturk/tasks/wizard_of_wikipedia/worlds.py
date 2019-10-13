@@ -188,6 +188,8 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         self.wiki_title_to_passage = wiki_title_to_passage
 
         self.taskNumber = 0
+        self.taskIndex = 0
+        self.newTask = False
         
         self.taskConversations = [
             ['Hi! How can I help you?',
@@ -199,7 +201,13 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
             ],
             ['Hi Help me!',
             'What?',
-            "New York"
+            "New York",
+            "Play Station"
+            ],
+            ['Hi Help me!',
+            'What?',
+            "New York",
+            "Play Station"
             ]
         ]
 
@@ -237,7 +245,8 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
 
         
         if(self.taskNumber % 2 == 0 and self.taskNumber is not 0):
-            self.taskNumber //= 2
+            self.taskIndex = int(self.taskNumber/2)
+            self.newTask = True
 
         # Initial Message Value
         control_msg = {'episode_done': False}
@@ -247,7 +256,9 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
 
         '''First Turn: We give the first agent the list of topics to choose from
         '''
-        if self.turn_idx == 1:
+        if self.turn_idx == 1 or self.newTask is True:
+            self.newTask = False
+
             for idx, agent in enumerate(self.agents):
                 '''If we are giving the persona, do that :)'''
                 control_msg['text'] = self.get_instruction(tag='start',
@@ -266,7 +277,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
             self.agents[0].observe(validate({
                 'id': 'SYSTEM',
                 'text': PICK_TOPIC_MSG,
-                'context': self.taskConversations[self.taskNumber],
+                'context': self.taskConversations[self.taskIndex],
                 'relevant_topics': self.relevant_topics,
             }))
 
@@ -310,7 +321,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         '''If we get to the min turns, inform turker that they can end if they
            want
         '''
-        if self.turn_idx >= self.num_turns + 1 and self.taskNumber >= 5:
+        if self.turn_idx >= self.num_turns + 1 and self.taskNumber >= 4:
             for agent in self.agents:
                 control_msg['text'] = self.get_instruction(
                     tag='exceed_min_turns')
@@ -365,7 +376,8 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                         'offensive': self.OLD.contains_offensive_language(
                             acts[idx]['text']),
                         'loggedData': acts[idx]['loggedKeys'],
-                        'selectedData': acts[idx]['selectedSentences']
+                        'selectedData': acts[idx]['selectedSentences'],
+                        'context': self.taskConversations[self.taskIndex]
                         }
            
             '''Get clicked passages and checked sentences from Wizard'''

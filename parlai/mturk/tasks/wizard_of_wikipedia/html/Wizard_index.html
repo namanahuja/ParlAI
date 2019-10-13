@@ -274,6 +274,8 @@
         $("textarea#id_text_input").val(initMessage);
         $("button#id_send_msg_button").trigger("click");
 
+        $('div#message_thread').html("");
+
         var i = 0;
         while(i < contextArrayLength){
           add_message_to_conversation('You', message.context[i++], true);
