@@ -9,13 +9,36 @@ with open("valid_random_split.json", "r") as read_file:
 
         dialogs = data['dialog']
         numDialogs = len(dialogs)
-        lastDialog = dialogs[numDialogs - 1]
+
+        ########################################################################
+
+        # Extract only the last dialog without checking for Wizard/ Apprentice
+        ####lastDialog = dialogs[numDialogs - 1]
+
+        ##########################################################################
+
+        ###########################################################################
+        # Get the last conversation with Apprentice
+
+
+        if 'Apprentice' in dialogs[numDialogs - 1]['speaker']:
+            lastDialogIndex = numDialogs - 1
+
+        else:
+            lastDialogIndex = numDialogs - 2
+
+        lastDialog = dialogs[lastDialogIndex]
+
+
+
+
+        ############################################################################
         jsonObj = {}
         jsonObj['convesation'] = []
         jsonObj['suggestions'] = []
 
-        for dialog in dialogs:
-            jsonObj['convesation'].append(dialog['text'])
+        for i in range(lastDialogIndex + 1):
+            jsonObj['convesation'].append(dialogs[i]['text'])
 
         lastDialogResponses = lastDialog['retrieved_passages']
         numPassages = min (len(lastDialogResponses), 3)
