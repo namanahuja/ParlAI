@@ -192,12 +192,15 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         self.newTask = False
         
         self.taskConversations = [
-            ['Hi! How can I help you?',
-            'I want suggestions for places to visit this summer',
-            'You may like to go to California or Las Vegas',
-            'Las Vegas seems interesting. I love casinos',
-            'There is a casino in Circus Circus Hotel',
-            'Tell me more about the Circus Circus Hotel'
+            ["I absolutely love the writing of Stephen King. He is a master! He has sold over 350 million books! ",
+            "He's definitely quite famous as far as I know, when was he born?",
+            "Stephen King was born in 1947, so I guess he's 71? What a prolific writer!",
+            "Wow older than I thought and still active I bet, do you know when he wrote his first novel?",
+            "I'm not sure when the first one was published, but stephen king has written 54 novels and over 200 short stories!",
+            "Man I can't imagine coming up with that many ideas. What are his novels usually about?",
+            "Stephen King focusses on horror, the supernatural, and suspense. My favourite of his books is The Shining. ",
+            "Sounds scary, was the movie based off that novel?",
+            "Yes it was The Shining was made in 1980, three years after the book was published. I've heard Stephen King hated the movie. "
             ],
             ['Hi Help me!',
             'What?',
