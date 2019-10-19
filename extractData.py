@@ -21,7 +21,7 @@ with open("valid_random_split.json", "r") as read_file:
         # Get the last conversation with Apprentice
 
 
-        if 'Apprentice' in dialogs[numDialogs - 1]['speaker']:
+        if 'Wizard' in dialogs[numDialogs - 1]['speaker']:
             lastDialogIndex = numDialogs - 1
 
         else:
@@ -36,8 +36,9 @@ with open("valid_random_split.json", "r") as read_file:
         jsonObj = {}
         jsonObj['convesation'] = []
         jsonObj['suggestions'] = []
+        jsonObj['actualResponse'] = lastDialog['text']
 
-        for i in range(lastDialogIndex + 1):
+        for i in range(lastDialogIndex):
             jsonObj['convesation'].append(dialogs[i]['text'])
 
         lastDialogResponses = lastDialog['retrieved_passages']
