@@ -55,5 +55,5 @@ with open("valid_random_split.json", "r") as read_file:
 
 finalJSON = {}
 finalJSON['data'] = jsonData
-with open('data.json', 'w') as outfile:
-    json.dump(finalJSON, outfile)
+#with open('data.json', 'w') as outfile:
+    #json.dump(finalJSON, outfile)
