@@ -277,9 +277,13 @@
         $('div#message_thread').html("");
 
         var i = 0;
-        while(i < contextArrayLength){
-          add_message_to_conversation('You', message.context[i++], true);
-          add_message_to_conversation('Customer', message.context[i++], false);
+        while(i < contextArrayLength - 1){
+          add_message_to_conversation('Person 1', message.context[i++], true);
+
+          if( i >= contextArrayLength - 1)
+            break;
+
+          add_message_to_conversation('Person 2', message.context[i++], false);
         }
         $("button#id_send_msg_button").trigger("click");
         //$("button#id_send_msg_button").removeClass("disabled");
