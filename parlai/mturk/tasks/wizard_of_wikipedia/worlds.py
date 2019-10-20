@@ -191,7 +191,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
 
         self.taskNumber = 0
         self.taskIndex = 0
-        self.newTask = False
+        self.newTask = True
         
         self.taskConversations = [
             ["I absolutely love the writing of Stephen King. He is a master! He has sold over 350 million books! ",
@@ -262,7 +262,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         '''First Turn: We give the first agent the list of topics to choose from
         '''
         if self.taskIndex < self.totalTasks and (self.turn_idx == 1 or self.newTask is True):
-            self.newTask = False
+            
 
             for idx, agent in enumerate(self.agents):
                 '''If we are giving the persona, do that :)'''
@@ -284,7 +284,8 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                 'text': PICK_TOPIC_MSG,
                 'context': self.taskConversations[self.taskIndex],
                 'relevant_topics': self.relevant_topics,
-                'taskNumber': self.taskIndex
+                'taskNumber': self.taskIndex,
+                'actualTasks': self.totalTasks - 1
             }))
 
             topic_act = self.agents[0].act(timeout=self.max_resp_time)
@@ -431,7 +432,9 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                 '''Give Wizard the Relevant Passages'''
                 control_msg['text'] = ''
                 control_msg['self_retrieved_passages'] = passages
+                control_msg['newTask'] = self.newTask
                 agent.observe(validate(control_msg))
+                self.newTask = False
 
             self.dialog.append(msg_info)
 
@@ -442,6 +445,8 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                         control_msg['text'] = PARTNER_RETRIEVED_PASSAGES_INST_MSG
                         control_msg['partner_retrieved_passages'] = passages
                         other_agent.observe(validate(control_msg))
+
+        
 
     def format_passages(self, ir_passages, max_length=MAX_DOC_LEN):
         passages = []
