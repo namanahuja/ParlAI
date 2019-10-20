@@ -124,9 +124,11 @@ def main():
     argparser.add_argument('--num-good-sentence-threshold', type=int, default=2,
                            help='How many good sentences with sufficient overlap \
                            are necessary for turker to be considered good.')
-    argparser.add_argument('--num-passages-retrieved', type=int, default=4,
+    argparser.add_argument('--num-passages-retrieved', type=int, default=3,
                            help='How many passages to retrieve per dialog \
                            message')
+    argparser.add_argument('--num-tasks', type=int, default=3,
+                           help='How many tasks')
 
     opt = argparser.parse_args()
     directory_path = os.path.dirname(os.path.abspath(__file__))
@@ -220,7 +222,6 @@ def main():
                 world.parley()
             world.save_data()
             if (world.convo_finished and
-                    not world.good_wiz and
                     not opt['is_sandbox']):
                 mturk_manager.soft_block_worker(world.wizard_worker)
             world.shutdown()

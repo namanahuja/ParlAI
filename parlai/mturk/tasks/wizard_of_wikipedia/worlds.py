@@ -160,6 +160,8 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         self.world_tag = world_tag
         self.max_resp_time = opt['max_resp_time']  # in secs
         self.num_passages_to_retrieve = opt['num_passages_retrieved']
+        self.totalTasks = opt['num_tasks']
+
         super().__init__(opt, agents, shared)
         self.agents = sorted(agents, key=lambda x: x.id,
                              reverse=random.random() <= 0.5)
@@ -259,7 +261,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
 
         '''First Turn: We give the first agent the list of topics to choose from
         '''
-        if self.turn_idx == 1 or self.newTask is True:
+        if self.taskIndex < self.totalTasks and (self.turn_idx == 1 or self.newTask is True):
             self.newTask = False
 
             for idx, agent in enumerate(self.agents):
@@ -282,6 +284,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                 'text': PICK_TOPIC_MSG,
                 'context': self.taskConversations[self.taskIndex],
                 'relevant_topics': self.relevant_topics,
+                'taskNumber': self.taskIndex
             }))
 
             topic_act = self.agents[0].act(timeout=self.max_resp_time)
@@ -324,7 +327,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         '''If we get to the min turns, inform turker that they can end if they
            want
         '''
-        if self.turn_idx >= self.num_turns + 1 and self.taskNumber >= 4:
+        if self.turn_idx >= self.num_turns + 1 and self.taskIndex >= self.totalTasks:
             for agent in self.agents:
                 control_msg['text'] = self.get_instruction(
                     tag='exceed_min_turns')
