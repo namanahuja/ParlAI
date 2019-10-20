@@ -17,14 +17,14 @@
     </div>
   </div> -->
   <div id="passages-pane" class="col-xs-7" style="height: {{frame_height}}px; background-color: #dff0d8;">
-    <h2>Instructions</h2>
-    <b><span style="color: blue; font-size: 14px;" id="taskIntro">You will be shown a conversation on the right belonging to a randomly assigned topic. Carefully study the conversation.<br/> 
-      In the next step, you will be given some system generated knowledge related to the conversation. You may choose to take help from the knowledge while crafting your response. <br/>
-    Press "Continue" to view the conversation.<br /> <br /></span></b> 
-    <b><span id="showPassages" style="color: blue; font-size: 14px; display: none;">
+    <h2 id="taskTitle">Sample Task</h2>
+    <span style="color: blue; font-size: 14px;" id="taskIntro">This is a sample task for training purpose to help you get acquainted with the system. You will be shown a conversation on the right belonging to a randomly assigned topic. Carefully study the conversation.<br/> 
+      In the next step, you will be given some system generated knowledge related to the current conversation.<b>Your task is to send the next response in the conversation. </b>You may choose to take help from the knowledge while crafting your response. <br/>
+    Press "Continue" to view the conversation.<br /> <br /></span>
+    <span id="showPassages" style="color: blue; font-size: 14px; display: none;">
       In the next step, you will be shown some sentences related to the conversation. If you feel one or more sentences are relevant to the conversation and can be used to craft the response, click on them. Clicking a sentence copies it to the textbox on the right. Feel free to make any edits in the copied text to craft your response. <br />
-      Press "Show Passages" to view the sentences below. After crafting the response, press the Send button followed by the Done button to complete the task. <br />
-    </span></b>
+      Press "Show Passages" to view the sentences below. After crafting the response, press the Send button<br />
+    </span>
     <div style="display: flex; justify-content: center;">
     <button class="btn btn-success" style="" id="showChat">Continue</button>
     </div>
@@ -247,7 +247,7 @@
     }
     var initMessage = "";
     function handle_new_message(new_message_id, message) {
-      debugger;
+      //debugger;
       if(message.text === undefined) {
         return;
       }
@@ -269,6 +269,15 @@
         //$("button#id_send_msg_button").prop("disabled", true);
 
         var contextArrayLength = message.context.length;
+
+        if(message.taskNumber > 0){
+
+          $("span#showPassages").hide();
+
+          $("div#passages-main-pane").height("100%");
+
+          $("h2#taskTitle").text("Task " + message.taskNumber)
+        }
 
         initMessage = message.context[contextArrayLength - 1];
         $("textarea#id_text_input").val(initMessage);
