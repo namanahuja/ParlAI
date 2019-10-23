@@ -16,6 +16,9 @@ import tqdm
 import pickle
 import parlai.core.build_data as build_data
 from urllib.parse import unquote
+import json
+import random
+
 
 
 def setup_retriever(opt):
@@ -127,12 +130,32 @@ def main():
     argparser.add_argument('--num-passages-retrieved', type=int, default=3,
                            help='How many passages to retrieve per dialog \
                            message')
-    argparser.add_argument('--num-tasks', type=int, default=3,
+    argparser.add_argument('--num-tasks', type=int, default=6,
                            help='How many tasks')
 
     opt = argparser.parse_args()
     directory_path = os.path.dirname(os.path.abspath(__file__))
     opt['task'] = os.path.basename(directory_path)
+    
+
+    corpusPath = '/home/naman/research/ParlAI' + '/sampleConversations.json'
+
+    allContexts = []
+
+    with open(corpusPath, "r") as read_file:
+        allData = json.load(read_file)
+        for data in allData:
+            context = data['convesation']
+            context.append(data['actualResponse'])
+            allContexts.append(context)
+
+
+    opt['allContexts'] = random.sample(allContexts, 8)
+
+
+
+
+
     if 'data_path' not in opt:
         opt['data_path'] = os.getcwd() + '/data/' + opt['task']
         opt['current_working_dir'] = os.getcwd()
