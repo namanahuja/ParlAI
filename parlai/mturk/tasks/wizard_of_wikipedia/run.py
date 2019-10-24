@@ -140,9 +140,20 @@ def main():
     opt['task'] = os.path.basename(directory_path)
     
 
-    corpusPath = '/home/naman/research/ParlAI' + '/sampleConversations.json'
+
 
     allContexts = []
+
+    corpusPath = '/home/naman/research/ParlAI' + '/threeContext.json'
+
+    with open(corpusPath, "r") as read_file:
+        allData = json.load(read_file)
+        for data in allData:
+            context = data['convesation']
+            context.append(data['actualResponse'])
+            allContexts.append(context)
+
+    corpusPath = '/home/naman/research/ParlAI' + '/twoContext.json'
 
     with open(corpusPath, "r") as read_file:
         allData = json.load(read_file)
@@ -152,7 +163,17 @@ def main():
             allContexts.append(context)
 
 
-    opt['allContexts'] = random.sample(allContexts, 8)
+    corpusPath = '/home/naman/research/ParlAI' + '/oneContext.json'
+
+    with open(corpusPath, "r") as read_file:
+        allData = json.load(read_file)
+        for data in allData:
+            context = data['convesation']
+            context.append(data['actualResponse'])
+            allContexts.append(context)
+
+    random.shuffle(allContexts)
+    opt['allContexts'] = random.sample(allContexts, opt['num_tasks'] + 2)
 
 
 
