@@ -1,1 +1,902 @@
-[{"convesation": ["I love to eat broccoli. Can you tell me more about this vegetable?", "Broccoli is an edible green plant in the cabbage family ", "Interesting, I always think they look like miniature trees. I like my broccoli steamed and soft."], "suggestions": ["Broccoli is an edible green plant in the cabbage family whose large flowering head is eaten as a vegetable.", "The word \"broccoli\" comes from the Italian plural of \"\", which means \"the flowering crest of a cabbage\", and is the diminutive form of \"brocco\", meaning \"small nail\" or \"sprout\".", "Cabbage or headed cabbage (comprising several cultivars of Brassica oleracea) is a leafy green or purple biennial plant, grown as an annual vegetable crop for its dense-leaved heads.", "It is descended from the wild cabbage, \"B.\u00a0oleracea\" var.", "The cabbage looper (\"Trichoplusia ni\") is a moth in the family Noctuidae, a family commonly referred to as owlet moths.", "Its common name comes from its preferred host plants and distinctive crawling behavior."], "actualResponse": "broccoli\" comes from the Italian plural of \"\", which means \"the flowering crest of a cabbage", "index": 0, "contextLen": 2}, {"convesation": ["Is Alcohol is a fermented drink?", "Alcohol is an organic compound, most alcohol is not fermented, but beer is", "Is beer not an alcoholic drink?"], "suggestions": ["Beer is one of the oldest and most widely consumed alcoholic drinks in the world, and the third most popular drink overall after water and tea.", "Beer is brewed from cereal grains\u2014most commonly from malted barley, though wheat, maize (corn), and rice are also used.", "Moonshine is a generic term for distilled alcoholic beverages made throughout the globe from indigenous ingredients reflecting the customs, tastes, and raw materials for fermentation available in each region.", "The term commonly applies to small-scale production, which is often illegal or tightly regulated in many countries.", "Brewing is the production of beer by steeping a starch source (commonly cereal grains, the most popular of which is barley) in water and fermenting the resulting sweet liquid with yeast.", "It may be done in a brewery by a commercial brewer, at home by a homebrewer, or by a variety of traditional methods such as communally by the indigenous peoples in Brazil when making cauim."], "actualResponse": "yes it is but is made with fermented yeast and is one of the oldest and most consumed forms of alcohol", "index": 1, "contextLen": 2}, {"convesation": ["I like to swim even when I'm not very good at it.", "I love to swim too.  People will swim in different places including fresh water, salt water, they do it for recreation, sport, exercise, or survivall", "Yes there are some amazing pro swimmers like Micheal Phelps, do you remember how many gold medals has he won?"], "suggestions": ["Michael Fred Phelps II (born June 30, 1985) is an American retired competitive swimmer and the most successful and most decorated Olympian of all time, with a total of 28 medals.", "Phelps also holds the all-time records for Olympic gold medals (23), Olympic gold medals in individual events (13), and Olympic medals in individual events (16).", "In sports, a winning streak is a consecutive sequence of won games, or won competitions.", "It can be applied to teams in team sports, and individuals in individual sports.", "Australia has participated officially in every Summer Paralympics Games since its inauguration in 1960 and in the Winter Paralympics Games since 1980.", "The Paralympic Games are held every four years, following the Olympic Games and are governed by the International Paralympic Committee (IPC)."], "actualResponse": "Yes Micheal Phelps won like 23 gold medals!", "index": 2, "contextLen": 2}, {"convesation": ["I love salsa dancing for exercise. It works up a sweat!", "It's hard to believe that Salsa dancing is so popular in America.  It originated all the way down in the Caribbean.", "It's a lot of fun. What else is interesting about it?"], "suggestions": ["Salsa music is a popular dance music that initially arose in New York City during the 1960s.", "Salsa is the product of various musical genres including the Cuban son montuno, guaracha, cha cha ch\u00e1, mambo, and to a certain extent bolero, and the Puerto Rican bomba and plena.", "The music of Cuba, including its instruments, performance and dance, comprises a large set of unique traditions influenced mostly by west African and European (especially Spanish) music.", "Due to the syncretic nature of most of its genres, Cuban music is often considered one of the richest and most influential regional musics of the world.", "Salsa is a popular form of social dance that originated in the Caribbean.", "The movements of salsa have origins in Puerto Rican bomba and plena, Cuban Son, cha-cha-cha, mambo and other dance forms."], "actualResponse": "The salsa's movements are derived from several other dances' forms, including Puerto Rican bomba and plena, Cuban Son, cha-cha-cha, mambo, and others!", "index": 3, "contextLen": 2}, {"convesation": ["I have three small dogs! They're adorable.", "They're may be the best pet! They were the very first species to be domesticated, as well. Since then, they've been selectively bred for more than a millennia! This has been done to achieve certain behaviors, sensory capabilities, and physical attributes, of course.", "Wow really? I just bought mine from the breeder and didn't think too much about where they came from."], "suggestions": ["The domestic dog (\"Canis lupus familiaris\" or \"Canis familiaris\") is a member of the genus \"Canis\" (canines), which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore.", "The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct.", "The gray wolf (\"Canis lupus\"), also known as the timber wolf or western wolf, is a canine native to the wilderness and remote areas of Eurasia and North America.", "It is the largest extant member of its family, with males averaging and females .", "Dog behavior is the internally coordinated responses of individuals or groups of domestic dogs to internal and external stimuli.", "It has been shaped by millennia of contact with humans and their lifestyles."], "actualResponse": "You choosing dogs as pets is wise. Dogs being associated with humans has encouraged them to become uniquely attuned to human behavior, which has led them to be so much more better suited to co-exist and be pets with humans over other canid species. ", "index": 4, "contextLen": 2}, {"convesation": ["It's summertime and I know snakes will be more active.", "Snakes terrify me! I don't like their elongated and legless bodies. They freak me out!", "Me too! I can't stand them and I've started to put mothballs around my home's foundation. "], "suggestions": ["Mothballs are small balls of chemical pesticide and deodorant, sometimes used when storing clothing and other articles susceptible to damage from mold or moth larvae (especially clothes moths like \"Tineola bisselliella\").", "Use of mothballs when clothing is stored out-of-season has given rise to the colloquial usage of the terms \"mothballed\" and \"put into mothballs\", to refer to anything which is put into storage or whose operation is suspended.", "Pesticide regulation in the United States is primarily a responsibility of the Environmental Protection Agency.", "In most countries, pesticides must be approved for sale and use by a government agency.", "Naphthalene is an organic compound with formula .", "It is the simplest polycyclic aromatic hydrocarbon, and is a white crystalline solid with a characteristic odor that is detectable at concentrations as low as 0.08\u00a0ppm by mass."], "actualResponse": "I knew mothballs were pesticide but I wasn't aware they helped to prevent snakes from entering.", "index": 5, "contextLen": 2}, {"convesation": ["Linkin Park is my favorite band!  I even went to one of their concerts!", "I love Linkin Park. I liked them in 199 when they first started.", "Awesome!  I have a bunch of their songs on my mp3 player so I can listen to them when I go jogging!"], "suggestions": ["Meteora is the second studio album by American rock band Linkin Park.", "It was released on March 25, 2003 through Warner Bros. Records, following \"Reanimation\", a collaboration album which featured remixes of songs included on their debut studio album \"Hybrid Theory\".", "Meteora (1802\u20131821) was a British Thoroughbred racehorse and broodmare who won the classic Oaks Stakes at Epsom Downs Racecourse in 1805.", "In a racing career which began with her win in the Oaks on 31 May 1805 and lasted until July 1810 she ran thirty-six timeas and won twenty-four races.", "Linkin Park is an American rock band from Agoura Hills, California.", "Formed in 1996, the band rose to international fame with their debut album \"Hybrid Theory\" (2000), which was certified Diamond by the RIAA in 2005 and multi-Platinum in several other countries."], "actualResponse": "I really like Meteora in 2003.", "index": 6, "contextLen": 2}, {"convesation": ["I like to play video games. My favorite game to play right now is Minecraft. Do you play video games?", "I don't play video games, implying any type of display device that produces 2 or 3 dimensional images.", "Ok. Have you ever played one? Maybe Pac-Man or Super Mario? Many people like to play games on their phones these days."], "suggestions": ["Super Mario Kart is a 1992 kart racing video game developed and published by Nintendo for the Super Nintendo Entertainment System video game console.", "The first game of the \"Mario Kart\" series, it was released in Japan and North America in 1992, and in Europe the following year.", "Like its previous installments of games, \"Mario Kart Wii\" incorporates playable characters from the \"Mario\" series, who participate in kart races on various race tracks using specialized items to hinder opponents or gain advantages.", "The game features multiple single-player and multiplayer game modes.", "The \"Mario\" franchise is a series of video games developed and published by Nintendo.", "The franchise features an extensive cast of characters."], "actualResponse": "I played Mario Kart a few times with my kids when they were younger on our Wii.", "index": 7, "contextLen": 2}, {"convesation": ["Hello there. What do you think of Toyota cars? They seem pretty reliable to me.", "Toyota is the market leader for hybrid electric vehicles. ", "Of course, the Prius. Where I used to live they are everywhere - northern California. Do you have one?"], "suggestions": ["A hybrid electric vehicle (HEV) is a type of hybrid vehicle that combines a conventional internal combustion engine (ICE) system with an electric propulsion system (hybrid vehicle drivetrain).", "The presence of the electric powertrain is intended to achieve either better fuel economy than a conventional vehicle or better performance.", "A plug-in electric vehicle (PEV) is any motor vehicle that can be recharged from an external source of electricity, such as wall sockets, and the electricity stored in the rechargeable battery packs drives or contributes to drive the wheels.", "PEV is a subset of electric vehicles that includes all-electric or battery electric vehicles (BEVs), plug-in hybrid vehicles (PHEVs), and electric vehicle conversions of hybrid electric vehicles and conventional internal combustion engine vehicles.", "Government incentives for plug-in hybrid electric vehicles have been established by several national and local governments around the world as a financial incentives to plug-in electric vehicle vehicles to consumers.", "These mainly include tax exemptions and tax credits, and additional perks that range from access to bus lines to waivers on fees (charging, parking, tolls, etc.)."], "actualResponse": "I do, I thought since it had been around since the late 1990's it was probably a great full hybrid electric car. ", "index": 8, "contextLen": 2}, {"convesation": ["Have you ever read the book 1984?", "1984 is one of my absolute favorite books! George Orwell is such a great author!", "What is the plot about?"], "suggestions": ["Nineteen Eighty-Four, often published as 1984, is a dystopian novel published in 1949 by English author George Orwell.", "The novel is set in Airstrip One, formerly Great Britain, a province of the superstate Oceania, whose residents are victims of perpetual war, omnipresent government surveillance and public manipulation.", "Oceania, Eurasia and Eastasia are the three fictional superstates in George Orwell's satirical dystopian novel \"Nineteen Eighty-Four\".", "How the world evolved into the three states is vague.", "Perpetual war, endless war, or a forever war, is a lasting state of war with no clear conditions that would lead to its conclusion.", "These wars are situations of ongoing tension that may escalate at any moment, similar to the Cold War."], "actualResponse": "The novel is set in a place named Airstrip One, which was formerly Great Britain. The residents are victims of perpetual war, public manipulation and government surveillance. It really makes you think!", "index": 9, "contextLen": 2}, {"convesation": ["Christmas is my favorite holiday of the year", "You mean the annual holiday commemorating the birth of jesus?", "yes, I love how the kids enjoy getting gift and all the get together to enjoy the birth of Jesus"], "suggestions": ["The nativity of Jesus or birth of Jesus is described in the gospels of Luke and Matthew.", "In Christian theology the nativity marks the birth of Jesus in fulfillment of the divine will of God, to save the world from sin.", "Christmas traditions vary from country to country.", "Christmas celebrations for many nations include the installing and lighting of Christmas trees, the hanging of Advent wreaths, Christmas stockings, candy canes, and the creation of Nativity scenes depicting the birth of Jesus Christ.", "Christmas is an annual festival commemorating the birth of Jesus Christ, observed primarily on December 25 as a religious and cultural celebration among billions of people around the world.", "A feast central to the Christian liturgical year, it is preceded by the season of Advent or the Nativity Fast and initiates the season of Christmastide, which historically in the West lasts twelve days and culminates on Twelfth Night; in some traditions, Christmastide includes an octave."], "actualResponse": "Yeah it is a celebration of jesus' birth in bethlehem.", "index": 10, "contextLen": 2}, {"convesation": ["I'm a huge Radiohead fan. Do you like them?", "Yes I like them. They're a great English rock band!", "What is your favorite album of theirs? I love The Bends."], "suggestions": ["Pablo Honey is the debut studio album by the English alternative rock band Radiohead, released on 22 February 1993 by Parlophone Records in the United Kingdom and by Capitol Records in the United States.", "The album was produced by Sean Slade and Paul Q. Kolderie, and was recorded at Chipping Norton Recording Studios and Courtyard Studio in Sutton Courtenay, Oxfordshire, England from September to November 1992.", "The Bends is the second studio album by the English alternative rock band Radiohead, released on 13 March 1995 by Parlophone Records in the United Kingdom and by Capitol Records in the United States.", "The album was produced by John Leckie and engineered by Nigel Godrich, who would go on to co-produce all future albums by the band.", "Radiohead, an alternative rock band from Abingdon, Oxfordshire, have had concerts and other live performances in Europe, North America, Australia, Asia and South America.", "The band's line-up has been constant since its founding, consisting of Thom Yorke (vocals and guitar), Jonny Greenwood (guitar), Ed O'Brien (guitar), Colin Greenwood (bass guitar), and Phil Selway (drums)."], "actualResponse": "I've always liked Pablo Honey from 1993.", "index": 11, "contextLen": 2}, {"convesation": ["Hi.  I'm thinking about getting the botulinum injections and would love to know more about them.", "Botulinum is a toxin produced by the bacteria Clostridium Botulinum.", "Sounds a little scary, but I know people that have had it done and really like the results."], "suggestions": ["Botulinum toxin therapy of strabismus is a medical technique used sometimes in the management of strabismus, in which botulinum toxin is injected into selected extraocular muscles in order to reduce the misalignment of the eyes.", "The injection of the toxin to treat strabismus, reported upon in 1981, is considered to be the first ever use of botulinum toxin for therapeutic purposes.", "Strabismus, also called crossed eyes among other terms, is a condition in which the eyes do not properly align with each other when looking at an object.", "The eye which is focused on an object can alternate.", "Botulinum toxin (BTX) is a neurotoxic protein produced by the bacterium \"Clostridium botulinum\" and related species.", "It prevents the release of the neurotransmitter acetylcholine from axon endings at the neuromuscular junction and thus causes flaccid paralysis."], "actualResponse": "It can be used for therapeutic purposes. The first such use was to treat strabismus in 1981.", "index": 12, "contextLen": 2}, {"convesation": ["Hi, I am a vegan. Do you like to eat plant-based meals?", "I have always been fond of abstaining from the use of animal products. I think it is moral issue", "What about it has made you come to that conclusion?"], "suggestions": ["Animal rights is the idea in which some, or all, non-human animals are entitled to the possession of their own lives and that their most basic interests\u2014such as the need to avoid suffering\u2014should be afforded the same consideration as similar interests of human beings.", "Advocates oppose the assignment of moral value and fundamental protections on the basis of species membership alone\u2014an idea known since 1970 as speciesism, when the term was coined by Richard D. Ryder\u2014arguing that it is a prejudice as irrational as any other.", "Cruelty to animals, also called animal abuse, animal neglect or animal cruelty, is the infliction by omission (animal neglect) or by commission by humans of suffering or harm upon any non-human animal, regardless of whether the act is against the law.", "More narrowly, it can be the causing of harm or suffering for specific achievement, such as killing animals for food or for their fur; opinions differ about the extent of cruelty associated with a given method of slaughter.", "People for the Ethical Treatment of Animals (PETA ; stylized PeTA) is an American animal rights organization based in Norfolk, Virginia, and led by Ingrid Newkirk, its international president.", "A nonprofit corporation with nearly 400 employees, it claims that it has 6.5 million members and supporters, in addition to claiming that it is the largest animal rights group in the world."], "actualResponse": "The argument behind my decision that persuaded me to follow this way is the animal cruelty that I witnessed in the animal factories", "index": 13, "contextLen": 2}, {"convesation": ["How can you explain people can change emotional behaviors all of a sudden? ", "Sounds like it could be Bipolar disorder. :(", "What do you know about it?"], "suggestions": ["Bipolar disorder, previously known as manic depression, is a mental disorder that causes periods of depression and periods of elevated mood.", "The elevated mood is significant and is known as mania or hypomania, depending on its severity, or whether symptoms of psychosis are present.", "Mood disorder, also known as mood (affective) disorders, is a group of conditions where a disturbance in the person's mood is the main underlying feature.", "The classification is in the \"Diagnostic and Statistical Manual of Mental Disorders\" (DSM) and International Classification of Diseases (ICD).", "Major depressive disorder (MDD), also known simply as depression, is a mental disorder characterized by at least two weeks of low mood that is present across most situations.", "It is often accompanied by low self-esteem, loss of interest in normally enjoyable activities, low energy, and pain without a clear cause."], "actualResponse": "Its a disorder previously known as manic depression. It can cause periods of depression.", "index": 14, "contextLen": 2}, {"convesation": ["Hi, I'm really interested in finding more about modern poets, what do you know about Larkin?", "He was a poet, librarian, and novelist that was born back in August 9, 1922.", "Ah so he would be over 90 if he was alive, what's his most famous work?"], "suggestions": ["Philip Arthur Larkin (9 August 1922 \u2013 2 December 1985) was an English poet, novelist and librarian.", "His first book of poetry, \"The North Ship\", was published in 1945, followed by two novels, \"Jill\" (1946) and \"A Girl in Winter\" (1947), and he came to prominence in 1955 with the publication of his second collection of poems, \"The Less Deceived\", followed by \"The Whitsun Weddings\" (1964) and \"High Windows\" (1974).", "The North Ship is a collection of poems by Philip Larkin (1922-1985), and was published in 1945 by Reginald A. Caton's Fortune Press.", "Caton did not pay his writers and expected them to buy a certain number of copies themselves.", "American literature is literature written or produced in the United States and its preceding colonies (for specific discussions of poetry and theater, see Poetry of the United States and Theater in the United States).", "Before the founding of the United States, the British colonies on the eastern coast of the present-day United States were heavily influenced by English literature."], "actualResponse": "He had a lot of great works in his first book of poetry \"The North Ship\"", "index": 15, "contextLen": 2}, {"convesation": ["Hi there! I consider myself a cat person, I like them more than dogs - how about you?", "I find myself more of a dog person! I like their personality a bit more, but I know cats are just a valued for their companionship and their ability to hunt vermin!", "Definitely! My last cat was a great little mouser - we never had a problem after she came along"], "suggestions": ["A cat registry or cat breed registry, also known as a cat fancier organisation, cattery federation, or cat breeders' association, is an organisation that registers domestic cats (usually purebred) of many breeds, for exhibition and for breeding lineage tracking purposes.", "A cat registry stores the pedigrees (genealogies) of cats, cattery names, and other details of cats; studbooks (lists of authorised studs of recognised breeds), breed descriptions, and the formal breed standards (a.k.a.", "The following is a list of experimental cat breeds and crossbreeds that do not have the recognition of major national or international cat registries, such as The International Cat Association (TICA) in the US, Europe, and Australasia; the Governing Council of the Cat Fancy (GCCF) in the UK, the F\u00e9d\u00e9ration Internationale F\u00e9line (FiFE) in continental Europe, the Cat Fanciers' Association (CFA) in North America, or the more recent World Cat Federation based in Germany.", "Such a breed may be recognized by one of the smaller cat registries.", "The Manx cat (, in earlier times often spelled Manks), is a breed of domestic cat (\"Felis catus\") originating on the Isle of Man, with a naturally occurring mutation that shortens the tail.", "Many Manx have a small stub of a tail, but Manx cats are best known as being entirely tailless; this is the most distinguishing characteristic of the breed, along with elongated hind legs and a rounded head."], "actualResponse": "That's awesome. If you ever get another cat, which I hope you do, there are seventy different cat breeds recognized by cat registries! Hopefully it'll keep the mouses out of your home!", "index": 16, "contextLen": 2}, {"convesation": ["I remember loving the band Korn back when I was in high school.  Do you like the band?", "Korn is an american Nu metal band, I've never been much of a fan.", "Yeah, they were quite polarizing due to their lyrics and sound.  They seemed quite rebelious. "], "suggestions": ["Nu metal (also known as n\u00fc-metal and ) is a form of that combines elements of with elements of other music genres such as hip hop, alternative rock, funk and grunge.", "bands have drawn elements and influences from a variety of musical styles, including multiple genres of heavy metal.", "Korn (stylized as Ko\u042fn) is an American nu metal band from Bakersfield, California, formed in 1993.", "The band's current lineup includes founding members James \"Munky\" Shaffer (rhythm guitar), Reginald \"Fieldy\" Arvizu (bass), Brian \"Head\" Welch (lead guitar, backing vocals), and Jonathan Davis (lead vocals, bagpipes), with the addition of Ray Luzier (drums), who replaced the band's original member, David Silveria in 2007.", "Heavy metal (or simply metal) is a genre of rock music that developed in the late 1960s and early 1970s, largely in the United Kingdom.", "With roots in blues rock and psychedelic/acid rock, the bands that created heavy metal developed a thick, massive sound, characterized by highly amplified distortion, extended guitar solos, emphatic beats, and overall loudness."], "actualResponse": "I don't have a problem with metal bands, for whatever reason Korn just wasn't for me. They were for formed by 3 members of the band L.A.P.D", "index": 17, "contextLen": 2}, {"convesation": ["Iced tea is one of my favorite summer drinks!", "I love iced tea! my favorite is Lipton, They are a British brand of tea in case you didnt know, They are owned by the company Unilever.", "I didn't know that.  We also buy Lipton tea most often."], "suggestions": ["Lipton is a British brand of tea, owned by the company Unilever.", "Lipton was also a supermarket chain in the United Kingdom before it was sold off to Argyll Foods, to allow the company to focus solely on tea.", "Sir Thomas Johnstone Lipton, 1st Baronet, KCVO (10 May 1848 \u2013 2 October 1931) was a Scotsman of Irish parentage who was a self-made man, merchant, and yachtsman.", "He engaged in extensive advertising for his chain of grocery stores and his brand of Lipton teas.", "West Auckland Town Football Club are a football club from West Auckland, near Bishop Auckland in County Durham, England, competing in the Northern League, in the ninth tier of the English football league system.", "The club is most famous for being the winners of the Sir Thomas Lipton Trophy, one of the world's first international footballing competitions, twice, in 1909 and 1911."], "actualResponse": "Yes Lipton is an all time favorite, In fact  The company got its name after its founder Thomas Lipton", "index": 18, "contextLen": 2}, {"convesation": ["Hey! Whats up? I'm studying to be a dental hygienist", "Good for you! That's a great job. I bet you brush at least twice a day ;)", "I do! Sometimes more! It's easy to brush my own teeth but, I'm actually pretty afraid of other people's saliva. I'm kinda afraid of becoming a hygienist because of it."], "suggestions": ["Tooth decay, also known as dental caries or cavities, is a breakdown of teeth due to acids made by bacteria.", "The cavities may be a number of different colors from yellow to black.", "Water fluoridation is the controlled addition of fluoride to a public water supply to reduce tooth decay.", "Fluoridated water contains fluoride at a level that is effective for preventing cavities; this can occur naturally or by adding fluoride.", "Tooth enamel is one of the four major tissues that make up the tooth in humans and many other animals, including some species of fish.", "It makes up the normally visible part of the tooth, covering the crown."], "actualResponse": "I can see that. The mouth has a lot of bacteria in it, from tooth decay, and you're working inside of it. Maybe the more you practise the less scared you'll be.", "index": 19, "contextLen": 2}, {"convesation": ["Scuba Diving is an interesting thing.  There's a lot of ocean science involved.", "Of course yes. It could be called  a science when the diver uses a self-contained underwater breathing apparatus", "How far down can scuba divers go?"], "suggestions": ["Scuba diving is a form of underwater diving where the diver uses a self-contained underwater breathing apparatus (scuba) which is completely independent of surface supply, to breathe underwater.", "Scuba divers carry their own source of breathing gas, usually compressed air, allowing them greater independence and freedom of movement than surface-supplied divers, and longer underwater endurance than breath-hold divers.", "A diving cylinder, scuba tank or diving tank is a gas cylinder used to store and transport the high pressure breathing gas required by a scuba set.", "It may also be used for surface-supplied diving or as decompression gas or an emergency gas supply for surface supplied diving or scuba.", "A scuba set is any breathing apparatus that is carried entirely by an underwater diver and provides the diver with breathing gas at the ambient pressure.", "(Scuba is an anacronym for self-contained underwater breathing apparatus.)"], "actualResponse": "I think that depends on the source of breathing. Gas or compressed air which allows them them greater independence and freedom of movement", "index": 20, "contextLen": 2}, {"convesation": ["I want to learn to surf do you surf?", "I do! Surfing is a surface water sport in which the wave rider, referred to as a surfer, rides on the forward or deep face of a moving wave", "Does it take any special equipment to surf?"], "suggestions": ["Surfing is a surface water sport in which the wave rider, referred to as a surfer, rides on the forward or deep face of a moving wave, which is usually carrying the surfer towards the shore.", "Waves suitable for surfing are primarily found in the ocean, but can also be found in lakes or in rivers in the form of a standing wave or tidal bore.", "Turkey offers warm and crystal clear waves of Mediterranean on the south as well as wind swells of Black Sea on the north.", "The wave period is shorter than the ocean waves but can reach up to periods of 11-12\u00a0second swells although the average swell period is 6\u20137\u00a0seconds.", "Surf culture is the culture that includes the people, language, fashion, and lifestyle surrounding the sport of surfing.", "The history of surfing began with the ancient Polynesians."], "actualResponse": "just a board! Waves suitable for surfing are primarily found in the ocean.", "index": 21, "contextLen": 2}, {"convesation": ["Do you have any tattoos? I personally am never getting one, it just seems like a terrible decision to me", "No my dad is covered so as I got older I choose not to insert ink, dyes and pigments, either indelible or temporary, into the dermis layer of the skin", "That is good, although my opinion is not the end all be all, I just do not get it, I change my wallpaper every week on my phone, I dislike something so permanent"], "suggestions": ["A tattoo is a form of body modification where a design is made by inserting ink, dyes and pigments, either indelible or temporary, into the dermis layer of the skin to change the pigment.", "Tattoos fall into three broad categories: purely decorative (with no specific meaning); symbolic (with a specific meaning pertinent to the wearer); pictorial (a depiction of a specific person or item).", "Tattooing has been practiced across the globe since at least Neolithic times, as evidenced by mummified preserved skin, ancient art, and the archaeological record.", "Both ancient art and archaeological finds of possible tattoo tools suggest tattooing was practiced by the Upper Paleolithic period in Europe.", "Tattoo removal has been performed with various tools since the start of tattooing.", "While tattoos were once considered permanent, it is now possible to remove them with treatments, fully or partially."], "actualResponse": " Tattoos fall into three broad categories, decorative, symbolic and pictorial. I like the ideal of Symbolic which sounds nice until you realize it will remind you of that person that passed or even your entire life. Maybe you should get a foot tattoo?", "index": 22, "contextLen": 2}, {"convesation": ["Brunch is my favorite meal.", "Me too! There's something decadent about a late breakfast and a glass of champagne at the same time!", "Yes I love drinking champagne with my meal."], "suggestions": ["Breakfast is the first meal of a day, most often eaten in the early morning before undertaking the day's work.", "The word in English refers to breaking the fasting period of the prior night.", "A pancake (or hotcake, griddlecake, or flapjack) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter.", "In Britain, pancakes are often unleavened and resemble a cr\u00eape.", "A sausage is a cylindrical meat product usually made from ground meat, often pork, beef, or veal, along with salt, spices and other flavourings, and breadcrumbs, encased by a skin.", "Typically, a sausage is formed in a casing traditionally made from intestine, but sometimes from synthetic materials."], "actualResponse": "It's great, isn't it? Nothing like a glass with eggs, sausages and pancakes!", "index": 23, "contextLen": 2}, {"convesation": ["Are you familiar with phonograph records? I've never heard of them.", "You mean a gramophone? It's mainly in the british empire. it pretty much is just a vynle record.", "What else do you know about them?"], "suggestions": ["A phonograph record (also known as a gramophone record, especially in British English, or record) is an analog sound storage medium in the form of a flat disc with an inscribed, modulated spiral groove.", "The groove usually starts near the periphery and ends near the center of the disc.", "The overwhelming majority of records manufactured have been of certain sizes (7, 10, or 12\u00a0inches), playback speeds (33, 45, or 78 RPM), and appearance (round black discs).", "However, since the commercial adoption of the gramophone record (called a phonograph record in the U.S., where both cylinder records and disc records were invented), a wide variety of records have also been produced that do not fall into these categories, and they have served a variety of purposes.", "Stereophonic sound or, more commonly, stereo, is a method of sound reproduction that creates an illusion of multi-directional audible perspective.", "This is usually achieved by using two or more independent audio channels through a configuration of two or more loudspeakers (or stereo headphones) in such a way as to create the impression of sound heard from various directions, as in natural hearing."], "actualResponse": "I know they have grooves on the disc so that sound can be played.", "index": 24, "contextLen": 2}, {"convesation": ["Have you ever read Jane Austen?", "I have she was an English novelist known primarily for her six major novels", "Did she have fame while she was alive?"], "suggestions": ["Jane Austen (; 16 December 1775\u00a0\u2013 18 July 1817) was an English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century.", "Austen's plots often explore the dependence of women on marriage in the pursuit of favourable social standing and economic security.", "The reception history of Jane Austen follows a path from modest fame to wild popularity.", "Jane Austen (1775\u20131817), the author of such works as \"Pride and Prejudice\" (1813) and \"Emma\" (1815), has become one of the best-known and most widely read novelists in the English language.", "Jane Austen's (1775\u20131817) distinctive literary style relies on a combination of parody, burlesque, irony, free indirect speech and a degree of realism.", "She uses parody and burlesque for comic effect and to critique the portrayal of women in 18th-century sentimental and gothic novels."], "actualResponse": "She did, Austen's plots often explore the dependence of women on marriage. So a lot of women could get behind her work.", "index": 25, "contextLen": 2}, {"convesation": ["Do you like country music at all? I know people don't like it, but there are a lot of good country music artists out there.", "I like a lot of the songs. It has been around since the nineteen twenties and originated in the US.", "I am a huge fan of Johnny Cash, Keith Urban, and Carrie Underwood. Do you know much about them?"], "suggestions": ["Carrie Marie Underwood (born March 10, 1983) is an American country singer, songwriter, and actress.", "She rose to fame as the winner of the fourth season of \"American Idol\", in 2005.", "Some Hearts is the debut studio album by American singer and songwriter Carrie Underwood, released in the United States on November 15, 2005 by Arista Nashville.", "The album contains the number one singles \"Jesus, Take the Wheel\", \"Don't Forget to Remember Me\", \"Wasted\", and \"Before He Cheats\".", "Heart of Midlothian Football Club, commonly known as Hearts, is a Scottish professional football club based in Gorgie in the west of Edinburgh.", "Hearts are the oldest football club in the Scottish capital, having been formed in 1874 by a group of friends from the Heart of Midlothian Quadrille Assembly Club (Dancing)."], "actualResponse": "I liked her debut album, in 2005, Some Hearts.", "index": 26, "contextLen": 2}, {"convesation": ["I don't have any kids but seeing how my parents raised my siblings and I showed me how tough parenting is!", "It is! Providing emotional, social, and physical support to development of a child can be hard!", "I bet parenting can be very stressful. Are you a parent?"], "suggestions": ["Developmental psychology is the scientific study of how and why human beings change over the course of their life.", "Originally concerned with infants and children, the field has expanded to include adolescence, adult development, aging, and the entire lifespan.", "Adolescence () is a transitional stage of physical and psychological development that generally occurs during the period from puberty to legal adulthood (age of majority).", "Adolescence is usually associated with the teenage years, but its physical, psychological or cultural expressions may begin earlier and end later.", "Parenting or child rearing is the process of promoting and supporting the physical, emotional, social, and intellectual development of a child from infancy to adulthood.", "Parenting refers to the intricacies of raising a child aside from the biological relationship."], "actualResponse": "No! But I understand the intricacies of raising a child to adulthood! They go through so much. ", "index": 27, "contextLen": 2}, {"convesation": ["Do you know much about Osteopathic medicinal uses in the USA?", "Osteopathic doctors licensed from the US are also able to practice in 65 other countries, including Canada", "I did not know that. What does osteopathic even mean? Bones?"], "suggestions": ["Osteopathy is a type of alternative medicine that emphasizes manual readjustments, myofascial release and other physical manipulation of muscle tissue and bones.", "Practitioners of osteopathy are referred to as osteopaths.", "Gluteoplasty (Greek \"glout\u03ccs\", rump + \"plassein\", to shape) denotes the plastic surgery and the liposuction procedures for the correction of the congenital, traumatic, and acquired defects and deformities of the buttocks and the anatomy of the gluteal region; and for the aesthetic enhancement (by augmentation or by reduction) of the contour of the buttocks.", "The corrective procedures for buttcock augmentation and buttcock repair include the surgical emplacement of a gluteal implant (buttock prosthesis); liposculpture (fat transfer and liposuction); and body contouring (surgery and liposculpture) to resolve the patient\u2019s particular defect or deformity of the gluteal region.", "Muscle contraction is the activation of tension-generating sites within muscle fibers.", "In physiology, muscle contraction does not necessarily mean muscle shortening because muscle tension can be produced without changes in muscle length such as holding a heavy book or a dumbbell at the same position."], "actualResponse": "Osteopathy deals with muscle tissues and bones, including readjustments", "index": 28, "contextLen": 2}, {"convesation": ["Hi, I play the guitar do you?", "I can't really play a guitar all that well but my brother is a wizz with his six string.", "That's cool.  It took me awhile to learn myself.  Do you still practice?"], "suggestions": ["The classical guitar (also known as concert guitar, classical acoustic, nylon-string guitar, or Spanish guitar) is the member of the guitar family used in classical music.", "It is an acoustical wooden guitar with strings made of nylon, rather than the metal strings used in acoustic and electric guitars.", "Anthony Glise (born January 17, 1956 in St. Joseph, Missouri) is a guitarist, composer and author.", "He is the only American guitarist who has won first prize in the International Toscanini Competition held in Italy.", "In classical guitar, the right hand is developed in such a way that it can sustain two, three, and four voice harmonies while also paying special attention to tone production.", "The Fingers (i) index, (m) middle, and (a) ring are generally used to play the melody, while (p) thumb accompanies in the bass register adding harmony, and produces a comparable texture and effect to that of the piano."], "actualResponse": "No not really. I have a classical guitar sitting around somewhere, but I can hardly play it.", "index": 29, "contextLen": 2}, {"convesation": ["My favorite fruit is strawberries. What can you tell me about them?", "The strawberry is a garden fruit that is a widely grown hybrid species of the genus \"Fragaria\". Which is collectively known as the strawberries.", "Oh that is so interesting. They taste so good. I like strawberry shortcake as well."], "suggestions": ["The garden strawberry (or simply strawberry; Fragaria \u00d7 ananassa) is a widely grown hybrid species of the genus \"Fragaria\", collectively known as the strawberries.", "It is cultivated worldwide for its fruit.", "The breeding of strawberries is a long story that starts with the selection and cultivation of European strawberry species in western Europe in the 15th century while a similar discovery and cultivation occurred in Chile.", "The most commonly consumed strawberry species in modern times is the garden strawberry, a species derived from hybridization of two other species, with the scientific name \"Fragaria\" \u00d7 \"ananassa\", but there are many species of strawberries, several others of which are cultivated to some extent.", "Fragaria chiloensis, the beach strawberry, Chilean strawberry, or coastal strawberry, is one of two species of wild strawberry that were hybridized to create the modern garden strawberry (\"F. \u00d7 ananassa\").", "It is noted for its large berries."], "actualResponse": "I do too! The garden strawberry was actually first bred in Brittany, France in 1714. It was a cross of \"Fragaria virginiana\" from eastern North America and \"Fragaria chiloensis\" which was brought from Chile.", "index": 30, "contextLen": 2}, {"convesation": ["halloween is my favorite holiday. It is so fun to see people dressed up.", "Except for clowns. I remember those evil clown sightings in 2016. How do you feel about clown costumes?", "good point, clowns are creepy. Did you see the movie IT? that depicted clowns perfectly"], "suggestions": ["The evil clown is a subversion of the traditional comic clown character, in which the playful trope is instead rendered as disturbing through the use of horror elements and dark humor.", "The modern archetype of the evil clown was popularized by Stephen King's 1986 novel \"It\".", "A specific fear of clowns has sometimes been discussed in terms of a specific phobia.", "The term \"coulrophobia\" is a neologism coined in the context of informal \"\"-phobia\" lists\".", "The 2016 clown sightings were reports of people disguised as evil clowns in incongruous settings, such as near forests and schools.", "The incidents were reported in the United States, Canada, and subsequently in other countries and territories from August 2016."], "actualResponse": "Yes, I've seen both the original and the new one. The original movie is what gave me my coulrophobia! I have a huge fear of clowns.", "index": 31, "contextLen": 2}, {"convesation": ["im thinking about visiting new york city, have you ever been ?", "Welcome to  New York, is the most populous city in the United States.", "oh wow i didnt know that, what else can you tell me"], "suggestions": ["The City of New York, often called New York City or simply New York, is the most populous city in the United States.", "With an estimated 2016 population of 8,537,673 distributed over a land area of about , New York City is also the most densely populated major city in the United States.", "Denver (), officially the City and County of Denver, is the capital and most populous municipality of the U.S. state of Colorado.", "Denver is in the South Platte River Valley on the western edge of the High Plains just east of the Front Range of the Rocky Mountains.", "Manhattan () is the most densely populated borough of New York City, its economic and administrative center, and its historical birthplace.", "Locally it is often referred to simply as \"The City\"."], "actualResponse": "Its an  an estimated 2016 population of 8,537,673 distributed over a land area ", "index": 32, "contextLen": 2}, {"convesation": ["I just love giant pandas - they're so beautiful. I wish I could see one in the wild.", "It is actually considered a carnivore although 99% of its diet is bamboo!", "Weird it's considered a carnivore! Where do most pandas live?"], "suggestions": ["The giant panda (\"Ailuropoda melanoleuca\", \"black and white cat-foot\"; , \"big bear cat\"), also known as panda bear or simply panda, is a bear native to south central China.", "It is easily recognized by the large, distinctive black patches around its eyes, over the ears, and across its round body.", "The following is a list of characters from the DreamWorks animated film media franchise \"Kung Fu Panda\", with their shorts and specials \"Secrets of the Furious Five\", \"Kung Fu Panda Holiday\", \"\", and \"\", as well as the video games and TV show \"\".", "The world of \"Kung Fu Panda\" is a fantasized version of ancient China as typically depicted in the wuxia film genre populated by anthropomorphized Asian animals where the martial arts can have magical qualities on top of extraordinary physical prowess for those sufficiently skilled.", "The red panda (\"Ailurus fulgens\"), also called the lesser panda, the red bear-cat, and the red cat-bear, is a mammal native to the eastern Himalayas and southwestern China.", "It has reddish-brown fur, a long, shaggy tail, and a waddling gait due to its shorter front legs; it is roughly the size of a domestic cat, though with a longer body and somewhat heavier."], "actualResponse": "the giant panda lives mostly in south central china actually!", "index": 33, "contextLen": 2}, {"convesation": ["How do you feel about Jimi Hendrix?", "I love all three of these songs by Jimi !", "Which ones?"], "suggestions": ["Are You Experienced is the debut studio album by English-American rock band the Jimi Hendrix Experience.", "Released in 1967, the LP was an immediate critical and commercial success, and it is widely regarded as one of the greatest debuts in the history of rock music.", "James Marshall \"Jimi\" Hendrix (born Johnny Allen Hendrix; November 27, 1942 \u2013 September 18, 1970) was an American rock guitarist, singer, and songwriter.", "Although his mainstream career spanned only four years, he is widely regarded as one of the most influential electric guitarists in the history of popular music, and one of the most celebrated musicians of the 20th century.", "\"Purple Haze\" is a song written by Jimi Hendrix and released as the second record single by the Jimi Hendrix Experience on March 17, 1967.", "As a record chart hit in several countries and the opening number on the Experience's debut American album, it was many people's first exposure to Hendrix's psychedelic rock sound."], "actualResponse": "Hey Joe, Purple Haze and The Wind cries Mary.", "index": 34, "contextLen": 2}, {"convesation": ["Hey! Do you know who Jimmy Fallon is? I think he is hilarious!", "Yes, I like him a lot. I especially love The Tonight Show Starring Jimmy Fallon.", "Yes! He is my favorite late night host by far. I especially loved him on Saturday Night Live. "], "suggestions": ["Saturday Night Live (SNL) is an American late-night live television variety show created by Lorne Michaels and developed by Dick Ebersol.", "The show premiered on NBC on October 11, 1975, under the original title NBC's Saturday Night.", "James Thomas Fallon (born September 19, 1974) is an American comedian, actor, television host and musician.", "He is known for his work in television as a cast member on \"Saturday Night Live\" and as the host of late-night talk show \"The Tonight Show Starring Jimmy Fallon\" and before that \"Late Night with Jimmy Fallon\".", "Dennis Michael Miller (born November 3, 1953) is an American stand-up comedian, talk show host, political commentator, sports commentator, actor, and television and radio personality.", "He rose as a cast member of \"Saturday Night Live\" in 1985, and subsequently hosted a string of his own talk shows on HBO, CNBC, and in syndication."], "actualResponse": "I actually found out recently that when he was cast for SNL, he was fulfilling his lifelong dream. He had always wanted to be on that show.", "index": 35, "contextLen": 2}, {"convesation": ["I have been caught up in a lie, I regret telling a lie but I wanted to fit in around the underwater diving teams in my area. Anyway, I said I knew a lot of it and I actively did underwater diving, all is a lie. Do you know any info on it that can help get me out of this hole?", "Um, I can't help you with that.  Let's talk about DIVING! That's where humans descend below the water surface. ", "Yes! That will work fine. I bet it's the same thing. Typically when we dive, it's usually under water, so this info will save me. I have learned not to tell lies over this one, thank you so much"], "suggestions": ["Underwater diving, as a human activity, is the practice of descending below the water's surface to interact with the environment.", "Immersion in water and exposure to high ambient pressure have physiological effects that limit the depths and duration possible in ambient pressure diving.", "Scuba diving is a form of underwater diving where the diver uses a self-contained underwater breathing apparatus (scuba) which is completely independent of surface supply, to breathe underwater.", "Scuba divers carry their own source of breathing gas, usually compressed air, allowing them greater independence and freedom of movement than surface-supplied divers, and longer underwater endurance than breath-hold divers.", "The safety of underwater diving depends on four factors: the environment, the equipment, behaviour of the individual diver and performance of the dive team.", "The underwater environment can impose severe physical and psychological stress on a diver, and is mostly beyond the diver's control."], "actualResponse": "Human beings are not adapted to the environment of diving that is where various equipment has been developed to help with that. ", "index": 36, "contextLen": 2}, {"convesation": ["Ive always wanted to go to Paris. It looks fantastic.", "I lived there for a few years, and really got in touch with the place. It's fantastic. As far back as the 17th century, it's been one of Europe's go-to major centers for things like finance, commerce, fashion, science, and, of course, the arts. And for good reason.", "Paris looks very lively. I heard there are a lot of museums there. It must me rich in history."], "suggestions": ["Paris () is the capital and most populous city in France, with an administrative-limits area of and an official population of 2,206,488 (2015).", "The city is a commune and department, and the heart of the \u00cele-de-France region (colloquially known as the 'Paris Region'), whose 2016 population of 12,142,802 represented roughly 18 percent of the population of France.", "Antony () is a French commune in the southern suburbs of Paris, France.", "It is located from the centre of Paris.", "The city of Paris (also called the Commune or Department of Paris) had a population of 2,241,346 people within its administrative city limits as of January 1, 2014.", "It is surrounded by the Paris \"unit\u00e9 urbaine\", or urban area, the most populous urban area in the European Union."], "actualResponse": "It's rich in history, and people flock to it because of its history, culture, and scenery. This is evidenced by the fact that it's considered the heart of the \u00cele-de-France region,and had 18% of France's population in 2016, with 12,142,802 people.", "index": 37, "contextLen": 2}, {"convesation": ["All my friends keep telling me that I should start watching Game of Thrones, but I really don't know anything about it.", "I know it's a fantasy drama that a lot of people watch. And it has Jason Momoa in it!", "He's one of the few people from the show that I know of, only because he played Aquaman in Dawn of Justice."], "suggestions": ["The characters from the American medieval fantasy television series \"Game of Thrones\" are based on their respective counterparts from author George R. R. Martin's \"A Song of Ice and Fire\" series of novels.", "Set in a fictional universe that has been referred to so far as \"The Known World,\" the series follows a civil war for the Iron Throne of the continent of Westeros, fought between the rival royal and noble families and their respective supporters.", "Daenerys Targaryen is a fictional character in George R. R. Martin's \"A Song of Ice and Fire\" series of novels, as well as the television adaptation, \"Game of Thrones\", where she is portrayed by Emilia Clarke.", "In the novels, she is a prominent point of view character.", "Khal Drogo is a fictional character in the \"A Song of Ice and Fire\" series of fantasy novels by American author George R. R. Martin, and its television adaptation \"Game of Thrones\".", "Introduced in 1996's \"A Game of Thrones\", Drogo is a \"khal\", a leader of the Dothraki, a tribe of warriors who roam the continent of Essos."], "actualResponse": "Yes, he plays Khal Drogo in the series.", "index": 38, "contextLen": 2}, {"convesation": ["I love those Role-playing game.", "Me too, i like it because players take responsibility for acting out these roles within a narrative", "Yes, those type of games are very complex and exiting."], "suggestions": ["A role-playing video game (commonly referred to as role-playing game or RPG, as well as computer role-playing game or CRPG) is a video game genre where the player controls the actions of a character (and/or several party members) immersed in some well-defined world.", "Many role-playing video games have origins in tabletop role-playing games (Including \"Dungeons & Dragons\") and use much of the same , settings and game mechanics.", "Eastern role-playing video games are role-playing video games developed in East Asia.", "Most Eastern role-playing games are Japanese role-playing games (JRPG), developed in Japan.", "A video game genre is a specific category of games related by similar gameplay characteristics.", "Genres are not usually defined by the actual content of the game or its medium of play, but by its common challenge."], "actualResponse": "Role playing games also include a single player version video games where players play with a group of characters ", "index": 39, "contextLen": 2}, {"convesation": ["I would like to learn how to fly an airplane.", "It's a shame the Wright brothers aren't around. They were the first successful ones to build and fly an airplane.", "Yes I've heard about them. When did they build the first airplane?"], "suggestions": ["The pioneer era of aviation refers to the period of aviation history between the first successful powered flight, generally accepted to have been made by the Wright Brothers on 17 December 1903, and the outbreak of the First World War in August 1914.", "Once the principles of powered controlled flight had been established there was a period in which many different aircraft configurations were experimented with.", "A timeline of United States inventions (1890\u20131945) encompasses the ingenuity and innovative advancements of the United States within a historical context, dating from the Progressive Era to the end of World War II, which have been achieved by inventors who are either native-born or naturalized citizens of the United States.", "Copyright protection secures a person's right to his or her first-to-invent claim of the \"original\" invention in question, highlighted in Article I, Section 8, Clause 8 of the United States Constitution which gives the following enumerated power to the United States Congress: In 1641, the first patent in North America was issued to Samuel Winslow by the General Court of Massachusetts for a new method of making salt.", "The Wright brothers, Orville (August 19, 1871\u00a0\u2013 January 30, 1948) and Wilbur (April 16, 1867\u00a0\u2013 May 30, 1912), were two American aviators, engineers, inventors, and aviation pioneers who are generally credited with inventing, building, and flying the world's first successful airplane.", "They made the first controlled, sustained flight of a powered, heavier-than-air aircraft on December 17, 1903, four miles south of Kitty Hawk, North Carolina."], "actualResponse": "The first aircraft they built was on December 17, 1903.", "index": 40, "contextLen": 2}, {"convesation": ["I have been considering buying a new car. Maybe a Toyota?", "thats a good choice.. they are the worlds leader in hybrid electric vehicles!", "I did not know that what car of theirs is considered good?"], "suggestions": ["The Toyota Prius () is a full hybrid electric automobile developed by Toyota and manufactured by the company since 1997.", "Initially offered as a 4-door sedan, it has been produced only as a 5-door liftback from 2003 to 2015, and then a 5-door fastback since 2016.", "A hybrid electric vehicle (HEV) is a type of hybrid vehicle that combines a conventional internal combustion engine (ICE) system with an electric propulsion system (hybrid vehicle drivetrain).", "The presence of the electric powertrain is intended to achieve either better fuel economy than a conventional vehicle or better performance.", "Toyota is the world's market leader in sales of hybrid electric vehicles, and one of the largest companies to encourage the mass-market adoption of hybrid vehicles across the globe.", "Cumulative global sales of Toyota and Lexus hybrid passenger car models achieved the 10\u00a0million milestone in January 2017."], "actualResponse": "the prius is a good selection.. they are the top selling hybrid car in the world", "index": 41, "contextLen": 2}, {"convesation": ["What kind of moped do you drive?", "I don't own one :=) But, mopeds are small motorcycles that travel at lower speeds", "oh okay. would you prefer driving a moped or a motorcycle?"], "suggestions": ["A moped (/\u02c8mo\u028ap\u025bd/ MOH-ped) is a small motorcycle, generally having a less stringent licensing requirement than motorcycles or automobiles because mopeds typically travel about the same speed as bicycles on public roads.", "Mopeds by definition are driven by both an engine and bicycle pedals, but in common usage and in many jurisdictions the term \"moped\" is used for similar vehicles including a scooter.", "An electric bicycle, also known as an e-bike, powerbike or booster bike, is a bicycle with an integrated electric motor which can be used for propulsion.", "Many kinds of e-bikes are available worldwide, from e-bikes that only have a small motor to assist the rider's pedal-power (i.e., pedelecs) to somewhat more powerful e-bikes which tend closer to moped-style functionality: all, however, retain the ability to be pedalled by the rider and are therefore not electric motorcycles.", "Many countries have enacted electric bicycle laws to regulate the use of electric bicycles.", "Countries such as the United States and Canada have federal regulations governing the safety requirements and standards of manufacture."], "actualResponse": "I prefer motorcycles as they feel more natural. Mopeds have pedas and a crankset", "index": 42, "contextLen": 2}, {"convesation": ["Ive been listening to a lot of rock and roll lately.", "So you probably know that rock and roll emerged as a defined musical style in the United States in the early to mid 1950s.", "I thought it would have been the UK. That is really cool."], "suggestions": ["Blues is a music genre and musical form originated by African Americans in the Deep South of the United States around the end of the 19th century.", "The genre developed from roots in African musical traditions, African-American work songs, spirituals, and the folk music of white Americans of European heritage.", "Rock music is a broad genre of popular music that originated as \"rock and roll\" in the United States in the early 1950s, and developed into a range of different styles in the 1960s and later, particularly in the United Kingdom and in the United States.", "It has its roots in 1940s and 1950s rock and roll, a style which drew heavily on the African-American genres of blues and rhythm and blues, and from country music.", "Rock and roll emerged as a defined musical style in the United States in the early to mid-1950s.", "It derived most directly from the rhythm and blues music of the 1940s, which itself developed from earlier blues, boogie woogie, jazz and swing music, and was also influenced by gospel, country and western, and traditional folk music."], "actualResponse": "It seem it derived most directly from the rythm and blues music on the 1940s.  Do you like any particular singer?", "index": 43, "contextLen": 2}, {"convesation": ["Since I was young I have loved fashion.", "Have you heard of Gabrielle \"Coco\" Chanel? She was the founder and namesake of the brand Chanel.", "Yes, I love that brand."], "suggestions": ["Chanel S.A. (; ) is a French, privately held company owned by Alain Wertheimer and G\u00e9rard Wertheimer, grandsons of Pierre Wertheimer, who was an early business partner of the \"couturi\u00e8re\" Gabrielle Bonheur Chanel.", "Chanel S.A. is a high fashion house that specializes in haute couture and ready-to-wear clothes, luxury goods and fashion accessories.", "Gabrielle Bonheur \"Coco\" Chanel (19 August 1883 \u2013 10 January 1971) was a French fashion designer and businesswoman.", "She was the founder and namesake of the Chanel brand.", "Chanel No.", "5 is the first perfume launched by French couturier Gabrielle \"Coco\" Chanel."], "actualResponse": "Coco Chanel's first perfume is something you've probably heard of: 5.", "index": 44, "contextLen": 2}, {"convesation": ["One of my favorite movies is Titanic, the one with Leonardo Dicaprio and Kate Winslet.", "Yea the movie is a classic already, with some big names like James Cameron co produced it.", "Yes! I remember going to the movies to see it, seems like not that long ago but it was over 20 years now! "], "suggestions": ["James Francis Cameron (born August 16, 1954) is a Canadian filmmaker, philanthropist, and deep-sea explorer.", "After working in special effects, he found major success after directing and writing the science fiction action film \"The Terminator\" (1984).", "Titanic is a 1997 American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron.", "A fictionalized account of the sinking of the RMS \"Titanic\", it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.", "The wreck of the RMS \"Titanic\" lies at a depth of about (), about south-southeast off the coast of Newfoundland.", "It lies in two main pieces about a third of a mile (600 m) apart."], "actualResponse": "Its interesting that if James Cameron didnt have such an interest in ship wrecks we might not have gotten this masterpiece.", "index": 45, "contextLen": 2}, {"convesation": ["I really like spiders, Ive always had a fascination with them, do you know anything about spiders?", "I do. Spiders are labeled as arthropods. They are air-breathing and have fangs which they use to inject venom. The also have eight legs.", "Some people get creeped out with spiders, but not me!. Im curious though, How long do spiders live for generally? "], "suggestions": ["Spiders (order Araneae) are air-breathing arthropods that have eight legs and chelicerae with fangs that inject venom.", "They are the largest order of arachnids and rank seventh in total species diversity among all other orders of organisms.", "Sri Lanka is a tropical island situated close to the southern tip of India.", "The invertebrate fauna is as large as it is common to other regions of the world.", "The redback spider (\"Latrodectus hasseltii\") is a species of highly venomous spider believed to originate in the South Australian or adjacent Western Australian deserts, but now found throughout Australia, Southeast Asia and New Zealand, with colonies elsewhere outside Australia.", "It is a member of the cosmopolitan genus \"Latrodectus\", the widow spiders."], "actualResponse": "It varies with species of spiders. There are over 45,700 spider species.", "index": 46, "contextLen": 2}, {"convesation": ["Ice cream is world famous favourite dessert", "Yes, I can see why! That frozen dessert is such a wonderful sweet treat!", "It is usually made from dairy products, such as milk and cream, and often combined with fruits or other ingredients and flavors."], "suggestions": ["Ice cream (derived from earlier iced cream or cream ice) is a sweetened frozen food typically eaten as a snack or dessert.", "It is usually made from dairy products, such as milk and cream, and often combined with fruits or other ingredients and flavors.", "Frozen yogurt (also spelled frozen yoghurt; also known as frogurt or by the tradename Froyo ) is a frozen dessert made with yogurt and sometimes other dairy products.", "It is usually more tart than ice cream, as well as lower in fat (due to the use of milk instead of cream).", "Ice cream parlors (or parlours) are restaurants that sell ice cream, gelato, sorbet, and frozen yogurt to consumers.", "Ice cream is typically sold as regular ice cream (also called hard-packed ice cream), gelato, and soft serve, which is usually dispensed by a machine with a limited number of flavors (e.g., chocolate, vanilla, and \"twist\", a mix of the two)."], "actualResponse": "I know ice cream is a specific name for those ingredients! Or you will get something like frozen yogurt or custard, sorbet or gelato. ", "index": 47, "contextLen": 2}, {"convesation": ["I like comics, do you?", "I do like some of them. They were once just comic strips but meant to be funny, then they became stories featuring all sorts of genres.", "With their own worlds, yea. And now, movies!"], "suggestions": ["A comic book or comicbook, also called comic magazine or simply comic, is a publication that consists of comic art in the form of sequential juxtaposed panels that represent individual scenes.", "Panels are often accompanied by brief descriptive prose and written narrative, usually dialog contained in word balloons emblematic of the comics art form.", "Speech balloons (also speech bubbles, dialogue balloons or word balloons) are a graphic convention used most commonly in comic books, comics and cartoons to allow words (and much less often, pictures) to be understood as representing the speech or thoughts of a given character in the comic.", "There is often a formal distinction between the balloon that indicates thoughts and the one that indicates words spoken aloud: the balloon that conveys thoughts is often referred to as a thought bubble.", "The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe that is centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in American comic books published by Marvel Comics.", "The franchise has expanded to include comic books, short films, television series, and digital series."], "actualResponse": "Oh yea, lots of movies from comic books! A lot of comic books feature bubbles for speech, lines and a bunch of characters.", "index": 48, "contextLen": 2}, {"convesation": ["Are you a fan of cheese? There are so many ways to enjoy it.", "Do you like cheese?  Cheese is a food derived from milk ", "I love grilled cheese and cheese pizza. There's even vegan cheese for people now!"], "suggestions": ["Cheese is a food derived from milk that is produced in a wide range of flavors, textures, and forms by coagulation of the milk protein casein.", "It comprises proteins and fat from milk, usually the milk of cows, buffalo, goats, or sheep.", "Milk is a white liquid produced by the mammary glands of mammals.", "It is the primary source of nutrition for infant mammals (including humans who breastfeed) before they are able to digest other types of food.", "Casein ( \"kay-seen\", from Latin \"caseus\", \"cheese\") is the name for a family of related phosphoproteins (\u03b1S1, \u03b1S2, \u03b2, \u03ba).", "These proteins are commonly found in mammalian milk, comprising c. 80% of the proteins in cow's milk and between 20% and 45% of the proteins in human milk."], "actualResponse": "Cheese is produced in a wide range of flavors, textures, and forms by coagulation of the milk protein casein.", "index": 49, "contextLen": 2}]
+[
+  {
+    "conversation": [
+      "I love to eat broccoli. Can you tell me more about this vegetable?",
+      "Broccoli is an edible green plant in the cabbage family ",
+      "Interesting, I always think they look like miniature trees. I like my broccoli steamed and soft."
+    ],
+    "suggestions": [
+      "Broccoli is an edible green plant in the cabbage family whose large flowering head is eaten as a vegetable.",
+      "The word \"broccoli\" comes from the Italian plural of \"\", which means \"the flowering crest of a cabbage\", and is the diminutive form of \"brocco\", meaning \"small nail\" or \"sprout\".",
+      "Cabbage or headed cabbage (comprising several cultivars of Brassica oleracea) is a leafy green or purple biennial plant, grown as an annual vegetable crop for its dense-leaved heads.",
+      "It is descended from the wild cabbage, \"B. oleracea\" var.",
+      "The cabbage looper (\"Trichoplusia ni\") is a moth in the family Noctuidae, a family commonly referred to as owlet moths.",
+      "Its common name comes from its preferred host plants and distinctive crawling behavior."
+    ],
+    "actualResponse": "broccoli\" comes from the Italian plural of \"\", which means \"the flowering crest of a cabbage",
+    "index": 0,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Is Alcohol is a fermented drink?",
+      "Alcohol is an organic compound, most alcohol is not fermented, but beer is",
+      "Is beer not an alcoholic drink?"
+    ],
+    "suggestions": [
+      "Beer is one of the oldest and most widely consumed alcoholic drinks in the world, and the third most popular drink overall after water and tea.",
+      "Beer is brewed from cereal grains—most commonly from malted barley, though wheat, maize (corn), and rice are also used.",
+      "Moonshine is a generic term for distilled alcoholic beverages made throughout the globe from indigenous ingredients reflecting the customs, tastes, and raw materials for fermentation available in each region.",
+      "The term commonly applies to small-scale production, which is often illegal or tightly regulated in many countries.",
+      "Brewing is the production of beer by steeping a starch source (commonly cereal grains, the most popular of which is barley) in water and fermenting the resulting sweet liquid with yeast.",
+      "It may be done in a brewery by a commercial brewer, at home by a homebrewer, or by a variety of traditional methods such as communally by the indigenous peoples in Brazil when making cauim."
+    ],
+    "actualResponse": "yes it is but is made with fermented yeast and is one of the oldest and most consumed forms of alcohol",
+    "index": 1,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "I like to swim even when I'm not very good at it.",
+      "I love to swim too.  People will swim in different places including fresh water, salt water, they do it for recreation, sport, exercise, or survivall",
+      "Yes there are some amazing pro swimmers like Micheal Phelps, do you remember how many gold medals has he won?"
+    ],
+    "suggestions": [
+      "Michael Fred Phelps II (born June 30, 1985) is an American retired competitive swimmer and the most successful and most decorated Olympian of all time, with a total of 28 medals.",
+      "Phelps also holds the all-time records for Olympic gold medals (23), Olympic gold medals in individual events (13), and Olympic medals in individual events (16).",
+      "In sports, a winning streak is a consecutive sequence of won games, or won competitions.",
+      "It can be applied to teams in team sports, and individuals in individual sports.",
+      "Australia has participated officially in every Summer Paralympics Games since its inauguration in 1960 and in the Winter Paralympics Games since 1980.",
+      "The Paralympic Games are held every four years, following the Olympic Games and are governed by the International Paralympic Committee (IPC)."
+    ],
+    "actualResponse": "Yes Micheal Phelps won like 23 gold medals!",
+    "index": 2,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "I love salsa dancing for exercise. It works up a sweat!",
+      "It's hard to believe that Salsa dancing is so popular in America.  It originated all the way down in the Caribbean.",
+      "It's a lot of fun. What else is interesting about it?"
+    ],
+    "suggestions": [
+      "Salsa music is a popular dance music that initially arose in New York City during the 1960s.",
+      "Salsa is the product of various musical genres including the Cuban son montuno, guaracha, cha cha chá, mambo, and to a certain extent bolero, and the Puerto Rican bomba and plena.",
+      "The music of Cuba, including its instruments, performance and dance, comprises a large set of unique traditions influenced mostly by west African and European (especially Spanish) music.",
+      "Due to the syncretic nature of most of its genres, Cuban music is often considered one of the richest and most influential regional musics of the world.",
+      "Salsa is a popular form of social dance that originated in the Caribbean.",
+      "The movements of salsa have origins in Puerto Rican bomba and plena, Cuban Son, cha-cha-cha, mambo and other dance forms."
+    ],
+    "actualResponse": "The salsa's movements are derived from several other dances' forms, including Puerto Rican bomba and plena, Cuban Son, cha-cha-cha, mambo, and others!",
+    "index": 3,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "I have three small dogs! They're adorable.",
+      "They're may be the best pet! They were the very first species to be domesticated, as well. Since then, they've been selectively bred for more than a millennia! This has been done to achieve certain behaviors, sensory capabilities, and physical attributes, of course.",
+      "Wow really? I just bought mine from the breeder and didn't think too much about where they came from."
+    ],
+    "suggestions": [
+      "The domestic dog (\"Canis lupus familiaris\" or \"Canis familiaris\") is a member of the genus \"Canis\" (canines), which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore.",
+      "The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct.",
+      "The gray wolf (\"Canis lupus\"), also known as the timber wolf or western wolf, is a canine native to the wilderness and remote areas of Eurasia and North America.",
+      "It is the largest extant member of its family, with males averaging and females .",
+      "Dog behavior is the internally coordinated responses of individuals or groups of domestic dogs to internal and external stimuli.",
+      "It has been shaped by millennia of contact with humans and their lifestyles."
+    ],
+    "actualResponse": "You choosing dogs as pets is wise. Dogs being associated with humans has encouraged them to become uniquely attuned to human behavior, which has led them to be so much more better suited to co-exist and be pets with humans over other canid species. ",
+    "index": 4,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "It's summertime and I know snakes will be more active.",
+      "Snakes terrify me! I don't like their elongated and legless bodies. They freak me out!",
+      "Me too! I can't stand them and I've started to put mothballs around my home's foundation. "
+    ],
+    "suggestions": [
+      "Mothballs are small balls of chemical pesticide and deodorant, sometimes used when storing clothing and other articles susceptible to damage from mold or moth larvae (especially clothes moths like \"Tineola bisselliella\").",
+      "Use of mothballs when clothing is stored out-of-season has given rise to the colloquial usage of the terms \"mothballed\" and \"put into mothballs\", to refer to anything which is put into storage or whose operation is suspended.",
+      "Pesticide regulation in the United States is primarily a responsibility of the Environmental Protection Agency.",
+      "In most countries, pesticides must be approved for sale and use by a government agency.",
+      "Naphthalene is an organic compound with formula .",
+      "It is the simplest polycyclic aromatic hydrocarbon, and is a white crystalline solid with a characteristic odor that is detectable at concentrations as low as 0.08 ppm by mass."
+    ],
+    "actualResponse": "I knew mothballs were pesticide but I wasn't aware they helped to prevent snakes from entering.",
+    "index": 5,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Linkin Park is my favorite band!  I even went to one of their concerts!",
+      "I love Linkin Park. I liked them in 199 when they first started.",
+      "Awesome!  I have a bunch of their songs on my mp3 player so I can listen to them when I go jogging!"
+    ],
+    "suggestions": [
+      "Meteora is the second studio album by American rock band Linkin Park.",
+      "It was released on March 25, 2003 through Warner Bros. Records, following \"Reanimation\", a collaboration album which featured remixes of songs included on their debut studio album \"Hybrid Theory\".",
+      "Meteora (1802–1821) was a British Thoroughbred racehorse and broodmare who won the classic Oaks Stakes at Epsom Downs Racecourse in 1805.",
+      "In a racing career which began with her win in the Oaks on 31 May 1805 and lasted until July 1810 she ran thirty-six timeas and won twenty-four races.",
+      "Linkin Park is an American rock band from Agoura Hills, California.",
+      "Formed in 1996, the band rose to international fame with their debut album \"Hybrid Theory\" (2000), which was certified Diamond by the RIAA in 2005 and multi-Platinum in several other countries."
+    ],
+    "actualResponse": "I really like Meteora in 2003.",
+    "index": 6,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "I like to play video games. My favorite game to play right now is Minecraft. Do you play video games?",
+      "I don't play video games, implying any type of display device that produces 2 or 3 dimensional images.",
+      "Ok. Have you ever played one? Maybe Pac-Man or Super Mario? Many people like to play games on their phones these days."
+    ],
+    "suggestions": [
+      "Super Mario Kart is a 1992 kart racing video game developed and published by Nintendo for the Super Nintendo Entertainment System video game console.",
+      "The first game of the \"Mario Kart\" series, it was released in Japan and North America in 1992, and in Europe the following year.",
+      "Like its previous installments of games, \"Mario Kart Wii\" incorporates playable characters from the \"Mario\" series, who participate in kart races on various race tracks using specialized items to hinder opponents or gain advantages.",
+      "The game features multiple single-player and multiplayer game modes.",
+      "The \"Mario\" franchise is a series of video games developed and published by Nintendo.",
+      "The franchise features an extensive cast of characters."
+    ],
+    "actualResponse": "I played Mario Kart a few times with my kids when they were younger on our Wii.",
+    "index": 7,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Hello there. What do you think of Toyota cars? They seem pretty reliable to me.",
+      "Toyota is the market leader for hybrid electric vehicles. ",
+      "Of course, the Prius. Where I used to live they are everywhere - northern California. Do you have one?"
+    ],
+    "suggestions": [
+      "A hybrid electric vehicle (HEV) is a type of hybrid vehicle that combines a conventional internal combustion engine (ICE) system with an electric propulsion system (hybrid vehicle drivetrain).",
+      "The presence of the electric powertrain is intended to achieve either better fuel economy than a conventional vehicle or better performance.",
+      "A plug-in electric vehicle (PEV) is any motor vehicle that can be recharged from an external source of electricity, such as wall sockets, and the electricity stored in the rechargeable battery packs drives or contributes to drive the wheels.",
+      "PEV is a subset of electric vehicles that includes all-electric or battery electric vehicles (BEVs), plug-in hybrid vehicles (PHEVs), and electric vehicle conversions of hybrid electric vehicles and conventional internal combustion engine vehicles.",
+      "Government incentives for plug-in hybrid electric vehicles have been established by several national and local governments around the world as a financial incentives to plug-in electric vehicle vehicles to consumers.",
+      "These mainly include tax exemptions and tax credits, and additional perks that range from access to bus lines to waivers on fees (charging, parking, tolls, etc.)."
+    ],
+    "actualResponse": "I do, I thought since it had been around since the late 1990's it was probably a great full hybrid electric car. ",
+    "index": 8,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Have you ever read the book 1984?",
+      "1984 is one of my absolute favorite books! George Orwell is such a great author!",
+      "What is the plot about?"
+    ],
+    "suggestions": [
+      "Nineteen Eighty-Four, often published as 1984, is a dystopian novel published in 1949 by English author George Orwell.",
+      "The novel is set in Airstrip One, formerly Great Britain, a province of the superstate Oceania, whose residents are victims of perpetual war, omnipresent government surveillance and public manipulation.",
+      "Oceania, Eurasia and Eastasia are the three fictional superstates in George Orwell's satirical dystopian novel \"Nineteen Eighty-Four\".",
+      "How the world evolved into the three states is vague.",
+      "Perpetual war, endless war, or a forever war, is a lasting state of war with no clear conditions that would lead to its conclusion.",
+      "These wars are situations of ongoing tension that may escalate at any moment, similar to the Cold War."
+    ],
+    "actualResponse": "The novel is set in a place named Airstrip One, which was formerly Great Britain. The residents are victims of perpetual war, public manipulation and government surveillance. It really makes you think!",
+    "index": 9,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Christmas is my favorite holiday of the year",
+      "You mean the annual holiday commemorating the birth of jesus?",
+      "yes, I love how the kids enjoy getting gift and all the get together to enjoy the birth of Jesus"
+    ],
+    "suggestions": [
+      "The nativity of Jesus or birth of Jesus is described in the gospels of Luke and Matthew.",
+      "In Christian theology the nativity marks the birth of Jesus in fulfillment of the divine will of God, to save the world from sin.",
+      "Christmas traditions vary from country to country.",
+      "Christmas celebrations for many nations include the installing and lighting of Christmas trees, the hanging of Advent wreaths, Christmas stockings, candy canes, and the creation of Nativity scenes depicting the birth of Jesus Christ.",
+      "Christmas is an annual festival commemorating the birth of Jesus Christ, observed primarily on December 25 as a religious and cultural celebration among billions of people around the world.",
+      "A feast central to the Christian liturgical year, it is preceded by the season of Advent or the Nativity Fast and initiates the season of Christmastide, which historically in the West lasts twelve days and culminates on Twelfth Night; in some traditions, Christmastide includes an octave."
+    ],
+    "actualResponse": "Yeah it is a celebration of jesus' birth in bethlehem.",
+    "index": 10,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "I'm a huge Radiohead fan. Do you like them?",
+      "Yes I like them. They're a great English rock band!",
+      "What is your favorite album of theirs? I love The Bends."
+    ],
+    "suggestions": [
+      "Pablo Honey is the debut studio album by the English alternative rock band Radiohead, released on 22 February 1993 by Parlophone Records in the United Kingdom and by Capitol Records in the United States.",
+      "The album was produced by Sean Slade and Paul Q. Kolderie, and was recorded at Chipping Norton Recording Studios and Courtyard Studio in Sutton Courtenay, Oxfordshire, England from September to November 1992.",
+      "The Bends is the second studio album by the English alternative rock band Radiohead, released on 13 March 1995 by Parlophone Records in the United Kingdom and by Capitol Records in the United States.",
+      "The album was produced by John Leckie and engineered by Nigel Godrich, who would go on to co-produce all future albums by the band.",
+      "Radiohead, an alternative rock band from Abingdon, Oxfordshire, have had concerts and other live performances in Europe, North America, Australia, Asia and South America.",
+      "The band's line-up has been constant since its founding, consisting of Thom Yorke (vocals and guitar), Jonny Greenwood (guitar), Ed O'Brien (guitar), Colin Greenwood (bass guitar), and Phil Selway (drums)."
+    ],
+    "actualResponse": "I've always liked Pablo Honey from 1993.",
+    "index": 11,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Hi.  I'm thinking about getting the botulinum injections and would love to know more about them.",
+      "Botulinum is a toxin produced by the bacteria Clostridium Botulinum.",
+      "Sounds a little scary, but I know people that have had it done and really like the results."
+    ],
+    "suggestions": [
+      "Botulinum toxin therapy of strabismus is a medical technique used sometimes in the management of strabismus, in which botulinum toxin is injected into selected extraocular muscles in order to reduce the misalignment of the eyes.",
+      "The injection of the toxin to treat strabismus, reported upon in 1981, is considered to be the first ever use of botulinum toxin for therapeutic purposes.",
+      "Strabismus, also called crossed eyes among other terms, is a condition in which the eyes do not properly align with each other when looking at an object.",
+      "The eye which is focused on an object can alternate.",
+      "Botulinum toxin (BTX) is a neurotoxic protein produced by the bacterium \"Clostridium botulinum\" and related species.",
+      "It prevents the release of the neurotransmitter acetylcholine from axon endings at the neuromuscular junction and thus causes flaccid paralysis."
+    ],
+    "actualResponse": "It can be used for therapeutic purposes. The first such use was to treat strabismus in 1981.",
+    "index": 12,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Hi, I am a vegan. Do you like to eat plant-based meals?",
+      "I have always been fond of abstaining from the use of animal products. I think it is moral issue",
+      "What about it has made you come to that conclusion?"
+    ],
+    "suggestions": [
+      "Animal rights is the idea in which some, or all, non-human animals are entitled to the possession of their own lives and that their most basic interests—such as the need to avoid suffering—should be afforded the same consideration as similar interests of human beings.",
+      "Advocates oppose the assignment of moral value and fundamental protections on the basis of species membership alone—an idea known since 1970 as speciesism, when the term was coined by Richard D. Ryder—arguing that it is a prejudice as irrational as any other.",
+      "Cruelty to animals, also called animal abuse, animal neglect or animal cruelty, is the infliction by omission (animal neglect) or by commission by humans of suffering or harm upon any non-human animal, regardless of whether the act is against the law.",
+      "More narrowly, it can be the causing of harm or suffering for specific achievement, such as killing animals for food or for their fur; opinions differ about the extent of cruelty associated with a given method of slaughter.",
+      "People for the Ethical Treatment of Animals (PETA ; stylized PeTA) is an American animal rights organization based in Norfolk, Virginia, and led by Ingrid Newkirk, its international president.",
+      "A nonprofit corporation with nearly 400 employees, it claims that it has 6.5 million members and supporters, in addition to claiming that it is the largest animal rights group in the world."
+    ],
+    "actualResponse": "The argument behind my decision that persuaded me to follow this way is the animal cruelty that I witnessed in the animal factories",
+    "index": 13,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "How can you explain people can change emotional behaviors all of a sudden? ",
+      "Sounds like it could be Bipolar disorder. :(",
+      "What do you know about it?"
+    ],
+    "suggestions": [
+      "Bipolar disorder, previously known as manic depression, is a mental disorder that causes periods of depression and periods of elevated mood.",
+      "The elevated mood is significant and is known as mania or hypomania, depending on its severity, or whether symptoms of psychosis are present.",
+      "Mood disorder, also known as mood (affective) disorders, is a group of conditions where a disturbance in the person's mood is the main underlying feature.",
+      "The classification is in the \"Diagnostic and Statistical Manual of Mental Disorders\" (DSM) and International Classification of Diseases (ICD).",
+      "Major depressive disorder (MDD), also known simply as depression, is a mental disorder characterized by at least two weeks of low mood that is present across most situations.",
+      "It is often accompanied by low self-esteem, loss of interest in normally enjoyable activities, low energy, and pain without a clear cause."
+    ],
+    "actualResponse": "Its a disorder previously known as manic depression. It can cause periods of depression.",
+    "index": 14,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Hi, I'm really interested in finding more about modern poets, what do you know about Larkin?",
+      "He was a poet, librarian, and novelist that was born back in August 9, 1922.",
+      "Ah so he would be over 90 if he was alive, what's his most famous work?"
+    ],
+    "suggestions": [
+      "Philip Arthur Larkin (9 August 1922 – 2 December 1985) was an English poet, novelist and librarian.",
+      "His first book of poetry, \"The North Ship\", was published in 1945, followed by two novels, \"Jill\" (1946) and \"A Girl in Winter\" (1947), and he came to prominence in 1955 with the publication of his second collection of poems, \"The Less Deceived\", followed by \"The Whitsun Weddings\" (1964) and \"High Windows\" (1974).",
+      "The North Ship is a collection of poems by Philip Larkin (1922-1985), and was published in 1945 by Reginald A. Caton's Fortune Press.",
+      "Caton did not pay his writers and expected them to buy a certain number of copies themselves.",
+      "American literature is literature written or produced in the United States and its preceding colonies (for specific discussions of poetry and theater, see Poetry of the United States and Theater in the United States).",
+      "Before the founding of the United States, the British colonies on the eastern coast of the present-day United States were heavily influenced by English literature."
+    ],
+    "actualResponse": "He had a lot of great works in his first book of poetry \"The North Ship\"",
+    "index": 15,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Hi there! I consider myself a cat person, I like them more than dogs - how about you?",
+      "I find myself more of a dog person! I like their personality a bit more, but I know cats are just a valued for their companionship and their ability to hunt vermin!",
+      "Definitely! My last cat was a great little mouser - we never had a problem after she came along"
+    ],
+    "suggestions": [
+      "A cat registry or cat breed registry, also known as a cat fancier organisation, cattery federation, or cat breeders' association, is an organisation that registers domestic cats (usually purebred) of many breeds, for exhibition and for breeding lineage tracking purposes.",
+      "A cat registry stores the pedigrees (genealogies) of cats, cattery names, and other details of cats; studbooks (lists of authorised studs of recognised breeds), breed descriptions, and the formal breed standards (a.k.a.",
+      "The following is a list of experimental cat breeds and crossbreeds that do not have the recognition of major national or international cat registries, such as The International Cat Association (TICA) in the US, Europe, and Australasia; the Governing Council of the Cat Fancy (GCCF) in the UK, the Fédération Internationale Féline (FiFE) in continental Europe, the Cat Fanciers' Association (CFA) in North America, or the more recent World Cat Federation based in Germany.",
+      "Such a breed may be recognized by one of the smaller cat registries.",
+      "The Manx cat (, in earlier times often spelled Manks), is a breed of domestic cat (\"Felis catus\") originating on the Isle of Man, with a naturally occurring mutation that shortens the tail.",
+      "Many Manx have a small stub of a tail, but Manx cats are best known as being entirely tailless; this is the most distinguishing characteristic of the breed, along with elongated hind legs and a rounded head."
+    ],
+    "actualResponse": "That's awesome. If you ever get another cat, which I hope you do, there are seventy different cat breeds recognized by cat registries! Hopefully it'll keep the mouses out of your home!",
+    "index": 16,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "I remember loving the band Korn back when I was in high school.  Do you like the band?",
+      "Korn is an american Nu metal band, I've never been much of a fan.",
+      "Yeah, they were quite polarizing due to their lyrics and sound.  They seemed quite rebelious. "
+    ],
+    "suggestions": [
+      "Nu metal (also known as nü-metal and ) is a form of that combines elements of with elements of other music genres such as hip hop, alternative rock, funk and grunge.",
+      "bands have drawn elements and influences from a variety of musical styles, including multiple genres of heavy metal.",
+      "Korn (stylized as KoЯn) is an American nu metal band from Bakersfield, California, formed in 1993.",
+      "The band's current lineup includes founding members James \"Munky\" Shaffer (rhythm guitar), Reginald \"Fieldy\" Arvizu (bass), Brian \"Head\" Welch (lead guitar, backing vocals), and Jonathan Davis (lead vocals, bagpipes), with the addition of Ray Luzier (drums), who replaced the band's original member, David Silveria in 2007.",
+      "Heavy metal (or simply metal) is a genre of rock music that developed in the late 1960s and early 1970s, largely in the United Kingdom.",
+      "With roots in blues rock and psychedelic/acid rock, the bands that created heavy metal developed a thick, massive sound, characterized by highly amplified distortion, extended guitar solos, emphatic beats, and overall loudness."
+    ],
+    "actualResponse": "I don't have a problem with metal bands, for whatever reason Korn just wasn't for me. They were for formed by 3 members of the band L.A.P.D",
+    "index": 17,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Iced tea is one of my favorite summer drinks!",
+      "I love iced tea! my favorite is Lipton, They are a British brand of tea in case you didnt know, They are owned by the company Unilever.",
+      "I didn't know that.  We also buy Lipton tea most often."
+    ],
+    "suggestions": [
+      "Lipton is a British brand of tea, owned by the company Unilever.",
+      "Lipton was also a supermarket chain in the United Kingdom before it was sold off to Argyll Foods, to allow the company to focus solely on tea.",
+      "Sir Thomas Johnstone Lipton, 1st Baronet, KCVO (10 May 1848 – 2 October 1931) was a Scotsman of Irish parentage who was a self-made man, merchant, and yachtsman.",
+      "He engaged in extensive advertising for his chain of grocery stores and his brand of Lipton teas.",
+      "West Auckland Town Football Club are a football club from West Auckland, near Bishop Auckland in County Durham, England, competing in the Northern League, in the ninth tier of the English football league system.",
+      "The club is most famous for being the winners of the Sir Thomas Lipton Trophy, one of the world's first international footballing competitions, twice, in 1909 and 1911."
+    ],
+    "actualResponse": "Yes Lipton is an all time favorite, In fact  The company got its name after its founder Thomas Lipton",
+    "index": 18,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Hey! Whats up? I'm studying to be a dental hygienist",
+      "Good for you! That's a great job. I bet you brush at least twice a day ;)",
+      "I do! Sometimes more! It's easy to brush my own teeth but, I'm actually pretty afraid of other people's saliva. I'm kinda afraid of becoming a hygienist because of it."
+    ],
+    "suggestions": [
+      "Tooth decay, also known as dental caries or cavities, is a breakdown of teeth due to acids made by bacteria.",
+      "The cavities may be a number of different colors from yellow to black.",
+      "Water fluoridation is the controlled addition of fluoride to a public water supply to reduce tooth decay.",
+      "Fluoridated water contains fluoride at a level that is effective for preventing cavities; this can occur naturally or by adding fluoride.",
+      "Tooth enamel is one of the four major tissues that make up the tooth in humans and many other animals, including some species of fish.",
+      "It makes up the normally visible part of the tooth, covering the crown."
+    ],
+    "actualResponse": "I can see that. The mouth has a lot of bacteria in it, from tooth decay, and you're working inside of it. Maybe the more you practise the less scared you'll be.",
+    "index": 19,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Scuba Diving is an interesting thing.  There's a lot of ocean science involved.",
+      "Of course yes. It could be called  a science when the diver uses a self-contained underwater breathing apparatus",
+      "How far down can scuba divers go?"
+    ],
+    "suggestions": [
+      "Scuba diving is a form of underwater diving where the diver uses a self-contained underwater breathing apparatus (scuba) which is completely independent of surface supply, to breathe underwater.",
+      "Scuba divers carry their own source of breathing gas, usually compressed air, allowing them greater independence and freedom of movement than surface-supplied divers, and longer underwater endurance than breath-hold divers.",
+      "A diving cylinder, scuba tank or diving tank is a gas cylinder used to store and transport the high pressure breathing gas required by a scuba set.",
+      "It may also be used for surface-supplied diving or as decompression gas or an emergency gas supply for surface supplied diving or scuba.",
+      "A scuba set is any breathing apparatus that is carried entirely by an underwater diver and provides the diver with breathing gas at the ambient pressure.",
+      "(Scuba is an anacronym for self-contained underwater breathing apparatus.)"
+    ],
+    "actualResponse": "I think that depends on the source of breathing. Gas or compressed air which allows them them greater independence and freedom of movement",
+    "index": 20,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "I want to learn to surf do you surf?",
+      "I do! Surfing is a surface water sport in which the wave rider, referred to as a surfer, rides on the forward or deep face of a moving wave",
+      "Does it take any special equipment to surf?"
+    ],
+    "suggestions": [
+      "Surfing is a surface water sport in which the wave rider, referred to as a surfer, rides on the forward or deep face of a moving wave, which is usually carrying the surfer towards the shore.",
+      "Waves suitable for surfing are primarily found in the ocean, but can also be found in lakes or in rivers in the form of a standing wave or tidal bore.",
+      "Turkey offers warm and crystal clear waves of Mediterranean on the south as well as wind swells of Black Sea on the north.",
+      "The wave period is shorter than the ocean waves but can reach up to periods of 11-12 second swells although the average swell period is 6–7 seconds.",
+      "Surf culture is the culture that includes the people, language, fashion, and lifestyle surrounding the sport of surfing.",
+      "The history of surfing began with the ancient Polynesians."
+    ],
+    "actualResponse": "just a board! Waves suitable for surfing are primarily found in the ocean.",
+    "index": 21,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Do you have any tattoos? I personally am never getting one, it just seems like a terrible decision to me",
+      "No my dad is covered so as I got older I choose not to insert ink, dyes and pigments, either indelible or temporary, into the dermis layer of the skin",
+      "That is good, although my opinion is not the end all be all, I just do not get it, I change my wallpaper every week on my phone, I dislike something so permanent"
+    ],
+    "suggestions": [
+      "A tattoo is a form of body modification where a design is made by inserting ink, dyes and pigments, either indelible or temporary, into the dermis layer of the skin to change the pigment.",
+      "Tattoos fall into three broad categories: purely decorative (with no specific meaning); symbolic (with a specific meaning pertinent to the wearer); pictorial (a depiction of a specific person or item).",
+      "Tattooing has been practiced across the globe since at least Neolithic times, as evidenced by mummified preserved skin, ancient art, and the archaeological record.",
+      "Both ancient art and archaeological finds of possible tattoo tools suggest tattooing was practiced by the Upper Paleolithic period in Europe.",
+      "Tattoo removal has been performed with various tools since the start of tattooing.",
+      "While tattoos were once considered permanent, it is now possible to remove them with treatments, fully or partially."
+    ],
+    "actualResponse": " Tattoos fall into three broad categories, decorative, symbolic and pictorial. I like the ideal of Symbolic which sounds nice until you realize it will remind you of that person that passed or even your entire life. Maybe you should get a foot tattoo?",
+    "index": 22,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Brunch is my favorite meal.",
+      "Me too! There's something decadent about a late breakfast and a glass of champagne at the same time!",
+      "Yes I love drinking champagne with my meal."
+    ],
+    "suggestions": [
+      "Breakfast is the first meal of a day, most often eaten in the early morning before undertaking the day's work.",
+      "The word in English refers to breaking the fasting period of the prior night.",
+      "A pancake (or hotcake, griddlecake, or flapjack) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter.",
+      "In Britain, pancakes are often unleavened and resemble a crêpe.",
+      "A sausage is a cylindrical meat product usually made from ground meat, often pork, beef, or veal, along with salt, spices and other flavourings, and breadcrumbs, encased by a skin.",
+      "Typically, a sausage is formed in a casing traditionally made from intestine, but sometimes from synthetic materials."
+    ],
+    "actualResponse": "It's great, isn't it? Nothing like a glass with eggs, sausages and pancakes!",
+    "index": 23,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Are you familiar with phonograph records? I've never heard of them.",
+      "You mean a gramophone? It's mainly in the british empire. it pretty much is just a vynle record.",
+      "What else do you know about them?"
+    ],
+    "suggestions": [
+      "A phonograph record (also known as a gramophone record, especially in British English, or record) is an analog sound storage medium in the form of a flat disc with an inscribed, modulated spiral groove.",
+      "The groove usually starts near the periphery and ends near the center of the disc.",
+      "The overwhelming majority of records manufactured have been of certain sizes (7, 10, or 12 inches), playback speeds (33, 45, or 78 RPM), and appearance (round black discs).",
+      "However, since the commercial adoption of the gramophone record (called a phonograph record in the U.S., where both cylinder records and disc records were invented), a wide variety of records have also been produced that do not fall into these categories, and they have served a variety of purposes.",
+      "Stereophonic sound or, more commonly, stereo, is a method of sound reproduction that creates an illusion of multi-directional audible perspective.",
+      "This is usually achieved by using two or more independent audio channels through a configuration of two or more loudspeakers (or stereo headphones) in such a way as to create the impression of sound heard from various directions, as in natural hearing."
+    ],
+    "actualResponse": "I know they have grooves on the disc so that sound can be played.",
+    "index": 24,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Have you ever read Jane Austen?",
+      "I have she was an English novelist known primarily for her six major novels",
+      "Did she have fame while she was alive?"
+    ],
+    "suggestions": [
+      "Jane Austen (; 16 December 1775 – 18 July 1817) was an English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century.",
+      "Austen's plots often explore the dependence of women on marriage in the pursuit of favourable social standing and economic security.",
+      "The reception history of Jane Austen follows a path from modest fame to wild popularity.",
+      "Jane Austen (1775–1817), the author of such works as \"Pride and Prejudice\" (1813) and \"Emma\" (1815), has become one of the best-known and most widely read novelists in the English language.",
+      "Jane Austen's (1775–1817) distinctive literary style relies on a combination of parody, burlesque, irony, free indirect speech and a degree of realism.",
+      "She uses parody and burlesque for comic effect and to critique the portrayal of women in 18th-century sentimental and gothic novels."
+    ],
+    "actualResponse": "She did, Austen's plots often explore the dependence of women on marriage. So a lot of women could get behind her work.",
+    "index": 25,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Do you like country music at all? I know people don't like it, but there are a lot of good country music artists out there.",
+      "I like a lot of the songs. It has been around since the nineteen twenties and originated in the US.",
+      "I am a huge fan of Johnny Cash, Keith Urban, and Carrie Underwood. Do you know much about them?"
+    ],
+    "suggestions": [
+      "Carrie Marie Underwood (born March 10, 1983) is an American country singer, songwriter, and actress.",
+      "She rose to fame as the winner of the fourth season of \"American Idol\", in 2005.",
+      "Some Hearts is the debut studio album by American singer and songwriter Carrie Underwood, released in the United States on November 15, 2005 by Arista Nashville.",
+      "The album contains the number one singles \"Jesus, Take the Wheel\", \"Don't Forget to Remember Me\", \"Wasted\", and \"Before He Cheats\".",
+      "Heart of Midlothian Football Club, commonly known as Hearts, is a Scottish professional football club based in Gorgie in the west of Edinburgh.",
+      "Hearts are the oldest football club in the Scottish capital, having been formed in 1874 by a group of friends from the Heart of Midlothian Quadrille Assembly Club (Dancing)."
+    ],
+    "actualResponse": "I liked her debut album, in 2005, Some Hearts.",
+    "index": 26,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "I don't have any kids but seeing how my parents raised my siblings and I showed me how tough parenting is!",
+      "It is! Providing emotional, social, and physical support to development of a child can be hard!",
+      "I bet parenting can be very stressful. Are you a parent?"
+    ],
+    "suggestions": [
+      "Developmental psychology is the scientific study of how and why human beings change over the course of their life.",
+      "Originally concerned with infants and children, the field has expanded to include adolescence, adult development, aging, and the entire lifespan.",
+      "Adolescence () is a transitional stage of physical and psychological development that generally occurs during the period from puberty to legal adulthood (age of majority).",
+      "Adolescence is usually associated with the teenage years, but its physical, psychological or cultural expressions may begin earlier and end later.",
+      "Parenting or child rearing is the process of promoting and supporting the physical, emotional, social, and intellectual development of a child from infancy to adulthood.",
+      "Parenting refers to the intricacies of raising a child aside from the biological relationship."
+    ],
+    "actualResponse": "No! But I understand the intricacies of raising a child to adulthood! They go through so much. ",
+    "index": 27,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Do you know much about Osteopathic medicinal uses in the USA?",
+      "Osteopathic doctors licensed from the US are also able to practice in 65 other countries, including Canada",
+      "I did not know that. What does osteopathic even mean? Bones?"
+    ],
+    "suggestions": [
+      "Osteopathy is a type of alternative medicine that emphasizes manual readjustments, myofascial release and other physical manipulation of muscle tissue and bones.",
+      "Practitioners of osteopathy are referred to as osteopaths.",
+      "Gluteoplasty (Greek \"gloutόs\", rump + \"plassein\", to shape) denotes the plastic surgery and the liposuction procedures for the correction of the congenital, traumatic, and acquired defects and deformities of the buttocks and the anatomy of the gluteal region; and for the aesthetic enhancement (by augmentation or by reduction) of the contour of the buttocks.",
+      "The corrective procedures for buttcock augmentation and buttcock repair include the surgical emplacement of a gluteal implant (buttock prosthesis); liposculpture (fat transfer and liposuction); and body contouring (surgery and liposculpture) to resolve the patient’s particular defect or deformity of the gluteal region.",
+      "Muscle contraction is the activation of tension-generating sites within muscle fibers.",
+      "In physiology, muscle contraction does not necessarily mean muscle shortening because muscle tension can be produced without changes in muscle length such as holding a heavy book or a dumbbell at the same position."
+    ],
+    "actualResponse": "Osteopathy deals with muscle tissues and bones, including readjustments",
+    "index": 28,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Hi, I play the guitar do you?",
+      "I can't really play a guitar all that well but my brother is a wizz with his six string.",
+      "That's cool.  It took me awhile to learn myself.  Do you still practice?"
+    ],
+    "suggestions": [
+      "The classical guitar (also known as concert guitar, classical acoustic, nylon-string guitar, or Spanish guitar) is the member of the guitar family used in classical music.",
+      "It is an acoustical wooden guitar with strings made of nylon, rather than the metal strings used in acoustic and electric guitars.",
+      "Anthony Glise (born January 17, 1956 in St. Joseph, Missouri) is a guitarist, composer and author.",
+      "He is the only American guitarist who has won first prize in the International Toscanini Competition held in Italy.",
+      "In classical guitar, the right hand is developed in such a way that it can sustain two, three, and four voice harmonies while also paying special attention to tone production.",
+      "The Fingers (i) index, (m) middle, and (a) ring are generally used to play the melody, while (p) thumb accompanies in the bass register adding harmony, and produces a comparable texture and effect to that of the piano."
+    ],
+    "actualResponse": "No not really. I have a classical guitar sitting around somewhere, but I can hardly play it.",
+    "index": 29,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "My favorite fruit is strawberries. What can you tell me about them?",
+      "The strawberry is a garden fruit that is a widely grown hybrid species of the genus \"Fragaria\". Which is collectively known as the strawberries.",
+      "Oh that is so interesting. They taste so good. I like strawberry shortcake as well."
+    ],
+    "suggestions": [
+      "The garden strawberry (or simply strawberry; Fragaria × ananassa) is a widely grown hybrid species of the genus \"Fragaria\", collectively known as the strawberries.",
+      "It is cultivated worldwide for its fruit.",
+      "The breeding of strawberries is a long story that starts with the selection and cultivation of European strawberry species in western Europe in the 15th century while a similar discovery and cultivation occurred in Chile.",
+      "The most commonly consumed strawberry species in modern times is the garden strawberry, a species derived from hybridization of two other species, with the scientific name \"Fragaria\" × \"ananassa\", but there are many species of strawberries, several others of which are cultivated to some extent.",
+      "Fragaria chiloensis, the beach strawberry, Chilean strawberry, or coastal strawberry, is one of two species of wild strawberry that were hybridized to create the modern garden strawberry (\"F. × ananassa\").",
+      "It is noted for its large berries."
+    ],
+    "actualResponse": "I do too! The garden strawberry was actually first bred in Brittany, France in 1714. It was a cross of \"Fragaria virginiana\" from eastern North America and \"Fragaria chiloensis\" which was brought from Chile.",
+    "index": 30,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "halloween is my favorite holiday. It is so fun to see people dressed up.",
+      "Except for clowns. I remember those evil clown sightings in 2016. How do you feel about clown costumes?",
+      "good point, clowns are creepy. Did you see the movie IT? that depicted clowns perfectly"
+    ],
+    "suggestions": [
+      "The evil clown is a subversion of the traditional comic clown character, in which the playful trope is instead rendered as disturbing through the use of horror elements and dark humor.",
+      "The modern archetype of the evil clown was popularized by Stephen King's 1986 novel \"It\".",
+      "A specific fear of clowns has sometimes been discussed in terms of a specific phobia.",
+      "The term \"coulrophobia\" is a neologism coined in the context of informal \"\"-phobia\" lists\".",
+      "The 2016 clown sightings were reports of people disguised as evil clowns in incongruous settings, such as near forests and schools.",
+      "The incidents were reported in the United States, Canada, and subsequently in other countries and territories from August 2016."
+    ],
+    "actualResponse": "Yes, I've seen both the original and the new one. The original movie is what gave me my coulrophobia! I have a huge fear of clowns.",
+    "index": 31,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "im thinking about visiting new york city, have you ever been ?",
+      "Welcome to  New York, is the most populous city in the United States.",
+      "oh wow i didnt know that, what else can you tell me"
+    ],
+    "suggestions": [
+      "The City of New York, often called New York City or simply New York, is the most populous city in the United States.",
+      "With an estimated 2016 population of 8,537,673 distributed over a land area of about , New York City is also the most densely populated major city in the United States.",
+      "Denver (), officially the City and County of Denver, is the capital and most populous municipality of the U.S. state of Colorado.",
+      "Denver is in the South Platte River Valley on the western edge of the High Plains just east of the Front Range of the Rocky Mountains.",
+      "Manhattan () is the most densely populated borough of New York City, its economic and administrative center, and its historical birthplace.",
+      "Locally it is often referred to simply as \"The City\"."
+    ],
+    "actualResponse": "Its an  an estimated 2016 population of 8,537,673 distributed over a land area ",
+    "index": 32,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "I just love giant pandas - they're so beautiful. I wish I could see one in the wild.",
+      "It is actually considered a carnivore although 99% of its diet is bamboo!",
+      "Weird it's considered a carnivore! Where do most pandas live?"
+    ],
+    "suggestions": [
+      "The giant panda (\"Ailuropoda melanoleuca\", \"black and white cat-foot\"; , \"big bear cat\"), also known as panda bear or simply panda, is a bear native to south central China.",
+      "It is easily recognized by the large, distinctive black patches around its eyes, over the ears, and across its round body.",
+      "The following is a list of characters from the DreamWorks animated film media franchise \"Kung Fu Panda\", with their shorts and specials \"Secrets of the Furious Five\", \"Kung Fu Panda Holiday\", \"\", and \"\", as well as the video games and TV show \"\".",
+      "The world of \"Kung Fu Panda\" is a fantasized version of ancient China as typically depicted in the wuxia film genre populated by anthropomorphized Asian animals where the martial arts can have magical qualities on top of extraordinary physical prowess for those sufficiently skilled.",
+      "The red panda (\"Ailurus fulgens\"), also called the lesser panda, the red bear-cat, and the red cat-bear, is a mammal native to the eastern Himalayas and southwestern China.",
+      "It has reddish-brown fur, a long, shaggy tail, and a waddling gait due to its shorter front legs; it is roughly the size of a domestic cat, though with a longer body and somewhat heavier."
+    ],
+    "actualResponse": "the giant panda lives mostly in south central china actually!",
+    "index": 33,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "How do you feel about Jimi Hendrix?",
+      "I love all three of these songs by Jimi !",
+      "Which ones?"
+    ],
+    "suggestions": [
+      "Are You Experienced is the debut studio album by English-American rock band the Jimi Hendrix Experience.",
+      "Released in 1967, the LP was an immediate critical and commercial success, and it is widely regarded as one of the greatest debuts in the history of rock music.",
+      "James Marshall \"Jimi\" Hendrix (born Johnny Allen Hendrix; November 27, 1942 – September 18, 1970) was an American rock guitarist, singer, and songwriter.",
+      "Although his mainstream career spanned only four years, he is widely regarded as one of the most influential electric guitarists in the history of popular music, and one of the most celebrated musicians of the 20th century.",
+      "\"Purple Haze\" is a song written by Jimi Hendrix and released as the second record single by the Jimi Hendrix Experience on March 17, 1967.",
+      "As a record chart hit in several countries and the opening number on the Experience's debut American album, it was many people's first exposure to Hendrix's psychedelic rock sound."
+    ],
+    "actualResponse": "Hey Joe, Purple Haze and The Wind cries Mary.",
+    "index": 34,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Hey! Do you know who Jimmy Fallon is? I think he is hilarious!",
+      "Yes, I like him a lot. I especially love The Tonight Show Starring Jimmy Fallon.",
+      "Yes! He is my favorite late night host by far. I especially loved him on Saturday Night Live. "
+    ],
+    "suggestions": [
+      "Saturday Night Live (SNL) is an American late-night live television variety show created by Lorne Michaels and developed by Dick Ebersol.",
+      "The show premiered on NBC on October 11, 1975, under the original title NBC's Saturday Night.",
+      "James Thomas Fallon (born September 19, 1974) is an American comedian, actor, television host and musician.",
+      "He is known for his work in television as a cast member on \"Saturday Night Live\" and as the host of late-night talk show \"The Tonight Show Starring Jimmy Fallon\" and before that \"Late Night with Jimmy Fallon\".",
+      "Dennis Michael Miller (born November 3, 1953) is an American stand-up comedian, talk show host, political commentator, sports commentator, actor, and television and radio personality.",
+      "He rose as a cast member of \"Saturday Night Live\" in 1985, and subsequently hosted a string of his own talk shows on HBO, CNBC, and in syndication."
+    ],
+    "actualResponse": "I actually found out recently that when he was cast for SNL, he was fulfilling his lifelong dream. He had always wanted to be on that show.",
+    "index": 35,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "I have been caught up in a lie, I regret telling a lie but I wanted to fit in around the underwater diving teams in my area. Anyway, I said I knew a lot of it and I actively did underwater diving, all is a lie. Do you know any info on it that can help get me out of this hole?",
+      "Um, I can't help you with that.  Let's talk about DIVING! That's where humans descend below the water surface. ",
+      "Yes! That will work fine. I bet it's the same thing. Typically when we dive, it's usually under water, so this info will save me. I have learned not to tell lies over this one, thank you so much"
+    ],
+    "suggestions": [
+      "Underwater diving, as a human activity, is the practice of descending below the water's surface to interact with the environment.",
+      "Immersion in water and exposure to high ambient pressure have physiological effects that limit the depths and duration possible in ambient pressure diving.",
+      "Scuba diving is a form of underwater diving where the diver uses a self-contained underwater breathing apparatus (scuba) which is completely independent of surface supply, to breathe underwater.",
+      "Scuba divers carry their own source of breathing gas, usually compressed air, allowing them greater independence and freedom of movement than surface-supplied divers, and longer underwater endurance than breath-hold divers.",
+      "The safety of underwater diving depends on four factors: the environment, the equipment, behaviour of the individual diver and performance of the dive team.",
+      "The underwater environment can impose severe physical and psychological stress on a diver, and is mostly beyond the diver's control."
+    ],
+    "actualResponse": "Human beings are not adapted to the environment of diving that is where various equipment has been developed to help with that. ",
+    "index": 36,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Ive always wanted to go to Paris. It looks fantastic.",
+      "I lived there for a few years, and really got in touch with the place. It's fantastic. As far back as the 17th century, it's been one of Europe's go-to major centers for things like finance, commerce, fashion, science, and, of course, the arts. And for good reason.",
+      "Paris looks very lively. I heard there are a lot of museums there. It must me rich in history."
+    ],
+    "suggestions": [
+      "Paris () is the capital and most populous city in France, with an administrative-limits area of and an official population of 2,206,488 (2015).",
+      "The city is a commune and department, and the heart of the Île-de-France region (colloquially known as the 'Paris Region'), whose 2016 population of 12,142,802 represented roughly 18 percent of the population of France.",
+      "Antony () is a French commune in the southern suburbs of Paris, France.",
+      "It is located from the centre of Paris.",
+      "The city of Paris (also called the Commune or Department of Paris) had a population of 2,241,346 people within its administrative city limits as of January 1, 2014.",
+      "It is surrounded by the Paris \"unité urbaine\", or urban area, the most populous urban area in the European Union."
+    ],
+    "actualResponse": "It's rich in history, and people flock to it because of its history, culture, and scenery. This is evidenced by the fact that it's considered the heart of the Île-de-France region,and had 18% of France's population in 2016, with 12,142,802 people.",
+    "index": 37,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "All my friends keep telling me that I should start watching Game of Thrones, but I really don't know anything about it.",
+      "I know it's a fantasy drama that a lot of people watch. And it has Jason Momoa in it!",
+      "He's one of the few people from the show that I know of, only because he played Aquaman in Dawn of Justice."
+    ],
+    "suggestions": [
+      "The characters from the American medieval fantasy television series \"Game of Thrones\" are based on their respective counterparts from author George R. R. Martin's \"A Song of Ice and Fire\" series of novels.",
+      "Set in a fictional universe that has been referred to so far as \"The Known World,\" the series follows a civil war for the Iron Throne of the continent of Westeros, fought between the rival royal and noble families and their respective supporters.",
+      "Daenerys Targaryen is a fictional character in George R. R. Martin's \"A Song of Ice and Fire\" series of novels, as well as the television adaptation, \"Game of Thrones\", where she is portrayed by Emilia Clarke.",
+      "In the novels, she is a prominent point of view character.",
+      "Khal Drogo is a fictional character in the \"A Song of Ice and Fire\" series of fantasy novels by American author George R. R. Martin, and its television adaptation \"Game of Thrones\".",
+      "Introduced in 1996's \"A Game of Thrones\", Drogo is a \"khal\", a leader of the Dothraki, a tribe of warriors who roam the continent of Essos."
+    ],
+    "actualResponse": "Yes, he plays Khal Drogo in the series.",
+    "index": 38,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "I love those Role-playing game.",
+      "Me too, i like it because players take responsibility for acting out these roles within a narrative",
+      "Yes, those type of games are very complex and exiting."
+    ],
+    "suggestions": [
+      "A role-playing video game (commonly referred to as role-playing game or RPG, as well as computer role-playing game or CRPG) is a video game genre where the player controls the actions of a character (and/or several party members) immersed in some well-defined world.",
+      "Many role-playing video games have origins in tabletop role-playing games (Including \"Dungeons & Dragons\") and use much of the same , settings and game mechanics.",
+      "Eastern role-playing video games are role-playing video games developed in East Asia.",
+      "Most Eastern role-playing games are Japanese role-playing games (JRPG), developed in Japan.",
+      "A video game genre is a specific category of games related by similar gameplay characteristics.",
+      "Genres are not usually defined by the actual content of the game or its medium of play, but by its common challenge."
+    ],
+    "actualResponse": "Role playing games also include a single player version video games where players play with a group of characters ",
+    "index": 39,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "I would like to learn how to fly an airplane.",
+      "It's a shame the Wright brothers aren't around. They were the first successful ones to build and fly an airplane.",
+      "Yes I've heard about them. When did they build the first airplane?"
+    ],
+    "suggestions": [
+      "The pioneer era of aviation refers to the period of aviation history between the first successful powered flight, generally accepted to have been made by the Wright Brothers on 17 December 1903, and the outbreak of the First World War in August 1914.",
+      "Once the principles of powered controlled flight had been established there was a period in which many different aircraft configurations were experimented with.",
+      "A timeline of United States inventions (1890–1945) encompasses the ingenuity and innovative advancements of the United States within a historical context, dating from the Progressive Era to the end of World War II, which have been achieved by inventors who are either native-born or naturalized citizens of the United States.",
+      "Copyright protection secures a person's right to his or her first-to-invent claim of the \"original\" invention in question, highlighted in Article I, Section 8, Clause 8 of the United States Constitution which gives the following enumerated power to the United States Congress: In 1641, the first patent in North America was issued to Samuel Winslow by the General Court of Massachusetts for a new method of making salt.",
+      "The Wright brothers, Orville (August 19, 1871 – January 30, 1948) and Wilbur (April 16, 1867 – May 30, 1912), were two American aviators, engineers, inventors, and aviation pioneers who are generally credited with inventing, building, and flying the world's first successful airplane.",
+      "They made the first controlled, sustained flight of a powered, heavier-than-air aircraft on December 17, 1903, four miles south of Kitty Hawk, North Carolina."
+    ],
+    "actualResponse": "The first aircraft they built was on December 17, 1903.",
+    "index": 40,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "I have been considering buying a new car. Maybe a Toyota?",
+      "thats a good choice.. they are the worlds leader in hybrid electric vehicles!",
+      "I did not know that what car of theirs is considered good?"
+    ],
+    "suggestions": [
+      "The Toyota Prius () is a full hybrid electric automobile developed by Toyota and manufactured by the company since 1997.",
+      "Initially offered as a 4-door sedan, it has been produced only as a 5-door liftback from 2003 to 2015, and then a 5-door fastback since 2016.",
+      "A hybrid electric vehicle (HEV) is a type of hybrid vehicle that combines a conventional internal combustion engine (ICE) system with an electric propulsion system (hybrid vehicle drivetrain).",
+      "The presence of the electric powertrain is intended to achieve either better fuel economy than a conventional vehicle or better performance.",
+      "Toyota is the world's market leader in sales of hybrid electric vehicles, and one of the largest companies to encourage the mass-market adoption of hybrid vehicles across the globe.",
+      "Cumulative global sales of Toyota and Lexus hybrid passenger car models achieved the 10 million milestone in January 2017."
+    ],
+    "actualResponse": "the prius is a good selection.. they are the top selling hybrid car in the world",
+    "index": 41,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "What kind of moped do you drive?",
+      "I don't own one :=) But, mopeds are small motorcycles that travel at lower speeds",
+      "oh okay. would you prefer driving a moped or a motorcycle?"
+    ],
+    "suggestions": [
+      "A moped (/ˈmoʊpɛd/ MOH-ped) is a small motorcycle, generally having a less stringent licensing requirement than motorcycles or automobiles because mopeds typically travel about the same speed as bicycles on public roads.",
+      "Mopeds by definition are driven by both an engine and bicycle pedals, but in common usage and in many jurisdictions the term \"moped\" is used for similar vehicles including a scooter.",
+      "An electric bicycle, also known as an e-bike, powerbike or booster bike, is a bicycle with an integrated electric motor which can be used for propulsion.",
+      "Many kinds of e-bikes are available worldwide, from e-bikes that only have a small motor to assist the rider's pedal-power (i.e., pedelecs) to somewhat more powerful e-bikes which tend closer to moped-style functionality: all, however, retain the ability to be pedalled by the rider and are therefore not electric motorcycles.",
+      "Many countries have enacted electric bicycle laws to regulate the use of electric bicycles.",
+      "Countries such as the United States and Canada have federal regulations governing the safety requirements and standards of manufacture."
+    ],
+    "actualResponse": "I prefer motorcycles as they feel more natural. Mopeds have pedas and a crankset",
+    "index": 42,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Ive been listening to a lot of rock and roll lately.",
+      "So you probably know that rock and roll emerged as a defined musical style in the United States in the early to mid 1950s.",
+      "I thought it would have been the UK. That is really cool."
+    ],
+    "suggestions": [
+      "Blues is a music genre and musical form originated by African Americans in the Deep South of the United States around the end of the 19th century.",
+      "The genre developed from roots in African musical traditions, African-American work songs, spirituals, and the folk music of white Americans of European heritage.",
+      "Rock music is a broad genre of popular music that originated as \"rock and roll\" in the United States in the early 1950s, and developed into a range of different styles in the 1960s and later, particularly in the United Kingdom and in the United States.",
+      "It has its roots in 1940s and 1950s rock and roll, a style which drew heavily on the African-American genres of blues and rhythm and blues, and from country music.",
+      "Rock and roll emerged as a defined musical style in the United States in the early to mid-1950s.",
+      "It derived most directly from the rhythm and blues music of the 1940s, which itself developed from earlier blues, boogie woogie, jazz and swing music, and was also influenced by gospel, country and western, and traditional folk music."
+    ],
+    "actualResponse": "It seem it derived most directly from the rythm and blues music on the 1940s.  Do you like any particular singer?",
+    "index": 43,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Since I was young I have loved fashion.",
+      "Have you heard of Gabrielle \"Coco\" Chanel? She was the founder and namesake of the brand Chanel.",
+      "Yes, I love that brand."
+    ],
+    "suggestions": [
+      "Chanel S.A. (; ) is a French, privately held company owned by Alain Wertheimer and Gérard Wertheimer, grandsons of Pierre Wertheimer, who was an early business partner of the \"couturière\" Gabrielle Bonheur Chanel.",
+      "Chanel S.A. is a high fashion house that specializes in haute couture and ready-to-wear clothes, luxury goods and fashion accessories.",
+      "Gabrielle Bonheur \"Coco\" Chanel (19 August 1883 – 10 January 1971) was a French fashion designer and businesswoman.",
+      "She was the founder and namesake of the Chanel brand.",
+      "Chanel No.",
+      "5 is the first perfume launched by French couturier Gabrielle \"Coco\" Chanel."
+    ],
+    "actualResponse": "Coco Chanel's first perfume is something you've probably heard of: 5.",
+    "index": 44,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "One of my favorite movies is Titanic, the one with Leonardo Dicaprio and Kate Winslet.",
+      "Yea the movie is a classic already, with some big names like James Cameron co produced it.",
+      "Yes! I remember going to the movies to see it, seems like not that long ago but it was over 20 years now! "
+    ],
+    "suggestions": [
+      "James Francis Cameron (born August 16, 1954) is a Canadian filmmaker, philanthropist, and deep-sea explorer.",
+      "After working in special effects, he found major success after directing and writing the science fiction action film \"The Terminator\" (1984).",
+      "Titanic is a 1997 American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron.",
+      "A fictionalized account of the sinking of the RMS \"Titanic\", it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.",
+      "The wreck of the RMS \"Titanic\" lies at a depth of about (), about south-southeast off the coast of Newfoundland.",
+      "It lies in two main pieces about a third of a mile (600 m) apart."
+    ],
+    "actualResponse": "Its interesting that if James Cameron didnt have such an interest in ship wrecks we might not have gotten this masterpiece.",
+    "index": 45,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "I really like spiders, Ive always had a fascination with them, do you know anything about spiders?",
+      "I do. Spiders are labeled as arthropods. They are air-breathing and have fangs which they use to inject venom. The also have eight legs.",
+      "Some people get creeped out with spiders, but not me!. Im curious though, How long do spiders live for generally? "
+    ],
+    "suggestions": [
+      "Spiders (order Araneae) are air-breathing arthropods that have eight legs and chelicerae with fangs that inject venom.",
+      "They are the largest order of arachnids and rank seventh in total species diversity among all other orders of organisms.",
+      "Sri Lanka is a tropical island situated close to the southern tip of India.",
+      "The invertebrate fauna is as large as it is common to other regions of the world.",
+      "The redback spider (\"Latrodectus hasseltii\") is a species of highly venomous spider believed to originate in the South Australian or adjacent Western Australian deserts, but now found throughout Australia, Southeast Asia and New Zealand, with colonies elsewhere outside Australia.",
+      "It is a member of the cosmopolitan genus \"Latrodectus\", the widow spiders."
+    ],
+    "actualResponse": "It varies with species of spiders. There are over 45,700 spider species.",
+    "index": 46,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Ice cream is world famous favourite dessert",
+      "Yes, I can see why! That frozen dessert is such a wonderful sweet treat!",
+      "It is usually made from dairy products, such as milk and cream, and often combined with fruits or other ingredients and flavors."
+    ],
+    "suggestions": [
+      "Ice cream (derived from earlier iced cream or cream ice) is a sweetened frozen food typically eaten as a snack or dessert.",
+      "It is usually made from dairy products, such as milk and cream, and often combined with fruits or other ingredients and flavors.",
+      "Frozen yogurt (also spelled frozen yoghurt; also known as frogurt or by the tradename Froyo ) is a frozen dessert made with yogurt and sometimes other dairy products.",
+      "It is usually more tart than ice cream, as well as lower in fat (due to the use of milk instead of cream).",
+      "Ice cream parlors (or parlours) are restaurants that sell ice cream, gelato, sorbet, and frozen yogurt to consumers.",
+      "Ice cream is typically sold as regular ice cream (also called hard-packed ice cream), gelato, and soft serve, which is usually dispensed by a machine with a limited number of flavors (e.g., chocolate, vanilla, and \"twist\", a mix of the two)."
+    ],
+    "actualResponse": "I know ice cream is a specific name for those ingredients! Or you will get something like frozen yogurt or custard, sorbet or gelato. ",
+    "index": 47,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "I like comics, do you?",
+      "I do like some of them. They were once just comic strips but meant to be funny, then they became stories featuring all sorts of genres.",
+      "With their own worlds, yea. And now, movies!"
+    ],
+    "suggestions": [
+      "A comic book or comicbook, also called comic magazine or simply comic, is a publication that consists of comic art in the form of sequential juxtaposed panels that represent individual scenes.",
+      "Panels are often accompanied by brief descriptive prose and written narrative, usually dialog contained in word balloons emblematic of the comics art form.",
+      "Speech balloons (also speech bubbles, dialogue balloons or word balloons) are a graphic convention used most commonly in comic books, comics and cartoons to allow words (and much less often, pictures) to be understood as representing the speech or thoughts of a given character in the comic.",
+      "There is often a formal distinction between the balloon that indicates thoughts and the one that indicates words spoken aloud: the balloon that conveys thoughts is often referred to as a thought bubble.",
+      "The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe that is centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in American comic books published by Marvel Comics.",
+      "The franchise has expanded to include comic books, short films, television series, and digital series."
+    ],
+    "actualResponse": "Oh yea, lots of movies from comic books! A lot of comic books feature bubbles for speech, lines and a bunch of characters.",
+    "index": 48,
+    "contextLen": 2
+  },
+  {
+    "conversation": [
+      "Are you a fan of cheese? There are so many ways to enjoy it.",
+      "Do you like cheese?  Cheese is a food derived from milk ",
+      "I love grilled cheese and cheese pizza. There's even vegan cheese for people now!"
+    ],
+    "suggestions": [
+      "Cheese is a food derived from milk that is produced in a wide range of flavors, textures, and forms by coagulation of the milk protein casein.",
+      "It comprises proteins and fat from milk, usually the milk of cows, buffalo, goats, or sheep.",
+      "Milk is a white liquid produced by the mammary glands of mammals.",
+      "It is the primary source of nutrition for infant mammals (including humans who breastfeed) before they are able to digest other types of food.",
+      "Casein ( \"kay-seen\", from Latin \"caseus\", \"cheese\") is the name for a family of related phosphoproteins (αS1, αS2, β, κ).",
+      "These proteins are commonly found in mammalian milk, comprising c. 80% of the proteins in cow's milk and between 20% and 45% of the proteins in human milk."
+    ],
+    "actualResponse": "Cheese is produced in a wide range of flavors, textures, and forms by coagulation of the milk protein casein.",
+    "index": 49,
+    "contextLen": 2
+  }
+]
