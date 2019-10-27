@@ -15,15 +15,28 @@
       </div>
       <button class="btn btn-primary" type="button" style='font-size: 16px; disabled: true; display: none' id="submit-chosen-topic-button">Pick Topic</button>
     </div>
+    In the next step, you will be given some system generated knowledge related to the current conversation.<b>Your task is to send the next response in the conversation. </b>You may choose to take help from the knowledge while crafting your response. <br/>
+    Press "Continue" to view the conversation.<br /> <br />
+
+    In the next step, you will be shown some sentences related to the conversation. If you feel one or more sentences are relevant to the conversation and can be used to craft the response, click on them. Clicking a sentence copies it to the textbox on the right. Feel free to make any edits in the copied text to craft your response. <br />
+      Press "Show Passages" to view the sentences below. After crafting the response, press the Send button<br />
+
   </div> -->
   <div id="passages-pane" class="col-xs-7" style="height: {{frame_height}}px; background-color: #dff0d8;">
     <h2 id="taskTitle">Sample Task</h2>
-    <span style="color: blue; font-size: 14px;" id="taskIntro">This is a sample task for training purpose to help you get acquainted with the system. You will be shown a conversation on the right belonging to a randomly assigned topic. Carefully study the conversation.<br/> 
-      In the next step, you will be given some system generated knowledge related to the current conversation.<b>Your task is to send the next response in the conversation. </b>You may choose to take help from the knowledge while crafting your response. <br/>
-    Press "Continue" to view the conversation.<br /> <br /></span>
+    <span style="color: blue; font-size: 14px;" id="taskIntro">This is a sample task for training purpose to help you get acquainted with the system. You will be shown a conversation on the right belonging to a randomly assigned topic. Carefully study the conversation.<br/><b>Your task is to send the next response in the conversation.</b> <br/>
+    Press "Continue" to view the conversation on the right.<br /> <br /></span>
+    
     <span id="showPassages" style="color: blue; font-size: 14px; display: none;">
-      In the next step, you will be shown some sentences related to the conversation. If you feel one or more sentences are relevant to the conversation and can be used to craft the response, click on them. Clicking a sentence copies it to the textbox on the right. Feel free to make any edits in the copied text to craft your response. <br />
-      Press "Show Passages" to view the sentences below. After crafting the response, press the Send button<br />
+      
+    </span>
+
+    <span id="textboxFilledInfo" style="color: blue; font-size: 14px; display: none;">
+      
+    </span>
+
+    <span id="finalContinue" style="color: blue; font-size: 14px;">
+     
     </span>
     <div style="display: flex; justify-content: center;">
     <button class="btn btn-success" style="" id="showChat">Continue</button>
@@ -31,7 +44,7 @@
 
     <div id="passages-main-pane" style="height: 70%; display: none;">
       <hr style="border-top: 1px solid #555" />
-        <h4><b>Information about your partner's message</b></h4>
+        <h4 id="partnerTitle"><b>Information about your partner's message</b></h4>
         <div id="waiting-for-message" class="row" style="margin-left: 0; margin-right: 0; display: none">
             <div class="alert alert-warning" role="alert" style="float: left; display:table; background-color: #fff">
                 <div id="hourglass" style="margin-top: -1px; margin-right: 5px; display: inline; float: left;">
@@ -260,6 +273,40 @@
         return;
       }
 
+      
+      if(message.suggestionsConfig){
+
+        if(message.suggestionsConfig == "no") {
+
+          $("h4#partnerTitle").hide();
+
+          $("span#showPassages").html("You will be shown an input field and <b>Send Button</b> on the right. <b>Fill in an appropriate response </b> in the input field and <b>Press the Send Button</b> to complete the task.<br/><br/> ");
+        }
+
+        else{
+          $("span#showPassages").html("You will be given some system generated knowledge related to the current conversation. If you feel one or more sentences are relevant to the conversation and can be used to craft the response, <b>click</b> on them. Clicking a sentence copies it to the textbox on the right. Feel free to make any edits in the copied text to craft your response. <br/> After crafting the response, <b>press the Send button</b><br /><br/>");
+        }
+      }
+      else
+        $("span#showPassages").html("");
+
+
+
+      if(message.textboxFilled) {
+
+        if(message.textboxFilled == 1) {
+
+          
+
+          $("span#textboxFilledInfo").html("The top rated system response will be populated in the input field automatically. Feel free to make any changes before sending the response.<br/><br/> ");
+        }
+
+       
+      }
+      else
+        $("span#textboxFilledInfo").html("");
+
+     
 
 
       var agent_id = message.id;
@@ -284,6 +331,7 @@
         if(message.taskNumber > 0){
 
           $("span#showPassages").hide();
+          $("span#textboxFilledInfo").hide();
 
           $("div#passages-main-pane").height("100%");
 
@@ -337,15 +385,22 @@
         handle_retrieved_passages(message, passages, "partner");
       }
       if ("self_retrieved_passages" in message) {
-        debugger;
         num_tries = 0;
         clicked_passages['self'] = {};
         checked_sentences['self'] = {};
         checked_passages['self'] = {};
         var passages = message.self_retrieved_passages;
         retrieved_passages['self'] = passages;
-        if(message.newTask)
-            handle_retrieved_passages(message, passages, "self");
+        if(message.newTask){
+          handle_retrieved_passages(message, passages, "self");
+
+          if(message.textboxFilled == 1){
+            topSuggestion = passages[0][1][0];
+            $("textarea#id_text_input").val(topSuggestion);
+            handleLoggingData("<<autoTop>>");
+          }
+        }
+            
         else
           $(`div#self-retrieved-passages`).html("");
       }
@@ -383,6 +438,12 @@
       Setup the retrieved passages in the chat window
     */
     function handle_retrieved_passages(message, passages, person) {
+      debugger;
+
+      if(message.suggestionsConfig == "no")
+        return;
+
+      var totalSuggestions = 0;
       var title_id_to_passage_id = {};
       var sent_id_to_sentence = {};
       var list = $(`<div id='${person}-retrieved-passages-list'></div>`);
@@ -396,13 +457,20 @@
         var sentences = title_and_content[1];
         var passage = "";
 
+        debugger;
         //setup for checking Sentences
         var sentencesLen = Math.min(sentences.length, 2);
         for (var sent_idx = 0; sent_idx < sentencesLen; sent_idx++) {
+
+          if(totalSuggestions >= message.suggestionsNumber)
+            break;
+
           var sentence = sentences[sent_idx];
           var sentence_id = `${person}_${idx}_${sent_idx}`;
           passage += `<div class=\'generated\' id="${sentence_id}_label" style="cursor: pointer;border-radius: 20px;border: 2px solid;padding: 10px;background-color: #d9edf7;border-color: #bce8f1;margin-right: 10px;">${sentence}</div><br />`;
           sent_id_to_sentence[sentence_id] = sentence;
+
+          totalSuggestions++;
         }
         
 
@@ -614,7 +682,13 @@
       if(! $("div#right-top-pane").is(":visible")){
         $("div#right-top-pane").show();
         $("span#showPassages").show();
-        $("button#showChat").html("Show Passages");
+        $("span#textboxFilledInfo").show();
+        $("span#finalContinue").html("Press Continue <br/>");
+        $("button#showChat").html("Continue");
+        $("span#taskIntro").hide();
+        
+
+
         
         //change button name
       } else{
@@ -622,8 +696,8 @@
         $("div#sendTextArea").show();
         $("div#sendDoneBtn").show();
         $("button#showChat").hide();
-        $("span#taskIntro").hide();
-        
+        $("span#finalContinue").hide();
+
       }
 
     });
