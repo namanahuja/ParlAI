@@ -133,6 +133,19 @@ def main():
     argparser.add_argument('--num-tasks', type=int, default=6,
                            help='How many tasks')
 
+    argparser.add_argument('--suggestions-config', default='show', type=str,
+                           choices=['no', 'show', 'first'],
+                           help='How are the suggestions shown?')
+
+    argparser.add_argument('--textbox-filled', type=int, default=0,
+                           help='Should the input textbox be filled with the best suggestion')
+
+    argparser.add_argument('--suggestions-number', type=int, default=5,
+                           help='Number of suggestions to show')
+
+    argparser.add_argument('--context-count', type=int, default=0,
+                           help='Number of conversation rounds')
+
     opt = argparser.parse_args()
     directory_path = os.path.dirname(os.path.abspath(__file__))
     opt['task'] = os.path.basename(directory_path)
@@ -141,34 +154,56 @@ def main():
 
 
     allContexts = []
+    singleContext = []
+    doubleContext = []
+    tripleContext = []
 
-    corpusPath = '/home/naman/research/ParlAI' + '/threeContext.json'
-
-    with open(corpusPath, "r") as read_file:
-        allData = json.load(read_file)
-        for data in allData:
-            context = data['convesation']
-            context.append(data['actualResponse'])
-            allContexts.append(context)
-
-    corpusPath = '/home/naman/research/ParlAI' + '/twoContext.json'
+    corpusPath = '/home/naman/research/ParlAI' + '/tripleContext.json'
 
     with open(corpusPath, "r") as read_file:
         allData = json.load(read_file)
         for data in allData:
-            context = data['convesation']
+            context = data['conversation']
             context.append(data['actualResponse'])
-            allContexts.append(context)
+            tripleContext.append(context)
 
-
-    corpusPath = '/home/naman/research/ParlAI' + '/oneContext.json'
+    corpusPath = '/home/naman/research/ParlAI' + '/doubleContext.json'
 
     with open(corpusPath, "r") as read_file:
         allData = json.load(read_file)
         for data in allData:
-            context = data['convesation']
+            context = data['conversation']
             context.append(data['actualResponse'])
-            allContexts.append(context)
+            doubleContext.append(context)
+
+
+    corpusPath = '/home/naman/research/ParlAI' + '/singleContext.json'
+
+    with open(corpusPath, "r") as read_file:
+        allData = json.load(read_file)
+        for data in allData:
+            context = data['conversation']
+            context.append(data['actualResponse'])
+            singleContext.append(context)
+
+
+
+    if opt['context_count'] is 1:
+        allContexts.extend(singleContext)
+
+    elif opt['context_count'] is 2:
+        allContexts.extend(doubleContext)
+
+    elif opt['context_count'] is 3:
+        allContexts.extend(tripleContext)
+
+    else:
+        allContexts.extend(singleContext)
+        allContexts.extend(doubleContext)
+        allContexts.extend(tripleContext)
+
+
+
 
     random.shuffle(allContexts)
     opt['allContexts'] = random.sample(allContexts, opt['num_tasks'] + 2)

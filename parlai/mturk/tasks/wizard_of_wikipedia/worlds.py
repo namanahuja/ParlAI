@@ -161,6 +161,10 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         self.max_resp_time = opt['max_resp_time']  # in secs
         self.num_passages_to_retrieve = opt['num_passages_retrieved']
         self.totalTasks = opt['num_tasks']
+        self.suggestionsConfig = opt['suggestions_config']
+        self.textboxFilled = opt['textbox_filled']
+        self.suggestionsNumber = opt['suggestions_number']
+        self.contextCount = opt['context_count']
 
         super().__init__(opt, agents, shared)
         self.agents = sorted(agents, key=lambda x: x.id,
@@ -264,7 +268,10 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                 'context': self.taskConversations[self.taskIndex],
                 'relevant_topics': self.relevant_topics,
                 'taskNumber': self.taskIndex,
-                'actualTasks': self.totalTasks - 1
+                'actualTasks': self.totalTasks - 1,
+                'suggestionsConfig': self.suggestionsConfig,
+                'textboxFilled': self.textboxFilled,
+                'suggestionsNumber': self.suggestionsNumber
             }))
 
             topic_act = self.agents[0].act(timeout=self.max_resp_time)
@@ -363,7 +370,12 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                             acts[idx]['text']),
                         'loggedData': acts[idx]['loggedKeys'],
                         'selectedData': acts[idx]['selectedSentences'],
-                        'context': self.taskConversations[self.taskIndex]
+                        'context': self.taskConversations[self.taskIndex],
+                        'suggestionsConfig': self.suggestionsConfig,
+                        'textboxFilled': self.textboxFilled,
+                        'totalTasks': self.totalTasks,
+                        'suggestionsNumber': self.suggestionsNumber,
+                        'contextCount': self.contextCount
                         }
            
             '''Get clicked passages and checked sentences from Wizard'''
@@ -412,6 +424,9 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                 control_msg['text'] = ''
                 control_msg['self_retrieved_passages'] = passages
                 control_msg['newTask'] = self.newTask
+                control_msg['suggestionsConfig'] = self.suggestionsConfig,
+                control_msg['textboxFilled'] = self.textboxFilled,
+                control_msg['suggestionsNumber'] = self.suggestionsNumber
                 agent.observe(validate(control_msg))
                 self.newTask = False
 
