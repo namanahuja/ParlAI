@@ -130,7 +130,10 @@ def main():
     argparser.add_argument('--num-passages-retrieved', type=int, default=3,
                            help='How many passages to retrieve per dialog \
                            message')
-    argparser.add_argument('--num-tasks', type=int, default=6,
+
+
+
+    argparser.add_argument('--num-tasks', type=int, default=100,
                            help='How many tasks')
 
     argparser.add_argument('--suggestions-config', default='show', type=str,
