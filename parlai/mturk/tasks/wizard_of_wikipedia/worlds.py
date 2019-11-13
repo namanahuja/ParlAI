@@ -22,6 +22,7 @@ import pickle
 import random
 import copy
 from urllib.parse import unquote
+import random
 
 
 def split_tokenize(text):
@@ -170,6 +171,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         self.textboxFilled = opt['textbox_filled']
         self.suggestionsNumber = opt['suggestions_number']
         self.contextCount = opt['context_count']
+        self.timer = opt['timer']
 
         super().__init__(opt, agents, shared)
         self.agents = sorted(agents, key=lambda x: x.id,
@@ -203,6 +205,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         self.newTask = True
         
         self.taskConversations = opt['allContexts']
+        random.shuffle(self.taskConversations)
 
 
     def episode_done(self):
@@ -285,7 +288,8 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                 'actualTasks': self.totalTasks - 1,
                 'suggestionsConfig': self.suggestionsConfig,
                 'textboxFilled': self.textboxFilled,
-                'suggestionsNumber': self.suggestionsNumber
+                'suggestionsNumber': self.suggestionsNumber,
+                'timer': self.timer
             }))
 
             topic_act = self.agents[0].act(timeout=self.max_resp_time)
@@ -443,6 +447,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                 control_msg['suggestionsConfig'] = self.suggestionsConfig,
                 control_msg['textboxFilled'] = self.textboxFilled,
                 control_msg['suggestionsNumber'] = self.suggestionsNumber
+                control_msg['timer'] = self.timer
                 agent.observe(validate(control_msg))
                 self.newTask = False
 
