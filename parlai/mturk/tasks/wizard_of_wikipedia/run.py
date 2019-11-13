@@ -149,6 +149,9 @@ def main():
     argparser.add_argument('--context-count', type=int, default=0,
                            help='Number of conversation rounds')
 
+    argparser.add_argument('--timer', type=int, default=60 * 2,
+                           help='Timer')
+
     opt = argparser.parse_args()
     directory_path = os.path.dirname(os.path.abspath(__file__))
     opt['task'] = os.path.basename(directory_path)
@@ -208,7 +211,6 @@ def main():
 
 
 
-    random.shuffle(allContexts)
     opt['allContexts'] = random.sample(allContexts, opt['num_tasks'] + 2)
 
 
