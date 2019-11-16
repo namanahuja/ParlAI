@@ -22,17 +22,17 @@
       Press "Show Passages" to view the sentences below. After crafting the response, press the Send button<br />
 
   </div> -->
-<div>
-  <div id="right-pane" class="col-xs-10" style="height: {{frame_height}}px; min-height: 100%; display: flex; flex-direction: column; justify-content: space-between; margin: 0 10%; background-color: #dff0d8;">
-      <div>
+<div style="overflow: auto;">
+  <div id="taskHelper" class="col-xs-10" style="margin: 0 10%;">
+     <div style="text-align: center;">
         <p id="timer">
             <h4 style="display:inline;" id="timer-mins"></h4>
             <h4 style="display:inline;" id="timer-secs"></h4>
         </p>
       </div>
       <h2 id="taskTitle">Sample Task</h2>
-      <span style="color: blue; font-size: 14px;" id="taskIntro">This is a sample task for training purpose to help you get acquainted with the system. You will be shown a conversation on the right belonging to a randomly assigned topic. Carefully study the conversation.<br/><b>Your task is to send the next response in the conversation.</b> <br/>
-      Press "Continue" to view the conversation on the right.<br /> <br /></span>
+      <span style="color: blue; font-size: 14px;" id="taskIntro">This is a sample task for training purposes to help you get acquainted with the system.<br/>You will be shown a conversation below belonging to a randomly assigned topic. Read the conversation carefully. <b>Your task is to send the next response in the conversation.</b> <br/>After completion of this sample task, you will be shown a <b>timer</b> on the top. You will have to complete as many conversations tasks as possible in the allotted time, maintaining the quality and relevance of the responses.<br/></span>
+       <span id="firstContinue">Press <b>Continue</b> to view the conversation below.<br /> <br /></span>
       
       <span id="showPassages" style="color: blue; font-size: 14px; display: none;">
         
@@ -46,9 +46,13 @@
        
       </span>
       <div style="display: flex; justify-content: center;">
-      <button class="btn btn-success" style="" id="showChat">Continue</button>
+        <button class="btn btn-success" style="" id="showChat">Continue</button>
       </div>
-      <div id="right-top-pane" style="width: 100%; height: 570px; padding-top: 60px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; display: none; overflow:auto;">
+      <br/>
+  </div>
+  <div id="right-pane" class="col-xs-10" style="min-height: 100%; display: none; margin: 0 10%; background-color: #dff0d8;">
+     
+      <div id="right-top-pane" style="width: 100%; padding-top: 60px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; display: none; overflow:auto;">
           <div id="message_thread" style="width: 100%">
           </div>
           <div id="waiting-for-message" class="row" style="margin-left: 0; margin-right: 0; display: none">
@@ -71,7 +75,9 @@
               </div>
               <div id="sendDoneBtn" style="display: none;">
                 <button class="btn btn-success" style="width: 88px; height: 100%; font-size: 16px; float: left; margin-left: 15px; padding: 0px; disabled: true; display:none" id="id_done_button">Done</button>
-                  <button class="btn btn-primary" style="width: 88px; height: 100%; font-size: 16px; float: right; margin-left: 15px; disabled: false;" id="id_send_msg_button">Send</button>
+                
+                <button class="btn btn-primary" style="height: 100%; font-size: 16px; float: right; margin-left: 15px; disabled: false;" id="id_send_msg_button">Send</button>
+                <button class="btn btn-primary" style="height: 100%; font-size: 16px; float: left; margin-left: 15px; disabled: false;" id="suggestionsShowBtn">Show Suggestions</button>
               </div>
           </div>
           <div id="response-type-done" class="response-type-module" style="padding-left: 35px; padding-top: 30px; padding-bottom: 30px; padding-right: 35px; float: left; display:none">
@@ -82,8 +88,8 @@
           </div>
       </div>
   </div>
-  <div id="passages-pane" class="col-xs-10" style="height: {{frame_height}}px; background-color: #dff0d8; margin: 0 10%;">
-      <div id="passages-main-pane" style="height: 70%; display: none;">
+  <div id="passages-pane" class="col-xs-10" style="background-color: #dff0d8; margin: 0 10%; display: none;">
+      <div id="passages-main-pane" style="display: none;">
         <hr style="border-top: 1px solid #555" />
           <h4 id="partnerTitle"><b>Information about your partner's message</b></h4>
           <div id="waiting-for-message" class="row" style="margin-left: 0; margin-right: 0; display: none">
@@ -292,7 +298,7 @@
         }
 
         else{
-          $("span#showPassages").html("You will be given some system generated knowledge related to the current conversation. If you feel one or more sentences are relevant to the conversation and can be used to craft the response, <b>click</b> on them. Clicking a sentence copies it to the textbox on the right. Feel free to make any edits in the copied text to craft your response. <br/> After crafting the response, <b>press the Send button</b><br /><br/>");
+          $("span#showPassages").html("Click <b>Show Suggestions</b> below to view system-generated knowledge related to the current conversation. If you feel one or more sentences are relevant to the conversation and can be used to craft the response, <b>click</b> on them. Clicking a sentence copies it to the textbox. Feel free to make any edits in the copied text to craft your response. <br/> After crafting the response, <b>press the Send button</b><br /><br/>");
         }
       }
       else
@@ -374,6 +380,7 @@
                   //$("button#id_done_button").css("display", "");
                   $("textarea#id_text_input").css("display", "none");
                   $("button#id_send_msg_button").css("display", "none");
+                  $("button#suggestionsShowBtn").css("display", "none");
                   $("div#right-top-pane").hide();
 
                 
@@ -394,6 +401,8 @@
           }
 
           $("span#showPassages").hide();
+          $("span#taskIntro").hide();
+          
           $("span#textboxFilledInfo").hide();
 
           $("div#passages-main-pane").height("100%");
@@ -456,6 +465,8 @@
         var passages = message.self_retrieved_passages;
         retrieved_passages['self'] = passages;
         if(message.newTask){
+          $("button#suggestionsShowBtn").show();
+          $("div#passages-pane").hide();
           handle_retrieved_passages(message, passages, "self");
 
           if(message.textboxFilled == 1){
@@ -741,28 +752,42 @@
     /*
       Button Click Functions
     */
+    $("button#suggestionsShowBtn").on('click', function () {
+     
+      $("div#passages-pane").show();
+      $("div#passages-main-pane").show();
+      $("button#suggestionsShowBtn").hide();
+      var elmnt = document.getElementById("passages-pane");
+      elmnt.scrollIntoView();
+    });
+
 
     $("button#showChat").on('click', function () {
 
       if(! $("div#right-top-pane").is(":visible")){
         $("div#right-top-pane").show();
+        $("div#right-pane").show();
         $("span#showPassages").show();
         $("span#textboxFilledInfo").show();
         $("span#finalContinue").html("Press Continue <br/>");
         $("button#showChat").html("Continue");
-        $("span#taskIntro").hide();
+        $("span#firstContinue").hide();
+        $("div#sendTextArea").show();
+        $("div#sendDoneBtn").show();
+        $("button#showChat").hide();
+        $("span#finalContinue").hide();
+        $("span#showPassages").css("color", "maroon")
         
 
 
         
         //change button name
       } else{
+        /*$("div#passages-pane").show();
         $("div#passages-main-pane").show();
-        $("div#sendTextArea").show();
-        $("div#sendDoneBtn").show();
         $("button#showChat").hide();
         $("span#finalContinue").hide();
-
+        */
       }
 
     });
