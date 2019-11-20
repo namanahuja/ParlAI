@@ -135,11 +135,13 @@ def main():
 
 
 
-    argparser.add_argument('--num-tasks', type=int, default=100,
+    argparser.add_argument('--num-tasks', type=int, default=120,
                            help='How many tasks')
 
+
+
     argparser.add_argument('--suggestions-config', default='show', type=str,
-                           choices=['no', 'show', 'first'],
+                           choices=['no', 'show'],
                            help='How are the suggestions shown?')
 
     argparser.add_argument('--textbox-filled', type=int, default=0,
@@ -147,6 +149,8 @@ def main():
 
     argparser.add_argument('--suggestions-number', type=int, default=5,
                            help='Number of suggestions to show')
+
+    
 
     argparser.add_argument('--context-count', type=int, default=0,
                            help='Number of conversation rounds')
