@@ -30,8 +30,8 @@
             <h4 style="display:inline;" id="timer-secs"></h4>
         </p>
       </div>
-      <h2 id="taskTitle">Sample Task</h2>
-      <span style="color: blue; font-size: 14px;" id="taskIntro">This is a sample task for training purposes to help you get acquainted with the system.<br/>You will be shown a conversation below belonging to a randomly assigned topic. Read the conversation carefully. <b>Your task is to send the next response in the conversation.</b> <br/>After completion of this sample task, you will be shown a <b>timer</b> on the top. You will have to complete as many conversations tasks as possible in the allotted time, maintaining the quality and relevance of the responses.<br/></span>
+      <h3 id="taskTitle">Sample Task</h2>
+      <span style="color: blue; font-size: 14px;" id="taskIntro">This is a sample task for training purposes to help you get acquainted with the system.<br/>You will be shown a conversation below belonging to a randomly assigned topic. Read the conversation carefully. <b>Your task is to send the next response in the conversation.</b> <br/>After completion of this sample task, you will be shown a <b>timer</b> on the top. You will have to complete as many conversations tasks as possible in the allotted time, maintaining the quality and relevance of the responses.<br/><br/></span>
        <span id="firstContinue">Press <b>Continue</b> to view the conversation below.<br /> <br /></span>
       
       <span id="showPassages" style="color: blue; font-size: 14px; display: none;">
@@ -60,7 +60,7 @@
                   <div id="hourglass" style="margin-top: -1px; margin-right: 5px; display: inline; float: left;">
                       <?xml version="1.0" encoding="utf-8"?><svg width='25px' height='25px' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="uil-hourglass"><rect x="0" y="0" width="100" height="100" fill="none" class="bk"></rect><g><path fill="none" stroke="#007282" stroke-width="5" stroke-miterlimit="10" d="M58.4,51.7c-0.9-0.9-1.4-2-1.4-2.3s0.5-0.4,1.4-1.4 C70.8,43.8,79.8,30.5,80,15.5H70H30H20c0.2,15,9.2,28.1,21.6,32.3c0.9,0.9,1.4,1.2,1.4,1.5s-0.5,1.6-1.4,2.5 C29.2,56.1,20.2,69.5,20,85.5h10h40h10C79.8,69.5,70.8,55.9,58.4,51.7z" class="glass"></path><clipPath id="uil-hourglass-clip1"><rect x="15" y="20" width="70" height="25" class="clip"><animate attributeName="height" from="25" to="0" dur="1.5s" repeatCount="indefinite" values="25;0;0" keyTimes="0;0.5;1"></animate><animate attributeName="y" from="20" to="45" dur="1.5s" repeatCount="indefinite" values="20;45;45" keyTimes="0;0.5;1"></animate></rect></clipPath><clipPath id="uil-hourglass-clip2"><rect x="15" y="55" width="70" height="25" class="clip"><animate attributeName="height" from="0" to="25" dur="1.5s" repeatCount="indefinite" values="0;25;25" keyTimes="0;0.5;1"></animate><animate attributeName="y" from="80" to="55" dur="1.5s" repeatCount="indefinite" values="80;55;55" keyTimes="0;0.5;1"></animate></rect></clipPath><path d="M29,23c3.1,11.4,11.3,19.5,21,19.5S67.9,34.4,71,23H29z" clip-path="url(#uil-hourglass-clip1)" fill="#ffab00" class="sand"></path><path d="M71.6,78c-3-11.6-11.5-20-21.5-20s-18.5,8.4-21.5,20H71.6z" clip-path="url(#uil-hourglass-clip2)" fill="#ffab00" class="sand"></path><animateTransform attributeName="transform" type="rotate" from="0 50 50" to="180 50 50" repeatCount="indefinite" dur="1.5s" values="0 50 50;0 50 50;180 50 50" keyTimes="0;0.7;1"></animateTransform></g></svg>
                   </div>
-                  <span style="font-size: 16px">Waiting for the conversation to load...</span>
+                  <span style="font-size: 16px">Waiting for the next conversation to load...</span>
               </div>
           </div>
       </div>
@@ -91,13 +91,14 @@
   <div id="passages-pane" class="col-xs-10" style="background-color: #dff0d8; margin: 0 10%; display: none;">
       <div id="passages-main-pane" style="display: none;">
         <hr style="border-top: 1px solid #555" />
-          <h4 id="partnerTitle"><b>Information about your partner's message</b></h4>
+          <h4 id="partnerTitle" style="display: inline;"><b>Suggestions for the response</b></h4>
+          <span> (click the suggestion(s) to copy them to the input area)</span> <br/><br/>
           <div id="waiting-for-message" class="row" style="margin-left: 0; margin-right: 0; display: none">
               <div class="alert alert-warning" role="alert" style="float: left; display:table; background-color: #fff">
                   <div id="hourglass" style="margin-top: -1px; margin-right: 5px; display: inline; float: left;">
                       <?xml version="1.0" encoding="utf-8"?><svg width='25px' height='25px' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="uil-hourglass"><rect x="0" y="0" width="100" height="100" fill="none" class="bk"></rect><g><path fill="none" stroke="#007282" stroke-width="5" stroke-miterlimit="10" d="M58.4,51.7c-0.9-0.9-1.4-2-1.4-2.3s0.5-0.4,1.4-1.4 C70.8,43.8,79.8,30.5,80,15.5H70H30H20c0.2,15,9.2,28.1,21.6,32.3c0.9,0.9,1.4,1.2,1.4,1.5s-0.5,1.6-1.4,2.5 C29.2,56.1,20.2,69.5,20,85.5h10h40h10C79.8,69.5,70.8,55.9,58.4,51.7z" class="glass"></path><clipPath id="uil-hourglass-clip1"><rect x="15" y="20" width="70" height="25" class="clip"><animate attributeName="height" from="25" to="0" dur="1.5s" repeatCount="indefinite" values="25;0;0" keyTimes="0;0.5;1"></animate><animate attributeName="y" from="20" to="45" dur="1.5s" repeatCount="indefinite" values="20;45;45" keyTimes="0;0.5;1"></animate></rect></clipPath><clipPath id="uil-hourglass-clip2"><rect x="15" y="55" width="70" height="25" class="clip"><animate attributeName="height" from="0" to="25" dur="1.5s" repeatCount="indefinite" values="0;25;25" keyTimes="0;0.5;1"></animate><animate attributeName="y" from="80" to="55" dur="1.5s" repeatCount="indefinite" values="80;55;55" keyTimes="0;0.5;1"></animate></rect></clipPath><path d="M29,23c3.1,11.4,11.3,19.5,21,19.5S67.9,34.4,71,23H29z" clip-path="url(#uil-hourglass-clip1)" fill="#ffab00" class="sand"></path><path d="M71.6,78c-3-11.6-11.5-20-21.5-20s-18.5,8.4-21.5,20H71.6z" clip-path="url(#uil-hourglass-clip2)" fill="#ffab00" class="sand"></path><animateTransform attributeName="transform" type="rotate" from="0 50 50" to="180 50 50" repeatCount="indefinite" dur="1.5s" values="0 50 50;0 50 50;180 50 50" keyTimes="0;0.7;1"></animateTransform></g></svg>
                   </div>
-                  <span style="font-size: 16px">Waiting for the conversation to load...</span>
+                  <span style="font-size: 16px">Waiting for the next conversation to load...</span>
               </div>
           </div>
           <div id="self-retrieved-passages" style="font-size: 16px; height: 80%; overflow:auto;">
@@ -116,6 +117,7 @@
   var selectedSentences = [];
   var activeMessage = {};
   var lastKeyPressed= "";
+  var suggestionsShown = false;
 
   function handleSelectedSentences(sent){
     selectedSentences.push(sent);
@@ -294,7 +296,7 @@
 
           $("h4#partnerTitle").hide();
 
-          $("span#showPassages").html("You will be shown an input field and <b>Send Button</b> on the right. <b>Fill in an appropriate response </b> in the input field and <b>Press the Send Button</b> to complete the task.<br/><br/> ");
+          $("span#showPassages").html("You will be shown an input field and <b>Send Button</b> below. <b>Fill in an appropriate response </b> in the input field and <b>Press the Send Button</b> to complete the task.<br/><br/> ");
         }
 
         else{
@@ -350,20 +352,25 @@
 
             var timer = setInterval(function() {
               
-              if (t >= 0) {
+              if (t > 0) {
               
                   
                   let mins = Math.floor((t % (1 * 60 * 60)) / (1 * 60));
                   let secs = Math.floor((t % (1 * 60)) / 1);
 
-
+                  if(t == 59) {
+                    var elmnt = document.getElementById("timer");
+                    elmnt.scrollIntoView();
+                  }
 
                   if(mins > 0)
                     document.getElementById("timer-mins").innerHTML= ("0" + mins).slice(-2) +
                                                                       "<span style='padding-left: 0.25rem;'>Minutes</span>";
 
-                  else
+                  else{
                     document.getElementById("timer-mins").innerHTML= "";
+                    $("#timer-secs").css("color", "red")
+                  }
 
                   document.getElementById("timer-secs").innerHTML= ("0" + secs).slice(-2) +
                   "<span style='padding-left: 0.25rem;'>Seconds remaining!</span>";
@@ -384,9 +391,9 @@
                   $("div#right-top-pane").hide();
 
                 
-
-                  $("div#passages-main-pane").html("Press <b>Done with this HIT</b> to complete the task.");
-                  $("h2#taskTitle").text("Thank you!");
+                  $("div#passages-main-pane").html("");
+                 
+                  $("#taskTitle").text("Thank you!");
                     
 
                   $(window).resize(window_resize);
@@ -409,7 +416,7 @@
 
           //$("h2#taskTitle").text("Task " + message.taskNumber + "/" + message.actualTasks)
 
-          $("h2#taskTitle").text("Task " + message.taskNumber);
+          $("#taskTitle").text("Task " + message.taskNumber);
           
         }
 
@@ -421,12 +428,12 @@
 
         var i = 0;
         while(i < contextArrayLength - 1){
-          add_message_to_conversation('Person 1', message.context[i++], true);
+          add_message_to_conversation('Partner', message.context[i++], false);
 
           if( i >= contextArrayLength - 1)
             break;
 
-          add_message_to_conversation('Person 2', message.context[i++], false);
+          add_message_to_conversation('You', message.context[i++], true);
         }
         $("button#id_send_msg_button").trigger("click");
         //$("button#id_send_msg_button").removeClass("disabled");
@@ -465,8 +472,11 @@
         var passages = message.self_retrieved_passages;
         retrieved_passages['self'] = passages;
         if(message.newTask){
-          $("button#suggestionsShowBtn").show();
-          $("div#passages-pane").hide();
+          if(message.suggestionsConfig && message.suggestionsConfig == "no")
+            $("button#suggestionsShowBtn").hide();
+          else
+            $("button#suggestionsShowBtn").show();
+          suggestionsShown = false;
           handle_retrieved_passages(message, passages, "self");
 
           if(message.textboxFilled == 1){
@@ -496,8 +506,8 @@
         $("button#id_done_button").trigger("click");
         $("div#right-top-pane").hide();
 
-        $("div#passages-main-pane").html("Press <b>Done with this HIT</b> to complete the task.");
-        $("h2#taskTitle").text("Thank you!");
+        $("div#passages-main-pane").html("");
+        $("#taskTitle").text("Thank you!");
           
 
         $(window).resize(window_resize);
@@ -516,7 +526,7 @@
     function handle_retrieved_passages(message, passages, person) {
       //debugger;
 
-      if(message.suggestionsConfig == "no")
+      if(message.suggestionsConfig && message.suggestionsConfig == "no")
         return;
 
       var totalSuggestions = 0;
@@ -753,6 +763,8 @@
       Button Click Functions
     */
     $("button#suggestionsShowBtn").on('click', function () {
+
+      suggestionsShown = true;
      
       $("div#passages-pane").show();
       $("div#passages-main-pane").show();
@@ -846,6 +858,8 @@
     // Handle submitting a message
     $("button#id_send_msg_button").on('click', function () {
       //debugger;
+      $("div#passages-pane").hide();
+      
       var text = $("textarea#id_text_input").val();
       //Check for copy paste
       /*for (var person in retrieved_passages) {
@@ -966,7 +980,9 @@
             message_id: new_message_id,
             episode_done: false,
             loggedKeys: loggedKeys,
-            selectedSentences: selectedSentences
+            selectedSentences: selectedSentences,
+            researchTask: true,
+            suggestionsShown: suggestionsShown
           },
           true,
           true,
