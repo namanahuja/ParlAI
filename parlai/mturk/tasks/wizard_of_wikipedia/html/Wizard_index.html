@@ -30,8 +30,8 @@
             <h4 style="display:inline;" id="timer-secs"></h4>
         </p>
       </div>
-      <h3 id="taskTitle">Sample Task</h2>
-      <span style="color: blue; font-size: 14px;" id="taskIntro">This is a sample task for training purposes to help you get acquainted with the system.<br/>You will be shown a conversation below belonging to a randomly assigned topic. Read the conversation carefully. <b>Your task is to send the next response in the conversation.</b> <br/>After completion of this sample task, you will be shown a <b>timer</b> on the top. You will have to complete as many conversations tasks as possible in the allotted time, maintaining the quality and relevance of the responses.<br/><br/></span>
+      <h3 id="taskTitle" style="margin: 0px">Sample Task</h2>
+      <span style="color: blue; font-size: 14px;" id="taskIntro">This is a sample task for training purposes to help you get acquainted with the system.<br/>You will be shown a conversation below belonging to a randomly assigned topic. Read the conversation carefully. <b>Your task is to send the next response in the conversation.</b> <br/>After completion of this sample task, you will be shown a <b>timer</b> on the top. <b style='background-color: darksalmon'>You will have to complete as many conversations tasks as possible in the allotted time, maintaining the quality and relevance of the responses.</b><br/><br/></span>
        <span id="firstContinue">Press <b>Continue</b> to view the conversation below.<br /> <br /></span>
       
       <span id="showPassages" style="color: blue; font-size: 14px; display: none;">
@@ -300,7 +300,7 @@
         }
 
         else{
-          $("span#showPassages").html("Click <b>Show Suggestions</b> below to view system-generated knowledge related to the current conversation. If you feel one or more sentences are relevant to the conversation and can be used to craft the response, <b>click</b> on them. Clicking a sentence copies it to the textbox. Feel free to make any edits in the copied text to craft your response. <br/> After crafting the response, <b>press the Send button</b><br /><br/>");
+          $("span#showPassages").html("Click <b style='background-color: darksalmon'>Show Suggestions button below to proceed</b> and view system-generated knowledge related to the current conversation. If you feel one or more sentences are relevant to the conversation and can be used to craft the response, <b>click</b> on them. Clicking a sentence copies it to the textbox. Feel free to make any edits in the copied text to craft your response. <br/> After crafting the response, <b>press the Send button</b><br /><br/>");
         }
       }
       else
@@ -359,7 +359,7 @@
                   let secs = Math.floor((t % (1 * 60)) / 1);
 
                   if(t == 59) {
-                    var elmnt = document.getElementById("timer");
+                    var elmnt = document.getElementById("taskHelper");
                     elmnt.scrollIntoView();
                   }
 
@@ -417,6 +417,10 @@
           //$("h2#taskTitle").text("Task " + message.taskNumber + "/" + message.actualTasks)
 
           $("#taskTitle").text("Task " + message.taskNumber);
+          
+        } else {
+          if(message.suggestionsConfig != "no")
+            $("#id_send_msg_button").hide();
           
         }
 
@@ -543,7 +547,7 @@
         var sentences = title_and_content[1];
         var passage = "";
 
-        //debugger;
+        debugger;
         //setup for checking Sentences
         var sentencesLen = Math.min(sentences.length, 2);
         for (var sent_idx = 0; sent_idx < sentencesLen; sent_idx++) {
@@ -584,6 +588,8 @@
         $("textarea#id_text_input").val(newInput);
         handleLoggingData("<<selected>>");
         handleSelectedSentences($(this)[0].innerText);
+        var elmnt = document.getElementById("id_text_input");
+        elmnt.scrollIntoView();
       });
 
       // Set up Passage Toggling
@@ -766,6 +772,7 @@
 
       suggestionsShown = true;
      
+      $("button#id_send_msg_button").show();
       $("div#passages-pane").show();
       $("div#passages-main-pane").show();
       $("button#suggestionsShowBtn").hide();
@@ -854,11 +861,14 @@
 
     $("button#id_send_msg_button").off('click');
 
-
+    
     // Handle submitting a message
     $("button#id_send_msg_button").on('click', function () {
       //debugger;
       $("div#passages-pane").hide();
+
+      var elmnt = document.getElementById("taskHelper");
+      elmnt.scrollIntoView();
       
       var text = $("textarea#id_text_input").val();
       //Check for copy paste

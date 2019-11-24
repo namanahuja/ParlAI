@@ -155,6 +155,10 @@ def main():
 
     argparser.add_argument('--timer', type=int, default=60 * 2,
                            help='Timer')
+    argparser.add_argument('--shuffle-configs', type=int, default=1,
+                           help='Shuffle Settings?')
+
+
 
     opt = argparser.parse_args()
     directory_path = os.path.dirname(os.path.abspath(__file__))
@@ -173,18 +177,24 @@ def main():
     with open(corpusPath, "r") as read_file:
         allData = json.load(read_file)
         for data in allData:
+            obj = {}
+            obj['index'] = data['index']
             context = data['conversation']
             context.append(data['actualResponse'])
-            tripleContext.append(context)
+            obj['conversation'] = context
+            tripleContext.append(obj)
 
     corpusPath = '/home/naman/research/ParlAI' + '/doubleContext.json'
 
     with open(corpusPath, "r") as read_file:
         allData = json.load(read_file)
         for data in allData:
+            obj = {}
+            obj['index'] = data['index']
             context = data['conversation']
             context.append(data['actualResponse'])
-            doubleContext.append(context)
+            obj['conversation'] = context
+            tripleContext.append(obj)
 
 
     corpusPath = '/home/naman/research/ParlAI' + '/singleContext.json'
@@ -192,9 +202,12 @@ def main():
     with open(corpusPath, "r") as read_file:
         allData = json.load(read_file)
         for data in allData:
+            obj = {}
+            obj['index'] = data['index']
             context = data['conversation']
             context.append(data['actualResponse'])
-            singleContext.append(context)
+            obj['conversation'] = context
+            tripleContext.append(obj)
 
 
 
