@@ -167,11 +167,26 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         self.max_resp_time = opt['max_resp_time']  # in secs
         self.num_passages_to_retrieve = opt['num_passages_retrieved']
         self.totalTasks = opt['num_tasks']
-        self.suggestionsConfig = opt['suggestions_config']
-        self.textboxFilled = opt['textbox_filled']
-        self.suggestionsNumber = opt['suggestions_number']
+        
+        
+        
         self.contextCount = opt['context_count']
         self.timer = opt['timer']
+
+
+
+        if (opt['shuffle_configs'] == 1):
+            self.suggestionsConfig = random.choice(['no', 'show'])
+            self.textboxFilled = random.choice([0, 1])
+            self.suggestionsNumber = random.choice([1, 3, 5])
+
+        else:
+            self.suggestionsConfig = opt['suggestions_config']
+            self.textboxFilled = opt['textbox_filled']
+            self.suggestionsNumber = opt['suggestions_number']
+
+
+
 
         super().__init__(opt, agents, shared)
         self.agents = sorted(agents, key=lambda x: x.id,
@@ -282,7 +297,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
             self.agents[0].observe(validate({
                 'id': 'SYSTEM',
                 'text': PICK_TOPIC_MSG,
-                'context': self.taskConversations[self.taskIndex],
+                'context': self.taskConversations[self.taskIndex]['conversation'],
                 'relevant_topics': self.relevant_topics,
                 'taskNumber': self.taskIndex,
                 'actualTasks': self.totalTasks - 1,
@@ -393,7 +408,9 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                         'textboxFilled': self.textboxFilled,
                         'totalTasks': self.totalTasks,
                         'suggestionsNumber': self.suggestionsNumber,
-                        'contextCount': self.contextCount
+                        'contextCount': self.contextCount,
+                        'researchTask': acts[idx]['researchTask'],
+                        'suggestionsShown': acts[idx]['suggestionsShown']
                         }
            
             '''Get clicked passages and checked sentences from Wizard'''
