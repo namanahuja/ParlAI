@@ -6,7 +6,8 @@ task_config = {}
 
 end_info = """
 <h4><span style="color:blue"><b>Reward/Bonus</b></span></h4>
-If you complete the task, you will receive $0.10.
+If you complete the task, you will receive $0.50<br>
+Meaningful and relevant responses will be awarded with a bonus.
 <br>
 <br>
 <h4><span style="color:blue"><b>Close Window/Timeout/Return HIT</b></span></h4>
@@ -16,8 +17,7 @@ chat will result in
 <br>
 <br>
 <h4><span style="color:blue"><b>Important Notice</b></span></h4>
-1. <b>Be aware the conversations you have will be made public, so act as you
-would e.g. on a public social network like Twitter.</b>
+1. <b>Please ensure that the responses are meaningful and relevant like a natural conversation. Avoid very short responses like 'No', 'Yes', 'Okay', etc.</b>
 <br>
 2. Please do not reference the task or MTurk itself during the conversation,
 but speak naturally to the other person.
@@ -58,23 +58,18 @@ task_config[
     'task_description'
 ] = '''
 <h2><b>Description</b></h2>
-In this task, you will have a conversation with an Online Conversational System. The goal of
-this task is to continue the conversation with a meaningful response while colloborating with the convesational system.
+The goal of this task is to continue a given conversation with a meaningful response while colloborating with the online convesational system.
 <br>
 <br>
 <h4><span style='color:blue'><b>Sample Conversation</b></span></h4>
-<b>Person 1</b>: Hi! I really like board games.
+<b>Partner</b>: Hi! I really like board games.
 <br>
-<b>Person 2</b>: Oo, what type of board games?
+<b>You</b>: Oo, what type of board games?
 <br>
-<b>Person 1</b>: I like strategy games, especially ones that are sci-fi
+<b>Partner</b>: I like strategy games, especially ones that are sci-fi
 <br>
-<b>Person 2</b>: I love Risk, but it takes place on earth, so not sci-fi,
+<b>You</b>: I love Risk, but it takes place on earth, so not sci-fi,
 and it takes forever
-<br>
-<b>Person 1</b>: Right? How do you feel about cards against humanity?
-<br>
-<b>Person 2</b>: Cards against humanity is fun but a little too risque for me
 <br>
 <br>
 {}
@@ -89,34 +84,29 @@ task_config[
 <h2>You have just met the other person, who seems quite curious, and you are
 eager to discuss a topic with them!</h2>
 <br>
-You will have access to a set of relevant information.
-<br>
-Try to use one of these sentences to answer your partner's questions, and in
+
+Provide relevant and meaningful responses, and in
 general have an engaging conversation.
 <br>
 <br>
 
 After sending a response, you will be able to click the
 DONE button to finish the chat.
-To guarantee an efficient conversation, there is a time limit for sending a
-message to another person (3 mins).
+
 <b>Note: we will reward engaging and knowledgeable chats with BONUSES.</b>
 <br>
 <br>
 
 <h4><span style="color:blue"><b>Sample Conversation</b></span></h4>
-<b>Them</b>: Hi! I really like board games.
+<b>Partner</b>: Hi! I really like board games.
 <br>
 <b>You</b>: Oo, what type of board games?
 <br>
-<b>Them</b>: I like strategy games, especially ones that are sci-fi
+<b>Partner</b>: I like strategy games, especially ones that are sci-fi
 <br>
 <b>You</b>: I love Risk, but it takes place on earth, so not sci-fi, and it
 takes forever
-<br>
-<b>Them</b>: Right? How do you feel about cards against humanity?
-<br>
-<b>You</b>: Cards against humanity is fun but a little too risque for me
+
 <br>
 <br>
 {}
@@ -138,8 +128,7 @@ external information that will help them craft their response.
 <br>
 After a minimum number of turns, you will be able to click the DONE button
 to finish the chat.
-To guarantee an efficient conversation, there is a time limit for sending a message
-to another person (2 mins).
+
 <br>
 <br>
 <h4><span style="color:blue"><b>Conversation Outline</b></span></h4>

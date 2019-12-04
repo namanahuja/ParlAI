@@ -77,33 +77,17 @@ timer task on same line?? timer does not match the scroll pattern. Fix it
 
 
 
-HIT entry descriptions update
-check mutiple selected log and logs in all cases
-check logging scenarios
-max_resp_time in run try?????
-Done with this HIT button click instructions
 
-highlight
-check empty response
 
-bonus and its wait time
-email screenhots and instructions
-ask reviews from friends
 
-timer end check
-num-good-sentence-threshold and others
-welcome screen messages
 
-multiple selected
-empty response
-
-check if task can reun for 10 min uninterupted
-bad_wizard_worker
 
 
 task specific timer, maybe a timer between new tasks/ new task and send click
 
-check logs with -nc 10 if every thing logs properly in parallel
+
+
+
 
 live task:
 unique
@@ -112,3 +96,13 @@ reward
 heroku clean
 logs clean
 data clean
+
+
+check mutiple selected log and logs in all cases
+check logging scenarios
+Add sample/ timer info in initial Task Description
+bonus and its wait time
+check logs with -nc 10 if every thing logs properly in parallel
+bigger font size
+study about task payments for 5 min
+
