@@ -176,9 +176,17 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
 
 
         if (opt['shuffle_configs'] == 1):
-            self.suggestionsConfig = random.choice(['no', 'show'])
-            self.textboxFilled = random.choice([0, 1])
-            self.suggestionsNumber = random.choice([1, 3, 5])
+            combination = random.choice([['no', 0, 0], 
+                                        ['show', 0, 1],
+                                        ['show', 0, 3],
+                                        ['show', 0, 5],
+                                        ['show', 1, 1],
+                                        ['show', 1, 3],
+                                        ['show', 1, 5]])
+
+            self.suggestionsConfig = combination[0]
+            self.textboxFilled = combination[1]
+            self.suggestionsNumber = combination[2]
 
         else:
             self.suggestionsConfig = opt['suggestions_config']

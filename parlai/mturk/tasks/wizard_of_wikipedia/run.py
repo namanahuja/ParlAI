@@ -111,6 +111,8 @@ def main():
                            help='minimum number of turns')
     argparser.add_argument('-max_t', '--max_turns', default=2, type=int,
                            help='maximal number of chat turns')
+
+
     argparser.add_argument('-mx_rsp_time', '--max_resp_time', default=600,
                            type=int,
                            help='time limit for entering a dialog message')
@@ -126,7 +128,7 @@ def main():
     argparser.add_argument('--word-overlap-threshold', type=int, default=2,
                            help='How much word overlap we want between message \
                            and checked sentence')
-    argparser.add_argument('--num-good-sentence-threshold', type=int, default=2,
+    argparser.add_argument('--num-good-sentence-threshold', type=int, default=0,
                            help='How many good sentences with sufficient overlap \
                            are necessary for turker to be considered good.')
     argparser.add_argument('--num-passages-retrieved', type=int, default=3,
