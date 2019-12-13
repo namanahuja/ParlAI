@@ -404,7 +404,8 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                         'suggestionsNumber': self.suggestionsNumber,
                         'contextCount': self.contextCount,
                         'researchTask': acts[idx]['researchTask'],
-                        'suggestionsShown': acts[idx]['suggestionsShown']
+                        'suggestionsShown': acts[idx]['suggestionsShown'],
+                        'timeTaken': acts[idx]['timeTaken']
                         }
            
             '''Get clicked passages and checked sentences from Wizard'''
