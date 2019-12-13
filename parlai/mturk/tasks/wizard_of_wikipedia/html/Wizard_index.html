@@ -30,16 +30,21 @@
             <h4 style="display:inline;" id="timer-secs"></h4>
         </p>
       </div>
-      <h3 id="taskTitle" style="margin: 0px">Sample Task</h2>
-      <span id="taskCompleted" style="display: none;">Click <b>Done with this HIT</b> button to complete the task</span>  
-      <span style="color: blue; font-size: 14px;" id="taskIntro">This is a sample task for training purposes to help you get acquainted with the system.<br/>You will be shown a conversation below belonging to a randomly assigned topic. Read the conversation carefully. <b>Your task is to send the next response in the conversation.</b> <br/>After completion of this sample task, you will be shown a <b>timer</b> on the top. <b style='background-color: darksalmon'>You will have to complete as many conversations tasks as possible in the allotted time, maintaining the quality and relevance of the responses.</b><br/><br/></span>
-       <span id="firstContinue">Press <b>Continue</b> to view the conversation below.<br /> <br /></span>
       
-      <span id="showPassages" style="color: blue; font-size: 14px; display: none;">
+      <h4 id="taskTitle" style="margin: 0px"><span style='color:blue'><b>Sample Task</b></span></h4><br/>
+      <span id="taskCompleted" style="display: none;">Click <b>Done with this HIT</b> button to complete the task</span>  
+      <span style="font-size: 16px;" id="taskIntro">This is a sample task to help you get familiar with the system.<br/><br/>
+        We will show you an ongoing conversation between you and a “client”. Please read the conversation carefully. Your work is to provide <span style='color:red'><b>appropriate</b></span> and  <span style='color:red'><b>informative</b></span> responses to the “client”.<br/><br/>
+        After completing this sample task, you will see a <span style='color:red'><b>timer</b></span> on the top. You need to complete as many conversations as possible while maintaining the quality of your responses. The top-performing 10% of the HITs will be awarded a <span style='color:red'><b>bonus</b></span>.<br/><br/>
+
+      </span> 
+       <span id="firstContinue" style="font-size: 16px;">Click on Continue to view the conversation.<br /> <br /></span>
+      
+      <span id="showPassages" style="color: maroon; font-size: 16px; display: none;">
         
       </span>
 
-      <span id="textboxFilledInfo" style="color: blue; font-size: 14px; display: none;">
+      <span id="textboxFilledInfo" style="color: maroon; font-size: 16px; display: none;">
         
       </span>
 
@@ -119,8 +124,7 @@
   var lastKeyPressed= "";
   var suggestionsShown = false;
 
-  var taskDuration = 0;
-
+  var startTime, endTime;
 
   function handleSelectedSentences(sent){
     selectedSentences.push(sent);
@@ -299,11 +303,11 @@
 
           $("h4#partnerTitle").hide();
 
-          $("span#showPassages").html("You will be shown an input field and <b>Send Button</b> below. <b>Fill in an appropriate response </b> in the input field and <b>Press the Send Button</b> to complete the task.<br/><br/> ");
+          $("span#showPassages").html("<span style='font-size: 16px;'>You will be shown an input field and <b>Send Button</b> below. <span style='color: red;'><b>Fill in an appropriate response </b></span> in the input field and <b>Click on the Send Button</b> to complete the task.</span><br/><br/> ");
         }
 
-        else{
-          $("span#showPassages").html("Click <b style='background-color: darksalmon'>Show Suggestions button below to proceed</b> and view system-generated knowledge related to the current conversation. If you feel one or more sentences are relevant to the conversation and can be used to craft the response, <b>click</b> on them. Clicking a sentence copies it to the textbox. Feel free to make any edits in the copied text to craft your response. <br/> After crafting the response, <b>press the Send button</b><br /><br/>");
+        else if(message.textboxFilled != 1){
+          $("span#showPassages").html("<span style='font-size: 16px;'>To help you finish the conversations, our AI system has generated some response suggestions for you. Please click on <span style='color: red;'><b>Show Suggestions</b></span> button below to proceed and view system-generated responses. Clicking on a suggestion will copy the text to the textbox. Please feel free to make any edits in the copied text to craft your response.<br/><br/>Please note that:<br/>1. You are free to <span style='color: red;'><b>NOT</b></span> use any suggestions; you can craft your responses from scratch if you want.<br/>2. We do <span style='color: red;'><b>NOT</b></span> guarantee the quality of the suggestions. Your HIT may be rejected if you simply copy and submit suggestions as they may not be appropriate and informative.<br/><br/>After finishing the response text, press the <b>Send</b> button to complete the current conversation.</span>");
         }
       }
       else
@@ -315,9 +319,7 @@
 
         if(message.textboxFilled == 1) {
 
-          
-
-          $("span#textboxFilledInfo").html("The top rated system response will be populated in the input field automatically. Feel free to make any changes before sending the response.<br/><br/> ");
+           $("span#textboxFilledInfo").html("<span style='font-size: 16px;'>To help you finish the conversations, our AI system has generated some response suggestions for you. Please click on <span style='color: red;'><b>Show Suggestions</b></span> button below to proceed and view system-generated responses.<br/><br/>The AI system has already copied the text of the best suggestion to the textbox for you. You can also click on any suggestion to copy the text to the textbox. Please feel free to make any edits in the copied text to craft your response.<br/><br/>Please note that:<br/>1. You are free to <span style='color: red;'><b>NOT</b></span> use any suggestions; you can craft your responses from scratch if you want.<br/>2. We do <span style='color: red;'><b>NOT</b></span> guarantee the quality of the suggestions. Your HIT may be rejected if you simply copy and submit suggestions as they may not be appropriate and informative.<br/><br/>After finishing the response text, press the <b>Send</b> button to complete the current conversation.</span>");
         }
 
        
@@ -403,8 +405,9 @@
                   $(window).resize(window_resize);
 
                   //console.log("The countdown is over!");
-                  clearInterval(timer);
+                  
                   $("button#id_done_button").trigger("click");
+                  clearInterval(timer);
               
               }
               
@@ -480,9 +483,7 @@
         var passages = message.self_retrieved_passages;
         retrieved_passages['self'] = passages;
         if(message.newTask){
-          var taskTimer = setInterval(function() {
-            taskDuration++;
-          }, 1000);
+          //startTime = new Date();
 
           if(message.suggestionsConfig && message.suggestionsConfig == "no")
             $("button#suggestionsShowBtn").hide();
@@ -871,8 +872,7 @@
     // Handle submitting a message
     $("button#id_send_msg_button").on('click', function () {
 
-      console.log(taskDuration);
-      taskDuration = 0;
+      
       //clearInterval(taskTimer);
       //debugger;
       $("div#passages-pane").hide();
@@ -987,6 +987,10 @@
             $(this).prop('checked', false);
         });
 
+        endTime = new Date();
+
+        timeTaken =  (endTime - startTime)/1000;
+
         // Send a packet
         
         send_packet(
@@ -1002,7 +1006,8 @@
             loggedKeys: loggedKeys,
             selectedSentences: selectedSentences,
             researchTask: true,
-            suggestionsShown: suggestionsShown
+            suggestionsShown: suggestionsShown,
+            timeTaken: timeTaken
           },
           true,
           true,
@@ -1019,6 +1024,7 @@
       }
       loggedKeys = [];
       selectedSentences = [];
+      startTime = new Date();
     });
 
 

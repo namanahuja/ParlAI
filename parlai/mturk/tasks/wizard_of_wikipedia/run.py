@@ -272,8 +272,8 @@ def main():
             worker_roles[worker.worker_id] = role
             worker.persona_generator = persona_generator
             world = RoleOnboardWorld(opt, worker, role)
-            world.parley()
-            world.shutdown()
+            #world.parley()
+            #world.shutdown()
 
         mturk_manager.set_onboard_function(onboard_function=run_onboard)
         mturk_manager.ready_to_accept_workers()

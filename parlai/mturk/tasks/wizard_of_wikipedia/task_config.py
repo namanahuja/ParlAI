@@ -6,27 +6,25 @@
 task_config = {}
 
 end_info = """
-<h4><span style="color:blue"><b>Reward/Bonus</b></span></h4>
-If you complete the task, you will receive $0.50<br>
-Meaningful and relevant responses will be awarded with a bonus.
+
+<h4><span style="color:blue"><b>Guidelines</b></span></h4>
+1. Your response should aim to <span style='color:red'><b>continue the conversation</b></span> or to <span style='color:red'><b>answer the client’s question</b></span>.
 <br>
+2. Please <span style='color:red'><b>avoid very short responses</b></span> such as only saying 'No', 'Yes', and 'Okay' as they are not informative.
 <br>
-<h4><span style="color:blue"><b>Close Window/Timeout/Return HIT</b></span></h4>
-Once the conversation has started, close window/timeout or return HIT during the
-chat will result in
-<b>HIT EXPIRED</b> to you and NO reward paid.
-<br>
-<br>
-<h4><span style="color:blue"><b>Important Notice</b></span></h4>
-1. <b>Please ensure that the responses are meaningful and relevant like a natural conversation. Avoid very short responses like 'No', 'Yes', 'Okay', etc.</b>
-<br>
-2. Please do not reference the task or MTurk itself during the conversation,
-but speak naturally to the other person.
-<br>
-3. Please do not send any message that could make others uncomfortable,
+3. Please do not send any message that could make others <span style='color:red'><b>uncomfortable</b></span>,
 including any level of discrimination, racism, sexism and offensive
 religious/politics comments, otherwise the submission will be rejected.
 <br>
+<br>
+<br>
+<h4><span style="color:blue"><b>Reward/Bonus</b></span></h4>
+You will receive <span style='color:red'><b>$0.50</b></span> for finishing a task session of <span style='color:red'><b>5 minutes</b></span> 
+with <span style='color:red'><b>at least 5 successfully completed conversations</b></span>. Your responses will be evaluated by other human workers. 
+Note that we will reject your HIT if you quit before 5 minutes or did not finish 5 conversations with informative responses.
+<br>
+We expect you to finish <span style='color:red'><b>as many conversations as possible while maintaining the quality of your responses</b></span>. 
+The top-performing 10% of the HITs, counting both the number of finished conversations and the quality of their responses, will be awarded a bonus of $0.50.
 <br>
 <br>
 """
@@ -35,7 +33,7 @@ religious/politics comments, otherwise the submission will be rejected.
 On the Amazon Mechanical Turk web site, the HIT title appears in search results,
 and everywhere the HIT is mentioned.
 """
-task_config['hit_title'] = 'Chat with an Online Conversational System'
+task_config['hit_title'] = 'Chatting with People Online'
 
 
 """A description includes detailed information about the kind of task the HIT contains.
@@ -58,19 +56,18 @@ and on the left side of the chat page. Supports HTML formatting.
 task_config[
     'task_description'
 ] = '''
-<h2><b>Description</b></h2>
-The goal of this task is to continue a given conversation with a meaningful response while colloborating with the online convesational system.
+Imagine your work is to chat with many people online. We will provide you with some ongoing conversations between you and another person (referred to as “Client”), and you need to provide appropriate and informative responses to them.
 <br>
 <br>
-<h4><span style='color:blue'><b>Sample Conversation</b></span></h4>
-<b>Partner</b>: Hi! I really like board games.
+<h4><span style='color:blue'><b>Example Conversation</b></span></h4>
+<b>Client</b>: Hi! I really like board games.
 <br>
 <b>You</b>: Oo, what type of board games?
 <br>
-<b>Partner</b>: I like strategy games, especially ones that are sci-fi
+<b>Client</b>: I like strategy games, especially ones that are sci-fi
 <br>
-<b>You</b>: I love Risk, but it takes place on earth, so not sci-fi,
-and it takes forever
+<b>You</b>: <span style='color:red'><b>(... you need to provide your response ...)</b></span>
+
 <br>
 <br>
 {}
