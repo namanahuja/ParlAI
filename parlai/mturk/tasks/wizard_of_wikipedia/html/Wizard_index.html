@@ -319,7 +319,7 @@
 
         if(message.textboxFilled == 1) {
 
-           $("span#textboxFilledInfo").html("<span style='font-size: 16px;'>To help you finish the conversations, our AI system has generated some response suggestions for you. Please click on <span style='color: red;'><b>Show Suggestions</b></span> button below to proceed and view system-generated responses.<br/><br/>The AI system has already copied the text of the best suggestion to the textbox for you. You can also click on any suggestion to copy the text to the textbox. Please feel free to make any edits in the copied text to craft your response.<br/><br/>Please note that:<br/>1. You are free to <span style='color: red;'><b>NOT</b></span> use any suggestions; you can craft your responses from scratch if you want.<br/>2. We do <span style='color: red;'><b>NOT</b></span> guarantee the quality of the suggestions. Your HIT may be rejected if you simply copy and submit suggestions as they may not be appropriate and informative.<br/><br/>After finishing the response text, press the <b>Send</b> button to complete the current conversation.</span>");
+           $("span#textboxFilledInfo").html("<span style='font-size: 16px;'>To help you finish the conversations, our AI system has generated some response suggestions for you. Please click on <span style='color: red;'><b>Show Suggestions</b></span> button below to proceed and view system-generated responses.<br/><br/>The AI system has <span style='color: red;'><b>already copied</b></span> the text of the best suggestion to the textbox for you. You can also click on any suggestion to copy the text to the textbox. Please feel free to make any edits in the copied text to craft your response.<br/><br/>Please note that:<br/>1. You are free to <span style='color: red;'><b>NOT</b></span> use any suggestions; you can craft your responses from scratch if you want.<br/>2. We do <span style='color: red;'><b>NOT</b></span> guarantee the quality of the suggestions. Your HIT may be rejected if you simply copy and submit suggestions as they may not be appropriate and informative.<br/><br/>After finishing the response text, press the <b>Send</b> button to complete the current conversation.</span>");
         }
 
        
@@ -367,6 +367,9 @@
                     var elmnt = document.getElementById("taskHelper");
                     elmnt.scrollIntoView();
                   }
+
+                  if(t < 8)
+                    $("button#id_send_msg_button").prop("disabled", true);
 
                   if(mins > 0)
                     document.getElementById("timer-mins").innerHTML= ("0" + mins).slice(-2) +
@@ -439,7 +442,7 @@
 
         var i = 0;
         while(i < contextArrayLength - 1){
-          add_message_to_conversation('Partner', message.context[i++], false);
+          add_message_to_conversation('Client', message.context[i++], false);
 
           if( i >= contextArrayLength - 1)
             break;
@@ -457,7 +460,7 @@
 
         
         if (agent_id !== cur_agent_id) {
-          var display_id = agent_id == 'SYSTEM' ? agent_id : "Partner";
+          var display_id = agent_id == 'SYSTEM' ? agent_id : "Client";
           add_message_to_conversation(display_id, message_text, false);
         } else {
           var display_id = agent_id == 'SYSTEM' ? agent_id : "You";
