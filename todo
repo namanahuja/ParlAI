@@ -83,7 +83,6 @@ timer task on same line?? timer does not match the scroll pattern. Fix it
 
 
 
-task specific timer, maybe a timer between new tasks/ new task and send click
 
 
 
@@ -97,6 +96,9 @@ heroku clean
 logs clean
 data clean
 
+
+
+min 5 tasks to exit
 
 check mutiple selected log and logs in all cases
 check logging scenarios

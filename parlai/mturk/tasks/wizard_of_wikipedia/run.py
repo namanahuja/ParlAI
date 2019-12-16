@@ -121,7 +121,7 @@ def main():
                            choices=['both', 'self', 'other'],
                            help='Which personas to load from personachat')
     argparser.add_argument('--auto-approve-delay', type=int,
-                           default=3600 * 24 * 3, help='how long to wait for  \
+                           default=3600 * 24 * 5, help='how long to wait for  \
                            auto approval')
     argparser.add_argument('--word-overlap-threshold', type=int, default=2,
                            help='How much word overlap we want between message \
