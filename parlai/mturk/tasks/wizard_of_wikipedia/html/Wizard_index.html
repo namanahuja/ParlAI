@@ -120,6 +120,7 @@
 
   var loggedKeys = [];
   var selectedSentences = [];
+  var selectedIndices = [];
   var activeMessage = {};
   var lastKeyPressed= "";
   var suggestionsShown = false;
@@ -594,12 +595,19 @@
      
       $(`div#${person}-retrieved-passages`).html(list);
       $(`div.generated`).on("click", function(){
+        debugger;
+        var senID = $(this)[0].id;
+
+        if(selectedIndices.includes(senID))
+          return;
+
 
         var oldInput = $("textarea#id_text_input").val();
         var newInput = oldInput + " " + $(this)[0].innerText;
         $("textarea#id_text_input").val(newInput);
         handleLoggingData("<<selected>>");
         handleSelectedSentences($(this)[0].innerText);
+        selectedIndices.push($(this)[0].id);
         var elmnt = document.getElementById("id_text_input");
         elmnt.scrollIntoView();
       });
@@ -1027,6 +1035,7 @@
       }
       loggedKeys = [];
       selectedSentences = [];
+      selectedIndices = [];
       startTime = new Date();
     });
 

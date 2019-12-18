@@ -198,10 +198,10 @@ def main():
             context = data['conversation']
             context.append(data['actualResponse'])
             obj['conversation'] = context
-            tripleContext.append(obj)
+            doubleContext.append(obj)
 
 
-    corpusPath = '/home/naman/research/ParlAI' + '/singleContext.json'
+    corpusPath = '/home/naman/research/ParlAI/newData' + '/dataOne.json'
 
     with open(corpusPath, "r") as read_file:
         allData = json.load(read_file)
@@ -211,7 +211,7 @@ def main():
             context = data['conversation']
             context.append(data['actualResponse'])
             obj['conversation'] = context
-            tripleContext.append(obj)
+            singleContext.append(obj)
 
 
 
@@ -232,7 +232,7 @@ def main():
 
 
 
-    opt['allContexts'] = random.sample(allContexts, opt['num_tasks'] + 2)
+    opt['allContexts'] = random.sample(allContexts, 10)
 
 
 

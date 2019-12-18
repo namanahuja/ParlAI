@@ -1,0 +1,482 @@
+[
+  {
+    "contextLen": 1,
+    "conversation": [
+      "I love the Vancouver Grizzlies team - do you know much about them?"
+    ],
+    "suggestions": [
+      "The Vancouver Grizzlies were a Canadian professional basketball team based in Vancouver, British Columbia.",
+      "They were part of the Midwest Division of the Western Conference of the National Basketball Association (NBA).",
+      "The Vancouver Grizzlies relocation to Memphis was a successful effort by the ownership group of the Vancouver Grizzlies to move the basketball team from the Canadian city of Vancouver, British Columbia, to the United States city of Memphis, Tennessee.",
+      "The team began play as the Memphis Grizzlies in the 2001–02 season.",
+      "The Memphis Grizzlies are an American professional basketball team based in Memphis, Tennessee.",
+      "The Grizzlies compete in the National Basketball Association (NBA) as a member team of the league's Western Conference Southwest Division."
+    ],
+    "actualResponse": "I know that the Vancouver Grizzlies basketball team are from Canada out of Vancouver, British Columbia.",
+    "index": 0
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "i really love animals, do u know about Armadillo?"
+    ],
+    "suggestions": [
+      "The giant armadillo (\"Priodontes maximus\"), colloquially tatou, ocarro, tatu-canastra or tatú carreta, is the largest living species of armadillo (although their extinct relatives, the glyptodonts, were much larger).",
+      "It lives in South America, ranging throughout as far south as northern Argentina.",
+      "Termites are eusocial insects that are classified at the taxonomic rank of infraorder Isoptera, or as epifamily Termitoidae within the cockroach order Blattodea.",
+      "Termites were once classified in a separate order from cockroaches, but recent phylogenetic studies indicate that they evolved from close ancestors of cockroaches during the Jurassic or Triassic.",
+      "The nine-banded armadillo (\"Dasypus novemcinctus\"), or the nine-banded, long-nosed armadillo, is a medium-sized mammal found in North, Central, and South America, making it the most widespread of the armadillos.",
+      "Its ancestors originated in South America, and remained there until the formation of the Isthmus of Panama allowed them to enter North America as part of the Great American Interchange."
+    ],
+    "actualResponse": "I know a little bit. I saw a giant armadillo in a museum. Apparently they eat a lot of ants and termites! ",
+    "index": 1
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "Do you like Rita Hayworth? She was quite good looking"
+    ],
+    "suggestions": [
+      "Rita Hayworth (born Margarita Carmen Cansino; October 17, 1918May 14, 1987) was an American actress and dancer.",
+      "She achieved fame during the 1940s as one of the era's top stars, appearing in a total of 61 films over 37 years.",
+      "George Orson Welles (; May 6, 1915 – October 10, 1985) was an American actor, director, writer, and producer who worked in theatre, radio, and film.",
+      "He is remembered for his innovative work in all three: in theatre, most notably \"Caesar\" (1937), a Broadway adaptation of William Shakespeare's \"Julius Caesar\"; in radio, the legendary 1938 broadcast \"The War of the Worlds\"; and in film, \"Citizen Kane\" (1941), consistently ranked as one of the greatest films ever made.",
+      "In the 1946 film \"Gilda\", Rita Hayworth wore a black dress made by American costume designer Jean Louis.",
+      "It was used in one of the most famous scenes of the film: one in which the character of Gilda sings the song \"Put the Blame on Mame\", improvising a quick striptease, choreographed by Jack Cole."
+    ],
+    "actualResponse": "I do like Rita Hayworth. She was an American dancer an actress.",
+    "index": 2
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "Have you seen the movie, \"The greatest Showman\" ? I have heard it is really good and has a lot of show tunes in it!"
+    ],
+    "suggestions": [
+      "The Greatest Showman is a 2017 American musical drama film directed by Michael Gracey in his directorial debut, written by Jenny Bicks and Bill Condon and starring Hugh Jackman, Zac Efron, Michelle Williams, Rebecca Ferguson, and Zendaya.",
+      "The film is inspired by the story of P. T. Barnum's creation of the Barnum & Bailey Circus and the lives of its star attractions.",
+      "The Greatest Showman: Original Motion Picture Soundtrack is the soundtrack album to the film of the same name.",
+      "The soundtrack was released in full on December 8, 2017 by Atlantic Records.",
+      "Chicago is a 2002 American musical crime comedy-drama film based on the stage-musical of the same name, exploring the themes of celebrity, scandal, and corruption in Chicago during the Jazz Age.",
+      "The film stars Renée Zellweger, Catherine Zeta-Jones and Richard Gere."
+    ],
+    "actualResponse": "No, I haven't seen The Greatest Showman but I heard from a co-worker how much she loved it. She saw it 4 times",
+    "index": 3
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "Hey, how is it going? I think I am going to surf tomorrow. Do you surf?"
+    ],
+    "suggestions": [
+      "Surfing is a surface water sport in which the wave rider, referred to as a surfer, rides on the forward or deep face of a moving wave, which is usually carrying the surfer towards the shore.",
+      "Waves suitable for surfing are primarily found in the ocean, but can also be found in lakes or in rivers in the form of a standing wave or tidal bore.",
+      "Port Phillip (also commonly referred to as Port Phillip Bay or (locally) just The Bay), is a large bay in southern Victoria, Australia; it is the location of Melbourne.",
+      "Geographically, the bay covers and the shore stretches roughly .",
+      "Beaches in Indonesia are extensive, characterized by coral reefs, deposits from volcanoes, rich marine biodiversity, strong ocean currents, and associated with diverse cultural traditions.",
+      "With around 17,500 islands, Indonesia has an intricate coastline of over 80,000 km, the fourth longest in the world."
+    ],
+    "actualResponse": "I don't because there aren't many beaches where I live, I have done body boarding a few times though, it's kind of similar except you're not standing up.",
+    "index": 4
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "I am very curious about the French Bulldog, how are they different from American Bulldogs?"
+    ],
+    "suggestions": [
+      "The French Bulldog, also known as the Frenchie, is a small breed of domestic dog.",
+      "Frenchies were the result in the 1800s of a cross between bulldog ancestors imported from England and local ratters in Paris (France).",
+      "The Red-Tiger Bulldog is an American dog breed that was developed in 1991.",
+      "The breed derives from red-nosed American Bulldogs that were owned and bred by Rev.",
+      "A Bulldog is a medium-sized breed of dog commonly referred to as the English Bulldog or British Bulldog.",
+      "It is a muscular, hefty dog with a wrinkled face and a distinctive pushed-in nose."
+    ],
+    "actualResponse": "They are a cross breed of bulldog and ratters",
+    "index": 5
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "I don't know a great deal about the Toyota Prius. I know it is supposedly environmentally very friendly. Are you familiar with the vehicle?"
+    ],
+    "suggestions": [
+      "A hybrid electric vehicle (HEV) is a type of hybrid vehicle that combines a conventional internal combustion engine (ICE) system with an electric propulsion system (hybrid vehicle drivetrain).",
+      "The presence of the electric powertrain is intended to achieve either better fuel economy than a conventional vehicle or better performance.",
+      "The Toyota Prius () is a full hybrid electric automobile developed by Toyota and manufactured by the company since 1997.",
+      "Initially offered as a 4-door sedan, it has been produced only as a 5-door liftback from 2003 to 2015, and then a 5-door fastback since 2016.",
+      "Toyota is the world's market leader in sales of hybrid electric vehicles, and one of the largest companies to encourage the mass-market adoption of hybrid vehicles across the globe.",
+      "Cumulative global sales of Toyota and Lexus hybrid passenger car models achieved the 10 million milestone in January 2017."
+    ],
+    "actualResponse": "The Toyota Prius is the most famous  full hybrid electric automobile developed by Toyota and manufactured by the company since 1997.",
+    "index": 6
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "So do you know anything about Colorado?"
+    ],
+    "suggestions": [
+      "Colorado () is a state of the United States encompassing most of the southern Rocky Mountains as well as the northeastern portion of the Colorado Plateau and the western edge of the Great Plains.",
+      "It is the 8th largest geographically and 21st most populous U.S. state.",
+      "The ecology of the Rocky Mountains is diverse due to the effects of a variety of environmental factors.",
+      "The Rocky Mountains are the major mountain range in western North America, running from the far north of British Columbia in Canada to New Mexico in the southwestern United States, climbing from the Great Plains at or below to peaks of over .",
+      "The Southern Rocky Mountains are a major subregion of the Rocky Mountains of North America located in the southeastern portion of the U.S. state of Wyoming, the central and western portions of Colorado, the northern portion of New Mexico, and extreme eastern portions of Utah.",
+      "The Southern Rocky Mountains are also commonly known as the Southern Rockies, and since the highest peaks are located in the State of Colorado, they are sometimes known as the Colorado Rockies, although many important ranges and peaks rise in the other three states."
+    ],
+    "actualResponse": "It's a very mountainous state, it contains most of the southern Rocky Mountains. Have you ever been there?",
+    "index": 7
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "I really love dogs. What can you tell me about them?"
+    ],
+    "suggestions": [
+      "The domestic dog (\"Canis lupus familiaris\" or \"Canis familiaris\") is a member of the genus \"Canis\" (canines), which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore.",
+      "The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct.",
+      "The evolution of the wolf occurred over a geologic time scale of 800 thousand years, transforming the first Middle Pleistocene wolf specimen that is recognized as being morphologically similar to \"Canis lupus\" into today's dog, dingo and gray wolf.",
+      "Ecological factors including habitat type, climate, prey specialization and predatory competition has greatly influenced the wolf's genetic population structure and cranio-dental plasticity.",
+      "The origin of the domestic dog is not clear.",
+      "The domestic dog is a member of the genus \"Canis\", which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore."
+    ],
+    "actualResponse": "well the domestic dog is a member of the genus \"Canis\" which forms part of the world-like canids, and is the most widely abundant terrestrial carnivore.",
+    "index": 8
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "When walking through Walmart I always see so much fishing tackle and equipment! I really dont know how any of it works, do you?"
+    ],
+    "suggestions": [
+      "Fishing tackle is the equipment used by fishermen when fishing.",
+      "Almost any equipment or gear used for fishing can be called fishing tackle.",
+      "Recreational fishing, also called sport fishing, is fishing for pleasure or competition.",
+      "It can be contrasted with commercial fishing, which is fishing for profit, or subsistence fishing, which is fishing for survival.",
+      "Fly fishing is an angling method in which an artificial \"fly\" is used to catch fish.",
+      "The fly is cast using a fly rod, reel, and specialized weighted line."
+    ],
+    "actualResponse": "You mean the equipment people use when they go fishing? That fishing tackle I happen to know a lot about! Do yo u ever fish?",
+    "index": 9
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "Who is Shaun White anyway?"
+    ],
+    "suggestions": [
+      "Shaun Roger White (born September 3, 1986) is an American professional snowboarder and skateboarder.",
+      "He is a two-time Olympic gold medalist.",
+      "Paul Martin Rodriguez Jr. (born December 31, 1984), also known by his nickname P-Rod, is an American professional street skateboarder and actor.",
+      "Rodriguez has won a total of eight medals at the X Games, four of them gold, with the most recent first-place victory occurring in Los Angeles, United States (U.S.) in July 2012.",
+      "Shaun Palmer (born November 14, 1968) is an American professional snowboarder, skier, mountain biker, and motocross rider.",
+      "\"Palm Daddy\" is known as one of the forefathers of extreme sports."
+    ],
+    "actualResponse": "Shaun White is an American professional snowboarder and skateboarder, quite the athlete.",
+    "index": 10
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "I see a lot of talk about Anime, can you share knowledge?"
+    ],
+    "suggestions": [
+      "Anime ( ), also called Japanimation, is hand-drawn or computer animation associated with Japan.",
+      "The word \"anime\" is the Japanese term for \"animation\", which means all forms of animated media.",
+      "The history of anime can be traced back to the start of the 20th century, with the earliest verifiable films dating from 1917.",
+      "The first generation of animators in the late 1910s included Ōten Shimokawa, Jun'ichi Kōuchi and Seitaro Kitayama, commonly referred to as the \"fathers\" of anime.",
+      "Dubbing, mixing or re-recording is a post-production process used in filmmaking and video production in which additional or supplementary recordings are \"mixed\" with original production sound to create the finished soundtrack.",
+      "The process usually takes place on a dub stage."
+    ],
+    "actualResponse": "Anime is Japanese for Animation - it means cartoons that come from Japan",
+    "index": 11
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "I've been thinking about learning how to surf. Do you surf? How worried should I really be about rip currents or undertows?"
+    ],
+    "suggestions": [
+      "Surfing is a surface water sport in which the wave rider, referred to as a surfer, rides on the forward or deep face of a moving wave, which is usually carrying the surfer towards the shore.",
+      "Waves suitable for surfing are primarily found in the ocean, but can also be found in lakes or in rivers in the form of a standing wave or tidal bore.",
+      "Surf culture is the culture that includes the people, language, fashion, and lifestyle surrounding the sport of surfing.",
+      "The history of surfing began with the ancient Polynesians.",
+      "The riding of waves has likely existed since humans began swimming in the ocean.",
+      "In this sense, bodysurfing is the oldest type of wave-catching."
+    ],
+    "actualResponse": "Surfing is so much fun! If you're worried about those things, you could always try surfing in a lake or river!",
+    "index": 12
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "Rita Hayworth is one of the people I dream about meeting, are you familiar with her?"
+    ],
+    "suggestions": [
+      "Rita Hayworth (born Margarita Carmen Cansino; October 17, 1918May 14, 1987) was an American actress and dancer.",
+      "She achieved fame during the 1940s as one of the era's top stars, appearing in a total of 61 films over 37 years.",
+      "George Orson Welles (; May 6, 1915 – October 10, 1985) was an American actor, director, writer, and producer who worked in theatre, radio, and film.",
+      "He is remembered for his innovative work in all three: in theatre, most notably \"Caesar\" (1937), a Broadway adaptation of William Shakespeare's \"Julius Caesar\"; in radio, the legendary 1938 broadcast \"The War of the Worlds\"; and in film, \"Citizen Kane\" (1941), consistently ranked as one of the greatest films ever made.",
+      "In the 1946 film \"Gilda\", Rita Hayworth wore a black dress made by American costume designer Jean Louis.",
+      "It was used in one of the most famous scenes of the film: one in which the character of Gilda sings the song \"Put the Blame on Mame\", improvising a quick striptease, choreographed by Jack Cole."
+    ],
+    "actualResponse": "Hey! I really like the work of Rita Hayworth. She was a dancer born in 1918 but passed in 1987. ",
+    "index": 13
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "im interestd in this band van halen, have you heard of them ?"
+    ],
+    "suggestions": [
+      "Van Halen is an American hard rock band formed in Pasadena, California, in 1972.",
+      "From 1974 until 1985, the band consisted of guitarist Eddie Van Halen, vocalist David Lee Roth, drummer Alex Van Halen, and bassist Michael Anthony.",
+      "Edward Lodewijk Van Halen (born January 26, 1955) is a Dutch-American musician, songwriter and producer.",
+      "He is the main songwriter, and founder — with brother Alex Van Halen, singer David Lee Roth, and bassist Michael Anthony — of the American hard rock band Van Halen.",
+      "David Lee Roth (born October 10, 1954) is an American rock vocalist, musician, songwriter, actor, author, and former radio personality.",
+      "In 2007, he was inducted into the Rock and Roll Hall of Fame."
+    ],
+    "actualResponse": "Hi there! Have you heard of the American hard rock band Van Halen?",
+    "index": 14
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "what is red wine made from?"
+    ],
+    "suggestions": [
+      "Grenache () or Garnacha () is one of the most widely planted red wine grape varieties in the world.",
+      "It ripens late, so it needs hot, dry conditions such as those found in Spain, where the grape most likely originated.",
+      "Black Grape are a rock band from England, featuring former members of Happy Mondays and Ruthless Rap Assassins.",
+      "Their musical style fuses funk and electronic rock with electronic programming and samples.",
+      "Cabernet Sauvignon () is one of the world's most widely recognized red wine grape varieties.",
+      "It is grown in nearly every major wine producing country among a diverse spectrum of climates from Canada's Okanagan Valley to Lebanon's Beqaa Valley."
+    ],
+    "actualResponse": "it is made from dark colored or black grape type of fruit.",
+    "index": 15
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "i heard about t his band the beatles, do you know anything about them ?"
+    ],
+    "suggestions": [
+      "The Beatles is an American animated television series featuring representations of the popular English rock band of the same name.",
+      "It ran from 1965 to 1969 on ABC in the U.S. (only 1965 to 1967 was first run; later transmissions were reruns).",
+      "The Beatles were an English rock band formed in Liverpool in 1960.",
+      "With members John Lennon, Paul McCartney, George Harrison and Ringo Starr, they became widely regarded as the foremost and most influential music band.",
+      "Sir Richard Starkey, (born 7 July 1940), known professionally as Ringo Starr, is an English musician, songwriter, singer, and actor who gained worldwide fame as the drummer for the Beatles.",
+      "He occasionally sang lead vocals, usually for one song on an album, including \"With a Little Help from My Friends\", \"Yellow Submarine\", \"Good Night\", and their cover of \"Act Naturally\"."
+    ],
+    "actualResponse": "I've heard more about the band members than their songs. John, Paul, George, and Ringo were all members of the Beatles.",
+    "index": 16
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "I want to plan a trip to New York City. Have you ever been there?"
+    ],
+    "suggestions": [
+      "The City of New York, often called New York City or simply New York, is the most populous city in the United States.",
+      "With an estimated 2016 population of 8,537,673 distributed over a land area of about , New York City is also the most densely populated major city in the United States.",
+      "New York is a state in the northeastern United States.",
+      "New York was one of the original thirteen colonies that formed the United States.",
+      "Manhattan () is the most densely populated borough of New York City, its economic and administrative center, and its historical birthplace.",
+      "Locally it is often referred to simply as \"The City\"."
+    ],
+    "actualResponse": "Yes! I love New York City! It's located on the southern tip of New York state.",
+    "index": 17
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "Do you know anything about graphic design? I've always been interested in it but don't know where to start."
+    ],
+    "suggestions": [
+      "Visual communication is communication through a visual aid and is described as the conveyance of ideas and information in forms that can be read or looked upon.",
+      "Visual communication in part or whole relies on vision, and is primarily presented or expressed with two-dimensional images, it includes signs, typography, drawing, graphic design, illustration, industrial design, advertising, animation colour and electronic resources.",
+      "Graphic communication as the name suggests is communication using graphic elements.",
+      "These elements include symbols such as glyphs and icons, images such as drawings and photographs, and can include the passive contributions of substrate, color and surroundings.",
+      "Visual rhetoric is the fairly recent development of a theoretical framework describing how visual images communicate meaning, as opposed to aural, verbal, or other messages.",
+      "Visual rhetoric generally falls under a group of terms, which all encompass visual literacy."
+    ],
+    "actualResponse": "I know it is the process of visual communication using images ",
+    "index": 18
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "I really do love One Direction, they have been one of my favorite bands for some time, do you know about them?"
+    ],
+    "suggestions": [
+      "One Direction (commonly abbreviated as 1D) are an English-Irish pop boy band based in London, composed of Niall Horan, Liam Payne, Harry Styles, Louis Tomlinson, and Zayn Malik until the latter's departure on 25 March 2015.",
+      "The group signed with Simon Cowell's record label Syco Records after forming and finishing third in the seventh series of the British televised singing competition \"The X Factor\" in 2010.",
+      "Up All Night is the debut studio album by English-Irish group One Direction, released by Syco Records in November 2011 in Ireland and the United Kingdom, followed by a worldwide release during 2012.",
+      "Four months after finishing third in the seventh series of British reality singing contest \"The X Factor\" in December 2010, One Direction began recording the album in Sweden, UK and the United States, working with a variety of writers and producers.",
+      "This article describes trends in popular music in the 2010s.",
+      "See also: 2010s in the music industry."
+    ],
+    "actualResponse": " One Direction (commonly abbreviated as 1D) are an English-Irish pop boy band based in London, i find their music to be extremely good",
+    "index": 19
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "so do you know anything about donna Karan?"
+    ],
+    "suggestions": [
+      "Donna Karan (born October 2, 1948), also known as \"DK\", is an American fashion designer and the creator of the Donna Karan New York and DKNY clothing labels.",
+      "Karan was born Donna Ivy Faske to mother Helen (\"Queenie\") and father Gabby Faske in the Forest Hills neighborhood of the Borough of Queens, New York City.",
+      "DKNY is a New York-based fashion house specializing in fashion goods for men and women, founded in 1984 by Donna Karan.",
+      "Karan worked for 15 years at Anne Klein, including 10 as its head designer.",
+      "Andre Pierre Charles (born 1968) is an American artist born in Brooklyn, New York and raised in the Bronx.",
+      "Charles is best known as a 1980s pioneer of the New York City graffiti art movement and for his influence on New York City nightclub and youth culture."
+    ],
+    "actualResponse": "Yeah she was born in the USA in 1948.  She is the creator of DKNY clothing labels.",
+    "index": 20
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "Hey, do you know anything about Austin, Texas?"
+    ],
+    "suggestions": [
+      "Phoenix () is the capital and most populous city of the U.S. state of Arizona.",
+      "With 1,615,017 people (), Phoenix is the fifth most populous city nationwide, the most populous state capital in the United States, and the only state capital with a population of more than one million residents.",
+      "San Antonio ( Spanish for \"Saint Anthony\"), officially the City of San Antonio, is the seventh most populous city in the United States and the second most populous city in both Texas and the Southern United States.",
+      "Founded as a Spanish mission and colonial outpost in 1718, the city became the first chartered civil settlement in Texas in 1731, making it the state's oldest municipality.",
+      "Iran ( ), also known as Persia (), officially the Islamic Republic of Iran ( ), is a sovereign state in Western Asia.",
+      "With over 81 million inhabitants, Iran is the world's 18th-most-populous country."
+    ],
+    "actualResponse": "Of course yes, it is the 11th-most populous city in the United States and the 4th-most populous city in Texas.",
+    "index": 21
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "Honda Civics are pretty plain looking, but they are also really reliable and popular cars right?"
+    ],
+    "suggestions": [
+      "The Honda Civic is a line of cars manufactured by Honda.",
+      "Originally a subcompact, the Civic has gone through several generational changes, becoming both larger and more upmarket and moving into the compact car segment.",
+      "Honda has been the world's largest motorcycle manufacturer since 1959, as well as the world's largest manufacturer of internal combustion engines measured by volume, producing more than 14 million internal combustion engines each year.",
+      "Honda became the second-largest Japanese automobile manufacturer in 2001.",
+      "The Honda City is a compact car which has been produced by the Japanese manufacturer Honda since 1981.",
+      "Originally made for the Japanese, European and Australasian markets, the subcompact City 3-door hatchback was retired in 1994 after the second generation."
+    ],
+    "actualResponse": "Sure, the Honda Civic was originally a subcompact but is now larger and considered compact.",
+    "index": 22
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "Have you ever seen a giant panda? I saw one in a zoo. They are amazing."
+    ],
+    "suggestions": [
+      "The giant panda (\"Ailuropoda melanoleuca\", \"black and white cat-foot\"; , \"big bear cat\"), also known as panda bear or simply panda, is a bear native to south central China.",
+      "It is easily recognized by the large, distinctive black patches around its eyes, over the ears, and across its round body.",
+      "Currently, there are 25 zoos in 17 countries (Australia, Austria, Belgium, Canada, China (Hong Kong), France, Germany, Indonesia, Japan, Mexico, the Netherlands, Singapore, Spain, Taiwan, Thailand, United Kingdom (Scotland), and United States) that have giant pandas.",
+      "Finland received its first two pandas in January 2018.",
+      "The National Zoological Park, commonly known as the National Zoo, is one of the oldest zoos in the United States.",
+      "It is part of the Smithsonian Institution and does not charge for admission."
+    ],
+    "actualResponse": "Giant pandas are so cute and fluffy, nothing like a normal bear",
+    "index": 23
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "Ever watch Grey's Anatomy?"
+    ],
+    "suggestions": [
+      "Grey's Anatomy is an American medical drama television series that premiered on March 27, 2005, on American Broadcasting Company (ABC) as a mid-season replacement.",
+      "The fictional series focuses on the lives of surgical interns, residents, and attending physicians, as they develop into seasoned doctors while trying to maintain personal lives and relationships.",
+      "Meredith Grey, M.D.",
+      "is a fictional character from the medical drama television series \"Grey's Anatomy\", which airs on the American Broadcasting Company (ABC) in the United States.",
+      "Raúl Velasco (April 24, 1933 – November 26, 2006) was the Mexican host/producer of the TV show \"Siempre en Domingo\" (\"Always on Sunday\") which is his hallmark contribution to the Latin American world and eventually to other parts of the world where Spanish entertainment programs are broadcast.",
+      "Raúl Velasco began this program as co-host of a Sunday afternoon special in 1969 called \"Domingos Espectaculares\" (\"Spectacular Sundays\")."
+    ],
+    "actualResponse": "no but Grey's Anatomy is and was very popular tv show in america",
+    "index": 24
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "I have been thinking of getting a tattoo . Can you tell me more about this so I can make a decision?"
+    ],
+    "suggestions": [
+      "A tattoo is a form of body modification where a design is made by inserting ink, dyes and pigments, either indelible or temporary, into the dermis layer of the skin to change the pigment.",
+      "Tattoos fall into three broad categories: purely decorative (with no specific meaning); symbolic (with a specific meaning pertinent to the wearer); pictorial (a depiction of a specific person or item).",
+      "Tattooing has been practiced across the globe since at least Neolithic times, as evidenced by mummified preserved skin, ancient art, and the archaeological record.",
+      "Both ancient art and archaeological finds of possible tattoo tools suggest tattooing was practiced by the Upper Paleolithic period in Europe.",
+      "Maya society concerns the social organization of the Pre-Hispanic Mayas, its political structures and social classes.",
+      "A Classic period Maya polity was a small kingdom (\"ajawil\", \"ajawlel\", \"ajawlil\") headed by a hereditary ruler – \"ajaw\", later \"k’uhul ajaw\"."
+    ],
+    "actualResponse": "Body modifications designed on bodies are tattoos ",
+    "index": 25
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "My favorite breed of dog is the Pit bull, do you know much about them?"
+    ],
+    "suggestions": [
+      "Pit bull is the common name for a type of dog.",
+      "Formal breeds often considered in North America to be of the pit bull type include the American Pit Bull Terrier, American Staffordshire Terrier, American Bully, and Staffordshire Bull Terrier.",
+      "Breed-specific legislation is a law passed by a legislative body pertaining to a specific breed or breeds of domesticated animals.",
+      "In practice, it generally refers to laws pertaining to a specific dog breed or breeds.",
+      "Dog fighting in the United States is an activity in which fights between two game dogs are staged as a form of entertainment and gambling.",
+      "Such activity has existed since the early 19th century in the United States and was gradually prohibited in all states."
+    ],
+    "actualResponse": "Do you like Pit bulls?",
+    "index": 26
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "What exactly is the Tour de France? Is it a marathon?"
+    ],
+    "suggestions": [
+      "The Tour de France () is an annual multiple stage bicycle race primarily held in France, while also occasionally making passes through nearby countries.",
+      "Like the other Grand Tours (the Giro d'Italia and the Vuelta a España), it consists of 21 stages over a little more than 3 weeks.",
+      "The Giro d'Italia (; ) is an annual stage race bicycle race primarily held in Italy, while also occasionally passing through nearby countries.",
+      "The race was first organized in 1909 to increase sales of the newspaper \"La Gazzetta dello Sport\"; however it is currently run by RCS Sport.",
+      "The Giro d'Italia (; ; aka the Giro) is an annual multiple-stage bicycle race primarily held in Italy, while also occasionally passing through nearby countries.",
+      "The first race was organized in 1909 to increase sales of the newspaper \"La Gazzetta dello Sport\"; however it is currently run by RCS Sport."
+    ],
+    "actualResponse": "It is a bicycle race completed in multiple stages - it is held in France, though the bikers sometimes pass through countries that are nearby",
+    "index": 27
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "Dieting can be very rewarding, what are some methods?"
+    ],
+    "suggestions": [
+      "Dieting is the practice of eating food in a regulated and supervised fashion to decrease, maintain, or increase body weight.",
+      "In other words, it is conscious control or restriction of the diet.",
+      "Low-carbohydrate diets or low-carb diets are dietary programs that restrict carbohydrate consumption.",
+      "Foods high in easily digestible carbohydrates (e.g., sugar, bread, pasta) are limited or replaced with foods containing a higher percentage of fats and moderate protein (e.g., meat, poultry, fish, shellfish, eggs, cheese, nuts, and seeds) and other foods low in carbohydrates (e.g., most salad vegetables such as spinach, kale, chard and collards), although other vegetables and fruits (especially berries) are often allowed.",
+      "Management of obesity can include lifestyle changes, medications, or surgery.",
+      "The main treatment for obesity consists of dieting and physical exercise."
+    ],
+    "actualResponse": "some dieting methods are low fat, low carbohydrate, and low calorie diets.",
+    "index": 28
+  },
+  {
+    "contextLen": 1,
+    "conversation": [
+      "I want to visit Chicago and learn a little more about the culture of this city.  Have you been there?"
+    ],
+    "suggestions": [
+      "The culture of Chicago, Illinois is known for the invention or significant advancement of several performing arts, including improvisational comedy, house music, blues, hip hop, gospel, jazz, and soul.",
+      "The city is known for its Chicago School and Prairie School architecture.",
+      "Hip hop music, also called hip-hop or rap music, is a music genre developed in the United States by inner-city African Americans in the 1970s which consists of a stylized rhythmic music that commonly accompanies rapping, a rhythmic and rhyming speech that is chanted.",
+      "It developed as part of hip hop culture, a subculture defined by four key stylistic elements: MCing/rapping, DJing/scratching with turntables, break dancing, and graffiti writing.",
+      "Hip hop or hip-hop is a subculture and art movement developed in The Bronx in New York City during the late 1970s.",
+      "The origins of the word are often disputed."
+    ],
+    "actualResponse": "Yes, It is great place. The culture of Chicago is known for the invention or significant advancement of several performing arts, including improvisational comedy, house music, blues, hip hop, gospel, jazz, and soul.",
+    "index": 29
+  }
+]

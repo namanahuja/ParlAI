@@ -1,0 +1,602 @@
+[
+  {
+    "contextLen": 3,
+    "conversation": [
+      "Isaiah Rashad is my favorite musical artist.",
+      "I never heard of him but it seems he is an American rapper from the southern USA. ",
+      "His lyrical style is so wicked. Do you know what project helped him blow up?",
+      "I know Isaiah Rashad released Cilvia Demo and it was greeted with high acclaim. ",
+      "Do you know when he released his debut album?"
+    ],
+    "suggestions": [
+      "Isaiah Rashad McClain (born May 16, 1991), is an American hip hop recording artist and record producer from Chattanooga, Tennessee.",
+      "Rashad began taking rapping seriously in tenth grade, where he and his friends would record on laptops.",
+      "The Sun's Tirade is the debut studio album by American rapper Isaiah Rashad.",
+      "It was released on September 2, 2016, and is his second release with Top Dawg Entertainment, following \"Cilvia Demo\" (2014).",
+      "Top Dawg Entertainment (TDE) is an American record label founded in 2004, by CEO Anthony \"Top Dawg\" Tiffith.",
+      "Dave Free and Punch are both presidents of the TDE."
+    ],
+    "actualResponse": "Isaiah Rashad released his debut album The Sun's Tirade on September 2, 2016. ",
+    "index": 0
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "I love the tasty pizza",
+      "Me too. Which topping do you like for it. additional vegetables, meats, or condiments?",
+      "Pizza is pizza! Any recipe is cool",
+      "If you are  a big fan of pizza, then you should have your favorite as we have global access to the dish which is dues to Italian immigrants that had brought their dishes to new people with resounding success",
+      "You mean it originates in Italy?"
+    ],
+    "suggestions": [
+      "During the latter half of the 20th century, pizza became a globally accessible dish, mainly due to Italian immigrants that had brought their dishes to new people with resounding success, often in racially and culturally resistive environments.",
+      "A survey from 2004 showed that Norwegians eat the most frozen pizza (5.4 kg/person*year), followed by Germans.",
+      "Italian cuisine is food typical from Italy.",
+      "It has developed through centuries of social and economic changes, with roots stretching to antiquity.",
+      "Pizza is a traditional Italian dish consisting of a yeasted flatbread typically topped with tomato sauce and cheese and baked in an oven.",
+      "It can also be topped with additional vegetables, meats, and condiments, and can be made without cheese."
+    ],
+    "actualResponse": "Of course yes Pizza is a traditional Italian dish  and of course with their topping like tomato sauce and cheese ",
+    "index": 1
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "I love the tasty pizza",
+      "Me too. Which topping do you like for it. additional vegetables, meats, or condiments?",
+      "Pizza is pizza! Any recipe is cool",
+      "If you are  a big fan of pizza, then you should have your favorite as we have global access to the dish which is dues to Italian immigrants that had brought their dishes to new people with resounding success",
+      "You mean it originates in Italy?"
+    ],
+    "suggestions": [
+      "During the latter half of the 20th century, pizza became a globally accessible dish, mainly due to Italian immigrants that had brought their dishes to new people with resounding success, often in racially and culturally resistive environments.",
+      "A survey from 2004 showed that Norwegians eat the most frozen pizza (5.4 kg/person*year), followed by Germans.",
+      "Italian cuisine is food typical from Italy.",
+      "It has developed through centuries of social and economic changes, with roots stretching to antiquity.",
+      "Pizza is a traditional Italian dish consisting of a yeasted flatbread typically topped with tomato sauce and cheese and baked in an oven.",
+      "It can also be topped with additional vegetables, meats, and condiments, and can be made without cheese."
+    ],
+    "actualResponse": "Of course yes Pizza is a traditional Italian dish  and of course with their topping like tomato sauce and cheese ",
+    "index": 2
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "i would like to adopt a border collie",
+      "They are known for the intelligence and obedience.",
+      "really? that's really good to know. where did this breed come from?",
+      "They came from the Anglo scottish border region",
+      "interesting. are they used for hunting or racing?"
+    ],
+    "suggestions": [
+      "The Border Collie is a working and herding dog breed developed in the Anglo-Scottish border region for herding livestock, especially sheep.",
+      "It was specifically bred for intelligence and obedience.",
+      "A herding dog, also known as a stock dog or working dog, is a type of pastoral dog that either has been trained in herding or belongs to breeds developed for herding.",
+      "Their ability to be trained to act on the sound of a whistle or word of command is renowned throughout the world.",
+      "The Pyrenean Shepherd (known in France originally, and also in non-AKC registries such as the UKC, as the Berger des Pyrénées, and in Spain as the Pastor de los Pirineos) is a medium-small breed of dog native to the Pyrenees mountains in southern France and northern Spain, bred since at least medieval times for herding livestock, especially sheep.",
+      "It worked as an active herder together with the Great Pyrenees, another mountain dog, which acted as the flock's guardian."
+    ],
+    "actualResponse": "They are mostly known for herding livestock.",
+    "index": 3
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "What allergies do you have?",
+      "I do not have any allergies or allergic diseases.",
+      "Do you know anything about allergies?",
+      "Yes I know food allergies are due to abnormal immsume response to food.",
+      "What are some common allergies?"
+    ],
+    "suggestions": [
+      "A food allergy is an abnormal immune response to food.",
+      "The signs and symptoms may range from mild to severe.",
+      "Peanut allergy is a type of food allergy to peanuts.",
+      "It is different from nut allergies.",
+      "Anaphylaxis is a serious allergic reaction that is rapid in onset and may cause death.",
+      "It typically causes more than one of the following: an itchy rash, throat or tongue swelling, shortness of breath, vomiting, lightheadedness, and low blood pressure."
+    ],
+    "actualResponse": "They include itchiness and swelling of the tongue.",
+    "index": 4
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "My friend keeps talking about how wonderful Imagine Dragons is, but I've never heard of them! Are you a fan of Imagine Dragons?",
+      "I am actually. I might even be a superfan! Imagine Dragons is an American rock band from Las Vegas.",
+      "Las Vegas, my favorite city! How long has the band been together?",
+      "They debuted in 2008. They first gained exposure with their single \"It's Time\" in 2012. You may have heard one of their biggest hits \"Radioactive\".",
+      "Ohhhh yes!! I have heard that song, it's really good! Do you know who the lead singer is?"
+    ],
+    "suggestions": [
+      "Imagine Dragons is an American rock band from Las Vegas, Nevada, consisting of lead vocalist Dan Reynolds, lead guitarist Wayne Sermon, bassist and keyboardist Ben McKee, and drummer Daniel Platzman.",
+      "The band first gained exposure with the release of single \"It's Time\", followed by their award-winning debut studio album \"Night Visions\" (2012), which resulted in the chart topping singles \"Radioactive\" and \"Demons\".",
+      "Night Visions is the debut studio album by American rock band Imagine Dragons.",
+      "It was released on September 4, 2012, through KIDinaKORNER and Interscope Records.",
+      "Aja Volkman (; born March 4, 1987) is an American singer, songwriter, and musician, best known as the frontwoman of the indie rock band Nico Vega.",
+      "She has also released an EP titled \"Egyptian\" as a duo with her husband Dan Reynolds (of Imagine Dragons) under the moniker Egyptian."
+    ],
+    "actualResponse": "The lead vocalist is Dan Reynolds. His voice is so amazing!",
+    "index": 5
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "Did you see the big eclipse?",
+      "No, i missed it and i was very dissapointed as i am very much into astronomy",
+      "When is the next one in north america?",
+      "i just read that the total lunar eclipse on Jan. 21, 2019. I am not sure if it is eclipse season",
+      "Perhaps.     Can you define a lunar eclipse?"
+    ],
+    "suggestions": [
+      "A lunar eclipse occurs when the Moon passes directly behind the Earth into its umbra (shadow).",
+      "This can occur only when the sun, Earth and moon are aligned (in \"syzygy\") exactly or very closely so, with the Earth in the middle.",
+      "An eclipse is an astronomical event that occurs when an astronomical object is temporarily obscured, either by passing into the shadow of another body or by having another body pass between it and the viewer.",
+      "This alignment of three celestial objects is known as a syzygy.",
+      "A total lunar eclipse took place on April 15, 2014.",
+      "It was the first of two total lunar eclipses in 2014, and the first in a tetrad (four total lunar eclipses in a series)."
+    ],
+    "actualResponse": "Yes i can. When the moon passes right behind the earth and goes into its shadow that is a lunar eclipse",
+    "index": 6
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "There are many types of glasses, what kind do you want to chat about?",
+      "I would like to chat about reading glasses which are used for nearsightedness.",
+      "That sounds like a lovely type of glass. I actually am nearsighted myself. do you know who invented glasses?",
+      "I have no idea who invented reading glasses but I do know that those of us who wear these type glasses sometimes wear them around our necks attached to a cord to prevent loss.",
+      "That reminds me so much of the librarian I knew when I was little. She did that! What else do you know about glasses?"
+    ],
+    "suggestions": [
+      "Sunglasses or sun glasses are a form of protective eyewear designed primarily to prevent bright sunlight and high-energy visible light from damaging or discomforting the eyes.",
+      "They can sometimes also function as a visual aid, as variously termed spectacles or glasses exist, featuring lenses that are colored, polarized or darkened.",
+      "Glasses, also known as eyeglasses or spectacles, are devices consisting of glass or hard plastic lenses mounted in a frame that holds them in front of a person's eyes, typically using a bridge over the nose and arms which rest over the ears.",
+      "Glasses are typically used for vision correction, such as with reading glasses and glasses used for nearsightedness.",
+      "Ultraviolet (UV) is an electromagnetic radiation with a wavelength from 10 nm to 400 nm, shorter than that of visible light but longer than X-rays.",
+      "UV radiation constitutes about 10% of the total light output of the Sun, and is thus present in sunlight."
+    ],
+    "actualResponse": "I also know that sunglasses offer protection against UV light and also offer better vision in bright light. Sunglasses can actu.ally prevent damage to the eyes.",
+    "index": 7
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "I know very little about heavy metal music. Are you familiar with the genre?",
+      "Yes, heave metal  is a genre of rock music that developed in the late 1960s in the united kigndom",
+      "What characteristics define heavy metal music?",
+      "With roots in blues rock and psychedelic/acid rock they have massive sound, extended guitar solos, and over all loud",
+      "Who are some of the most famous heavy metal bands?"
+    ],
+    "suggestions": [
+      "Heavy metal (or simply metal) is a genre of rock music that developed in the late 1960s and early 1970s, largely in the United Kingdom.",
+      "With roots in blues rock and psychedelic/acid rock, the bands that created heavy metal developed a thick, massive sound, characterized by highly amplified distortion, extended guitar solos, emphatic beats, and overall loudness.",
+      "Black Sabbath were an English rock band, formed in Birmingham in 1968, by guitarist and main songwriter Tony Iommi, bassist and main lyricist Geezer Butler, singer Ozzy Osbourne, and drummer Bill Ward.",
+      "Black Sabbath are often cited as pioneers of heavy metal music.",
+      "Deep Purple are an English rock band formed in Hertford in 1968.",
+      "The band is considered to be among the pioneers of heavy metal and modern hard rock, although their musical approach changed over the years."
+    ],
+    "actualResponse": "In 1968, three of the genre's most famous acts, Led Zeppelin, Black Sabbath and Deep Purple but at the moment i am not familiar",
+    "index": 8
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "I know I have to take vitamin C but why actually?",
+      "Well it is an essential vitamin used in the repair of soft tissue in the body.",
+      "How can I get it naturally as I don't like these supplements.",
+      "People always think of orange juice, but it is available in such much more like broccoli, sprouts, peppers, strawberries and all citrus fruits.",
+      "Wow thats a lot of options and I do like oranges but sprouts I hate. What happens if you don't have enough Vitamin C?"
+    ],
+    "suggestions": [
+      "Scurvy is a disease resulting from a lack of vitamin C. Early symptoms include weakness, feeling tired, and sore arms and legs.",
+      "Without treatment, decreased red blood cells, gum disease, changes to hair, and bleeding from the skin may occur.",
+      "\"'Round Springfield\" is the 22nd episode of \"The Simpsons\" sixth season.",
+      "It originally aired on the Fox network in the United States on April 30, 1995.",
+      "Vitamin C, also known as ascorbic acid and -ascorbic acid, is a vitamin found in food and used as a dietary supplement.",
+      "The disease scurvy is prevented and treated with vitamin C-containing foods or dietary supplements."
+    ],
+    "actualResponse": "It can cause scurvy. You may have seen it on films with sailors years ago.  Its swolen bleeding gums, unhealing wounds, it sounds horrible!",
+    "index": 9
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "My favorite type of movie is a horror movie!  Are you familiar with any horror movies?",
+      "I like Stephen King movies. Some horror I like ",
+      "I've always liked Dracula - I think those movies have been around for a long time!  Do you know of any of the early Dracula actors?",
+      "I remember the books mostly , like Edgar Allen Poe, Bram Stoker and Mary Shelley",
+      "How about zombie movies?  I think that the Walking Dead is based on a zombie movie - do you know which one?"
+    ],
+    "suggestions": [
+      "The Walking Dead is an ongoing black-and-white comic book series created by writer Robert Kirkman and artist Tony Moore.",
+      "It focuses on Rick Grimes, a Kentucky deputy who is shot in the line of duty and awakens from a coma in a zombie apocalypse that has resulted in a state-wide quarantine.",
+      "Robert Kirkman (born November 30, 1978) is an American comic book writer best known for creating \"The Walking Dead\" and \"Invincible\" for Image Comics, in addition to writing \"Ultimate X-Men\" and \"Marvel Zombies\" for Marvel Comics.",
+      "He has also collaborated with Image Comics co-founder Todd McFarlane on the series \"Haunt\".",
+      "The first season of \"The Walking Dead\", an American post-apocalyptic horror television series on AMC, premiered on October 31, 2010, and concluded on December 5, 2010, consisting of 6 episodes.",
+      "Developed for television by Frank Darabont, who wrote or co-wrote four of the season's six episodes and directed the pilot episode, \"Days Gone Bye\", the series is based on the eponymous series of comic books by Robert Kirkman, Tony Moore, and Charlie Adlard."
+    ],
+    "actualResponse": "I think it's based on a comic book series by Robert Kirkman and tony Moore and Charlie Adlard",
+    "index": 10
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "I have a Ford car. What do you know about Fords?",
+      "Oh yeah? Ford Motor Company is based out of Michigan. Their headquarters are in a suburb community of Detroit.",
+      "That's neat. When were they founded?",
+      "It was founded by Henry Ford in 1903.",
+      "That's cool. Do they make any other kinds of cars?"
+    ],
+    "suggestions": [
+      "The Ford Motor Company (commonly referred to simply as \"Ford\") is an American multinational automaker headquartered in Dearborn, Michigan, a suburb of Detroit.",
+      "It was founded by Henry Ford and incorporated on June 16, 1903.",
+      "The Lincoln Motor Company (also known simply as Lincoln) is a division of the Ford Motor Company that sells luxury vehicles under the Lincoln brand.",
+      "Founded in 1917 by Henry M. Leland, Lincoln became a subsidiary of Ford in 1922, but is now a division of Ford.",
+      "The Lincoln Town Car is a model line of full-size luxury sedans that was marketed by the Lincoln division of the American automaker Ford Motor Company from 1981 to 2011.",
+      "Deriving its name from a style of limousine, \"Town Car\" translated in French is the term \"Sedan de Ville\" (the Cadillac rival to the Lincoln Continental from the 1950s to the 1990s)."
+    ],
+    "actualResponse": "Oh yeah! They make all kinds cars and commercial vehicles. They even have a luxury line of cars under the Lincoln brand. ",
+    "index": 11
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "Watching WWE is something I love to do secretly.",
+      "WWE also refers to the professional wrestling promotion itself, founded by Jess McMahon in 1952, and i also love it secretly hahaha.",
+      "lol do you know if it's real or fake?",
+      "It is 100% fake but is really fun to watch it anyway.  WWE is the largest professional wrestling company in the world",
+      "I agree. Who are some popular WWE wrestlers? My personal favorite is Hulk Hogan."
+    ],
+    "suggestions": [
+      "Terry Gene Bollea (, born August 11, 1953), better known by his ring name Hulk Hogan, is an American retired professional wrestler, actor, television personality, entrepreneur and musician.",
+      "Hogan is regarded by many as the greatest professional wrestler of all time.",
+      "Steve Borden (born March 20, 1959), better known by the ring name Sting, is an American retired professional wrestler, actor, author and former bodybuilder.",
+      "He is currently signed with WWE under a Legends contract.",
+      "Richard Morgan Fliehr (possibly born Fred Phillips; February 25, 1949), better known as Ric Flair, is an American professional wrestling manager and retired professional wrestler signed to WWE under its Legends program.",
+      "Widely regarded as the greatest professional wrestler of all time and the best American performer of the 1980s, Flair had a career that spanned 40 years."
+    ],
+    "actualResponse": "Hulk Hogan is an American retired professional wrestler and he was really popular at its time",
+    "index": 12
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "I grew up skateboarding!  I have an Alien Workshop board!  Do you skate?",
+      "no but i know that it is an action sport which involves riding and performing tricks",
+      "Yeah!  I try trick but have never been that good.  When did skateboarding start?",
+      "no one knows for sure, maybe as far back as the flinstones. but since the 1970s skateparks have been constructed specifcally for use by skateboarders",
+      "Who is the most famous skateboarder in your opinion?"
+    ],
+    "suggestions": [
+      "Anthony Frank Hawk (born May 12, 1968), commonly known by his nickname The Birdman, is an American professional skateboarder, actor and owner of skateboard company Birdhouse.",
+      "Hawk is well known for completing the first documented 900 and for his licensed video game titles, published by Activision.",
+      "Andrew Michael Reynolds (born June 6, 1978) is a professional street skateboarder.",
+      "He is the co-founder and owner of Baker Skateboards; a part owner of Brigada Eyewear; a partner in Bakerboys Distribution (distributors of Baker Skateboards, Shake Junt, Deathwish Skateboards, Heroin Skateboards, Palace Skateboards, Hammers Skateboards, Death Lens, and Ashbury Eyewear), and head designer at Altamont Apparel.",
+      "Birdhouse Skateboards (originally Birdhouse Projects) is a skateboard company formed by ex-Powell Peralta pros Tony Hawk and Per Welinder in 1992.",
+      "Birdhouse makes decks and wheels, as well as clothing and accessories."
+    ],
+    "actualResponse": "Tony hawk is probably the most known, he has a skateboard company named Birdhouse",
+    "index": 13
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "My very favorite apple is Honey Crisp!",
+      "Apple trees were first cultivated in Asia.",
+      "Where Asia?",
+      "They are known to be in Central Asia for over 1000 years",
+      "What varieties of apples did they have 1000 years ago?"
+    ],
+    "suggestions": [
+      "Malus sieversii is a wild apple native to the mountains of Central Asia in southern Kazakhstan.",
+      "It has recently been shown to be the primary ancestor of most cultivars of the domesticated apple (\"Malus pumila\").",
+      "The apple tree (\"Malus pumila\", commonly and erroneously called \"Malus domestica\") is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple.",
+      "It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus \"Malus\".",
+      "Kazakhstan (, ; , \"Qazaqstan\", ; , \"Kazakhstan\", ), officially the Republic of Kazakhstan (, \"Qazaqstan Respy'bli'kasy\"; , \"Respublika Kazakhstan\"), is the world's largest landlocked country, and the ninth largest in the world, with an area of .",
+      "Kazakhstan is the dominant nation of Central Asia economically, generating 60% of the region's GDP, primarily through its oil/gas industry."
+    ],
+    "actualResponse": "A single wild variety, \"Malus sieversii\"",
+    "index": 14
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "what are the string instruments, what do they consist of?",
+      "Musical instrument that provides sound by the vibrating of strings",
+      "ohh. what instruments are in the string family?",
+      "the harpischord is one in the familyinstrument ",
+      "wow ive never heard of that. what other interesting fact can you tell me about string instruments?"
+    ],
+    "suggestions": [
+      "The cello ( ; plural cellos or celli) or violoncello ( ; ) is a bowed, and sometimes plucked, string instrument with four strings tuned in perfect fifths.",
+      "The strings from low to high are generally tuned to C, G, D and A, an octave lower than the viola.",
+      "The double bass, or simply the bass (and numerous other names), is the largest and lowest-pitched bowed string instrument in the modern symphony orchestra.",
+      "It is a transposing instrument and is typically notated one octave higher than tuned to avoid excessive ledger lines below the staff.",
+      "The violin, also known informally as a fiddle, is a wooden string instrument in the violin family.",
+      "Most violins have a hollow wooden body."
+    ],
+    "actualResponse": "the cello, viola and violin are also stringed instruments",
+    "index": 15
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "Have you ever heard of Tupac Shakur?",
+      "Tupac Shakur was a rapper poet and actor.",
+      "I had no idea Tupac was an actor. That is pretty cool. I just know some of his songs.",
+      "Two of his albums are amoung the best selling in the US",
+      "I dont doubt it. Where is Tupac Shakur from?"
+    ],
+    "suggestions": [
+      "Tupac Amaru Shakur ( ) (born Lesane Parish Crooks; June 16, 1971September 13, 1996), also known by his stage names 2Pac and Makaveli, was an American rapper, poet and actor.",
+      "Shakur sold over 75 million records worldwide, making him one of the best-selling music artists of all time.",
+      "Randall Cattle or Randall Lineback Cattle are dual-listed by the American Livestock Breed Conservancy as a critically endangered American landrace breed.",
+      "This cattle breed originated in Sunderland, Vermont.",
+      "Afeni Shakur Davis (born Alice Faye Williams; January 10, 1947 – May 2, 2016) was an American activist and businesswoman.",
+      "Shakur was the mother of American rapper and actor, Tupac Shakur."
+    ],
+    "actualResponse": "Not sure but he was born as Lesane Parish Crocks in 1996.",
+    "index": 16
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "I was thinking of starting Krav Maga, do you know anything about it?",
+      "Of course ive been practicing it for a long time, I use Krav Maga for its focus on real-world situations and its extremely good efficiency. ",
+      "Interesting, where did Krav Maga originate?",
+      "Well it first derived from the street-fighting of Hungarian-Israeli martial artist Imi Lichtenfeld, who made use of his training as a boxer and wrestler as a means of defending the Jewish quarter against fascist groups in Bratislava, Czechoslovakia, in the mid-to-late 1930s.",
+      "Interesting, can you tell me anything else about it?"
+    ],
+    "suggestions": [
+      "Krav Maga (; , \"lit.\"",
+      "\"contact-combat\") is a military self-defence and fighting system developed for the Israel Defense Forces (IDF) and Israeli security forces (Shin Bet and Mossad) that derived from a combination of techniques sourced from Boxing, Wrestling, Aikido, Judo, Karate along with realistic fight training.",
+      "Urban Krav Maga is a self-defence system which has its roots in Israeli Krav Maga as its name suggests.",
+      "It additionally draws on a variety of other fighting systems such as Brazilian jiu-jitsu, Boxing, Muay Thai and Mixed Martial Arts (MMA) among others .",
+      "Eyal Yanilov (born 30 May 1959) is an Israeli Krav Maga instructor and currently Chief Instructor of Krav Maga Global.",
+      "He was a co-founder and Chief Instructor of the International Krav Maga Federation from 1996 to 2010."
+    ],
+    "actualResponse": "Well Krav Maga is pretty lit. It can be used as an advanced form of self defense that is even as good as doing karate in some cases. ",
+    "index": 17
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "My brother is a HUGE fan of comic books.  I kind of enjoy them too.  Do you?",
+      "Absolutely! The comic books, the movies, the action figures, TV shows.. I've been into them since I was a kid. My brother is also a huge fan, too. Bigger than me. He even has a copy of one of the first comic books, called \"Famous Funnies,\" that came out in 1933. He's kind of nerdy about it.",
+      "Do you like the DC comics?  I can never remember the name of the other group of comics.",
+      "You've got DC and Marvel, which are the big two, but then there's WildStorm, Valiant, MillarWorld, and Milestone, to name some contenders for who comes third. If you're asking me, I side with DC because they have Green Lantern, my favorite superhero. But you can't forget Superman, Batman, The Flash, etc. It's pretty big since it's a subsidiary of Warner Bros.",
+      "I haven't seen much about the Green Lantern.  What is his basic story line?"
+    ],
+    "suggestions": [
+      "The Green Lantern Corps that appear in fictional stories published by DC Comics has at least 7200 members, two per sector (originally 3600 with one per sector), in addition to assorted other members who fulfill roles other than patrolling.",
+      "Although seven characters—Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Simon Baz, Kyle Rayner, and Jessica Cruz—are primarily associated with the name, a number of other members of the Corps have appeared in DC's comics.",
+      "Green Lantern is the name of several superheroes appearing in American comic books published by DC Comics.",
+      "They fight evil with the aid of rings that grant them a variety of extraordinary powers.",
+      "Alan Scott is a fictional superhero appearing in American comic books published by DC Comics, and the first* character to bear the name Green Lantern.",
+      "He was created by Martin Nodell first appearing in the comic book \"All-American Comics #16\", published in 1940."
+    ],
+    "actualResponse": "Technically, there are multiple Green Lanterns, but the first was Alan Scott, whose story was created in 1940. So, the Green Lantern(s) is a superhero that has a magical ring, right? And this ring gives them extraordinary powers, which Alan Scott, the first, used to fight crime in New York City. Hal Jordan is probably the best known version of Green Lantern, and is the superhero that is a founding member of the Justice League!",
+    "index": 18
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "I love eating at McDonald's. I can eat like 3 Big Macs when I am hungry.",
+      "The restaurant was founded in 1940, but did not use the golden arches until 1953.",
+      "Wow that is a long time ago. I think they only sold burgers, fries, and shakes at first.",
+      "After opening as a restaurant in 1940, it was rechristened into a hamburger stand.",
+      "Yeah what was the names of the 2 brothers who started the company?"
+    ],
+    "suggestions": [
+      "Richard and Maurice McDonald were the founders of the original McDonald’s restaurant in San Bernardino, California and inventors of the ‘Speedee Service System’.",
+      "In 1937, the McDonald brothers opened a hot dog stand in Monrovia, California, inspired by a local hot dog stand that seemed to be the only profitable business in town, and which primarily served patrons at a local racetrack.",
+      "McDonald's is a fast food company that was founded in 1940 as a restaurant operated by Richard and Maurice McDonald, in San Bernardino, California, United States.",
+      "They rechristened their business as a hamburger stand.",
+      "This history of McDonald's is an overview of the original restaurant and of the chain.",
+      "The McDonald family moved from Manchester, New Hampshire to Hollywood, California in the late 1930s, where brothers Richard and Maurice McDonald began working as set movers and handymen at Motion-Picture studios."
+    ],
+    "actualResponse": "Richard and Maurice McDonald started it ",
+    "index": 19
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "I use Amazon for online shopping all the time. Do you?",
+      "Yes, all of the time, Amazon originally started out as just an online book store?",
+      "Yeah isn't that crazy? I shop such a huge vairety of things from them now a days. I even get groceries from Amazon.",
+      "We do as well, especially some of the harder to find items, we also like to download music and stream music",
+      "Yeah I use their music streaming service too, speaking of streaming did you ever try their prime video service? To stream TV and movies? They have great original content."
+    ],
+    "suggestions": [
+      "This is a list of products and services offered by American corporation Amazon.",
+      "Amazon product lines include several media (books, DVDs, music CDs, videotapes, and software), apparel, baby products, consumer electronics, beauty products, gourmet food, groceries, health and personal-care items, industrial & scientific supplies, kitchen items, jewelry and watches, lawn and garden items, musical instruments, sporting goods, tools, automotive items and toys & games.",
+      "Amazon Prime is a paid subscription service offered by Amazon.com that gives users access to free two-day delivery (one-day in select areas), streaming video/music and other benefits for a monthly or yearly fee.",
+      "As of April 2017, Consumer Intelligence Research Partners estimates that Prime has more than 80 million paying users.",
+      "Amazon Video is an Internet video on demand service that is developed, owned, and operated by Amazon.",
+      "It offers television shows and films for rent or purchase and Prime Video, a selection of Amazon Studios original content and licenced acquisitions included in the Amazon's Prime subscription."
+    ],
+    "actualResponse": "Yes we have and they also have great Amazon Prime original services",
+    "index": 20
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "I have a Doberman. His name is Pickles!",
+      "Awww, so cute! Dobermans are so intelligent and very good guard dogs!",
+      "They really are! I'd wanted one for such a long time and I'm so happy we finally got one. He's just a puppy now.",
+      "That's great news! If he's trained well and cared for he will be a great family dog. And I know you'll do all of that :)",
+      "Of course. I wonder when the Doberman originated?"
+    ],
+    "suggestions": [
+      "The Dobermann to most of the world (), or Doberman Pinscher as it is known in the United States and Canada, is a medium-large breed of domestic dog originally developed around 1890 by Karl Friedrich Louis Dobermann, a tax collector from Germany.",
+      "The Dobermann has a long muzzle and stands on its toes (not the pads) and is not usually heavy-footed.",
+      "The Miniature Pinscher (Zwergpinscher or Min Pin) is a small breed of dog originating from Germany.",
+      "The breed's earliest ancestors may have included the German Pinscher mixed with Italian greyhounds and dachshunds.",
+      "Tax resistance has probably existed ever since rulers began imposing taxes on their subjects.",
+      "It has been suggested that tax resistance played a significant role in the collapse of several empires, including the Egyptian, Roman, Spanish, and Aztec."
+    ],
+    "actualResponse": "The breed is originally from Germany and developed around 1890. It's named after Karl Doberman, a tax collector.",
+    "index": 21
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "My Mom told me I needed to learn about Donna Karan do you know who she is?",
+      "Yes, she's an American fashion designer who created the DKNY clothing label.",
+      "I heard that she has passed is that true?",
+      "No she is still alive, you might be thinking of Kate Spade.",
+      "That might be the person, So what should I know about Donna?"
+    ],
+    "suggestions": [
+      "Donna Karan (born October 2, 1948), also known as \"DK\", is an American fashion designer and the creator of the Donna Karan New York and DKNY clothing labels.",
+      "Karan was born Donna Ivy Faske to mother Helen (\"Queenie\") and father Gabby Faske in the Forest Hills neighborhood of the Borough of Queens, New York City.",
+      "NYC Ferry (originally called Citywide Ferry Service) is a network of ferry routes in New York City operated by Hornblower Cruises.",
+      ", there are four routes connecting 17 ferry piers in Brooklyn, Manhattan, and Queens.",
+      "This is a list of the characters that have appeared on \"90210\", an American teen drama.",
+      "The series introduces Annie Wilson (Shenae Grimes) and her adopted brother Dixon (Tristan Wilds), who move from Kansas to Beverly Hills with their father Harry (Rob Estes) and mother Debbie (Lori Loughlin)."
+    ],
+    "actualResponse": "She was born Donna Ivy Fask in Queens, NYC. It makes sense that she entered the fashion world as NYC is known for that.",
+    "index": 22
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "When we lived in a house we had a beautiful garden. It was such fun planting flowers and vegetables and watching them grow!",
+      "I also love gardening! I consider it to be a very relaxing activity. I could garden for hours. ",
+      "It is very relaxing. I live in an apartment now, so don't have a garden. What do you grow in yours?",
+      "I grow mine in the forest behind my house, forest-based food production is the best, its the world's oldest form of gardening actually. ",
+      "Really? I didn't know that. Can you tell me more about it?"
+    ],
+    "suggestions": [
+      "Forest gardening is a low-maintenance sustainable plant-based food production and agroforestry system based on woodland ecosystems, incorporating fruit and nut trees, shrubs, herbs, vines and perennial vegetables which have yields directly useful to humans.",
+      "Making use of companion planting, these can be intermixed to grow in a succession of layers, to build a woodland habitat.",
+      "Urban agriculture, urban farming, or urban gardening is the practice of cultivating, processing, and distributing food in or around a village, town, or city.",
+      "Urban agriculture can also involve animal husbandry, aquaculture, agroforestry, urban beekeeping, and horticulture.",
+      "An autonomous building is a building designed to be operated independently from infrastructural support services such as the electric power grid, gas grid, municipal water systems, sewage treatment systems, storm drains, communication services, and in some cases, public roads.",
+      "Advocates of autonomous building describe advantages that include reduced environmental impacts, increased security, and lower costs of ownership."
+    ],
+    "actualResponse": "Yes of course, Forest gardening is known as a prehistoric method of growing food in tropical areas, The cavemen even did it. ",
+    "index": 23
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "I think that snakes aren't as scary as people make them out to be. The only snakes I don't like are the venomous kind. Are you afraid of snakes?",
+      "I hate snakes and even the dangerous ones with passion. How can some snakes cause serious snake bite and still like them. ",
+      "I think that all animals have a place in the world, even snakes. What is your favourite animal?",
+      "I am not an animal person but i can say i have a soft spot for marine like. They help determine the very nature of our planet",
+      "Is there a specific marine animal you are interested in? I think seahorses are very cute."
+    ],
+    "suggestions": [
+      "Seahorse (also written \"sea-horse\" and \"sea horse\") is the name given to 54 species of small marine fishes in the genus Hippocampus.",
+      "\"Hippocampus\" comes from the Ancient Greek word \"hippos\" (, \"híppos\") meaning \"horse\" and \"kampos\" (, \"kámpos\") meaning \"sea monster\".",
+      "The Hippocampinae are a subfamily of small marine fishes in the family Syngnathidae.",
+      "Depending on the classification system used, it comprises either seahorses and pygmy pipehorses, or only seahorses.",
+      "The hippocampus (named after its resemblance to the seahorse, from the Greek ἱππόκαμπος, \"seahorse\" from ἵππος \"hippos\", \"horse\" and κάμπος \"kampos\", \"sea monster\") is a major component of the brains of humans and other vertebrates.",
+      "Humans and other mammals have two hippocampi, one in each side of the brain."
+    ],
+    "actualResponse": "Yes seahorse looks cute, but do you know we have 54 species of small marine fishes in the genus Hippocampus. I love dolphins too!",
+    "index": 24
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "Alpine Skiing seem so fun! I wonder if it is very difficult.",
+      "Well 55 million people worldwide have partaken in Alpine skiing at one point in time.  if 55 million people do I imagine it's not too difficult.",
+      "I guess that is true.  Any idea when Alpine skiing was invented or became a thing?",
+      "I wish I knew the answer to your question.  The best I can give you is that it's first Olympic appearance was in 1936.  So it's been around since then.",
+      "Ok, thanks.   I know snowboarding is more recent though, is snowboarding in the Olympics too?"
+    ],
+    "suggestions": [
+      "Snowboarding is a recreational activity and Olympic and Paralympic sport that involves descending a snow-covered slope while standing on a snowboard attached to a rider's feet.",
+      "The development of snowboarding was inspired by skateboarding, sledding, surfing and skiing.",
+      "Australia first competed in the Winter Olympic Games in 1936 in Garmisch-Partenkirchen, and has participated in every games since, with the exception of the 1948 Games in St. Moritz.",
+      "In the early years, Australia's athletes did poorly; only two athletes placed in the top half of their events before 1976, while the vast majority placed in the bottom quarter, including some who finished last.",
+      "U.S. Snowboarding, the snowboarding arm of the United States Ski and Snowboard Association (USSA), is committed to the progression of snowboarding by providing athletic programs, services, and competitions for male and female athletes of all ages, coast-to-coast.",
+      "The ultimate goal for U.S. Snowboarding is clear: American riders on the Olympic podium."
+    ],
+    "actualResponse": "Snowboarding is definitely more of a modern trend.  It started in the 1960s in the US and it first officially became an Olympic event in as recent as 1998!",
+    "index": 25
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "I am trying to go into photography. Which advice can you give on this",
+      "The first step is getting a great camera with quick aperture speed. ",
+      "Okay, which camera do you think is the best for this",
+      "A DSLR is a good camera for a beginner. ",
+      "Okay. DO you know of any camera brand in particular?"
+    ],
+    "suggestions": [
+      "The Venus processing engine for digital cameras is an image processor developed by Panasonic, and almost all of their Lumix cameras use a version of it.",
+      "It is based on the Panasonic MN103/MN103S.",
+      "The Panasonic Lumix DMC-GH1 is a digital mirrorless interchangeable lens camera adhering to the Olympus and Panasonic developed Micro Four Thirds System (MFT) system design standard.",
+      "Panasonic classified the GH1 as a hybrid stills/video camera and the GH1 was introduced and marketed as a higher end camera than Panasonic's first MFT camera, the stills only, non-video capable Lumix DMC-G1.",
+      "The Panasonic Lumix DMC-G3 is a digital mirrorless interchangeable lens camera adhering to the joint Olympus and Panasonic Micro Four Thirds System (MFT) system design standard.",
+      "The Panasonic Lumix DMC-G3 is the eighth Panasonic MFT camera introduced under the standard and the thirteenth model MFT camera introduced by either Olympus or Panasonic, as of the G3 product announcement date."
+    ],
+    "actualResponse": "The panasonic Lumix is pretty great",
+    "index": 26
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "I love to go skateboarding.",
+      "Skateboarding is my favorite action sports.",
+      "Do you know when the skateboard was invented?",
+      "I believe it was John Rodney Mullen.",
+      "What are some popular tricks that can be performed on a skateboard?"
+    ],
+    "suggestions": [
+      "A flip trick is a type of skateboarding trick in which the skateboard rotates around its vertical axis, or its vertical axis and its horizontal axis simultaneously.",
+      "The first flip trick called a kickflip, originally called a \"magic flip,\" was invented by professional skateboarder Rodney Mullen.",
+      "The kickflip is a maneuver in skateboarding in which a rider flips their skateboard 360° along the axis that extends from the nose to the tail of the deck.",
+      "When the rider is regular footed the board spins clockwise if viewed from the front.",
+      "Skateboarding is an action sport which involves riding and performing tricks using a skateboard.",
+      "Skateboarding can also be considered a recreational activity, an art form, a job, or a method of transportation."
+    ],
+    "actualResponse": "One of them is the kickflip which is also known as the magic flip.",
+    "index": 27
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "I'm thinking about becoming a vegetarian! ",
+      "You should , a fact is that veganism is  the practice of abstaining from animal products ",
+      "Is it healthy to be a vegetarian? ",
+      "It is said to be healthier .  A follower on this diet is also called a vegan ",
+      "If I become a vegan, can I still eat dairy foods like eggs and cheese?"
+    ],
+    "suggestions": [
+      "Veganism is both the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals.",
+      "A follower of either the diet or the philosophy is known as a vegan ( ).",
+      "Vegetarianism is the practice of abstaining from the consumption of meat (red meat, poultry, seafood, and the flesh of any other animal), and may also include abstention from by-products of animal slaughter.",
+      "Vegetarianism may be adopted for various reasons.",
+      "Some people abstain from consuming various foods and beverages in conformity with various religious, cultural, legal or other societal prohibitions.",
+      "Many of these prohibitions constitute taboos."
+    ],
+    "actualResponse": "You can't eat any animal products, not only meat but also eggs and dair products you can't consume those either",
+    "index": 28
+  },
+  {
+    "contextLen": 3,
+    "conversation": [
+      "I enjoy working for the New York Times.",
+      "That is the newspaper based in New York City.",
+      "Do you know when the paper was first founded?",
+      "Yes it was founded in 1851.",
+      "Wow thats a long time. Who actually owns the paper?"
+    ],
+    "suggestions": [
+      "The New York Times (sometimes abbreviated as The\" \"NYT or The Times) is an American newspaper based in New York City with worldwide influence and readership.",
+      "Founded in 1851, the paper has won 122 Pulitzer Prizes, more than any other newspaper.",
+      "The New York Times Company is an American media company which publishes its namesake, \"The New York Times\".",
+      "Arthur Ochs Sulzberger Jr. has served as chairman since 1997.",
+      "WQXR-FM (105.9 FM) is an American classical radio station licensed to Newark, New Jersey and serving the New York City metropolitan area.",
+      "It is the most-listened-to classical-music station in the United States, with an average quarter-hour audience of 63,000."
+    ],
+    "actualResponse": "It is owned by The New York Times Company.",
+    "index": 29
+  }
+]
