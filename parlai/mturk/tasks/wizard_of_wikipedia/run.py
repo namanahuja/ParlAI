@@ -157,7 +157,7 @@ def main():
     argparser.add_argument('--context-count', type=int, default=0,
                            help='Number of conversation rounds')
 
-    argparser.add_argument('--timer', type=int, default=60 * 2,
+    argparser.add_argument('--timer', type=int, default=60 * 5,
                            help='Timer')
     argparser.add_argument('--shuffle-configs', type=int, default=1,
                            help='Shuffle Settings?')
@@ -176,7 +176,7 @@ def main():
     doubleContext = []
     tripleContext = []
 
-    corpusPath = '/home/naman/research/ParlAI' + '/tripleContext.json'
+    corpusPath = '/home/naman/research/ParlAI/newData' + '/dataThree.json'
 
     with open(corpusPath, "r") as read_file:
         allData = json.load(read_file)
@@ -188,7 +188,7 @@ def main():
             obj['conversation'] = context
             tripleContext.append(obj)
 
-    corpusPath = '/home/naman/research/ParlAI' + '/doubleContext.json'
+    corpusPath = '/home/naman/research/ParlAI/newData' + '/dataTwo.json'
 
     with open(corpusPath, "r") as read_file:
         allData = json.load(read_file)
@@ -232,7 +232,7 @@ def main():
 
 
 
-    opt['allContexts'] = random.sample(allContexts, 10)
+    opt['allContexts'] = random.sample(allContexts, 80)
 
 
 

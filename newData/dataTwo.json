@@ -1,1 +1,542 @@
-[{"contextLen": 2, "conversation": ["I like Anime, but i don't really know too much about it's history and techniques.", "I don't either, but I have read the manga series known as \"Death Note\".  It has an interesting storyline.  Have you heard of it?", "No, I am new to Anime, nut Death Note sounds interesting.  Who makes it?"], "suggestions": ["This is a list of the chapters of the Japanese manga series \"Death Note\", written by Tsugumi Ohba and illustrated by Takeshi Obata.", "The individual chapters were originally serialized in Shueisha's \"Weekly Sh\u014dnen Jump\", from December 2003 to May 2006, with 108 chapters in all.", "\"Death Note\" was first serialized in Shueisha's manga magazine \"Weekly Sh\u014dnen Jump\" from December 2003 to May 2006.", "The 108 chapters were collected and published into 12 \"tank\u014dbon\" volumes between May 2004 and October 2006.", "The series premiered in \"Young King OURs\" in 1997 and ended in September 2008.", "The individual chapters were subsequently collected and published in 10 \"tank\u014dbon\" volumes by Sh\u014dnen Gah\u014dsha."], "actualResponse": "I can't remember who made it, but you can read all 108 chapters since they were published into 12 volumes between 2004 and 2006.", "index": 0}, {"contextLen": 2, "conversation": ["Good Morning.  I'm thinking of getting a job in the court system.", "ARe you planning on working on a specific level, there are three?", "I hadn't thought of that.  What levels are there to choose from?"], "suggestions": ["A supreme court is the highest court within the hierarchy of courts in many legal jurisdictions.", "Other descriptions for such courts include court of last resort, apex court, and highest (or final) court of appeal.", "In legal systems based on common law, a precedent, or authority, is a principle or rule established in a previous legal case that is either binding on or persuasive for a court or other tribunal when deciding subsequent cases with similar issues or facts .", "Common law legal systems place great value on deciding cases according to consistent principled rules so that similar facts will yield similar and predictable outcomes, and observance of precedent is the mechanism by which that goal is attained.", "In Constitutional law, the Last Resort Rule is a largely prudential rule which gives a federal court the power to avoid a constitutional issue in some circumstances.", "This rule dictates that, even if all other jurisdictional and justiciability obstacles are surmounted, federal courts still must avoid a constitutional issue if there is any other ground upon which to render a final judgment."], "actualResponse": "The Supreme Court of the United States is the court of last resort, so it is the higher one.", "index": 1}, {"contextLen": 2, "conversation": ["Pizza is one of my favorite foods.", "Me too! Pizza is different all over the world. What type of pizza do you like best?", "I like New York style pizza the best. What other types are there?"], "suggestions": ["Detroit-style pizza is a style of pizza developed in Detroit, Michigan.", "It is a rectangular pizza that has a thick deep-dish crisp crust and toppings such as pepperoni and mushrooms.", "Tasmania has a complex geological history, with the world's biggest exposure of diabase, or dolerite.", "The rock record contains representatives of each period of the Neoproterozoic, Paleozoic, Mesozoic and Cainozoic eras.", "During the latter half of the 20th century, pizza became a globally accessible dish, mainly due to Italian immigrants that had brought their dishes to new people with resounding success, often in racially and culturally resistive environments.", "A survey from 2004 showed that Norwegians eat the most frozen pizza (5.4\u00a0kg/person*year), followed by Germans."], "actualResponse": "There are so many. lots more than I can name here. My favorite is probably Detroit style with a thick deep crust.", "index": 2}, {"contextLen": 2, "conversation": ["I want to get into photography. What can you tell me about it?", "Well it is defined as creating images through recording light or other electromagnetic radiation. It can be done using sensors or a material such as fillm.", "Interesting. When was photography invented?"], "suggestions": ["The history of photography has roots in remote antiquity with the discovery of two critical principles, that of the camera obscura image projection and the fact that some substances are visibly altered by exposure to light, as discovered by observation.", "Apart from a very uncertain process used on the Turin Shroud there are no artifacts or descriptions that indicate that anyone even imagined capturing images with light sensitive materials before the 18th century.", "A camera is an optical instrument for recording or capturing images, which may be stored locally, transmitted to another location, or both.", "The images may be individual still photographs or sequences of images constituting videos or movies.", "Johann Heinrich Schulze (12 May 1687 \u2013 10 October 1744) was a German professor and polymath from Colbitz in the Duchy of Magdeburg.", "Schulze studied medicine, chemistry, philosophy and theology and became a professor in Altdorf and Halle for anatomy and several other subjects."], "actualResponse": "The principle of photography wasn't developed until 1717 by Johann Heinrich Schulze. It took a long time until things like cameras came about though.", "index": 3}, {"contextLen": 2, "conversation": ["A coworker has a parrot for a pet.  It whistles the Andy Griffith tune!", "That's cool! Do you know what kind of parrot it is? There are roughly 393 species of parrots found a in regions all over the world", "Oh I'm not sure.  What is the most common?"], "suggestions": ["The Timneh parrot (\"Psittacus timneh\"), also known as the Timneh grey parrot or Timneh African grey parrot, is a West African parrot that is variously considered a subspecies of the grey parrot \"Psittacus erithacus timneh\", or a full species \"Psittacus timneh\".", "In aviculture, it is often referred to by the initials TAG and is commonly kept as a companion parrot.", "Psittacus is a genus of African parrots in the subfamily \"Psittacinae\".", "It contains the two species: the grey parrot (\"Psittacus erithacus\") and the Timneh parrot (\"Psittacus timneh\").", "The grey parrot or African grey parrot (\"Psittacus erithacus\") is an Old World parrot in the family Psittacidae.", "This article describes the Congo grey parrot."], "actualResponse": "I'm not sure, but two types of parrots are they grey parrot and the Timneh Parrot", "index": 4}, {"contextLen": 2, "conversation": ["Do you like sushi? I like to eat it sometimes but not too often.", "I really like sushi! Do you like when its prepared with brown rice or white rice?", "I prefer brown rice myself. Is it true all sushi uses raw fish?"], "suggestions": ["Sushi can be prepared with either brown or white rice.", "It is often prepared with raw seafood, but some varieties of sushi use cooked ingredients, and many others are vegetarian.", "Ceviche () is a seafood dish popular in the coastal regions of Latin America and the Caribbean.", "Though the origin of ceviche is hotly debated, the dish is most closely associated with Peru.", "A raw bar is a small restaurant or a bar within a restaurant where live raw shellfish are shucked and served.", "Raw bars typically offer a variety of raw and cooked seafood and shellfish that is served cold."], "actualResponse": "yes it's often prepared with raw seafood ", "index": 5}, {"contextLen": 2, "conversation": ["I have blond hair, what do you think of people with that hair color?", "Sometimes I wish I had blonde hair, or fair hair. They have low levels of eumelanin. ", "What is eumelanin? I like it, but sometimes I need a change, plus it gets thick."], "suggestions": ["Hair color is the pigmentation of hair follicles due to two types of melanin: eumelanin and pheomelanin.", "Generally, if more eumelanin is present, the color of the hair is darker; if less eumelanin is present, the hair is lighter.", "Melanin (; from \"melas\", \"black, dark\") is a broad term for a group of natural pigments found in most organisms.", "Melanin is produced by the oxidation of the amino acid tyrosine, followed by polymerization.", "Red hair (or ginger hair) occurs naturally in 1\u20132% of the human population.", "It occurs more frequently (2\u20136%) in people of northern or western European ancestry, and less frequently in other populations."], "actualResponse": "Eumelanin is just a dark pigment that humans have to give hue to hair.", "index": 6}, {"contextLen": 2, "conversation": ["Have you ever heard of the band ween?", "Nope, never. At first I thought it was 'Weezer'. I've heard of them lol", "who is weezer?"], "suggestions": ["Weezer is an American rock band formed in Los Angeles in 1992, consisting of Rivers Cuomo (lead vocals, lead guitar), Patrick Wilson (drums), Brian Bell (rhythm guitar, backing vocals, keyboards), and Scott Shriner (bass, backing vocals).", "After signing to Geffen Records in 1993, Weezer released their debut self-titled album, also known as the \"Blue Album\", in 1994.", "Pinkerton is the second studio album by American rock band Weezer, released on September 24, 1996 on DGC Records.", "After abandoning plans for a rock opera titled \"Songs from the Black Hole\", Weezer recorded \"Pinkerton\" between songwriter Rivers Cuomo's terms at Harvard University, where he wrote much of the album.", "Weezer, also known as the Green Album, is the third studio album by American rock band Weezer, released on May 15, 2001, through Geffen Records.", "Produced by Ric Ocasek, this is the only Weezer album to feature bassist Mikey Welsh, who replaced Matt Sharp."], "actualResponse": "Weezer is an American rock band in Los Angeles", "index": 7}, {"contextLen": 2, "conversation": ["I love eating steak at a restaurant.  I'm not much of an expert though.  Do you know much about steaks?", "I know some about steaks. To get a steak the meat has to be sliced across the muscle, including the bone.", "Tell me about the different kinds of meat that is used for steaks?  What's flank steak and T-bone?  "], "suggestions": ["The T-bone and porterhouse are steaks of beef cut from the short loin (called the sirloin in Commonwealth countries).", "Both steaks include a \"T-shaped\" bone with meat on each side.", "The strip steak is a cut of beef steaks from the short loin from a cow.", "It consists of a muscle that does little work, the longissimus, making the meat particularly tender; although not as tender as the nearby psoas major or tenderloin.", "The sirloin steak is cut from the back of the animal.", "In a common U.S. butchery, the steak is cut from the rear back portion of the animal, continuing off the short loin from which T-bone, porterhouse, and club steaks are cut."], "actualResponse": "Flank is cut from the ab muscles of the cow, whereas t-bone's are cut from the short loin.", "index": 8}, {"contextLen": 2, "conversation": ["Mediterranean cuisine is some of my favorite, since I love stuff like pita and hummus.", "Its so good! it was started by the people of the  Mediterranean Basin region, especially those of Southern Europe.", "That's cool, what does a lot of Mediterranean cuisine consist of?"], "suggestions": ["Mediterranean cuisine is the foods and methods of preparation by people of the Mediterranean Basin region, especially those of Southern Europe.", "The idea of a Mediterranean cuisine originates with the cookery writer Elizabeth David's book, \"A Book of Mediterranean Food\" (1950).", "Ancient Israelite cuisine refers to the food eaten by the ancient Israelites during a period of over a thousand years, from the beginning of the Israelite presence in the Land of Israel at the beginning of the Iron Age until the Roman period.", "The dietary staples were bread, wine and olive oil, but also included legumes, fruits and vegetables, dairy products, fish and meat.", "Olive oil is a liquid fat obtained from olives (the fruit of \"Olea europaea\"; family Oleaceae), a traditional tree crop of the Mediterranean Basin.", "The oil is produced by pressing whole olives."], "actualResponse": "Well there are three core elements the olive, wheat and the grape", "index": 9}, {"contextLen": 2, "conversation": ["I listen to death metal sometimes, do you know much about that genre?", "I know a bit about death metal. I'm a huge fan of Slayer, Venom and Celtic Frost!", "I like Slayer too, can you remind me who some of the members of Slayer are?"], "suggestions": ["Slayer is an American heavy metal band from Huntington Park, California.", "The band was formed in 1981 by guitarists Kerry King and Jeff Hanneman.", "Repentless is the 12th and final studio album by American heavy metal band Slayer.", "It was released on September 11, 2015, and is the only Slayer album to feature guitarist Gary Holt of Exodus, replacing founding member Jeff Hanneman (who died in 2013), and the only album to feature drummer Paul Bostaph since 2001's \"God Hates Us All\".", "Paul Steven Bostaph is a heavy metal drummer currently performing for the thrash metal band Slayer.", "His drumming career began in 1984, when he was 20 years old, and he has since worked with bands like Forbidden, Exodus, Systematic, Testament, and BlackGates."], "actualResponse": "Currently, Kerry King, Tom Araya, Gary Holt and Paul Bostaph are in the band. Not all of them are original members though!", "index": 10}, {"contextLen": 2, "conversation": ["I would really like to enjoy more time out in the sun, but I'm worried I might get skin cancer. Any advice?", "It definitely should be a concern. There's actually three types of it, with the basal-cell, squamous-cell, and melanoma types of skin cancer.", "Well I've heard of melanoma before, but what's going on with those other two types? Are those more serious?"], "suggestions": ["Basal-cell carcinoma (BCC), also known as basal-cell cancer, is the most common type of skin cancer.", "It often appears as a painless raised area of skin, that may be shiny with small blood vessels running over it or it may present as a raised area with ulceration.", "Skin cancers are cancers that arise from the skin.", "They are due to the development of abnormal cells that have the ability to invade or spread to other parts of the body.", "Mohs surgery, developed in 1938 by a general surgeon, Frederic E. Mohs, is microscopically controlled surgery used to treat common types of skin cancer.", "During the surgery, after each removal of tissue and while the patient waits, the tissue is examined for cancer cells."], "actualResponse": "Not always. Basal-cell cancer, for example, can occur slowly and result in tissue damage where it is, but it's not likely to spread through your body or kill you.", "index": 11}, {"contextLen": 2, "conversation": ["I love everything about pizza, the taste and the shape. Yum! Do you like pizza too?", "I love pizza its a great italian dish", "Oh yeah, I forgot they originated from Italy. What else can you tell me about these delicious circle of goodness?"], "suggestions": ["During the latter half of the 20th century, pizza became a globally accessible dish, mainly due to Italian immigrants that had brought their dishes to new people with resounding success, often in racially and culturally resistive environments.", "A survey from 2004 showed that Norwegians eat the most frozen pizza (5.4\u00a0kg/person*year), followed by Germans.", "The cuisine of the United States reflects its history.", "The European colonization of the Americas yielded the introduction of a number of ingredients and cooking styles to the latter.", "The pizza box or pizza package is a folding box made of cardboard in which hot pizzas are stored in for takeaway.", "The \"pizza box\" also makes home delivery and takeaway substantially easier."], "actualResponse": "Well pizza goes great with almost any meat or vegetable topping, what do you like", "index": 12}, {"contextLen": 2, "conversation": ["Im thinking of reading Pride and Prejudice. Do you know it?", "Yes, it's an awesome romantic novel!  I can't believe that its publishing history dates back to 1813!", "That is a long time ago. Who wrote Pride and Prejudice?"], "suggestions": ["The reception history of Jane Austen follows a path from modest fame to wild popularity.", "Jane Austen (1775\u20131817), the author of such works as \"Pride and Prejudice\" (1813) and \"Emma\" (1815), has become one of the best-known and most widely read novelists in the English language.", "Jane Austen (; 16 December 1775\u00a0\u2013 18 July 1817) was an English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century.", "Austen's plots often explore the dependence of women on marriage in the pursuit of favourable social standing and economic security.", "The author Jane Austen, as well as her works, have been represented in popular culture in a variety of forms.", "Jane Austen (16 December 1775 \u2013 18 July 1817) was an English novelist whose social commentary and masterly use of both free indirect speech and irony eventually made her one of the most influential and honoured novelists in English literature."], "actualResponse": "It was written by Jane Austen", "index": 13}, {"contextLen": 2, "conversation": ["Hi! Fun fact about myself, my family is from Algeria", "If I am not mistaken, it is a country in North Africa with pre-dominantly Arabs", "I think you are right! What else do you know about Algeria?"], "suggestions": ["Algiers (, , ) is the capital and largest city of Algeria.", "In 2011, the city's population was estimated to be around 3,500,000.", "The kingdom of the Ait Abbas or sultanate of the Beni Abbas, in (Berber (phonetic) tagelda n At \u0190ebbas, \u2d5c\u2d30\u2d33\u2d3b\u2d4d\u2d37\u2d30 \u2d4f \u2d30\u2d5c \u2d44\u2d3b\u2d31\u2d31\u2d30\u2d59; Arabic: sal\u1e6danat Beni \u0190abbas, \u0633\u0644\u0637\u0646\u0629 \u0628\u0646\u064a \u0639\u0628\u0627\u0633), is a former berber state of North Africa, then a fief and a principality, controlling Lesser Kabylie and its surroundings from the sixteenth century to the nineteenth century.", "It is referred to in the Spanish historiography as \"reino de Labes\"; sometimes more commonly referred to by its ruling family, the Mokrani, in Berber \"At Muqran\", in Arabic \"\u0623\u0648\u0644\u0627\u062f \u0645\u0642\u0631\u0627\u0646 (Ouled Moqrane)\".", "Algiers is the second oldest neighborhood in New Orleans and the only Orleans Parish community located on the West Bank of the Mississippi River.", "Algiers is also known as the 15th Ward, one of the 17 Wards of New Orleans."], "actualResponse": "That its capital is Algiers and is the most populous", "index": 14}, {"contextLen": 2, "conversation": ["Hi, I have few pet Iguanas. Do you?", "No but iguanas are cool cold blooded lizards", "I see, does that mean they are reptiles?"], "suggestions": ["Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica, as well as most oceanic island chains.", "The group is paraphyletic as it excludes the snakes and Amphisbaenia which are also squamates.", "The green iguana (\"Iguana iguana\"), also known as the American iguana, is a large, arboreal, mostly herbivorous species of lizard of the genus \"Iguana\".", "It is native to Central, South America, and the Caribbean.", "Reptiles are tetrapod animals in the class Reptilia, comprising today's turtles, crocodilians, snakes, amphisbaenians, lizards, tuatara, and their extinct relatives.", "The study of these traditional reptile orders, historically combined with that of modern amphibians, is called herpetology."], "actualResponse": "Yep iguanas are lizards so they are also reptiles", "index": 15}, {"contextLen": 2, "conversation": ["I love electronic music. Daft Punk is a great band.", "the only thing i really know about daft punk is that they are a french electric duo formed in 1993", "I like a lot of their music. Do you know any other Electronica bands?"], "suggestions": ["The Neptunes are a two-member producing group consisting of Pharrell Williams and Chad Hugo.", "This discography lists the recorded performances as a duo and individuals.", "\"Get Lucky\" is a song by French house music duo Daft Punk, featuring Pharrell Williams and co-written by the duo, Williams, and Nile Rodgers.", "It is the lead single from Daft Punk's fourth studio album, \"Random Access Memories\".", "Random Access Memories is the fourth studio album by French electronic music duo Daft Punk.", "It was released on 17 May 2013, by the duo's imprint Daft Life and Columbia Records."], "actualResponse": "no i don't really, i liked thier song get lucky with pharrell williams ", "index": 16}, {"contextLen": 2, "conversation": ["I don't like eating from McDonald's but it's so cheap and easy.", "I agree. I only recently found out that it's been around since the 40's!", "Really? Do you know how long it took for them to become a big franchise?"], "suggestions": ["Raymond Albert \"Ray\" Kroc (October 5, 1902\u00a0\u2013 January 14, 1984) was an American businessman.", "He joined the California company McDonald's in 1954, just a few months after the McDonald brothers had branched out from their original 1940 operation in San Bernardino, with Kroc turning the chain into a nationwide and eventually global franchise, making it the most successful fast food corporation in the world.", "McDonald's is a fast food company that was founded in 1940 as a restaurant operated by Richard and Maurice McDonald, in San Bernardino, California, United States.", "They rechristened their business as a hamburger stand.", "This history of McDonald's is an overview of the original restaurant and of the chain.", "The McDonald family moved from Manchester, New Hampshire to Hollywood, California in the late 1930s, where brothers Richard and Maurice McDonald began working as set movers and handymen at Motion-Picture studios."], "actualResponse": "I believe that was in 1955 when Ray Kroc joined the company as a franchise agent.", "index": 17}, {"contextLen": 2, "conversation": ["I love to drive my Ford truck!", "I bet you do. The American multinational automaker headquartered in Dearborn makes great vehicles!", "I just got it, I don't know much about the company though. Do you know any interesting facts about Ford?"], "suggestions": ["The Ford Motor Company (commonly referred to simply as \"Ford\") is an American multinational automaker headquartered in Dearborn, Michigan, a suburb of Detroit.", "It was founded by Henry Ford and incorporated on June 16, 1903.", "Luxury vehicle is a marketing term for a vehicle that provides luxury \u2014 pleasant or desirable features beyond strict necessity \u2014 at increased expense.", "The term suggests a vehicle with higher quality equipment, better performance, more precise construction, comfort, higher design, technologically innovative modern, or features that convey an image, brand, status, or prestige, or any other 'discretionary' feature or combination of them.", "The Lincoln Motor Company (also known simply as Lincoln) is a division of the Ford Motor Company that sells luxury vehicles under the Lincoln brand.", "Founded in 1917 by Henry M. Leland, Lincoln became a subsidiary of Ford in 1922, but is now a division of Ford."], "actualResponse": "Well it sells under the Ford brand and most luxury cars under the Lincoln brand. Have you ever owned a Lincoln?", "index": 18}, {"contextLen": 2, "conversation": ["Metallica is one of my favorite older bands! ", "Same here. The black album played a big part in my formative years", "What was their most popular song do you know?"], "suggestions": ["\"Enter Sandman\" is a song by American heavy metal band Metallica.", "It was released as the first single from their self titled fifth album, \"Metallica\" in 1991.", "Metallica is an American heavy metal band from Los Angeles, California.", "The band was formed in 1981 by drummer Lars Ulrich and vocalist/guitarist James Hetfield.", "Metallica (commonly known as The Black Album) is the self-titled fifth studio album by American heavy metal band Metallica.", "Released on August 12, 1991 by Elektra Records, it received widespread critical acclaim and became the band's best-selling album."], "actualResponse": "I think Enter Sandman. They we great early heavy metal", "index": 19}, {"contextLen": 2, "conversation": ["So, I'm thinking about changing up my diet. Do you know anything about vegetarianism?", "I've been a vegetarian for a long time - it involves abstaining from the consumption of meat , and may also include abstention from by-products of animal slaughter.", "Is there a difference between being a vegan and being a vegetarian?"], "suggestions": ["Veganism is both the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals.", "A follower of either the diet or the philosophy is known as a vegan ( ).", "Vegetarianism is the practice of abstaining from the consumption of meat (red meat, poultry, seafood, and the flesh of any other animal), and may also include abstention from by-products of animal slaughter.", "Vegetarianism may be adopted for various reasons.", "Vegetarianism is strongly linked with a number of religions that originated in ancient India (Jainism, Hinduism and Buddhism).", "In Jainism, vegetarianism is mandatory for everyone; in Hinduism and Mahayana Buddhism, it is advocated by some influential scriptures and religious authorities."], "actualResponse": "A vegan typically  abstains rom the use of animal products, particularly in diet, and also rejects the commodity status of animals and Vegetarianism abstains from the consumption of meat", "index": 20}, {"contextLen": 2, "conversation": ["So, I'm thinking about changing up my diet. Do you know anything about vegetarianism?", "I've been a vegetarian for a long time - it involves abstaining from the consumption of meat , and may also include abstention from by-products of animal slaughter.", "Is there a difference between being a vegan and being a vegetarian?"], "suggestions": ["Veganism is both the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals.", "A follower of either the diet or the philosophy is known as a vegan ( ).", "Vegetarianism is the practice of abstaining from the consumption of meat (red meat, poultry, seafood, and the flesh of any other animal), and may also include abstention from by-products of animal slaughter.", "Vegetarianism may be adopted for various reasons.", "Vegetarianism is strongly linked with a number of religions that originated in ancient India (Jainism, Hinduism and Buddhism).", "In Jainism, vegetarianism is mandatory for everyone; in Hinduism and Mahayana Buddhism, it is advocated by some influential scriptures and religious authorities."], "actualResponse": "A vegan typically  abstains rom the use of animal products, particularly in diet, and also rejects the commodity status of animals and Vegetarianism abstains from the consumption of meat", "index": 21}, {"contextLen": 2, "conversation": ["Do you know anything about Barbershop music?", "Yes, it is a style of cappella close harmony music!", "How far back can we trace it's origin?"], "suggestions": ["Barbershop vocal harmony, as codified during the barbershop revival era (1930s\u2013present), is a style of a cappella close harmony, or unaccompanied vocal music, characterized by consonant four-part chords for every melody note in a predominantly homophonic texture.", "Each of the four parts has its own role: generally, the lead sings the melody, the tenor harmonizes above the melody, the bass sings the lowest harmonizing notes, and the baritone completes the chord, usually below the lead.", "The music of the United States reflects the country's multi-ethnic population through a diverse array of styles.", "It is a mixture of music influenced by West African, Irish, Scottish and mainland European among others.", "The harmonic seventh chord is a major triad plus the harmonic seventh interval (ratio of 7:4, about 968.826 cents).", "This interval is somewhat narrower (about 48.77 cents flatter, a septimal quarter tone) and is \"sweeter in quality\" than an \"ordinary\" minor seventh, which has a just intonation ratio of 9:5 (1017.596 cents), or an equal-temperament ratio of 1000 cents (2:1)."], "actualResponse": "Well, its emergence can be traced  back to during the barbershop revival era in 1930s\u2013present", "index": 22}, {"contextLen": 2, "conversation": ["My uncle works with IBM, he tells me a lot about their car brands", "The headquarters are in New York and they operate in over 170 countries.", "Whats the full acronym for IBM?"], "suggestions": ["International Business Machines, or IBM, nicknamed \"Big Blue\", is a multinational computer technology and IT consulting corporation headquartered in Armonk, New York, United States.", "IBM originated from the bringing together of several companies that worked to automate routine business transactions.", "Thomas John Watson Sr. (February 17, 1874 \u2013 June 19, 1956) was an American businessman.", "He served as the chairman and CEO of International Business Machines (IBM) He oversaw the company's growth into an international force from 1914 to 1956.", "IBM (International Business Machines Corporation) is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries.", "The company originated in 1911 as the Computing-Tabulating-Recording Company (CTR) and was renamed \"International Business Machines\" in 1924."], "actualResponse": "It stands for International Business Machines.", "index": 23}, {"contextLen": 2, "conversation": ["What do you know about the book 1984?", "It's a great book written by George Orwell in 1949. ", "Oh, I thought it was written in 1984! What is the book about?"], "suggestions": ["Nineteen Eighty-Four, often published as 1984, is a dystopian novel published in 1949 by English author George Orwell.", "The novel is set in Airstrip One, formerly Great Britain, a province of the superstate Oceania, whose residents are victims of perpetual war, omnipresent government surveillance and public manipulation.", "Oceania, Eurasia and Eastasia are the three fictional superstates in George Orwell's satirical dystopian novel \"Nineteen Eighty-Four\".", "How the world evolved into the three states is vague.", "Perpetual war, endless war, or a forever war, is a lasting state of war with no clear conditions that would lead to its conclusion.", "These wars are situations of ongoing tension that may escalate at any moment, similar to the Cold War."], "actualResponse": "It's set in Airstrip One, which was Great Britain, a province of the superstate, and the people who live there are victims of perpetual war, omnipresent government surveillance and manipulation!", "index": 24}, {"contextLen": 2, "conversation": ["I absolutely have to try scuba diving before I get too much older. It looks amazing!", "Open circuit scuba systems discharge the breathng gas int the enviroment as exhaled and cosist of one or more diving cylinders which has breahing gas at high pressure. These are delivered to the diver through a regulator. When you go scuba diving it's probablt what youll be using!", "That's good but sounds very complex. Have you ever been scuba diving?"], "suggestions": ["Scuba diving is a form of underwater diving where the diver uses a self-contained underwater breathing apparatus (scuba) which is completely independent of surface supply, to breathe underwater.", "Scuba divers carry their own source of breathing gas, usually compressed air, allowing them greater independence and freedom of movement than surface-supplied divers, and longer underwater endurance than breath-hold divers.", "A diving cylinder, scuba tank or diving tank is a gas cylinder used to store and transport the high pressure breathing gas required by a scuba set.", "It may also be used for surface-supplied diving or as decompression gas or an emergency gas supply for surface supplied diving or scuba.", "The practice of decompression by divers comprises the planning and monitoring of the profile indicated by the algorithms or tables of the chosen decompression model, to allow asymptomatic and harmless release of excess inert gases dissolved in the tissues as a result of breathing at ambient pressures greater than surface atmospheric pressure, the equipment available and appropriate to the circumstances of the dive, and the procedures authorized for the equipment and profile to be used.", "There is a large range of options in all of these aspects."], "actualResponse": "Yes, they're even more complex because they may include an additional cylinder for decompression gas or emergency breathing gas. This is what i would probably use because i am afraid of deep water, so that will be a no to your question", "index": 25}, {"contextLen": 2, "conversation": ["I want to buy a new vehicle and I went to a Toyota dealership today - I really do like the looks of their cars and SUVs!", "I agree, I recommend you check out their line of hybrid electric vehicles as well.", "That sounds interesting!  Which Toyotas are hybrid?"], "suggestions": ["The Toyota Prius Plug-in Hybrid, also known as Prius PHV and Prius Prime (U.S.), is a plug-in hybrid manufactured by Toyota.", "The first generation Prius plug-in was produced from 2012 to 2016.", "The Toyota Prius () is a full hybrid electric automobile developed by Toyota and manufactured by the company since 1997.", "Initially offered as a 4-door sedan, it has been produced only as a 5-door liftback from 2003 to 2015, and then a 5-door fastback since 2016.", "A hybrid electric vehicle (HEV) is a type of hybrid vehicle that combines a conventional internal combustion engine (ICE) system with an electric propulsion system (hybrid vehicle drivetrain).", "The presence of the electric powertrain is intended to achieve either better fuel economy than a conventional vehicle or better performance."], "actualResponse": "The Toyota Prius Plug-in Hybrid is probably the most popular hybrid. I own one and its great", "index": 26}, {"contextLen": 2, "conversation": ["I have a horse named Beauty. Do you love horses?", "I don't, but I've rode the subspecies of Equus ferus before. What kind?", "I'm not sure what kind it is. My dad got it for me. I don't know much about them. What is Equus ferus?"], "suggestions": ["The horse (\"Equus ferus caballus\") is one of two extant subspecies of \"Equus ferus\".", "It is an odd-toed ungulate mammal belonging to the taxonomic family Equidae.", "Ungulates (pronounced ) are any members of a diverse group of primarily large mammals that includes odd-toed ungulates such as horses and rhinoceroses, and even-toed ungulates such as cattle, pigs, giraffes, camels, deer, and hippopotamuses.", "Most terrestrial ungulates use the tips of their toes, usually hoofed, to sustain their whole body weight while moving.", "Members of the order Perissodactyla, otherwise known as odd-toed ungulates, are mammals characterized by an odd number of toes and by hindgut fermentation with somewhat simple stomachs.", "Perissodactyla comes from the Ancient Greek \u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c2 (\"periss\u00f3s\", \u201cuneven\u201d) + \u03b4\u03ac\u03ba\u03c4\u03c5\u03bb\u03bf\u03c2 (\"d\u00e1ktulos\", \u201ca finger, toe\u201d)."], "actualResponse": " To be specific, it is an odd-toed ungulate mammal part of the taxonomic family Equidae", "index": 27}, {"contextLen": 2, "conversation": ["I love looking at stars at night.  Do you think we'll ever visit one some day?", "Maybe some day I suppose, We all know that the closest star to Earth is the Sun and NASA has sent some probes there recently to actually land on it, I'm not sure if thats feasible. ", "Oh the sun is a star?  So what is a star exactly?"], "suggestions": ["A star is type of astronomical object consisting of a luminous spheroid of plasma held together by its own gravity.", "The nearest star to Earth is the Sun.", "General relativity (GR, also known as the general theory of relativity or GTR) is the geometric theory of gravitation published by Albert Einstein in 1915 and the current description of gravitation in modern physics.", "General relativity has been described as the most beautiful of all existing physical theories.", "General relativity is a theory of gravitation that was developed by Albert Einstein between 1907 and 1915.", "According to general relativity, the observed gravitational effect between masses results from their warping of spacetime."], "actualResponse": "A star is defined as a type of astronomical object consisting of a bright luminous spheroid of plasma held together by its own gravitational field. ", "index": 28}, {"contextLen": 2, "conversation": ["I'm obsessed with filming. ", "Cinematograpy is awesome!  It is the science or art of motion-picture photography by recording light or other electromagnetic radiation", "How do cinematographers record light? "], "suggestions": ["Cinematography (also called \"Direction of Photography\") is the science or art of motion-picture photography by recording light or other electromagnetic radiation, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as film stock.", "Typically, a lens is used to repeatedly focus the light reflected from objects into real images on the light-sensitive surface inside a camera during a questioned exposure, creating multiple images.", "Photography is the science, art, application and practice of creating durable images by recording light or other electromagnetic radiation, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.", "Typically, a lens is used to focus the light reflected or emitted from objects into a real image on the light-sensitive surface inside a camera during a timed exposure.", "A digital camera or digicam is a camera that captures photographs in digital memory.", "Most cameras produced today are digital, and while there are still dedicated compact cameras on the market, the use of dedicated digital cameras is dwindling, as digital cameras are now incorporated into many devices ranging from mobile devices to vehicles."], "actualResponse": "They typically do it electronically by means of an image sensor, or chemically by means of a light-sensitive material such as film stock.", "index": 29}]
+[
+  {
+    "contextLen": 2,
+    "conversation": [
+      "I like Anime, but i don't really know too much about it's history and techniques.",
+      "I don't either, but I have read the manga series known as \"Death Note\".  It has an interesting storyline.  Have you heard of it?",
+      "No, I am new to Anime, nut Death Note sounds interesting.  Who makes it?"
+    ],
+    "suggestions": [
+      "This is a list of the chapters of the Japanese manga series \"Death Note\", written by Tsugumi Ohba and illustrated by Takeshi Obata.",
+      "The individual chapters were originally serialized in Shueisha's \"Weekly Shōnen Jump\", from December 2003 to May 2006, with 108 chapters in all.",
+      "\"Death Note\" was first serialized in Shueisha's manga magazine \"Weekly Shōnen Jump\" from December 2003 to May 2006.",
+      "The 108 chapters were collected and published into 12 \"tankōbon\" volumes between May 2004 and October 2006.",
+      "The series premiered in \"Young King OURs\" in 1997 and ended in September 2008.",
+      "The individual chapters were subsequently collected and published in 10 \"tankōbon\" volumes by Shōnen Gahōsha."
+    ],
+    "actualResponse": "I can't remember who made it, but you can read all 108 chapters since they were published into 12 volumes between 2004 and 2006.",
+    "index": 0
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "Good Morning.  I'm thinking of getting a job in the court system.",
+      "ARe you planning on working on a specific level, there are three?",
+      "I hadn't thought of that.  What levels are there to choose from?"
+    ],
+    "suggestions": [
+      "A supreme court is the highest court within the hierarchy of courts in many legal jurisdictions.",
+      "Other descriptions for such courts include court of last resort, apex court, and highest (or final) court of appeal.",
+      "In legal systems based on common law, a precedent, or authority, is a principle or rule established in a previous legal case that is either binding on or persuasive for a court or other tribunal when deciding subsequent cases with similar issues or facts .",
+      "Common law legal systems place great value on deciding cases according to consistent principled rules so that similar facts will yield similar and predictable outcomes, and observance of precedent is the mechanism by which that goal is attained.",
+      "In Constitutional law, the Last Resort Rule is a largely prudential rule which gives a federal court the power to avoid a constitutional issue in some circumstances.",
+      "This rule dictates that, even if all other jurisdictional and justiciability obstacles are surmounted, federal courts still must avoid a constitutional issue if there is any other ground upon which to render a final judgment."
+    ],
+    "actualResponse": "The Supreme Court of the United States is the court of last resort, so it is the higher one.",
+    "index": 1
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "Pizza is one of my favorite foods.",
+      "Me too! Pizza is different all over the world. What type of pizza do you like best?",
+      "I like New York style pizza the best. What other types are there?"
+    ],
+    "suggestions": [
+      "Detroit-style pizza is a style of pizza developed in Detroit, Michigan.",
+      "It is a rectangular pizza that has a thick deep-dish crisp crust and toppings such as pepperoni and mushrooms.",
+      "Tasmania has a complex geological history, with the world's biggest exposure of diabase, or dolerite.",
+      "The rock record contains representatives of each period of the Neoproterozoic, Paleozoic, Mesozoic and Cainozoic eras.",
+      "During the latter half of the 20th century, pizza became a globally accessible dish, mainly due to Italian immigrants that had brought their dishes to new people with resounding success, often in racially and culturally resistive environments.",
+      "A survey from 2004 showed that Norwegians eat the most frozen pizza (5.4 kg/person*year), followed by Germans."
+    ],
+    "actualResponse": "There are so many. lots more than I can name here. My favorite is probably Detroit style with a thick deep crust.",
+    "index": 2
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "I want to get into photography. What can you tell me about it?",
+      "Well it is defined as creating images through recording light or other electromagnetic radiation. It can be done using sensors or a material such as fillm.",
+      "Interesting. When was photography invented?"
+    ],
+    "suggestions": [
+      "The history of photography has roots in remote antiquity with the discovery of two critical principles, that of the camera obscura image projection and the fact that some substances are visibly altered by exposure to light, as discovered by observation.",
+      "Apart from a very uncertain process used on the Turin Shroud there are no artifacts or descriptions that indicate that anyone even imagined capturing images with light sensitive materials before the 18th century.",
+      "A camera is an optical instrument for recording or capturing images, which may be stored locally, transmitted to another location, or both.",
+      "The images may be individual still photographs or sequences of images constituting videos or movies.",
+      "Johann Heinrich Schulze (12 May 1687 – 10 October 1744) was a German professor and polymath from Colbitz in the Duchy of Magdeburg.",
+      "Schulze studied medicine, chemistry, philosophy and theology and became a professor in Altdorf and Halle for anatomy and several other subjects."
+    ],
+    "actualResponse": "The principle of photography wasn't developed until 1717 by Johann Heinrich Schulze. It took a long time until things like cameras came about though.",
+    "index": 3
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "A coworker has a parrot for a pet.  It whistles the Andy Griffith tune!",
+      "That's cool! Do you know what kind of parrot it is? There are roughly 393 species of parrots found a in regions all over the world",
+      "Oh I'm not sure.  What is the most common?"
+    ],
+    "suggestions": [
+      "The Timneh parrot (\"Psittacus timneh\"), also known as the Timneh grey parrot or Timneh African grey parrot, is a West African parrot that is variously considered a subspecies of the grey parrot \"Psittacus erithacus timneh\", or a full species \"Psittacus timneh\".",
+      "In aviculture, it is often referred to by the initials TAG and is commonly kept as a companion parrot.",
+      "Psittacus is a genus of African parrots in the subfamily \"Psittacinae\".",
+      "It contains the two species: the grey parrot (\"Psittacus erithacus\") and the Timneh parrot (\"Psittacus timneh\").",
+      "The grey parrot or African grey parrot (\"Psittacus erithacus\") is an Old World parrot in the family Psittacidae.",
+      "This article describes the Congo grey parrot."
+    ],
+    "actualResponse": "I'm not sure, but two types of parrots are they grey parrot and the Timneh Parrot",
+    "index": 4
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "Do you like sushi? I like to eat it sometimes but not too often.",
+      "I really like sushi! Do you like when its prepared with brown rice or white rice?",
+      "I prefer brown rice myself. Is it true all sushi uses raw fish?"
+    ],
+    "suggestions": [
+      "Sushi can be prepared with either brown or white rice.",
+      "It is often prepared with raw seafood, but some varieties of sushi use cooked ingredients, and many others are vegetarian.",
+      "Ceviche () is a seafood dish popular in the coastal regions of Latin America and the Caribbean.",
+      "Though the origin of ceviche is hotly debated, the dish is most closely associated with Peru.",
+      "A raw bar is a small restaurant or a bar within a restaurant where live raw shellfish are shucked and served.",
+      "Raw bars typically offer a variety of raw and cooked seafood and shellfish that is served cold."
+    ],
+    "actualResponse": "yes it's often prepared with raw seafood ",
+    "index": 5
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "I have blond hair, what do you think of people with that hair color?",
+      "Sometimes I wish I had blonde hair, or fair hair. They have low levels of eumelanin. ",
+      "What is eumelanin? I like it, but sometimes I need a change, plus it gets thick."
+    ],
+    "suggestions": [
+      "Hair color is the pigmentation of hair follicles due to two types of melanin: eumelanin and pheomelanin.",
+      "Generally, if more eumelanin is present, the color of the hair is darker; if less eumelanin is present, the hair is lighter.",
+      "Melanin (; from \"melas\", \"black, dark\") is a broad term for a group of natural pigments found in most organisms.",
+      "Melanin is produced by the oxidation of the amino acid tyrosine, followed by polymerization.",
+      "Red hair (or ginger hair) occurs naturally in 1–2% of the human population.",
+      "It occurs more frequently (2–6%) in people of northern or western European ancestry, and less frequently in other populations."
+    ],
+    "actualResponse": "Eumelanin is just a dark pigment that humans have to give hue to hair.",
+    "index": 6
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "Have you ever heard of the band ween?",
+      "Nope, never. At first I thought it was 'Weezer'. I've heard of them lol",
+      "who is weezer?"
+    ],
+    "suggestions": [
+      "Weezer is an American rock band formed in Los Angeles in 1992, consisting of Rivers Cuomo (lead vocals, lead guitar), Patrick Wilson (drums), Brian Bell (rhythm guitar, backing vocals, keyboards), and Scott Shriner (bass, backing vocals).",
+      "After signing to Geffen Records in 1993, Weezer released their debut self-titled album, also known as the \"Blue Album\", in 1994.",
+      "Pinkerton is the second studio album by American rock band Weezer, released on September 24, 1996 on DGC Records.",
+      "After abandoning plans for a rock opera titled \"Songs from the Black Hole\", Weezer recorded \"Pinkerton\" between songwriter Rivers Cuomo's terms at Harvard University, where he wrote much of the album.",
+      "Weezer, also known as the Green Album, is the third studio album by American rock band Weezer, released on May 15, 2001, through Geffen Records.",
+      "Produced by Ric Ocasek, this is the only Weezer album to feature bassist Mikey Welsh, who replaced Matt Sharp."
+    ],
+    "actualResponse": "Weezer is an American rock band in Los Angeles",
+    "index": 7
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "I love eating steak at a restaurant.  I'm not much of an expert though.  Do you know much about steaks?",
+      "I know some about steaks. To get a steak the meat has to be sliced across the muscle, including the bone.",
+      "Tell me about the different kinds of meat that is used for steaks?  What's flank steak and T-bone?  "
+    ],
+    "suggestions": [
+      "The T-bone and porterhouse are steaks of beef cut from the short loin (called the sirloin in Commonwealth countries).",
+      "Both steaks include a \"T-shaped\" bone with meat on each side.",
+      "The strip steak is a cut of beef steaks from the short loin from a cow.",
+      "It consists of a muscle that does little work, the longissimus, making the meat particularly tender; although not as tender as the nearby psoas major or tenderloin.",
+      "The sirloin steak is cut from the back of the animal.",
+      "In a common U.S. butchery, the steak is cut from the rear back portion of the animal, continuing off the short loin from which T-bone, porterhouse, and club steaks are cut."
+    ],
+    "actualResponse": "Flank is cut from the ab muscles of the cow, whereas t-bone's are cut from the short loin.",
+    "index": 8
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "Mediterranean cuisine is some of my favorite, since I love stuff like pita and hummus.",
+      "Its so good! it was started by the people of the  Mediterranean Basin region, especially those of Southern Europe.",
+      "That's cool, what does a lot of Mediterranean cuisine consist of?"
+    ],
+    "suggestions": [
+      "Mediterranean cuisine is the foods and methods of preparation by people of the Mediterranean Basin region, especially those of Southern Europe.",
+      "The idea of a Mediterranean cuisine originates with the cookery writer Elizabeth David's book, \"A Book of Mediterranean Food\" (1950).",
+      "Ancient Israelite cuisine refers to the food eaten by the ancient Israelites during a period of over a thousand years, from the beginning of the Israelite presence in the Land of Israel at the beginning of the Iron Age until the Roman period.",
+      "The dietary staples were bread, wine and olive oil, but also included legumes, fruits and vegetables, dairy products, fish and meat.",
+      "Olive oil is a liquid fat obtained from olives (the fruit of \"Olea europaea\"; family Oleaceae), a traditional tree crop of the Mediterranean Basin.",
+      "The oil is produced by pressing whole olives."
+    ],
+    "actualResponse": "Well there are three core elements the olive, wheat and the grape",
+    "index": 9
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "I listen to death metal sometimes, do you know much about that genre?",
+      "I know a bit about death metal. I'm a huge fan of Slayer, Venom and Celtic Frost!",
+      "I like Slayer too, can you remind me who some of the members of Slayer are?"
+    ],
+    "suggestions": [
+      "Slayer is an American heavy metal band from Huntington Park, California.",
+      "The band was formed in 1981 by guitarists Kerry King and Jeff Hanneman.",
+      "Repentless is the 12th and final studio album by American heavy metal band Slayer.",
+      "It was released on September 11, 2015, and is the only Slayer album to feature guitarist Gary Holt of Exodus, replacing founding member Jeff Hanneman (who died in 2013), and the only album to feature drummer Paul Bostaph since 2001's \"God Hates Us All\".",
+      "Paul Steven Bostaph is a heavy metal drummer currently performing for the thrash metal band Slayer.",
+      "His drumming career began in 1984, when he was 20 years old, and he has since worked with bands like Forbidden, Exodus, Systematic, Testament, and BlackGates."
+    ],
+    "actualResponse": "Currently, Kerry King, Tom Araya, Gary Holt and Paul Bostaph are in the band. Not all of them are original members though!",
+    "index": 10
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "I would really like to enjoy more time out in the sun, but I'm worried I might get skin cancer. Any advice?",
+      "It definitely should be a concern. There's actually three types of it, with the basal-cell, squamous-cell, and melanoma types of skin cancer.",
+      "Well I've heard of melanoma before, but what's going on with those other two types? Are those more serious?"
+    ],
+    "suggestions": [
+      "Basal-cell carcinoma (BCC), also known as basal-cell cancer, is the most common type of skin cancer.",
+      "It often appears as a painless raised area of skin, that may be shiny with small blood vessels running over it or it may present as a raised area with ulceration.",
+      "Skin cancers are cancers that arise from the skin.",
+      "They are due to the development of abnormal cells that have the ability to invade or spread to other parts of the body.",
+      "Mohs surgery, developed in 1938 by a general surgeon, Frederic E. Mohs, is microscopically controlled surgery used to treat common types of skin cancer.",
+      "During the surgery, after each removal of tissue and while the patient waits, the tissue is examined for cancer cells."
+    ],
+    "actualResponse": "Not always. Basal-cell cancer, for example, can occur slowly and result in tissue damage where it is, but it's not likely to spread through your body or kill you.",
+    "index": 11
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "I love everything about pizza, the taste and the shape. Yum! Do you like pizza too?",
+      "I love pizza its a great italian dish",
+      "Oh yeah, I forgot they originated from Italy. What else can you tell me about these delicious circle of goodness?"
+    ],
+    "suggestions": [
+      "During the latter half of the 20th century, pizza became a globally accessible dish, mainly due to Italian immigrants that had brought their dishes to new people with resounding success, often in racially and culturally resistive environments.",
+      "A survey from 2004 showed that Norwegians eat the most frozen pizza (5.4 kg/person*year), followed by Germans.",
+      "The cuisine of the United States reflects its history.",
+      "The European colonization of the Americas yielded the introduction of a number of ingredients and cooking styles to the latter.",
+      "The pizza box or pizza package is a folding box made of cardboard in which hot pizzas are stored in for takeaway.",
+      "The \"pizza box\" also makes home delivery and takeaway substantially easier."
+    ],
+    "actualResponse": "Well pizza goes great with almost any meat or vegetable topping, what do you like",
+    "index": 12
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "Im thinking of reading Pride and Prejudice. Do you know it?",
+      "Yes, it's an awesome romantic novel!  I can't believe that its publishing history dates back to 1813!",
+      "That is a long time ago. Who wrote Pride and Prejudice?"
+    ],
+    "suggestions": [
+      "The reception history of Jane Austen follows a path from modest fame to wild popularity.",
+      "Jane Austen (1775–1817), the author of such works as \"Pride and Prejudice\" (1813) and \"Emma\" (1815), has become one of the best-known and most widely read novelists in the English language.",
+      "Jane Austen (; 16 December 1775 – 18 July 1817) was an English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century.",
+      "Austen's plots often explore the dependence of women on marriage in the pursuit of favourable social standing and economic security.",
+      "The author Jane Austen, as well as her works, have been represented in popular culture in a variety of forms.",
+      "Jane Austen (16 December 1775 – 18 July 1817) was an English novelist whose social commentary and masterly use of both free indirect speech and irony eventually made her one of the most influential and honoured novelists in English literature."
+    ],
+    "actualResponse": "It was written by Jane Austen",
+    "index": 13
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "Hi! Fun fact about myself, my family is from Algeria",
+      "If I am not mistaken, it is a country in North Africa with pre-dominantly Arabs",
+      "I think you are right! What else do you know about Algeria?"
+    ],
+    "suggestions": [
+      "Algiers (, , ) is the capital and largest city of Algeria.",
+      "In 2011, the city's population was estimated to be around 3,500,000.",
+      "The kingdom of the Ait Abbas or sultanate of the Beni Abbas, in (Berber (phonetic) tagelda n At Ɛebbas, ⵜⴰⴳⴻⵍⴷⴰ ⵏ ⴰⵜ ⵄⴻⴱⴱⴰⵙ; Arabic: salṭanat Beni Ɛabbas, سلطنة بني عباس), is a former berber state of North Africa, then a fief and a principality, controlling Lesser Kabylie and its surroundings from the sixteenth century to the nineteenth century.",
+      "It is referred to in the Spanish historiography as \"reino de Labes\"; sometimes more commonly referred to by its ruling family, the Mokrani, in Berber \"At Muqran\", in Arabic \"أولاد مقران (Ouled Moqrane)\".",
+      "Algiers is the second oldest neighborhood in New Orleans and the only Orleans Parish community located on the West Bank of the Mississippi River.",
+      "Algiers is also known as the 15th Ward, one of the 17 Wards of New Orleans."
+    ],
+    "actualResponse": "That its capital is Algiers and is the most populous",
+    "index": 14
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "Hi, I have few pet Iguanas. Do you?",
+      "No but iguanas are cool cold blooded lizards",
+      "I see, does that mean they are reptiles?"
+    ],
+    "suggestions": [
+      "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica, as well as most oceanic island chains.",
+      "The group is paraphyletic as it excludes the snakes and Amphisbaenia which are also squamates.",
+      "The green iguana (\"Iguana iguana\"), also known as the American iguana, is a large, arboreal, mostly herbivorous species of lizard of the genus \"Iguana\".",
+      "It is native to Central, South America, and the Caribbean.",
+      "Reptiles are tetrapod animals in the class Reptilia, comprising today's turtles, crocodilians, snakes, amphisbaenians, lizards, tuatara, and their extinct relatives.",
+      "The study of these traditional reptile orders, historically combined with that of modern amphibians, is called herpetology."
+    ],
+    "actualResponse": "Yep iguanas are lizards so they are also reptiles",
+    "index": 15
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "I love electronic music. Daft Punk is a great band.",
+      "the only thing i really know about daft punk is that they are a french electric duo formed in 1993",
+      "I like a lot of their music. Do you know any other Electronica bands?"
+    ],
+    "suggestions": [
+      "The Neptunes are a two-member producing group consisting of Pharrell Williams and Chad Hugo.",
+      "This discography lists the recorded performances as a duo and individuals.",
+      "\"Get Lucky\" is a song by French house music duo Daft Punk, featuring Pharrell Williams and co-written by the duo, Williams, and Nile Rodgers.",
+      "It is the lead single from Daft Punk's fourth studio album, \"Random Access Memories\".",
+      "Random Access Memories is the fourth studio album by French electronic music duo Daft Punk.",
+      "It was released on 17 May 2013, by the duo's imprint Daft Life and Columbia Records."
+    ],
+    "actualResponse": "no i don't really, i liked thier song get lucky with pharrell williams ",
+    "index": 16
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "I don't like eating from McDonald's but it's so cheap and easy.",
+      "I agree. I only recently found out that it's been around since the 40's!",
+      "Really? Do you know how long it took for them to become a big franchise?"
+    ],
+    "suggestions": [
+      "Raymond Albert \"Ray\" Kroc (October 5, 1902 – January 14, 1984) was an American businessman.",
+      "He joined the California company McDonald's in 1954, just a few months after the McDonald brothers had branched out from their original 1940 operation in San Bernardino, with Kroc turning the chain into a nationwide and eventually global franchise, making it the most successful fast food corporation in the world.",
+      "McDonald's is a fast food company that was founded in 1940 as a restaurant operated by Richard and Maurice McDonald, in San Bernardino, California, United States.",
+      "They rechristened their business as a hamburger stand.",
+      "This history of McDonald's is an overview of the original restaurant and of the chain.",
+      "The McDonald family moved from Manchester, New Hampshire to Hollywood, California in the late 1930s, where brothers Richard and Maurice McDonald began working as set movers and handymen at Motion-Picture studios."
+    ],
+    "actualResponse": "I believe that was in 1955 when Ray Kroc joined the company as a franchise agent.",
+    "index": 17
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "I love to drive my Ford truck!",
+      "I bet you do. The American multinational automaker headquartered in Dearborn makes great vehicles!",
+      "I just got it, I don't know much about the company though. Do you know any interesting facts about Ford?"
+    ],
+    "suggestions": [
+      "The Ford Motor Company (commonly referred to simply as \"Ford\") is an American multinational automaker headquartered in Dearborn, Michigan, a suburb of Detroit.",
+      "It was founded by Henry Ford and incorporated on June 16, 1903.",
+      "Luxury vehicle is a marketing term for a vehicle that provides luxury — pleasant or desirable features beyond strict necessity — at increased expense.",
+      "The term suggests a vehicle with higher quality equipment, better performance, more precise construction, comfort, higher design, technologically innovative modern, or features that convey an image, brand, status, or prestige, or any other 'discretionary' feature or combination of them.",
+      "The Lincoln Motor Company (also known simply as Lincoln) is a division of the Ford Motor Company that sells luxury vehicles under the Lincoln brand.",
+      "Founded in 1917 by Henry M. Leland, Lincoln became a subsidiary of Ford in 1922, but is now a division of Ford."
+    ],
+    "actualResponse": "Well it sells under the Ford brand and most luxury cars under the Lincoln brand. Have you ever owned a Lincoln?",
+    "index": 18
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "Metallica is one of my favorite older bands! ",
+      "Same here. The black album played a big part in my formative years",
+      "What was their most popular song do you know?"
+    ],
+    "suggestions": [
+      "\"Enter Sandman\" is a song by American heavy metal band Metallica.",
+      "It was released as the first single from their self titled fifth album, \"Metallica\" in 1991.",
+      "Metallica is an American heavy metal band from Los Angeles, California.",
+      "The band was formed in 1981 by drummer Lars Ulrich and vocalist/guitarist James Hetfield.",
+      "Metallica (commonly known as The Black Album) is the self-titled fifth studio album by American heavy metal band Metallica.",
+      "Released on August 12, 1991 by Elektra Records, it received widespread critical acclaim and became the band's best-selling album."
+    ],
+    "actualResponse": "I think Enter Sandman. They we great early heavy metal",
+    "index": 19
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "So, I'm thinking about changing up my diet. Do you know anything about vegetarianism?",
+      "I've been a vegetarian for a long time - it involves abstaining from the consumption of meat , and may also include abstention from by-products of animal slaughter.",
+      "Is there a difference between being a vegan and being a vegetarian?"
+    ],
+    "suggestions": [
+      "Veganism is both the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals.",
+      "A follower of either the diet or the philosophy is known as a vegan ( ).",
+      "Vegetarianism is the practice of abstaining from the consumption of meat (red meat, poultry, seafood, and the flesh of any other animal), and may also include abstention from by-products of animal slaughter.",
+      "Vegetarianism may be adopted for various reasons.",
+      "Vegetarianism is strongly linked with a number of religions that originated in ancient India (Jainism, Hinduism and Buddhism).",
+      "In Jainism, vegetarianism is mandatory for everyone; in Hinduism and Mahayana Buddhism, it is advocated by some influential scriptures and religious authorities."
+    ],
+    "actualResponse": "A vegan typically  abstains rom the use of animal products, particularly in diet, and also rejects the commodity status of animals and Vegetarianism abstains from the consumption of meat",
+    "index": 20
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "So, I'm thinking about changing up my diet. Do you know anything about vegetarianism?",
+      "I've been a vegetarian for a long time - it involves abstaining from the consumption of meat , and may also include abstention from by-products of animal slaughter.",
+      "Is there a difference between being a vegan and being a vegetarian?"
+    ],
+    "suggestions": [
+      "Veganism is both the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals.",
+      "A follower of either the diet or the philosophy is known as a vegan ( ).",
+      "Vegetarianism is the practice of abstaining from the consumption of meat (red meat, poultry, seafood, and the flesh of any other animal), and may also include abstention from by-products of animal slaughter.",
+      "Vegetarianism may be adopted for various reasons.",
+      "Vegetarianism is strongly linked with a number of religions that originated in ancient India (Jainism, Hinduism and Buddhism).",
+      "In Jainism, vegetarianism is mandatory for everyone; in Hinduism and Mahayana Buddhism, it is advocated by some influential scriptures and religious authorities."
+    ],
+    "actualResponse": "A vegan typically  abstains rom the use of animal products, particularly in diet, and also rejects the commodity status of animals and Vegetarianism abstains from the consumption of meat",
+    "index": 21
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "Do you know anything about Barbershop music?",
+      "Yes, it is a style of cappella close harmony music!",
+      "How far back can we trace it's origin?"
+    ],
+    "suggestions": [
+      "Barbershop vocal harmony, as codified during the barbershop revival era (1930s–present), is a style of a cappella close harmony, or unaccompanied vocal music, characterized by consonant four-part chords for every melody note in a predominantly homophonic texture.",
+      "Each of the four parts has its own role: generally, the lead sings the melody, the tenor harmonizes above the melody, the bass sings the lowest harmonizing notes, and the baritone completes the chord, usually below the lead.",
+      "The music of the United States reflects the country's multi-ethnic population through a diverse array of styles.",
+      "It is a mixture of music influenced by West African, Irish, Scottish and mainland European among others.",
+      "The harmonic seventh chord is a major triad plus the harmonic seventh interval (ratio of 7:4, about 968.826 cents).",
+      "This interval is somewhat narrower (about 48.77 cents flatter, a septimal quarter tone) and is \"sweeter in quality\" than an \"ordinary\" minor seventh, which has a just intonation ratio of 9:5 (1017.596 cents), or an equal-temperament ratio of 1000 cents (2:1)."
+    ],
+    "actualResponse": "Well, its emergence can be traced  back to during the barbershop revival era in 1930s–present",
+    "index": 22
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "My uncle works with IBM, he tells me a lot about their car brands",
+      "The headquarters are in New York and they operate in over 170 countries.",
+      "Whats the full acronym for IBM?"
+    ],
+    "suggestions": [
+      "International Business Machines, or IBM, nicknamed \"Big Blue\", is a multinational computer technology and IT consulting corporation headquartered in Armonk, New York, United States.",
+      "IBM originated from the bringing together of several companies that worked to automate routine business transactions.",
+      "Thomas John Watson Sr. (February 17, 1874 – June 19, 1956) was an American businessman.",
+      "He served as the chairman and CEO of International Business Machines (IBM) He oversaw the company's growth into an international force from 1914 to 1956.",
+      "IBM (International Business Machines Corporation) is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries.",
+      "The company originated in 1911 as the Computing-Tabulating-Recording Company (CTR) and was renamed \"International Business Machines\" in 1924."
+    ],
+    "actualResponse": "It stands for International Business Machines.",
+    "index": 23
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "What do you know about the book 1984?",
+      "It's a great book written by George Orwell in 1949. ",
+      "Oh, I thought it was written in 1984! What is the book about?"
+    ],
+    "suggestions": [
+      "Nineteen Eighty-Four, often published as 1984, is a dystopian novel published in 1949 by English author George Orwell.",
+      "The novel is set in Airstrip One, formerly Great Britain, a province of the superstate Oceania, whose residents are victims of perpetual war, omnipresent government surveillance and public manipulation.",
+      "Oceania, Eurasia and Eastasia are the three fictional superstates in George Orwell's satirical dystopian novel \"Nineteen Eighty-Four\".",
+      "How the world evolved into the three states is vague.",
+      "Perpetual war, endless war, or a forever war, is a lasting state of war with no clear conditions that would lead to its conclusion.",
+      "These wars are situations of ongoing tension that may escalate at any moment, similar to the Cold War."
+    ],
+    "actualResponse": "It's set in Airstrip One, which was Great Britain, a province of the superstate, and the people who live there are victims of perpetual war, omnipresent government surveillance and manipulation!",
+    "index": 24
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "I absolutely have to try scuba diving before I get too much older. It looks amazing!",
+      "Open circuit scuba systems discharge the breathng gas int the enviroment as exhaled and cosist of one or more diving cylinders which has breahing gas at high pressure. These are delivered to the diver through a regulator. When you go scuba diving it's probablt what youll be using!",
+      "That's good but sounds very complex. Have you ever been scuba diving?"
+    ],
+    "suggestions": [
+      "Scuba diving is a form of underwater diving where the diver uses a self-contained underwater breathing apparatus (scuba) which is completely independent of surface supply, to breathe underwater.",
+      "Scuba divers carry their own source of breathing gas, usually compressed air, allowing them greater independence and freedom of movement than surface-supplied divers, and longer underwater endurance than breath-hold divers.",
+      "A diving cylinder, scuba tank or diving tank is a gas cylinder used to store and transport the high pressure breathing gas required by a scuba set.",
+      "It may also be used for surface-supplied diving or as decompression gas or an emergency gas supply for surface supplied diving or scuba.",
+      "The practice of decompression by divers comprises the planning and monitoring of the profile indicated by the algorithms or tables of the chosen decompression model, to allow asymptomatic and harmless release of excess inert gases dissolved in the tissues as a result of breathing at ambient pressures greater than surface atmospheric pressure, the equipment available and appropriate to the circumstances of the dive, and the procedures authorized for the equipment and profile to be used.",
+      "There is a large range of options in all of these aspects."
+    ],
+    "actualResponse": "Yes, they're even more complex because they may include an additional cylinder for decompression gas or emergency breathing gas. This is what i would probably use because i am afraid of deep water, so that will be a no to your question",
+    "index": 25
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "I want to buy a new vehicle and I went to a Toyota dealership today - I really do like the looks of their cars and SUVs!",
+      "I agree, I recommend you check out their line of hybrid electric vehicles as well.",
+      "That sounds interesting!  Which Toyotas are hybrid?"
+    ],
+    "suggestions": [
+      "The Toyota Prius Plug-in Hybrid, also known as Prius PHV and Prius Prime (U.S.), is a plug-in hybrid manufactured by Toyota.",
+      "The first generation Prius plug-in was produced from 2012 to 2016.",
+      "The Toyota Prius () is a full hybrid electric automobile developed by Toyota and manufactured by the company since 1997.",
+      "Initially offered as a 4-door sedan, it has been produced only as a 5-door liftback from 2003 to 2015, and then a 5-door fastback since 2016.",
+      "A hybrid electric vehicle (HEV) is a type of hybrid vehicle that combines a conventional internal combustion engine (ICE) system with an electric propulsion system (hybrid vehicle drivetrain).",
+      "The presence of the electric powertrain is intended to achieve either better fuel economy than a conventional vehicle or better performance."
+    ],
+    "actualResponse": "The Toyota Prius Plug-in Hybrid is probably the most popular hybrid. I own one and its great",
+    "index": 26
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "I have a horse named Beauty. Do you love horses?",
+      "I don't, but I've rode the subspecies of Equus ferus before. What kind?",
+      "I'm not sure what kind it is. My dad got it for me. I don't know much about them. What is Equus ferus?"
+    ],
+    "suggestions": [
+      "The horse (\"Equus ferus caballus\") is one of two extant subspecies of \"Equus ferus\".",
+      "It is an odd-toed ungulate mammal belonging to the taxonomic family Equidae.",
+      "Ungulates (pronounced ) are any members of a diverse group of primarily large mammals that includes odd-toed ungulates such as horses and rhinoceroses, and even-toed ungulates such as cattle, pigs, giraffes, camels, deer, and hippopotamuses.",
+      "Most terrestrial ungulates use the tips of their toes, usually hoofed, to sustain their whole body weight while moving.",
+      "Members of the order Perissodactyla, otherwise known as odd-toed ungulates, are mammals characterized by an odd number of toes and by hindgut fermentation with somewhat simple stomachs.",
+      "Perissodactyla comes from the Ancient Greek περισσός (\"perissós\", “uneven”) + δάκτυλος (\"dáktulos\", “a finger, toe”)."
+    ],
+    "actualResponse": " To be specific, it is an odd-toed ungulate mammal part of the taxonomic family Equidae",
+    "index": 27
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "I love looking at stars at night.  Do you think we'll ever visit one some day?",
+      "Maybe some day I suppose, We all know that the closest star to Earth is the Sun and NASA has sent some probes there recently to actually land on it, I'm not sure if thats feasible. ",
+      "Oh the sun is a star?  So what is a star exactly?"
+    ],
+    "suggestions": [
+      "A star is type of astronomical object consisting of a luminous spheroid of plasma held together by its own gravity.",
+      "The nearest star to Earth is the Sun.",
+      "General relativity (GR, also known as the general theory of relativity or GTR) is the geometric theory of gravitation published by Albert Einstein in 1915 and the current description of gravitation in modern physics.",
+      "General relativity has been described as the most beautiful of all existing physical theories.",
+      "General relativity is a theory of gravitation that was developed by Albert Einstein between 1907 and 1915.",
+      "According to general relativity, the observed gravitational effect between masses results from their warping of spacetime."
+    ],
+    "actualResponse": "A star is defined as a type of astronomical object consisting of a bright luminous spheroid of plasma held together by its own gravitational field. ",
+    "index": 28
+  },
+  {
+    "contextLen": 2,
+    "conversation": [
+      "I'm obsessed with filming. ",
+      "Cinematograpy is awesome!  It is the science or art of motion-picture photography by recording light or other electromagnetic radiation",
+      "How do cinematographers record light? "
+    ],
+    "suggestions": [
+      "Cinematography (also called \"Direction of Photography\") is the science or art of motion-picture photography by recording light or other electromagnetic radiation, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as film stock.",
+      "Typically, a lens is used to repeatedly focus the light reflected from objects into real images on the light-sensitive surface inside a camera during a questioned exposure, creating multiple images.",
+      "Photography is the science, art, application and practice of creating durable images by recording light or other electromagnetic radiation, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.",
+      "Typically, a lens is used to focus the light reflected or emitted from objects into a real image on the light-sensitive surface inside a camera during a timed exposure.",
+      "A digital camera or digicam is a camera that captures photographs in digital memory.",
+      "Most cameras produced today are digital, and while there are still dedicated compact cameras on the market, the use of dedicated digital cameras is dwindling, as digital cameras are now incorporated into many devices ranging from mobile devices to vehicles."
+    ],
+    "actualResponse": "They typically do it electronically by means of an image sensor, or chemically by means of a light-sensitive material such as film stock.",
+    "index": 29
+  }
+]
