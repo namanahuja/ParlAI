@@ -23,7 +23,7 @@ with <span style='color:red'><b>at least 5 successfully completed conversations<
 Note that we will reject your HIT if you quit before 5 minutes or did not finish 5 conversations with informative responses.
 <br>
 We expect you to finish <span style='color:red'><b>as many conversations as possible while maintaining the quality of your responses</b></span>. 
-The top-performing 10% of the HITs, counting both the number of finished conversations and the quality of their responses, will be awarded a bonus of $0.50.
+The top-performing 10% of the HITs, counting both the number of finished conversations and the quality of their responses, will be awarded a bonus of $0.25.
 <br>
 <br>
 """
