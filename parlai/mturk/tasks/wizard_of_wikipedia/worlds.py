@@ -179,6 +179,8 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                                         ['show', 1, 3],
                                         ['show', 1, 5]])
 
+            print("Random Setting")
+            print(combination)
             self.suggestionsConfig = combination[0]
             self.textboxFilled = combination[1]
             self.suggestionsNumber = combination[2]

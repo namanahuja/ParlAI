@@ -18,7 +18,7 @@ religious/politics comments, otherwise the submission will be rejected.
 <br>
 <br>
 <h4><span style="color:blue"><b>Reward/Bonus</b></span></h4>
-You will receive <span style='color:red'><b>$0.50</b></span> for finishing a task session of <span style='color:red'><b>5 minutes</b></span> 
+You will receive <span style='color:red'><b>$0.25</b></span> for finishing a task session of <span style='color:red'><b>5 minutes</b></span> 
 with <span style='color:red'><b>at least 5 successfully completed conversations</b></span>. Your responses will be evaluated by other human workers. 
 Note that we will reject your HIT if you quit before 5 minutes or did not finish 5 conversations with informative responses.
 <br>
