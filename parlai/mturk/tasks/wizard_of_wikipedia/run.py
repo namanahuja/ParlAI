@@ -180,6 +180,7 @@ def main():
         allData = json.load(read_file)
         for data in allData:
             obj = {}
+            obj['contextLen'] = data['contextLen']
             obj['index'] = data['index']
             context = data['conversation']
             context.append(data['actualResponse'])
@@ -192,6 +193,7 @@ def main():
         allData = json.load(read_file)
         for data in allData:
             obj = {}
+            obj['contextLen'] = data['contextLen']
             obj['index'] = data['index']
             context = data['conversation']
             context.append(data['actualResponse'])
@@ -205,6 +207,7 @@ def main():
         allData = json.load(read_file)
         for data in allData:
             obj = {}
+            obj['contextLen'] = data['contextLen']
             obj['index'] = data['index']
             context = data['conversation']
             context.append(data['actualResponse'])
@@ -278,6 +281,7 @@ def main():
         mturk_manager.create_hits()
 
         def check_workers_eligibility(workers):
+            return workers
             if opt['is_sandbox']:
                 return workers
             valid_workers = {}
@@ -326,7 +330,8 @@ def main():
             world.save_data()
             if (world.convo_finished and
                     not opt['is_sandbox']):
-                mturk_manager.soft_block_worker(world.wizard_worker)
+                pass
+                #mturk_manager.soft_block_worker(world.wizard_worker)
             world.shutdown()
             world.review_work()
 
