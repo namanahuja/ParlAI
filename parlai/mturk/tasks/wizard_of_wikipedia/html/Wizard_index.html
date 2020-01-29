@@ -341,7 +341,6 @@
       log('New message, ' + new_message_id + ' from agent ' + agent_id, 1);
       displayed_messages.push(new_message_id);
       if ("relevant_topics" in message) {
-       
         $("button#submit-chosen-topic-button").show();
         relevant_topics = message.relevant_topics;
         handle_relevant_topics(message.relevant_topics);
@@ -541,35 +540,32 @@
       Setup the retrieved passages in the chat window
     */
     function handle_retrieved_passages(message, passages, person) {
-      //debugger;
+      debugger;
 
       if(message.suggestionsConfig && message.suggestionsConfig == "no")
         return;
 
+      
+
       var totalSuggestions = 0;
       var title_id_to_passage_id = {};
       var sent_id_to_sentence = {};
-      var list = $(`<div id='${person}-retrieved-passages-list'></div>`);
-      for (var idx in passages) {
-        title_and_content = passages[idx];
-        var title = title_and_content[0];
-        var title_id = title.replace(/[.,\'\"\/#!$%\^&\*;:{}=\-_`~()\?]/g,"");
-        title_id = `${person}_${idx}_${title_id.replace(/\s{1,}/g,"_")}`;
-        var passage_id = title_id + '_passage';
-        title_id_to_passage_id[title_id] = passage_id;
-        var sentences = title_and_content[1];
-        var passage = "";
+      var list = $(`<div id='${person}-retrieved-passages-list'></div>`);var passage = "";
+      var passage = "";
+      
+
+      var sentences = message.suggestions;
+        
 
         //debugger;
         //setup for checking Sentences
-        var sentencesLen = Math.min(sentences.length, 2);
-        for (var sent_idx = 0; sent_idx < sentencesLen; sent_idx++) {
+        for (var sent_idx = 0; sent_idx < sentences.length; sent_idx++) {
 
           if(totalSuggestions >= message.suggestionsNumber)
             break;
 
           var sentence = sentences[sent_idx];
-          var sentence_id = `${person}_${idx}_${sent_idx}`;
+          var sentence_id = `${person}_${sent_idx}`;
           passage += `<div class=\'generated\' id="${sentence_id}_label" style="cursor: pointer;border-radius: 20px;border: 2px solid;padding: 10px;background-color: #d9edf7;border-color: #bce8f1;margin-right: 10px;">${sentence}</div><br />`;
           sent_id_to_sentence[sentence_id] = sentence;
 
@@ -577,14 +573,11 @@
         }
         
 
-        var link = `<div class=\'form-check\'>
-                      <span id=\'${title_id}\' style="font-weight: bold;">${title}</span>
-                     
-                    </div>`;
-        var div = `<div class="passage-sentences" id=\'${passage_id}\' style=\'font-size:16px\'>${passage}</div>`;
-        var li = $(`<div id=\'${title_id}_li\'>${div}</div>`);
+       
+        var div = `<div class="passage-sentences" style=\'font-size:16px\'>${passage}</div>`;
+        var li = $(`<div>${div}</div>`);
         list.append(li);
-      }
+
       // If it's the chosen topic, we put it in a different place
       if(person == 'chosen_topic') {
         list.addClass('list-style-type');
@@ -595,7 +588,7 @@
      
       $(`div#${person}-retrieved-passages`).html(list);
       $(`div.generated`).on("click", function(){
-        debugger;
+        //debugger;
         var senID = $(this)[0].id;
 
         if(selectedIndices.includes(senID))

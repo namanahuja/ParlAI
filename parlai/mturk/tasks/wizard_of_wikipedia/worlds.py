@@ -294,6 +294,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                 'id': 'SYSTEM',
                 'text': PICK_TOPIC_MSG,
                 'context': self.taskConversations[self.taskIndex]['conversation'],
+                'suggestions': self.taskConversations[self.taskIndex]['suggestions'],
                 'relevant_topics': self.relevant_topics,
                 'taskNumber': self.taskIndex,
                 'actualTasks': self.totalTasks - 1,
@@ -461,6 +462,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                 control_msg['textboxFilled'] = self.textboxFilled,
                 control_msg['suggestionsNumber'] = self.suggestionsNumber
                 control_msg['timer'] = self.timer
+                control_msg['suggestions'] = self.taskConversations[self.taskIndex]['suggestions']
                 agent.observe(validate(control_msg))
                 self.newTask = False
 

@@ -183,6 +183,7 @@ def main():
             obj['contextLen'] = data['contextLen']
             obj['index'] = data['index']
             context = data['conversation']
+            obj['suggestions'] = data['suggestions']
             context.append(data['actualResponse'])
             obj['conversation'] = context
             tripleContext.append(obj)
@@ -195,6 +196,7 @@ def main():
             obj = {}
             obj['contextLen'] = data['contextLen']
             obj['index'] = data['index']
+            obj['suggestions'] = data['suggestions']
             context = data['conversation']
             context.append(data['actualResponse'])
             obj['conversation'] = context
@@ -209,6 +211,7 @@ def main():
             obj = {}
             obj['contextLen'] = data['contextLen']
             obj['index'] = data['index']
+            obj['suggestions'] = data['suggestions']
             context = data['conversation']
             context.append(data['actualResponse'])
             obj['conversation'] = context
