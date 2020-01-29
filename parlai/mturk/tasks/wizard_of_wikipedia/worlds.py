@@ -22,6 +22,7 @@ import random
 import copy
 from urllib.parse import unquote
 import random
+import copy
 
 
 def split_tokenize(text):
@@ -220,12 +221,14 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         # Load the title to passage dictionary
         self.wiki_title_to_passage = wiki_title_to_passage
 
+        self.taskConversations = copy.deepcopy(opt['allContexts'])
+        random.shuffle(self.taskConversations)
+
         self.taskNumber = 0
         self.taskIndex = 0
         self.newTask = True
         
-        self.taskConversations = opt['allContexts']
-        random.shuffle(self.taskConversations)
+
 
 
     def episode_done(self):
