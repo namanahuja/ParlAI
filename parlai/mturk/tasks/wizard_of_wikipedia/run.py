@@ -121,8 +121,11 @@ def main():
                            choices=['both', 'self', 'other'],
                            help='Which personas to load from personachat')
     argparser.add_argument('--auto-approve-delay', type=int,
-                           default=3600 * 24 * 1, help='how long to wait for  \
+                           default=3600 * 1 * 1, help='how long to wait for  \
                            auto approval')
+    argparser.add_argument('--assignment-duration-in-seconds', type=int,
+                           default=600, help='how long to wait for ')
+
     argparser.add_argument('--word-overlap-threshold', type=int, default=2,
                            help='How much word overlap we want between message \
                            and checked sentence')
@@ -155,7 +158,7 @@ def main():
     argparser.add_argument('--context-count', type=int, default=0,
                            help='Number of conversation rounds')
 
-    argparser.add_argument('--timer', type=int, default=60 * 5,
+    argparser.add_argument('--timer', type=int, default=300,
                            help='Timer')
     argparser.add_argument('--shuffle-configs', type=int, default=1,
                            help='Shuffle Settings?')

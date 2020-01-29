@@ -163,6 +163,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         self.max_resp_time = opt['max_resp_time']  # in secs
         self.num_passages_to_retrieve = opt['num_passages_retrieved']
         self.totalTasks = opt['num_tasks']
+        self.reward = opt['reward']
         
         
         
@@ -412,7 +413,8 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
                         'researchTask': acts[idx]['researchTask'],
                         'suggestionsShown': acts[idx]['suggestionsShown'],
                         'timeTaken': acts[idx]['timeTaken'],
-                        'timer': self.timer
+                        'timer': self.timer,
+                        'reward': self.reward
                         }
            
             '''Get clicked passages and checked sentences from Wizard'''
