@@ -151,7 +151,6 @@
     });
 
     $("textarea#id_text_input").on('input', function(e) {
-      debugger;
       if(lastKeyPressed == "Enter")
         return;
       handleLoggingData(lastKeyPressed);
@@ -482,6 +481,7 @@
         handle_retrieved_passages(message, passages, "partner");
       }
       if ("self_retrieved_passages" in message) {
+        debugger;
         num_tries = 0;
         clicked_passages['self'] = {};
         checked_sentences['self'] = {};
@@ -499,7 +499,7 @@
           handle_retrieved_passages(message, passages, "self");
 
           if(message.textboxFilled == 1){
-            topSuggestion = passages[0][1][0];
+            topSuggestion = message.suggestions[0];
             $("textarea#id_text_input").val(topSuggestion);
             handleLoggingData("<<autoTop>>");
           }
@@ -999,7 +999,7 @@
         timeTaken =  (endTime - startTime)/1000;
 
         // Send a packet
-        debugger;
+        //debugger;
         send_packet(
           TYPE_MESSAGE,
           {
