@@ -619,9 +619,10 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
             for d in self.dialog:
                 if role in d['speaker']:
                     if d['offensive']:
-                        ag.reject_work(reason='Your HIT has been rejected '
-                                              'because we detected offensive '
-                                              'language in your submission.')
+                        pass
+                        #ag.reject_work(reason='Your HIT has been rejected '
+                                              #'because we detected offensive '
+                                              #'language in your submission.')
 
         Parallel(
             n_jobs=len(self.agents),

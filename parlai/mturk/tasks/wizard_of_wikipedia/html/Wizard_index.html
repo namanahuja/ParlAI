@@ -149,7 +149,11 @@
     $(document).on('paste', function(e){
       lastKeyPressed = "<<paste>>"
     });
-    $("textarea#id_text_input").on('input', function() {
+
+    $("textarea#id_text_input").on('input', function(e) {
+      debugger;
+      if(lastKeyPressed == "Enter")
+        return;
       handleLoggingData(lastKeyPressed);
     });
 
@@ -433,7 +437,6 @@
             $("#id_send_msg_button").hide();
           
         }
-
         initMessage = message.context[contextArrayLength - 1];
         $("textarea#id_text_input").val(initMessage);
         $("button#id_send_msg_button").trigger("click");
@@ -540,7 +543,7 @@
       Setup the retrieved passages in the chat window
     */
     function handle_retrieved_passages(message, passages, person) {
-      debugger;
+      //debugger;
 
       if(message.suggestionsConfig && message.suggestionsConfig == "no")
         return;
@@ -996,7 +999,7 @@
         timeTaken =  (endTime - startTime)/1000;
 
         // Send a packet
-        
+        debugger;
         send_packet(
           TYPE_MESSAGE,
           {
