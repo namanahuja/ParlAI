@@ -1,0 +1,66 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<style>
+.conv {font-size: smaller; border-radius: 10px; border: 1px solid; padding: 8px; background-color: #ffefd5;border-color: #debb83; margin-bottom: 5px;}
+.response {font-size: smaller; border-radius: 10px; border: 1px solid; padding: 8px; background-color: #d9edf7; border-color: #bce8f1;}
+</style>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+
+    <!-- The crowd-classifier element will create a tool for the Worker to select the
+           correct answer to your question -->
+    <crowd-classifier 
+        categories="['Not Relevant','Moderately Relevant','Highly Relevant']"
+        header="How relevant is the response to the given conversation?"
+        name="relevance">
+
+        <!-- Your conversations will be substituted for the "conversation" variable when 
+               you publish a batch with an input file containing multiple HTML-formatted conversations. -->
+        <classification-target>${conversation}</classification-target>
+
+        <!-- Use the short-instructions section for quick instructions that the Worker
+              will see while working on the task. Including some basic examples of 
+              good and bad answers here can help get good results. You can include 
+              any HTML here.
+
+             Your conversation topics will be substituted for the "topic" variable when 
+             you publish a batch with an input file containing multiple conversation topics. -->
+        <short-instructions>
+            <h3>How relevant is the response (in blue) to the given conversation? </h3>
+            
+            <div>Read the conversation between <b>Person 1</b> and <b>Person 2</b> carefully and rate the relevance of the next response (in blue) to the conversation.</div>
+            <br/>
+            <div>A good response is one that continues the conversation, providing all the necessary details required.</div>
+            <br/>
+            <div>Click <b>View full instructions</b> to see an example.</div>
+        
+        </short-instructions>
+
+        <!-- Use the full-instructions section for more detailed instructions that the 
+              Worker can open while working on the task. Including more detailed 
+              instructions and additional examples of good and bad answers here can
+              help get good results. You can include any HTML here. -->
+        <full-instructions header="Conversation Relevance Instructions">
+            <h2>How relevant is the response to the given conversation?</h2>
+            <div>Read the conversation between <b>Person 1</b> and <b>Person 2</b> carefully and rate the relevance of the next response (in blue) to the conversation.</div>
+            <br/>
+            <div>A good response is one that continues the conversation, providing all the necessary details required.</div>
+            <br/>
+            <div class="conv"><b>Person 1:</b> I have blond hair, what do you think of people with that hair color?</div>
+            <div class="conv"><b>Person 2:</b> Sometimes I wish I had blonde hair, or fair hair. They have low levels of eumelanin.</div>
+            <div class="conv"><b>Person 1:</b> What is eumelanin? I like it, but sometimes I need a change, plus it gets thick.</div>
+            <br/>
+            <div class="response"><b>Person 2:</b> Hair color is the pigmentation of hair follicles due to two types of melanin: eumelanin and pheomelanin.</div>
+            <br/>
+            Selected Option: <b>Highly Relevant</b>
+            <p hidden>${fileName}${localIndex}</p>
+
+        </full-instructions>
+
+    </crowd-classifier>
+</crowd-form>
