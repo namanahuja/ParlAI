@@ -140,7 +140,7 @@ class PersonasGenerator(object):
         idx = self.idx_stack.pop()
         data = np.load(
             os.path.join(self.personas_path, self.personas_name_list[int(idx)])
-        )
+        , allow_pickle=True)
         return (idx, data)
 
     def push_persona(self, idx):

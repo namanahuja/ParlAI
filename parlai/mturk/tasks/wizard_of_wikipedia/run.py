@@ -267,7 +267,7 @@ def main():
 
     try:
         mturk_manager.start_new_run()
-        if not opt['is_sandbox']:
+        if True:
             with open(os.path.join(opt['current_working_dir'], 'mtdont.txt')) as f:
                 lines = [l.replace('\n', '') for l in f.readlines()]
                 for w in lines:
