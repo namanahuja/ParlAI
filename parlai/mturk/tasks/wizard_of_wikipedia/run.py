@@ -282,9 +282,19 @@ def main():
             #world.parley()
             #world.shutdown()
 
+
+        agent_qualifications = [
+            {
+                'QualificationTypeId': '332QEYYXQI5VK3IUF0XPNU9U1HHMMF',
+                'Comparator': 'NotEqualTo',
+                'IntegerValues': [1],
+                'ActionsGuarded': 'Accept',
+            }
+        ]
+
         mturk_manager.set_onboard_function(onboard_function=run_onboard)
         mturk_manager.ready_to_accept_workers()
-        mturk_manager.create_hits()
+        mturk_manager.create_hits(qualifications=agent_qualifications)
 
         def check_workers_eligibility(workers):
             return workers
