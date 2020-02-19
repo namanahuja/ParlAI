@@ -78,8 +78,6 @@
 
 
 
-
-
 <!-- You must include this JavaScript file -->
 <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
 
@@ -90,10 +88,10 @@
 .container {
   /*display: block;*/
   position: relative;
-  padding-left: 35px;
+  padding-left: 30px;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 18px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -113,8 +111,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   background-color: #eee;
   border-radius: 50%;
 }
@@ -143,13 +141,19 @@
 
 /* Style the indicator (dot/circle) */
 .container .checkmark:after {
- 	top: 9px;
-	left: 9px;
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	background: white;
+  border-radius: 50%;
+  background: white;
 }
+
+.question {
+    margin-bottom: 4%;
+}
+
+.questionType {
+    color: darkgray;
+
+}
+
 
 </style>
 
@@ -165,11 +169,10 @@
     <div style="width: 85%; margin: 0 10%; margin-bottom: 5%;">
         
         <div>
-            <h2>Rate the response in context of the given conversation</h2>
-            <div>Read the conversation between <b>Person 1</b> and <b>Person 2</b> carefully and rate the next response (in blue).</div>
+            <h2>Rate the response in the context of the given conversation</h2>
+            <div>Read the conversation between <b>Person 1</b> and <b>Person 2</b> carefully. Rate the next response <b>(highlighted in blue)</b> according to the criteria mentioned below and click <b>Submit</b> to complete the task.</div>
             <br/>
-            <div>A good response is one that continues the conversation, providing all the necessary details required.</div>
-            <br/>
+            
         </div>
         
         <div style="margin-bottom: 5%">
@@ -178,12 +181,55 @@
             </crowd-card>
         </div>
         <div>
-             <div>
-                <b>How natural is the response?</b>
+             <div class="question">
+                <div><h3><span class="questionType">[Informativeness] </span>Does the highlighted response contain sufficient information relevant to the conversation?</h3></div>
 
-                <label class="container">Not Natural<input type="radio" name="natural" value=0 required><span class="checkmark"></span></label>
+                <label class="container">Very Insufficient<input type="radio" name="Informativeness" value="Very Insufficient" required><span class="checkmark"></span></label>
             
-                <label class="container">Natural<input type="radio" name="natural" value=1 required><span class="checkmark"></span></label>
+                <label class="container">Slightly Insufficient<input type="radio" name="Informativeness" value="Slightly Insufficient" required><span class="checkmark"></span></label>
+                
+                <label class="container">Slightly Sufficient<input type="radio" name="Informativeness" value="Slightly Sufficient" required><span class="checkmark"></span></label>
+            
+                <label class="container">Very Sufficient<input type="radio" name="Informativeness" value="Very Sufficient" required><span class="checkmark"></span></label>
+
+            </div>
+            
+            <div class="question">
+                <div><h3><span class="questionType">[Interestingness] </span>How interesting or boring did you find the highlighted response?</h3></div>
+
+                <label class="container">Very Boring<input type="radio" name="Interestingness" value="Very Boring" required><span class="checkmark"></span></label>
+            
+                <label class="container">Slightly Boring<input type="radio" name="Interestingness" value="Slightly Boring" required><span class="checkmark"></span></label>
+                
+                <label class="container">Slightly Interesting<input type="radio" name="Interestingness" value="Slightly Interesting" required><span class="checkmark"></span></label>
+            
+                <label class="container">Very Interesting<input type="radio" name="Interestingness" value="Very Interesting" required><span class="checkmark"></span></label>
+
+            </div>
+            
+            <div class="question">
+                <div><h3><span class="questionType">[Fluency] </span>How natural is the highlighted response in English?</h3></div>
+
+                <label class="container">Very Unnatural<input type="radio" name="Fluency" value="Very Unnatural" required><span class="checkmark"></span></label>
+            
+                <label class="container">Slightly Unnatural<input type="radio" name="Fluency" value="Slightly Unnatural" required><span class="checkmark"></span></label>
+                
+                <label class="container">Slightly Natural<input type="radio" name="Fluency" value="Slightly Natural" required><span class="checkmark"></span></label>
+            
+                <label class="container">Very Natural<input type="radio" name="Fluency" value="Very Natural" required><span class="checkmark"></span></label>
+
+            </div>
+            
+            <div class="question">
+                <div><h3><span class="questionType">[Humanness] </span>Do you think the highlighted response is provided by a bot or a human?</h3></div>
+
+                <label class="container">Definitely a bot<input type="radio" name="Humanness" value="Definitely a bot" required><span class="checkmark"></span></label>
+            
+                <label class="container">More likely a bot<input type="radio" name="Humanness" value="More likely a bot" required><span class="checkmark"></span></label>
+                
+                <label class="container">More likely a human<input type="radio" name="Humanness" value="More likely a human" required><span class="checkmark"></span></label>
+            
+                <label class="container">Definitely a human<input type="radio" name="Humanness" value="Definitely a human" required><span class="checkmark"></span></label>
 
             </div>
             
@@ -191,6 +237,8 @@
         </div>
        
     </div>
+
+    <p hidden>${fileName}${localIndex}</p>
  </div>
  
 </crowd-form> 
