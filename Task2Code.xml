@@ -74,16 +74,36 @@
 
 
 
-
-
-
-
 <!-- You must include this JavaScript file -->
 <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
 
 <style>
-.conv {clear: both; max-width: 90%; color: #8a6d3b; width: fit-content; border-radius: 10px; border: 1px solid; padding: 15px; background-color: #ffefd5;border-color: #debb83; margin-bottom: 15px;}
-.response {margin-top: 3%; clear: both; max-width: 90%; width: fit-content; border-radius: 10px; border: 1px solid; padding: 15px; background-color: #d9edf7; border-color: #bce8f1;}
+.conv {
+    clear: both; max-width: 90%; 
+    color: #8a6d3b; width: fit-content; border-radius: 10px; 
+    border: 1px solid; padding: 15px; margin-bottom: 15px;
+}
+.response {
+    margin-top: 3%; clear: both; 
+    max-width: 90%; width: fit-content; 
+    border-radius: 10px; border: 1px solid; padding: 15px;
+    font-weight: bold;
+    color: firebrick;
+}
+
+
+.rightConv {
+    float: right;
+    background-color: #d9edf7; 
+    border-color: #bce8f1;
+}
+
+.leftConv {
+    float: left;
+    background-color: #ffefd5;
+    border-color: #debb83;
+}
+
 /* The container */
 .container {
   /*display: block;*/
@@ -170,7 +190,7 @@
         
         <div>
             <h2>Rate the response in the context of the given conversation</h2>
-            <div>Read the conversation between <b>Person 1</b> and <b>Person 2</b> carefully. Rate the next response <b>(highlighted in blue)</b> according to the criteria mentioned below and click <b>Submit</b> to complete the task.</div>
+            <div>Read the conversation between <b>Person 1</b> and <b>Person 2</b> carefully. Rate the next response <b>(highlighted)</b> according to the criteria mentioned below and click <b>Submit</b> to complete the task.</div>
             <br/>
             
         </div>
@@ -182,7 +202,7 @@
         </div>
         <div>
              <div class="question">
-                <div><h3><span class="questionType">[Informativeness] </span>Does the highlighted response contain sufficient information relevant to the conversation?</h3></div>
+                <div><h3>Does the highlighted response contain sufficient information relevant to the conversation?</h3></div>
 
                 <label class="container">Very Insufficient<input type="radio" name="Informativeness" value="Very Insufficient" required><span class="checkmark"></span></label>
             
@@ -195,7 +215,7 @@
             </div>
             
             <div class="question">
-                <div><h3><span class="questionType">[Interestingness] </span>How interesting or boring did you find the highlighted response?</h3></div>
+                <div><h3>How interesting or boring did you find the highlighted response?</h3></div>
 
                 <label class="container">Very Boring<input type="radio" name="Interestingness" value="Very Boring" required><span class="checkmark"></span></label>
             
@@ -208,7 +228,7 @@
             </div>
             
             <div class="question">
-                <div><h3><span class="questionType">[Fluency] </span>How natural is the highlighted response in English?</h3></div>
+                <div><h3>How natural is the highlighted response in English?</h3></div>
 
                 <label class="container">Very Unnatural<input type="radio" name="Fluency" value="Very Unnatural" required><span class="checkmark"></span></label>
             
@@ -221,7 +241,7 @@
             </div>
             
             <div class="question">
-                <div><h3><span class="questionType">[Humanness] </span>Do you think the highlighted response is provided by a bot or a human?</h3></div>
+                <div><h3>Do you think the highlighted response is provided by a bot or a human?</h3></div>
 
                 <label class="container">Definitely a bot<input type="radio" name="Humanness" value="Definitely a bot" required><span class="checkmark"></span></label>
             
@@ -242,3 +262,5 @@
  </div>
  
 </crowd-form> 
+
+

@@ -294,7 +294,7 @@ def main():
 
         mturk_manager.set_onboard_function(onboard_function=run_onboard)
         mturk_manager.ready_to_accept_workers()
-        mturk_manager.create_hits(qualifications=agent_qualifications)
+        mturk_manager.create_hits()
 
         def check_workers_eligibility(workers):
             return workers

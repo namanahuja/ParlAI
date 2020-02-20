@@ -114,7 +114,7 @@ script to pkltojson live files
 clean live files
 upload data
 
-python run.py -nc 10 -r 0.10 --count-complete --assignment-duration-in-seconds 600 --unique --live --max-connections 4
+python run.py -nc 150 -r 0.25 --count-complete --assignment-duration-in-seconds 600 --unique --live --max-connections 4
 
 check auto delay/ task config
 
