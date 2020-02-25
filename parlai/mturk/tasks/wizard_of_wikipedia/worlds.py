@@ -175,11 +175,7 @@ class MTurkWizardOfWikipediaWorld(MultiAgentDialogWorld):
         if (opt['shuffle_configs'] == 1):
             combination = random.choice([['no', 0, 0], 
                                         ['show', 0, 1],
-                                        ['show', 0, 3],
-                                        ['show', 0, 5],
-                                        ['show', 1, 1],
-                                        ['show', 1, 3],
-                                        ['show', 1, 5]])
+                                        ['show', 1, 1]])
 
             print("Random Setting")
             print(combination)

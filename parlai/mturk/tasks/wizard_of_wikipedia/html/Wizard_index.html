@@ -97,7 +97,7 @@
       <div id="passages-main-pane" style="display: none;">
         <hr style="border-top: 1px solid #555" />
           <h4 id="partnerTitle" style="display: inline;"><b>Suggestions for the response</b></h4>
-          <span> (click the suggestion(s) to copy them to the input area)</span> <br/><br/>
+          <span id="suggestionInstr"> (click the suggestion(s) to copy them to the input area)</span> <br/><br/>
           <div id="waiting-for-message" class="row" style="margin-left: 0; margin-right: 0; display: none">
               <div class="alert alert-warning" role="alert" style="float: left; display:table; background-color: #fff">
                   <div id="hourglass" style="margin-top: -1px; margin-right: 5px; display: inline; float: left;">
@@ -306,12 +306,16 @@
         if(message.suggestionsConfig == "no") {
 
           $("h4#partnerTitle").hide();
+          $("#suggestionInstr").hide();
+          $("div#passages-pane").hide();
+          $("div#passages-main-pane").hide();
 
           $("span#showPassages").html("<span style='font-size: 16px;'>You will be shown an input field and <b>Send Button</b> below. <span style='color: red;'><b>Fill in an appropriate response </b></span> in the input field and <b>Click on the Send Button</b> to complete the task.</span><br/><br/> ");
         }
 
         else if(message.textboxFilled != 1){
-          $("span#showPassages").html("<span style='font-size: 16px;'>To help you finish the conversations, our AI system has generated some response suggestions for you. Please click on <span style='color: red;'><b>Show Suggestions</b></span> button below to proceed and view system-generated responses. Clicking on a suggestion will copy the text to the textbox. Please feel free to make any edits in the copied text to craft your response.<br/><br/>Please note that:<br/>1. You are free to <span style='color: red;'><b>NOT</b></span> use any suggestions; you can craft your responses from scratch if you want.<br/>2. We do <span style='color: red;'><b>NOT</b></span> guarantee the quality of the suggestions. Your HIT may be rejected if you simply copy and submit suggestions as they may not be appropriate and informative.<br/><br/>After finishing the response text, press the <b>Send</b> button to complete the current conversation.</span>");
+          $("div#passages-main-pane").show();
+          $("span#showPassages").html("<span style='font-size: 16px;'>To help you finish the conversations, our AI system has generated some response suggestions for you below the conversation. Clicking on a suggestion will copy the text to the textbox. Please feel free to make any edits in the copied text to craft your response.<br/><br/>Please note that:<br/>1. You are free to <span style='color: red;'><b>NOT</b></span> use any suggestions; you can craft your responses from scratch if you want.<br/>2. We do <span style='color: red;'><b>NOT</b></span> guarantee the quality of the suggestions. Your HIT may be rejected if you simply copy and submit suggestions as they may not be appropriate and informative.<br/><br/>After finishing the response text, press the <b>Send</b> button to complete the current conversation.</span>");
         }
       }
       else
@@ -322,8 +326,8 @@
       if(message.textboxFilled) {
 
         if(message.textboxFilled == 1) {
-
-           $("span#textboxFilledInfo").html("<span style='font-size: 16px;'>To help you finish the conversations, our AI system has generated some response suggestions for you. Please click on <span style='color: red;'><b>Show Suggestions</b></span> button below to proceed and view system-generated responses.<br/><br/>The AI system has <span style='color: red;'><b>already copied</b></span> the text of the best suggestion to the textbox for you. You can also click on any suggestion to copy the text to the textbox. Please feel free to make any edits in the copied text to craft your response.<br/><br/>Please note that:<br/>1. You are free to <span style='color: red;'><b>NOT</b></span> use any suggestions; you can craft your responses from scratch if you want.<br/>2. We do <span style='color: red;'><b>NOT</b></span> guarantee the quality of the suggestions. Your HIT may be rejected if you simply copy and submit suggestions as they may not be appropriate and informative.<br/><br/>After finishing the response text, press the <b>Send</b> button to complete the current conversation.</span>");
+          $("div#passages-main-pane").show();
+           $("span#textboxFilledInfo").html("<span style='font-size: 16px;'>To help you finish the conversations, our AI system has generated some response suggestions for you below the conversation. <br/><br/>The AI system has <span style='color: red;'><b>already copied</b></span> the text of the best suggestion to the textbox for you. Please feel free to make any edits in the copied text to craft your response.<br/><br/>Please note that:<br/>1. You are free to <span style='color: red;'><b>NOT</b></span> use any suggestions; you can craft your responses from scratch if you want.<br/>2. We do <span style='color: red;'><b>NOT</b></span> guarantee the quality of the suggestions. Your HIT may be rejected if you simply copy and submit suggestions as they may not be appropriate and informative.<br/><br/>After finishing the response text, press the <b>Send</b> button to complete the current conversation.</span>");
         }
 
        
@@ -493,8 +497,9 @@
 
           if(message.suggestionsConfig && message.suggestionsConfig == "no")
             $("button#suggestionsShowBtn").hide();
-          else
-            $("button#suggestionsShowBtn").show();
+          else {
+            // $("button#suggestionsShowBtn").show();
+          }
           suggestionsShown = false;
           handle_retrieved_passages(message, passages, "self");
 
@@ -811,6 +816,10 @@
         $("button#showChat").hide();
         $("span#showPassages").css("color", "maroon")
         
+        $("button#id_send_msg_button").show();
+        $("div#passages-pane").show();
+        //$("div#passages-main-pane").show();
+        
 
 
         
@@ -882,9 +891,9 @@
       
       //clearInterval(taskTimer);
       //debugger;
-      $("div#passages-pane").hide();
+      // $("div#passages-pane").hide();
 
-      var elmnt = document.getElementById("taskHelper");
+      var elmnt = document.getElementById("passages-pane");
       elmnt.scrollIntoView();
       
       var text = $("textarea#id_text_input").val();
