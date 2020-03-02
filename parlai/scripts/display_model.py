@@ -47,24 +47,37 @@ def display_model(opt):
     world = create_task(opt, agent)
 
     allPredictions = []
-
+    currentConv = []
+    convDone = False
     # Show some example dialogs.
     with world:
         for _k in range(int(opt['num_examples'])):
             acts = world.parley()
             # print(world.display() + "\n~~")
 
+            if(_k % 100 is 0):
+                print(str(_k) + "done")
+
             actObj = {}
 
             for act in acts:
                 actObj[act['id']] = act['text']
+                if('episode_done' in act and act['episode_done']):
+                    convDone = True
 
-            allPredictions.append(actObj)
+
+            currentConv.append(actObj)
+
+            if(convDone):
+                allPredictions.append(currentConv)
+                currentConv = []
+                convDone = False
+
             if world.epoch_done():
                 print("EPOCH DONE")
                 break
 
-    filePath = '/home/naman/Downloads/predictions.json'
+    filePath = '/home/naman/Downloads/predictionsGen.json'
     # Open the file for writing
     with open(filePath, 'w') as F:
         # Use the json dumps method to write the list to disk
