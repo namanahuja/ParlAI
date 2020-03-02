@@ -344,6 +344,7 @@ class DialogPartnerWorld(World):
         acts[1] = agents[1].act()
         agents[0].observe(validate(acts[1]))
         self.update_counters()
+        return acts
 
     def episode_done(self):
         """

@@ -20,7 +20,7 @@ from parlai.core.params import ParlaiParser
 from parlai.core.agents import create_agent
 from parlai.core.worlds import create_task
 
-import random
+import random, json
 
 
 def setup_args():
@@ -45,16 +45,45 @@ def display_model(opt):
     # Create model and assign it to the specified task
     agent = create_agent(opt)
     world = create_task(opt, agent)
-
+    allPreds = []
+    currentConv = []
     # Show some example dialogs.
     with world:
         for _k in range(int(opt['num_examples'])):
-            world.parley()
-            print(world.display() + "\n~~")
+            acts = world.parley()
+            #print(world.display() + "\n~~")
+            model = {}
+            res = {}
+
+            convDone = False
+            for act in acts:
+                if (act['id'] == 'WizardTransformerRanker'):
+                    model['text'] = act['text']
+                    model['text_candidates'] = act['text_candidates'][:5]
+
+                    res[act['id']] = model
+
+                    currentConv.append(res)
+                    if(convDone):
+                        allPreds.append(currentConv)
+                        currentConv = []
+                        convDone = False
+
+                else:
+                    res['wizard_of_wikipedia'] = act['text']
+                    if(act['episode_done']):
+                        convDone = True
+
+
+
+
+
             if world.epoch_done():
                 print("EPOCH DONE")
                 break
 
+    with open('/home/naman/Downloads/predictionsRet.json', 'w') as outfile:
+        json.dump(allPreds, outfile)
 
 if __name__ == '__main__':
     # Get command line arguments
