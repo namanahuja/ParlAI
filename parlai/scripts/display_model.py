@@ -21,7 +21,7 @@ from parlai.core.agents import create_agent
 from parlai.core.worlds import create_task
 
 import random
-
+import json
 
 def setup_args():
     parser = ParlaiParser(True, True, 'Display model predictions.')
@@ -46,14 +46,29 @@ def display_model(opt):
     agent = create_agent(opt)
     world = create_task(opt, agent)
 
+    allPredictions = []
+
     # Show some example dialogs.
     with world:
         for _k in range(int(opt['num_examples'])):
-            world.parley()
+            acts = world.parley()
             print(world.display() + "\n~~")
+
+            actObj = {}
+
+            for act in acts:
+                actObj[act['id']] = act['text']
+
+            allPredictions.append(actObj)
             if world.epoch_done():
                 print("EPOCH DONE")
                 break
+
+    filePath = '/home/naman/Downloads/predictions.json'
+    # Open the file for writing
+    with open(filePath, 'w') as F:
+        # Use the json dumps method to write the list to disk
+        F.write(json.dumps(allPredictions))
 
 
 if __name__ == '__main__':

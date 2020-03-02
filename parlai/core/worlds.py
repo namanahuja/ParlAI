@@ -345,6 +345,8 @@ class DialogPartnerWorld(World):
         agents[0].observe(validate(acts[1]))
         self.update_counters()
 
+        return acts
+
     def episode_done(self):
         """
         Only the first agent indicates when the episode is done.
