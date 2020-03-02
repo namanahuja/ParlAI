@@ -52,7 +52,7 @@ def display_model(opt):
     with world:
         for _k in range(int(opt['num_examples'])):
             acts = world.parley()
-            print(world.display() + "\n~~")
+            # print(world.display() + "\n~~")
 
             actObj = {}
 
