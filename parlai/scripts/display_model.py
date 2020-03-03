@@ -55,6 +55,9 @@ def display_model(opt):
             model = {}
             res = {}
 
+            if (_k % 100 is 0):
+                print(str(_k) + "done")
+
             convDone = False
             for act in acts:
                 if (act['id'] == 'WizardTransformerRanker'):
