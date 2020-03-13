@@ -435,11 +435,11 @@
 
           $("#taskTitle").text("Task " + message.taskNumber);
           
-        } else {
+        } /*else {
           if(message.suggestionsConfig != "no")
             $("#id_send_msg_button").hide();
           
-        }
+        }*/
         initMessage = message.context[contextArrayLength - 1];
         $("textarea#id_text_input").val(initMessage);
         $("button#id_send_msg_button").trigger("click");
