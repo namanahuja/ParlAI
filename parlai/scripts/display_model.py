@@ -77,7 +77,7 @@ def display_model(opt):
                 print("EPOCH DONE")
                 break
 
-    filePath = '/home/naman/Downloads/predictionsGen.json'
+    filePath = '/home/naman/Downloads/raw/predictionsGen.json'
     # Open the file for writing
     with open(filePath, 'w') as F:
         # Use the json dumps method to write the list to disk
