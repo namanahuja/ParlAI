@@ -74,6 +74,7 @@ def display_model(opt):
 
                 else:
                     res['wizard_of_wikipedia'] = act['text']
+                    res['knowledge'] = act['knowledge'].split("\n")[:10]
                     if(act['episode_done']):
                         convDone = True
 
@@ -85,7 +86,7 @@ def display_model(opt):
                 print("EPOCH DONE")
                 break
 
-    with open('/home/naman/Downloads/predictionsRet.json', 'w') as outfile:
+    with open('/home/naman/Downloads/raw/predictionsRet.json', 'w') as outfile:
         json.dump(allPreds, outfile)
 
 if __name__ == '__main__':
