@@ -74,7 +74,7 @@ def display_model(opt):
 
                 else:
                     res['wizard_of_wikipedia'] = act['text']
-                    res['knowledge'] = act['knowledge'].split("\n")[:10]
+                    res['knowledge'] = act['knowledge'].split("\n")[:20]
                     if(act['episode_done']):
                         convDone = True
 
