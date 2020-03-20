@@ -62,7 +62,7 @@ def display_model(opt):
             for act in acts:
                 if (act['id'] == 'WizardTransformerRanker'):
                     model['text'] = act['text']
-                    model['text_candidates'] = act['text_candidates'][:5]
+                    model['text_candidates'] = act['text_candidates'][:10]
 
                     res[act['id']] = model
 
