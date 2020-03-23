@@ -177,7 +177,7 @@ def main():
     doubleContext = []
     tripleContext = []
 
-    corpusPath = '/home/naman/research/ParlAI/newData' + '/dataThree.json'
+    corpusPath = '/home/naman/research/ParlAI/final/gen' + '/threeContext.json'
 
     with open(corpusPath, "r") as read_file:
         allData = json.load(read_file)
@@ -191,7 +191,7 @@ def main():
             obj['conversation'] = context
             tripleContext.append(obj)
 
-    corpusPath = '/home/naman/research/ParlAI/newData' + '/dataTwo.json'
+    corpusPath = '/home/naman/research/ParlAI/final/gen' + '/twoContext.json'
 
     with open(corpusPath, "r") as read_file:
         allData = json.load(read_file)
@@ -206,7 +206,7 @@ def main():
             doubleContext.append(obj)
 
 
-    corpusPath = '/home/naman/research/ParlAI/newData' + '/dataOne.json'
+    corpusPath = '/home/naman/research/ParlAI/final/gen' + '/oneContext.json'
 
     with open(corpusPath, "r") as read_file:
         allData = json.load(read_file)
@@ -268,6 +268,7 @@ def main():
     try:
         mturk_manager.start_new_run()
         if True:
+            print(opt['current_working_dir'] + "mtdont.txt")
             with open(os.path.join(opt['current_working_dir'], 'mtdont.txt')) as f:
                 lines = [l.replace('\n', '') for l in f.readlines()]
                 for w in lines:
@@ -285,10 +286,10 @@ def main():
 
         agent_qualifications = [
             {
-                'QualificationTypeId': '332QEYYXQI5VK3IUF0XPNU9U1HHMMF',
-                'Comparator': 'NotEqualTo',
-                'IntegerValues': [1],
-                'ActionsGuarded': 'Accept',
+                'QualificationTypeId': '000000000000000000L0',
+                'Comparator': 'GreaterThan',
+                'IntegerValues': [95],
+                'ActionsGuarded': 'DiscoverPreviewAndAccept',
             }
         ]
 
