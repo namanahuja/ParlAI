@@ -267,7 +267,7 @@ def main():
 
     try:
         mturk_manager.start_new_run()
-        if True:
+        if not opt['is_sandbox']:
             print(opt['current_working_dir'] + "mtdont.txt")
             with open(os.path.join(opt['current_working_dir'], 'mtdont.txt')) as f:
                 lines = [l.replace('\n', '') for l in f.readlines()]
@@ -295,7 +295,7 @@ def main():
 
         mturk_manager.set_onboard_function(onboard_function=run_onboard)
         mturk_manager.ready_to_accept_workers()
-        mturk_manager.create_hits()
+        mturk_manager.create_hits(qualifications=agent_qualifications)
 
         def check_workers_eligibility(workers):
             return workers
